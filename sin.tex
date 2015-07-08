@@ -1,0 +1,64 @@
+\documentclass{hotnets15}
+
+\usepackage{times}  
+\usepackage{epsfig}
+%\usepackage[TABBOTCAP]{subfigure}
+\usepackage{tabularx}
+\usepackage{graphicx} 
+\usepackage{color}
+\usepackage{xspace}
+%\usepackage{thumbpdf}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage[pdfpagelabels=false]{hyperref}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{microtype}
+
+\hypersetup{pdfstartview=FitH,pdfpagelayout=SinglePage}
+
+\setlength\paperheight {11in}
+\setlength\paperwidth {8.5in}
+\setlength{\textwidth}{7in}
+\setlength{\textheight}{9.25in}
+\setlength{\oddsidemargin}{-.25in}
+\setlength{\evensidemargin}{-.25in}
+
+%%%  New commands
+\newcommand{\Section}[1]{\hyperref[#1]{Section~\ref*{#1}}}
+\newcommand{\sk}{\mathit{sk}}
+\newcommand{\pk}{\mathit{pk}}
+\newcommand{\DD}{\textrm{D}}
+
+\begin{document}
+
+\conferenceinfo{HotNets 2015} {}
+\CopyrightYear{2015}
+\crdata{X}
+\date{}
+
+%%%%%%%%%%%% THIS IS WHERE WE PUT IN THE TITLE AND AUTHORS %%%%%%%%%%%%
+
+\title{The Case for Self-Incentivizing Networks}
+
+\author{Paper \#36 (NN pages)}
+
+\maketitle
+
+%\thispagestyle{empty}
+
+\input{abstract}
+\input{intro}
+\input{relwork}
+\input{designs}
+\input{impl}
+\input{limits}
+\input{conclusion}
+
+\bibliographystyle{abbrv} 
+\begin{small}
+\bibliography{sin}
+\end{small}
+\label{last-page}
+
+\end{document}
