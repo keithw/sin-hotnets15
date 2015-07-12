@@ -14,11 +14,18 @@ Pathlet Routing \cite{pathlet09}
 
 \subsection{Pricing}
 
-TUBE: Time-Dependent Pricing for Mobile Data \cite{tube12}
+Work in the last few years by Mung Chiang has included a survey of work on dynamic pricing of mobile data \cite{pricingdata13} and TUBE: Time-Dependent Pricing for Mobile Data \cite{tube12}.
+TUBE dynamically generates a 24 hour time dependent pricing scheme for each base station for mobile data. Giving discounts to users during periods of predicted low use.
+Their implementation on the user side involved a UI, data usage tracker, and an 'autopilot mode' which scheduled applications to keep them below a user specified monthly budget. It also involved software at the ISP side to measure traffic and set price schedules.
+User studies showed users would usually traffic when notified by text message they were using during a high price period, but overall usage increased because users would use more mobile data during discounted periods.
+Day ahead pricing can be inaccurate (ie super bowl)
 
 \subsection{Scheduling}
 
 Calendaring for Wide Area Networks \cite{tempus14}
+is a datacenter Traffic Engineering scheme that uses mixed packing covering solvers over a sliding window of future timesteps to meet the deadlines of long lived transfers while serving high priority traffic.
+The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
+In their evaluation, they "interviewed cluster operators for typical distributions of the sizes of long lived requests and the durations between their arrival and hard deadline" and to create a distribution to sample from.
 
 \subsection{Auctions}
 Auction Protocols for Decentralized Scheduling \cite{wellman01}
