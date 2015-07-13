@@ -18,7 +18,7 @@ Work in the last few years by Mung Chiang has included a survey of work on dynam
 TUBE dynamically generates a 24 hour time dependent pricing scheme for each base station for mobile data. Giving discounts to users during periods of predicted low use.
 Their implementation on the user side involved a UI, data usage tracker, and an 'autopilot mode' which scheduled applications to keep them below a user specified monthly budget. It also involved software at the ISP side to measure traffic and set price schedules.
 User studies showed users would usually traffic when notified by text message they were using during a high price period, but overall usage increased because users would use more mobile data during discounted periods.
-Day ahead pricing can be inaccurate (ie super bowl)
+Their work revolves around a system between a user and their ISP, while we desire to expose users to any available route of connectivity, encouraging competition with traditional ISPs.
 
 \subsection{Scheduling}
 
@@ -28,4 +28,8 @@ The inputs to their system include a time when the system becomes aware of the r
 In their evaluation, they "interviewed cluster operators for typical distributions of the sizes of long lived requests and the durations between their arrival and hard deadline" and to create a distribution to sample from.
 
 \subsection{Auctions}
-Auction Protocols for Decentralized Scheduling \cite{wellman01}
+Wellman et. al. explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}.
+Simultaneous auctions have bad theoretical properties because of the well-known \emph{exposure problem}, where the outcome of one auction affects the value of an item in another (TODO: CITE?).
+
+Pricing, provisioning and peering: dynamic markets for differentiated Internet services and implications for network interconnections \cite{markets00}
+
