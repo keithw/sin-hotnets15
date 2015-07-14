@@ -1,16 +1,32 @@
 \label{sec:related}
 \section{Related work}
+Our work lays a first groundwork for a market framework for the internet that addresses both routing and scheduling. It is inspired by a large body of former work in internet pricing, mesh networking, inter-domain routing, and network scheduling.
 
-\subsection{Network Economics and Tiered Service}
-There is a large body of previous work in using economic incentives to change behavior on an existing network or to better serve users. This can be implemented by offering multiple priced tiers of service or having time and location dependent pricing.
+\subsection{Internet Pricing}
+\subsubsection{Tiered Service}
+Work in internet pricing in the 1990's focused on providing different paid tiers of service for differeng levels of Quality of Service.
 
-In Cocchi et al's (TODO PLUS SHENKER) Pricing in Computer Networks: Motivation, Formulation, and Example \cite{cocchi93}, applications defined value functions for networks performance and chose between a high priority tier and a cheaper lower priority tier ( low priority packets were dropped by droptail fifo switches first ). They a two tiered pricing scheme had higher aggregate user satisfaction than a single tiered one, especially at higher network utilization.
+In Cocchi et al's Pricing in Computer Networks: Motivation, Formulation, and Example \cite{cocchi93}, applications defined value functions for networks performance and chose between a high priority tier and a cheaper lower priority tier ( low priority packets were dropped by droptail fifo switches first ). They a two tiered pricing scheme had higher aggregate user satisfaction than a single tiered one, especially at higher network utilization.
+
+\subsubsection{Dyanmic Pricing}
+Having time, location, or congestion dependent pricing has also been studied since the 1990's.
+
+Pricing, provisioning and peering: dynamic markets for differentiated Internet services and implications for network interconnections \cite{markets00}
 
 Work in the last few years by Mung Chiang has included a survey of work on dynamic pricing of mobile data \cite{pricingdata13} and TUBE: Time-Dependent Pricing for Mobile Data \cite{tube12}.
 TUBE dynamically generates a 24 hour time dependent pricing scheme for each base station for mobile data. Giving discounts to users during periods of predicted low use.
 Their implementation on the user side involved a UI, data usage tracker, and an 'autopilot mode' which scheduled applications to keep them below a user specified monthly budget. It also involved software at the ISP side to measure traffic and set price schedules.
 User studies showed users would usually traffic when notified by text message they were using during a high price period, but overall usage increased because users would use more mobile data during discounted periods.
 Their work revolves around a system between a user and their ISP, while we desire to expose users to any available route of connectivity, encouraging competition with traditional ISPs.
+
+\subsection{Mesh Networks}
+There has also been a few attempts in using economic incentives to increase network connectivity in mesh networks.
+
+Kadupul \cite{kadupul15} uses time-locked puzzles to incentivize low latency forwarding without measuring latency.
+identified incentives missing to support alternate routing today. desired pricing based on costs of transmission
+looks at various reward schemes for forwarding based on time locked puzzles
+
+There has also been work to incentivize participation in the Tor network\cite{torpath14, onions14} (TODO their relwork, toroken?)
 
 \subsection{Interdomain Routing}
 Our work is complementary to recently proposed new mechanisms for more dynamic interdomain routing policies
@@ -21,22 +37,12 @@ Route Bazaar \cite{routebazaar15}
 Route Bazaar uses a Bitcoin-like public ledger to allow ASes to advertize pathlets and SLA's automatically negotiate connectivity agreements for fixed volume of traffic. They also combine this public ledger with related work on route and latency verification (TODO MULTI-CITE) to verify these agreements.
 
 
-\subsection{Scheduling}
-
+\subsection{Network Scheduling}
 Calendaring for Wide Area Networks \cite{tempus14}
 is a datacenter Traffic Engineering scheme that uses mixed packing covering solvers over a sliding window of future timesteps to meet the deadlines of long lived transfers while serving high priority traffic.
 The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
 In their evaluation, they "interviewed cluster operators for typical distributions of the sizes of long lived requests and the durations between their arrival and hard deadline" and to create a distribution to sample from.
 
-\subsection{Auctions}
+\subsubsection{Scheduling Auctions}
 Wellman et. al. explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}.
 Simultaneous auctions have bad theoretical properties because of the well-known \emph{exposure problem}, where the outcome of one auction affects the value of an item in another (TODO: CITE?).
-
-Pricing, provisioning and peering: dynamic markets for differentiated Internet services and implications for network interconnections \cite{markets00}
-
-\subsection{Mesh Networks}
-There has also been a few attempts in using economic incentives to increase network connectivity in mesh networks.
-
-Kadupul \cite{kadupul15} uses time-locked puzzles to incentivize low latency forwarding without measuring latency.
-identified incentives missing to support alternate routing today. desired pricing based on costs of transmission
-looks at various reward schemes for forwarding based on time locked puzzles
