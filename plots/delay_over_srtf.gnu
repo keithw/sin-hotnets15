@@ -125,7 +125,7 @@ set ylabel ""
 set ylabel  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
 set y2label "" 
 set y2label  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
-set yrange [ * : * ] noreverse nowriteback
+set yrange [ 0.900000 : 1.90000 ] noreverse nowriteback
 set y2range [ * : * ] noreverse nowriteback
 set zlabel "" 
 set zlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
@@ -152,5 +152,5 @@ set fontpath
 set psdir
 set fit noerrorvariables
 C = "#99ffff"
-plot 'delay_over_srtf.dat' using 3:xtic(1) ti col fc rgb C, '' u 4
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3
 #    EOF

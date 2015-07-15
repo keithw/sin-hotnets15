@@ -6,12 +6,12 @@ SRTF_RATIO_FILE=percent_match_srtf.dat
 NUM_TRIALS=100
 DIE_SIZE=10
 
-echo "#num users | num users again | average delay with market | average delay with round robin" > $DELAY_RATIO_FILE
+echo "#num users | average delay with market | average delay with round robin" > $DELAY_RATIO_FILE
 echo "#num users | ratio of srtf matching scenarios" > $SRTF_RATIO_FILE
 for i in `seq 2 10`;
         do
-        echo -n $i $i >> $DELAY_RATIO_FILE
-        echo -n $i $i >> $SRTF_RATIO_FILE
+        echo -n $i >> $DELAY_RATIO_FILE
+        echo -n $i >> $SRTF_RATIO_FILE
         for user_type in " " "--round-robin-user"
             do
             $SIN_LOCATION --num-users=$i --num-trials=$NUM_TRIALS --die-size=$DIE_SIZE $user_type > temp

@@ -6,5 +6,6 @@ set style data histogram
 set style histogram cluster gap 1
 set style fill solid border -1
 C = "#99ffff";
-plot 'delay_over_srtf.dat' using 3:xtic(1) ti col fc rgb C, '' u 4
+set yrange [.9:1.9]
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3
 save 'delay_over_srtf.gnu'
