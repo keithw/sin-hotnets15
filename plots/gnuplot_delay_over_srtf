@@ -1,0 +1,10 @@
+set terminal svg size 600,400 dynamic enhanced fname 'arial'  fsize 10 mousing name "delay_ratio" butt
+set output "delay_over_srtf.svg"
+set title "Average ratio of queuing delay over optimal"
+
+set style data histogram
+set style histogram cluster gap 1
+set style fill solid border -1
+
+plot 'delay_over_srtf.dat' using 1:3 with boxes
+save 'delay_over_srtf.gnu'

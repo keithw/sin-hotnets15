@@ -1,0 +1,10 @@
+#num users | num users again | average delay with market | average delay with round robin
+2 2  1  1.15059
+3 3  1  1.29523
+4 4  1.00155  1.41025
+5 5  1.00196  1.492
+6 6  1.00299  1.54697
+7 7  1.0038  1.58626
+8 8  1.00311  1.63444
+9 9  1.00562  1.66745
+10 10  1.00453  1.69132
