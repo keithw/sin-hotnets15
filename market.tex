@@ -1,21 +1,29 @@
-\section{Market Design for a Self-Incentivizing Network}
+\section{Markets for a Self-Incentivizing Network}
 \label{sec:designs}
-we first set out to create the simplest market possible and evaluate its problems to see where to improve.
+We set out to design a market interface that any router could expose and users could interact with multiple markets.
+We wanted to allow different users with their own objectives to be able to buy guaruntees of packet carriage but also change their reservations to increase their own percieved utility.
 
-Desired properties
+In the rest of the section, we introduce a first simple market to achieve these goals and then evaluate its performance with simulated users.
+This intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case "evil user," and finally propose a new multi-resolution market that addresses these problems.
 
-\begin{itemize}
-
-\item Let anybody contribute capacity
-
-\item Allow users with different utility functions to interact (flow completion time vs.~jitter)
-
-\item Allow users to buy guarantees (and not get swindled)
-
-\end{itemize}
+%\begin{itemize}
+%
+%\item Let anybody contribute capacity
+%
+%\item Allow users with different utility functions to interact (flow completion time vs.~jitter)
+%
+%\item Allow users to buy guarantees (and not get swindled)
+%
+%\end{itemize}
 
 \subsection{Simple Market Design}
-we did x. (TODO: include basic inkscape thing)
+Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. figref gives the basic market layout.
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{diagrams/simple_market.pdf}
+\caption{Simple market diagram}
+\label{f:simple_market}
+\end{figure}
 
 \subsection{Simple Market Evaluation}
 
