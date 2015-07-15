@@ -7,7 +7,7 @@ set style histogram cluster gap 1
 set style fill solid border -1
 
 set xlabel 'Number of users'
-#set ylabel ''
+set xtics nomirror
 
 set yrange [0:1.05]
 plot 'percent_match_srtf.dat' using 2:xtic(1) title column, '' using 3 title column
