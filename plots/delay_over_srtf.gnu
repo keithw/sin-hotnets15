@@ -94,7 +94,8 @@ set mx2tics default
 set my2tics default
 set mcbtics default
 set xtics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autojustify
-set xtics autofreq  norangelimit
+set xtics  norangelimit
+set xtics   ()
 set ytics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autojustify
 set ytics autofreq  norangelimit
 set ztics border in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
@@ -150,5 +151,6 @@ set loadpath
 set fontpath 
 set psdir
 set fit noerrorvariables
-plot 'delay_over_srtf.dat' using 1:3 with boxes
+C = "#99ffff"
+plot 'delay_over_srtf.dat' using 3:xtic(1) ti col fc rgb C, '' u 4
 #    EOF
