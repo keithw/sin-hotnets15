@@ -11,7 +11,7 @@
 #    	gnuplot home:     http://www.gnuplot.info
 #    	faq, bugs, etc:   type "help FAQ"
 #    	immediate help:   type "help"  (plot window: hit 'h')
-# set terminal svg size 600,400 dynamic enhanced fname 'arial'  fsize 10 mousing name "delay_ratio" butt solid 
+# set terminal svg size 600,400 fixed  fname 'arial'  fsize 12 standalone name "delay_ratio" butt solid 
 # set output 'delay_over_srtf.svg'
 unset clip points
 set clip one
@@ -125,7 +125,7 @@ set ylabel ""
 set ylabel  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
 set y2label "" 
 set y2label  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
-set yrange [ 1.00000 : 1.80000 ] noreverse nowriteback
+set yrange [ 1.00000 : 1.85000 ] noreverse nowriteback
 set y2range [ * : * ] noreverse nowriteback
 set zlabel "" 
 set zlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
