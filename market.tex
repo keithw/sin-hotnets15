@@ -1,9 +1,8 @@
 \section{Market Design for a Self-Incentivizing Network}
 \label{sec:designs}
+we first set out to create the simplest market possible and evaluate its problems to see where to improve.
 
-\begin{itemize}
-
-\item Desired properties
+Desired properties
 
 \begin{itemize}
 
@@ -15,14 +14,16 @@
 
 \end{itemize}
 
-\item Simulation experiments to test whether the one-layer market has each desired property?
+\subsection{Simple Market Design}
+we did x. (TODO: include basic inkscape thing)
 
-\item Measure outcome quality (vs.~SRTF or other optimal), \# of roundtrips
+\subsection{Simple Market Evaluation}
 
+Simulation experiments to test whether the one-layer market has each desired property?
 
-\item Sketch of multi-layer design
+Measure outcome quality (vs.~SRTF or other optimal), \# of roundtrips
 
-\end{itemize}
+can simulate multiple users with different objectives
 
 \begin{figure}
 %\vspace{\baselineskip}
@@ -47,3 +48,9 @@ In our simulations, there are a varying number of users with a flow start time c
 We find that bots in our market almost always converge on an allocation that is equivalent to the optimal shortest remaining time first schedule when there is a small number of users. Larger numbers of users are less likely to achieve an optimal solution, but the excess queuing delay over the optimal SRTF solution remains extremely low with a large number of users: less than 1\% overhead in all of our evaluations.
 
 problem with current design, introduce evil user
+problem: exposure problem, evil user
+
+the problems we encountered with the simple market led us to our current design:
+\subsection{Multi-Layer Market Design}
+
+Sketch of multi-layer design
