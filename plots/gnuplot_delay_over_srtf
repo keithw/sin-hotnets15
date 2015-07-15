@@ -9,6 +9,6 @@ set style fill solid border -1
 set xlabel 'Number of users'
 set xtics nomirror
 
-set yrange [1:1.85]
+set yrange [1:2]
 plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column
 save 'delay_over_srtf.gnu'
