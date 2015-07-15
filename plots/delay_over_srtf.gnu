@@ -106,7 +106,7 @@ set cbtics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autoj
 set cbtics autofreq  norangelimit
 set rtics axis in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
 set rtics autofreq  norangelimit
-set title "Average ratio of queuing delay over optimal" 
+set title "Mean Percentage Increase in Queuing Delay vs. Optimal" 
 set title  offset character 0, 0, 0 font "" norotate
 set timestamp bottom 
 set timestamp "" 
@@ -115,7 +115,7 @@ set rrange [ * : * ] noreverse nowriteback
 set trange [ * : * ] noreverse nowriteback
 set urange [ * : * ] noreverse nowriteback
 set vrange [ * : * ] noreverse nowriteback
-set xlabel "" 
+set xlabel "Number of users" 
 set xlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
 set x2label "" 
 set x2label  offset character 0, 0, 0 font "" textcolor lt -1 norotate
@@ -125,7 +125,7 @@ set ylabel ""
 set ylabel  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
 set y2label "" 
 set y2label  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
-set yrange [ 0.900000 : 1.90000 ] noreverse nowriteback
+set yrange [ 1.00000 : 1.80000 ] noreverse nowriteback
 set y2range [ * : * ] noreverse nowriteback
 set zlabel "" 
 set zlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
@@ -151,6 +151,5 @@ set loadpath
 set fontpath 
 set psdir
 set fit noerrorvariables
-C = "#99ffff"
-plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column
 #    EOF

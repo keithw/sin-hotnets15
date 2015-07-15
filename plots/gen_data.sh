@@ -3,10 +3,10 @@ SIN_LOCATION=../../sin/src/sin
 DELAY_RATIO_FILE=delay_over_srtf.dat
 SRTF_RATIO_FILE=percent_match_srtf.dat
 
-NUM_TRIALS=100
+NUM_TRIALS=1000
 DIE_SIZE=10
 
-echo "#num users | average delay with market | average delay with round robin" > $DELAY_RATIO_FILE
+echo '"num users" "Market" "Ideal TCP"' > $DELAY_RATIO_FILE
 echo "#num users | ratio of srtf matching scenarios" > $SRTF_RATIO_FILE
 for i in `seq 2 10`;
         do
