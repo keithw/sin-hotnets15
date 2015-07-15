@@ -1,0 +1,13 @@
+set terminal svg size 600,400 dynamic enhanced fname 'arial'  fsize 10 mousing name "delay_ratio" butt
+set output "percent_match_srtf.svg"
+set title "Porportion of Simulations Matching SRTF Delay"
+
+set style data histogram
+set style histogram cluster gap 1
+set style fill solid border -1
+
+set xlabel 'Number of users'
+#set ylabel ''
+
+plot 'percent_match_srtf.dat' using 2:xtic(1) title column, '' using 3 title column
+save 'percent_match_srtf.gnu'
