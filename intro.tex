@@ -13,7 +13,7 @@ content providers who aren't transit customers or peers of the
 ISP. The rule prohibits retail ISPs from demanding money from a third
 party or affiliate in exchange for ``traffic shaping, prioritization,
 resource reservation, or other forms of preferential traffic
-management'' of that party's traffic within the ISPs network.
+management'' within the ISPs network.
 
 An unaffiliated third party can send its own traffic, or somebody
 else's traffic---the ISP cannot discriminate except to the extent that
@@ -26,17 +26,39 @@ with regards to traffic coming from content providers who
 
 But what of the ISP's actual paying customers? By contrast, they
 receive no guarantee of neutrality under the rule. Major ISPs freely
-restrict users from sending packets on behalf of other paying
-entities\footnote{Comcast and Google Fiber prohibit residential
+restrict their customers from sending packets on behalf of other
+paying entities\footnote{Comcast and Google Fiber prohibit residential
   customers from reselling Internet service; Time Warner Cable does
   not.} or block certain Internet traffic to and from
-customers.\footnote{E.g., TCP port 25.}
+customers, such as TCP port 25.
 
-In this position paper, we argue that network neutrality got it backwards.
+In this position paper, we argue that network neutrality got it
+backwards. Internet growth is to be had by \emph{encouraging} paid
+prioritization, while requiring the owners of communications link to
+deal neutrally with everybody.
 
+Today, Internet service is ``sticky''---a consumer typically has one
+ISP and is reluctant to switch. Transaction costs to enter the market
+are considerable: an ISP must negotiate peering or transit agreements
+with counterparties, and then try to sway customers away from
+their current providers.
 
+Although Internet access is essentially a commodity, there is
+substantial evidence that consumers are swayed by noneconomic
+factors. Last year, Comcast spent \$3.1 billion on advertising and
+marketing for its Cable Communications business, compared with \$2.0
+billion in capital expenditures to improve its cable distribution
+system~\cite{comcastannualreport}. By contrast, mature commodities
+markets with sophisticated buyers (e.g.~coal, natural gas) see little
+advertising.
 
-``real-time applications often do not work well across the Internet
-because of variable queueing delays and congestion losses.''\cite{rfc1633}
+At the same time, the Internet falls down at its ability to meet user
+needs. Two decades ago, the IntServ RFC authors wrote that ``real-time
+applications often do not work well across the Internet because of
+variable queueing delays and congestion losses.''~\cite{rfc1633}
+Despite meteoric growth of the Internet since then, the statement is
+still true. There's no way for an ordinary Skype user to pay more to receive
+guaranteed throughput and bounded latency, or for an e-mail sender to
+pay less because of flexibility about when a message is sent.
 
 \subsection{Policy considerations}
