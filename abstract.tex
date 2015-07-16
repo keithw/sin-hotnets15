@@ -1,8 +1,24 @@
 \subsection*{Abstract}
-We argue that the networking research community should pursue "self-incentivizing networks," where anybody may contribute incremental capacity between pairs of endpoints and be rewarded for their contribution through a market matching engine.
-Applications will be able to express their desires and bid for differentiated or guaranteed services, but will be agnostic as to who provides the service -- creating a market incentive to build out capacity where the network needs it most.
-Contrary to some interpretations of network neutrality, our view is that "best-effort delivery" should be replaced by "paid prioritization" as the *only* service advertised by the network.
+We argue that computer networks should be made ``self-incentivizing'':
+designed so that anybody may contribute incremental capacity and be
+rewarded for it.
 
-For the matching engine, we propose a multiresolution packet-by-packet market for carriage, in which anybody may "offer" the right to transmit a packet from point A to point B, and applications bid on the time granularity that expresses their preferred tradeoff between immediacy and cost.
-In simulation experiments, this market achieved near-optimal flow-completion times and significantly outperformed flow-rate fair systems.
+In such a scheme, endpoints express their demand in terms of a price,
+not just for ``bandwidth,'' but effectively by bidding on each packet
+they want transmitted. This creates a market incentive to build out
+capacity where the network needs it most.
 
+Our position is that this kind of mechanism---one where ``paid
+priorization'' is celebrated instead of banned, and anybody may be an
+ISP-for-a-day---is the missing piece necessary to revive
+almost-successful systems of the recent past, such as urban mesh
+networks.
+
+We report the results of simulation experiments where users bid for
+transmission opportunities in a logically-centralized order book. In a
+model where users behave ``nicely,'' this distributed-bidding scheme
+was sufficient to realize schedules that closely approximated the
+shortest-remaining-time-first schedule.
+
+We then describe a multiresolution market design that aims to function
+in the presence of strategic bidders and users with differing utility functions.
