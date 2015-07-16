@@ -61,6 +61,17 @@ An evil user could maximally reduce the utility of a flow completion time user f
 
 problem: exposure problem, evil user
 
+\subsubsection{Communication overhead}
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{plots/num_roundtrips.pdf}
+\caption{todo}
+\label{f:num_roundtrips}
+\end{figure}
+
+Another disadvantage of the simple market is that it can take a long time to converge on a solution where no user wants to buy more slots. In simulation flow completion time users would buy back and forth from each other many times, making small price adjustments throughout. The number of round trips each user performed is showin in Figure~\ref{f:num_roundtrips}. As more users concurrently access the market, the more roundtrips were required to reach a stable solution.
+
+
 the problems we encountered with the simple market led us to our current design:
 \subsection{Multi-Layer Market Design}
 
