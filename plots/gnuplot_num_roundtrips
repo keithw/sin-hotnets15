@@ -1,0 +1,15 @@
+set terminal svg size 600,400 fixed fname 'arial' fsize 12 standalone name "delay_ratio"
+set output "num_roundtrips.svg"
+set title "Mean number of round trips per user in simulations"
+
+set style fill solid border -1
+set boxwidth .5
+
+set nokey
+
+set xlabel 'Number of users'
+set xtics nomirror
+
+#set yrange [0:2]
+plot 'num_roundtrips.dat' using 2:xtic(1) with boxes
+save 'num_roundtrips.gnu'
