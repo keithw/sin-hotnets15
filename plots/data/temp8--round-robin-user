@@ -333,6 +333,6 @@ finished trial 10 of 10
 average delay ratio 1.63799
 average flow duration for srtf 18.1625
 average flow duration for trials 29.75
-average number of roundtrips per user 0
-average number of roundtrips per packet 0
+average number of market updates per user 0
+average number of market updates per packet 0
 worst srtf divergence was 132

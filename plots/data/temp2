@@ -9,7 +9,7 @@ B had benefit -9, cost -6, utility -15, and best expected utility -15
 
 Sum user utility was -29 while sum of best expected utilties was -29 (let down of 0)
 
-market required 49 round trips
+market required 5 updates
 User: B had flow duration 9 in simulated schedule
 User: A had flow duration 7 in simulated schedule
 User: B had flow duration 9 in srtf schedule
@@ -30,7 +30,7 @@ B had benefit -6, cost -3, utility -9, and best expected utility -9
 
 Sum user utility was -21 while sum of best expected utilties was -21 (let down of 0)
 
-market required 37 round trips
+market required 5 updates
 User: B had flow duration 6 in simulated schedule
 User: A had flow duration 6 in simulated schedule
 User: B had flow duration 6 in srtf schedule
@@ -51,7 +51,7 @@ B had benefit -8, cost -8, utility -16, and best expected utility -16
 
 Sum user utility was -21 while sum of best expected utilties was -21 (let down of 0)
 
-market required 40 round trips
+market required 5 updates
 User: A had flow duration 3 in simulated schedule
 User: B had flow duration 8 in simulated schedule
 User: A had flow duration 3 in srtf schedule
@@ -72,7 +72,7 @@ B had benefit -14, cost -7, utility -21, and best expected utility -21
 
 Sum user utility was -41 while sum of best expected utilties was -41 (let down of 0)
 
-market required 61 round trips
+market required 5 updates
 User: B had flow duration 14 in simulated schedule
 User: A had flow duration 10 in simulated schedule
 User: B had flow duration 14 in srtf schedule
@@ -93,7 +93,7 @@ B had benefit -12, cost -7, utility -19, and best expected utility -19
 
 Sum user utility was -33 while sum of best expected utilties was -33 (let down of 0)
 
-market required 52 round trips
+market required 5 updates
 User: B had flow duration 12 in simulated schedule
 User: A had flow duration 7 in simulated schedule
 User: B had flow duration 12 in srtf schedule
@@ -114,7 +114,7 @@ B had benefit -13, cost -10, utility -23, and best expected utility -23
 
 Sum user utility was -41 while sum of best expected utilties was -41 (let down of 0)
 
-market required 67 round trips
+market required 5 updates
 User: B had flow duration 13 in simulated schedule
 User: A had flow duration 9 in simulated schedule
 User: B had flow duration 13 in srtf schedule
@@ -135,7 +135,7 @@ B had benefit -5, cost -4, utility -9, and best expected utility -9
 
 Sum user utility was -11 while sum of best expected utilties was -11 (let down of 0)
 
-market required 25 round trips
+market required 5 updates
 User: B had flow duration 5 in simulated schedule
 User: A had flow duration 1 in simulated schedule
 User: B had flow duration 5 in srtf schedule
@@ -156,7 +156,7 @@ B had benefit -3, cost -6.03, utility -9.03, and best expected utility -9.03
 
 Sum user utility was -21 while sum of best expected utilties was -21 (let down of 0)
 
-market required 37 round trips
+market required 5 updates
 User: B had flow duration 3 in simulated schedule
 User: A had flow duration 9 in simulated schedule
 User: B had flow duration 3 in srtf schedule
@@ -177,7 +177,7 @@ B had benefit -10, cost -8, utility -18, and best expected utility -18
 
 Sum user utility was -36 while sum of best expected utilties was -36 (let down of 0)
 
-market required 61 round trips
+market required 5 updates
 User: B had flow duration 10 in simulated schedule
 User: A had flow duration 9 in simulated schedule
 User: B had flow duration 10 in srtf schedule
@@ -198,7 +198,7 @@ B had benefit -3, cost -3, utility -6, and best expected utility -6
 
 Sum user utility was -21 while sum of best expected utilties was -21 (let down of 0)
 
-market required 40 round trips
+market required 5 updates
 User: A had flow duration 8 in simulated schedule
 User: B had flow duration 3 in simulated schedule
 User: A had flow duration 8 in srtf schedule
@@ -213,7 +213,7 @@ finished trial 10 of 10
 average delay ratio 1
 average flow duration for srtf 7.6
 average flow duration for trials 7.6
-average number of roundtrips per user 23.45
-average number of roundtrips per packet 3.81301
+average number of market updates per user 2.5
+average number of market updates per packet 0.406504
 all users in all trials got best utility they thought they could get
 worst srtf divergence was 0

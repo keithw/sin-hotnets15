@@ -17,7 +17,7 @@ F had benefit -32, cost 10.16, utility -21.84, and best expected utility -16
 
 Sum user utility was -117 while sum of best expected utilties was -111.16 (let down of 5.84)
 
-market required 333 round trips
+market required 37 updates
 User: A had flow duration 24 in simulated schedule
 User: B had flow duration 13 in simulated schedule
 User: D had flow duration 8 in simulated schedule
@@ -54,7 +54,7 @@ F had benefit -43, cost -10, utility -53, and best expected utility -53
 
 Sum user utility was -199 while sum of best expected utilties was -199 (let down of 0)
 
-market required 455 round trips
+market required 44 updates
 User: F had flow duration 43 in simulated schedule
 User: A had flow duration 40 in simulated schedule
 User: E had flow duration 29 in simulated schedule
@@ -91,7 +91,7 @@ F had benefit -15, cost -13.08, utility -28.08, and best expected utility -28.08
 
 Sum user utility was -95 while sum of best expected utilties was -91.04 (let down of 3.96)
 
-market required 278 round trips
+market required 23 updates
 User: E had flow duration 31 in simulated schedule
 User: F had flow duration 15 in simulated schedule
 User: D had flow duration 3 in simulated schedule
@@ -128,7 +128,7 @@ F had benefit -12, cost -11.06, utility -23.06, and best expected utility -23.06
 
 Sum user utility was -127 while sum of best expected utilties was -127 (let down of 0)
 
-market required 358 round trips
+market required 32 updates
 User: D had flow duration 37 in simulated schedule
 User: E had flow duration 24 in simulated schedule
 User: F had flow duration 12 in simulated schedule
@@ -165,7 +165,7 @@ F had benefit -2, cost -6.02, utility -8.02, and best expected utility -8.02
 
 Sum user utility was -41 while sum of best expected utilties was -41 (let down of 0)
 
-market required 149 round trips
+market required 12 updates
 User: D had flow duration 6 in simulated schedule
 User: F had flow duration 2 in simulated schedule
 User: A had flow duration 1 in simulated schedule
@@ -202,7 +202,7 @@ F had benefit -6, cost -18.12, utility -24.12, and best expected utility -24.12
 
 Sum user utility was -177 while sum of best expected utilties was -171 (let down of 6)
 
-market required 394 round trips
+market required 45 updates
 User: D had flow duration 41 in simulated schedule
 User: B had flow duration 33 in simulated schedule
 User: C had flow duration 16 in simulated schedule
@@ -239,7 +239,7 @@ F had benefit -25, cost -9, utility -34, and best expected utility -34
 
 Sum user utility was -132 while sum of best expected utilties was -127 (let down of 5)
 
-market required 360 round trips
+market required 36 updates
 User: E had flow duration 33 in simulated schedule
 User: F had flow duration 25 in simulated schedule
 User: B had flow duration 18 in simulated schedule
@@ -276,7 +276,7 @@ F had benefit -3, cost -12.09, utility -15.09, and best expected utility -15.09
 
 Sum user utility was -89 while sum of best expected utilties was -89 (let down of 0)
 
-market required 264 round trips
+market required 17 updates
 User: E had flow duration 26 in simulated schedule
 User: F had flow duration 3 in simulated schedule
 User: A had flow duration 8 in simulated schedule
@@ -313,7 +313,7 @@ F had benefit -5, cost -12.09, utility -17.09, and best expected utility -17.09
 
 Sum user utility was -106 while sum of best expected utilties was -106 (let down of 0)
 
-market required 286 round trips
+market required 23 updates
 User: B had flow duration 32 in simulated schedule
 User: F had flow duration 5 in simulated schedule
 User: E had flow duration 2 in simulated schedule
@@ -350,7 +350,7 @@ F had benefit -20, cost -4.95, utility -24.95, and best expected utility -24.95
 
 Sum user utility was -101 while sum of best expected utilties was -101 (let down of 0)
 
-market required 321 round trips
+market required 29 updates
 User: E had flow duration 29 in simulated schedule
 User: F had flow duration 20 in simulated schedule
 User: A had flow duration 7 in simulated schedule
@@ -373,7 +373,7 @@ finished trial 10 of 10
 average delay ratio 1
 average flow duration for srtf 14.0167
 average flow duration for trials 14.0167
-average number of roundtrips per user 53.3
-average number of roundtrips per packet 9.32362
+average number of market updates per user 4.96667
+average number of market updates per packet 0.868805
 largest difference from best expected utilities to final utilities (utility let down) was 6
 worst srtf divergence was 0

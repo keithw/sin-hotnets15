@@ -12,7 +12,7 @@
 #    	faq, bugs, etc:   type "help FAQ"
 #    	immediate help:   type "help"  (plot window: hit 'h')
 # set terminal svg size 600,400 fixed  fname 'arial'  fsize 12 standalone name "delay_ratio" butt solid 
-# set output 'num_roundtrips.svg'
+# set output 'num_market_updates.svg'
 unset clip points
 set clip one
 unset clip two
@@ -94,9 +94,7 @@ set mztics default
 set mx2tics default
 set my2tics default
 set mcbtics default
-set xtics border in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
-set xtics  norangelimit
-set xtics   ()
+set noxtics
 set ytics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autojustify
 set ytics autofreq  norangelimit
 set ztics border in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
@@ -107,7 +105,7 @@ set cbtics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autoj
 set cbtics autofreq  norangelimit
 set rtics axis in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
 set rtics autofreq  norangelimit
-set title "Mean number of round trips per packet sent simulations" 
+set title "Mean number of market updates per packet sent in simulations" 
 set title  offset character 0, 0, 0 font "" norotate
 set timestamp bottom 
 set timestamp "" 
@@ -152,5 +150,5 @@ set loadpath
 set fontpath 
 set psdir
 set fit noerrorvariables
-plot 'num_roundtrips.dat' using 2:xtic(1) with boxes
+plot 'num_market_updates.dat' using 2:xtic(1) with boxes
 #    EOF
