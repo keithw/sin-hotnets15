@@ -2,6 +2,40 @@
 
 \label{sec:intro}
 
+On June 12, 2015, the Federal Communications Commission's Open
+Internet rules went into effect. In pursuit of what's commonly known
+as ``net neutrality,'' the agency bans ``retail'' Internet service
+providers from ``blocking,'' ``throttling,'' or ``paid
+prioritization'' of traffic across their networks~\cite{openinternet}.
+
+The ``paid priorization'' rule is intended to protect third-party
+content providers who aren't transit customers or peers of the
+ISP. The rule prohibits retail ISPs from demanding money from a third
+party or affiliate in exchange for ``traffic shaping, prioritization,
+resource reservation, or other forms of preferential traffic
+management'' of that party's traffic within the ISPs network.
+
+An unaffiliated third party can send its own traffic, or somebody
+else's traffic---the ISP cannot discriminate except to the extent that
+it has a link at its border (a direct peering or transit connection to
+the sender) that it can constrict wholesale.
+
+In essence, the FCC's rule requires that ISPs behave ``neutrally''
+with regards to traffic coming from content providers who
+\textbf{aren't} their customers (or peers).
+
+But what of the ISP's actual paying customers? By contrast, they
+receive no guarantee of neutrality under the rule. Major ISPs freely
+restrict users from sending packets on behalf of other paying
+entities\footnote{Comcast and Google Fiber prohibit residential
+  customers from reselling Internet service; Time Warner Cable does
+  not.} or block certain Internet traffic to and from
+customers.\footnote{E.g., TCP port 25.}
+
+In this position paper, we argue that network neutrality got it backwards.
+
+
+
 ``real-time applications often do not work well across the Internet
 because of variable queueing delays and congestion losses.''\cite{rfc1633}
 
