@@ -17,7 +17,7 @@ This intial design has high overhead and our current simulated users have the ab
 %\end{itemize}
 
 \subsection{Simple Market Design}
-Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. figref gives the basic market layout.
+Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. Figure \ref{f:simple_market} gives the basic market layout.
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{diagrams/simple_market.pdf}
@@ -54,6 +54,7 @@ We compare with a round robin scheme, which is the ideal equillibrium of mutlipl
 In our simulations, there are a varying number of users with a flow start time chosen from a uniform random distribution between 0 and 9 with flow lengths chosen from a uniform random distribution between 1 and 10. We compare to the allocation of packets to times that minimizes the queued time for each flow: shortest remaining time first scheduling (TODO cite).
 
 We find that bots in our market almost always converge on an allocation that is equivalent to the optimal shortest remaining time first schedule when there is a small number of users. Larger numbers of users are less likely to achieve an optimal solution, but the excess queuing delay over the optimal SRTF solution remains extremely low with a large number of users: less than 1\% overhead in all of our evaluations.
+
 
 problem with current design, introduce evil user
 problem: exposure problem, evil user
