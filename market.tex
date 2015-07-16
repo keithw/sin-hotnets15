@@ -36,20 +36,13 @@ can simulate multiple users with different objectives
 \begin{figure}
 %\vspace{\baselineskip}
 \includegraphics[width=\columnwidth]{plots/delay_over_srtf.pdf}
-\caption{Average queuing delay of simlulations divided by the average queuing delay of the optimal shortest remaining time first solution.}
+\caption{todo}
 \label{f:delay_over_srtf}
-\end{figure}
-
-\begin{figure}
-%\vspace{\baselineskip}
-\includegraphics[width=\columnwidth]{plots/percent_match_srtf.pdf}
-\caption{Percent of simlulations that achieved optimal shortest remaining time first solution.}
-\label{f:percent_match_srtf}
 \end{figure}
 
 We simulated the results of running a market in practice with users that would arrive at time $t$ had a known number of packets $n$ they wanted to send.
 Their utility is defined as:.
-Figures~\ref{f:delay_over_srtf} and \ref{f:percent_match_srtf} show the result of running the simulation with 2 to 10 concurrent users, all trying to minimize their flow completion time for the cheapest cost.
+Figure~\ref{f:delay_over_srtf} shows the result of running the simulation with 2 to 10 concurrent users, all trying to minimize their flow completion time for the cheapest cost.
 We compare with a round robin scheme, which is the ideal equillibrium of mutliple TCP flows and a FIFO queued router (TODO cite).
 In our simulations, there are a varying number of users with a flow start time chosen from a uniform random distribution between 0 and 9 with flow lengths chosen from a uniform random distribution between 1 and 10. We compare to the allocation of packets to times that minimizes the queued time for each flow: shortest remaining time first scheduling (TODO cite).
 
