@@ -1,2308 +1,259 @@
-running 100 trials with 3 users and start time die size 40 and start time die size 40...
-trial shorthand= 6:7, 0:36, 16:16
-
-User: A flow start time: 6 num packets: 7
-User: B flow start time: 0 num packets: 36
-User: C flow start time: 16 num packets: 16
-
-A had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
-B had benefit -59, cost -12.77, utility -71.77, and best expected utility -71.77
-C had benefit -16, cost -32.16, utility -48.16, and best expected utility -48.16
-
-Sum user utility was -141 while sum of best expected utilties was -141 (let down of 0)
-
-market required 251 round trips
-User: C had flow duration 16 in simulated schedule
-User: A had flow duration 7 in simulated schedule
-User: B had flow duration 59 in simulated schedule
-User: C had flow duration 16 in srtf schedule
-User: A had flow duration 7 in srtf schedule
-User: B had flow duration 59 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-5: B | 6-12: A | 13-15: B | 16-31: C | 32-58: B ]
-finished trial 1 of 100
-
-trial shorthand= 24:13, 7:22, 0:28
-
-User: A flow start time: 24 num packets: 13
-User: B flow start time: 7 num packets: 22
-User: C flow start time: 0 num packets: 28
-
-A had benefit -17, cost -26.13, utility -43.13, and best expected utility -43.13
-B had benefit -56, cost -8.87, utility -64.87, and best expected utility -64.87
-C had benefit -28, cost -28, utility -56, and best expected utility -56
-
-Sum user utility was -164 while sum of best expected utilties was -164 (let down of 0)
-
-market required 272 round trips
-User: B had flow duration 56 in simulated schedule
-User: A had flow duration 17 in simulated schedule
-User: C had flow duration 28 in simulated schedule
-User: B had flow duration 56 in srtf schedule
-User: A had flow duration 17 in srtf schedule
-User: C had flow duration 28 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-27: C | 28-40: A | 41-62: B ]
-finished trial 2 of 100
-
-trial shorthand= 7:20, 0:7, 17:27
-
-User: A flow start time: 7 num packets: 20
-User: B flow start time: 0 num packets: 7
-User: C flow start time: 17 num packets: 27
-
-A had benefit -20, cost -20, utility -40, and best expected utility -40
-B had benefit -7, cost -7, utility -14, and best expected utility -14
-C had benefit -37, cost -27, utility -64, and best expected utility -64
-
-Sum user utility was -118 while sum of best expected utilties was -118 (let down of 0)
-
-market required 231 round trips
-User: C had flow duration 37 in simulated schedule
-User: A had flow duration 20 in simulated schedule
-User: B had flow duration 7 in simulated schedule
-User: C had flow duration 37 in srtf schedule
-User: A had flow duration 20 in srtf schedule
-User: B had flow duration 7 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: B | 7-26: A | 27-53: C ]
-finished trial 3 of 100
-
-trial shorthand= 5:17, 4:9, 0:30
-
-User: A flow start time: 5 num packets: 17
-User: B flow start time: 4 num packets: 9
-User: C flow start time: 0 num packets: 30
-
-A had benefit -25, cost -34.17, utility -59.17, and best expected utility -59.17
-B had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
-C had benefit -56, cost -3.74, utility -59.74, and best expected utility -59.74
-
-Sum user utility was -146 while sum of best expected utilties was -146 (let down of 0)
-
-market required 242 round trips
-User: A had flow duration 25 in simulated schedule
-User: B had flow duration 9 in simulated schedule
-User: C had flow duration 56 in simulated schedule
-User: A had flow duration 25 in srtf schedule
-User: B had flow duration 9 in srtf schedule
-User: C had flow duration 56 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: C | 4-12: B | 13-29: A | 30-55: C ]
-finished trial 4 of 100
-
-trial shorthand= 0:11, 0:4, 5:16
-
-User: A flow start time: 0 num packets: 11
-User: B flow start time: 0 num packets: 4
-User: C flow start time: 5 num packets: 16
-
-A had benefit -15, cost -6.96, utility -21.96, and best expected utility -21.96
-B had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
-C had benefit -26, cost -16, utility -42, and best expected utility -42
-
-Sum user utility was -76 while sum of best expected utilties was -76 (let down of 0)
-
-market required 142 round trips
-User: C had flow duration 26 in simulated schedule
-User: A had flow duration 15 in simulated schedule
-User: B had flow duration 4 in simulated schedule
-User: C had flow duration 26 in srtf schedule
-User: A had flow duration 15 in srtf schedule
-User: B had flow duration 4 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: B | 4-14: A | 15-30: C ]
-finished trial 5 of 100
-
-trial shorthand= 0:3, 13:19, 20:8
-
-User: A flow start time: 0 num packets: 3
-User: B flow start time: 13 num packets: 19
-User: C flow start time: 20 num packets: 8
-
-A had benefit -3, cost -3, utility -6, and best expected utility -6
-B had benefit -27, cost -10.92, utility -37.92, and best expected utility -37.92
-C had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
-
-Sum user utility was -68 while sum of best expected utilties was -68 (let down of 0)
-
-market required 174 round trips
-User: C had flow duration 8 in simulated schedule
-User: B had flow duration 27 in simulated schedule
-User: A had flow duration 3 in simulated schedule
-User: C had flow duration 8 in srtf schedule
-User: B had flow duration 27 in srtf schedule
-User: A had flow duration 3 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-2: A | 13-19: B | 20-27: C | 28-39: B ]
-finished trial 6 of 100
-
-trial shorthand= 22:17, 0:3, 18:14
-
-User: A flow start time: 22 num packets: 17
-User: B flow start time: 0 num packets: 3
-User: C flow start time: 18 num packets: 14
-
-A had benefit -27, cost -17, utility -44, and best expected utility -44
-B had benefit -3, cost -3, utility -6, and best expected utility -6
-C had benefit -14, cost -14, utility -28, and best expected utility -28
-
-Sum user utility was -78 while sum of best expected utilties was -78 (let down of 0)
-
-market required 211 round trips
-User: A had flow duration 27 in simulated schedule
-User: C had flow duration 14 in simulated schedule
-User: B had flow duration 3 in simulated schedule
-User: A had flow duration 27 in srtf schedule
-User: C had flow duration 14 in srtf schedule
-User: B had flow duration 3 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-2: B | 18-31: C | 32-48: A ]
-finished trial 7 of 100
-
-trial shorthand= 0:40, 3:18, 17:5
-
-User: A flow start time: 0 num packets: 40
-User: B flow start time: 3 num packets: 18
-User: C flow start time: 17 num packets: 5
-
-A had benefit -63, cost -16.77, utility -79.77, and best expected utility -79.77
-B had benefit -18, cost -36.18, utility -54.18, and best expected utility -54.18
-C had benefit -9, cost -10.05, utility -19.05, and best expected utility -19.05
-
-Sum user utility was -153 while sum of best expected utilties was -153 (let down of 0)
-
-market required 272 round trips
-User: C had flow duration 9 in simulated schedule
-User: B had flow duration 18 in simulated schedule
-User: A had flow duration 63 in simulated schedule
-User: C had flow duration 9 in srtf schedule
-User: B had flow duration 18 in srtf schedule
-User: A had flow duration 63 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-2: A | 3-20: B | 21-25: C | 26-62: A ]
-finished trial 8 of 100
-
-trial shorthand= 24:11, 2:7, 0:21
-
-User: A flow start time: 24 num packets: 11
-User: B flow start time: 2 num packets: 7
-User: C flow start time: 0 num packets: 21
-
-A had benefit -15, cost -11, utility -26, and best expected utility -26
-B had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
-C had benefit -28, cost -13.93, utility -41.93, and best expected utility -41.93
-
-Sum user utility was -89 while sum of best expected utilties was -89 (let down of 0)
-
-market required 172 round trips
-User: A had flow duration 15 in simulated schedule
-User: B had flow duration 7 in simulated schedule
-User: C had flow duration 28 in simulated schedule
-User: A had flow duration 15 in srtf schedule
-User: B had flow duration 7 in srtf schedule
-User: C had flow duration 28 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: C | 2-8: B | 9-27: C | 28-38: A ]
-finished trial 9 of 100
-
-trial shorthand= 14:34, 0:11, 14:2
-
-User: A flow start time: 14 num packets: 34
-User: B flow start time: 0 num packets: 11
-User: C flow start time: 14 num packets: 2
-
-A had benefit -36, cost -31.98, utility -67.98, and best expected utility -67.98
-B had benefit -11, cost -11, utility -22, and best expected utility -22
-C had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
-
-Sum user utility was -96 while sum of best expected utilties was -96 (let down of 0)
-
-market required 213 round trips
-User: A had flow duration 36 in simulated schedule
-User: C had flow duration 2 in simulated schedule
-User: B had flow duration 11 in simulated schedule
-User: A had flow duration 36 in srtf schedule
-User: C had flow duration 2 in srtf schedule
-User: B had flow duration 11 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-10: B | 14-15: C | 16-49: A ]
-finished trial 10 of 100
-
-trial shorthand= 21:6, 0:8, 12:26
-
-User: A flow start time: 21 num packets: 6
-User: B flow start time: 0 num packets: 8
-User: C flow start time: 12 num packets: 26
-
-A had benefit -6, cost -12.06, utility -18.06, and best expected utility -18.06
-B had benefit -8, cost -8, utility -16, and best expected utility -16
-C had benefit -32, cost -19.94, utility -51.94, and best expected utility -51.94
-
-Sum user utility was -86 while sum of best expected utilties was -86 (let down of 0)
-
-market required 189 round trips
-User: A had flow duration 6 in simulated schedule
-User: C had flow duration 32 in simulated schedule
-User: B had flow duration 8 in simulated schedule
-User: A had flow duration 6 in srtf schedule
-User: C had flow duration 32 in srtf schedule
-User: B had flow duration 8 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-7: B | 12-20: C | 21-26: A | 27-43: C ]
-finished trial 11 of 100
-
-trial shorthand= 2:10, 29:18, 0:16
-
-User: A flow start time: 2 num packets: 10
-User: B flow start time: 29 num packets: 18
-User: C flow start time: 0 num packets: 16
-
-A had benefit -10, cost -20.1, utility -30.1, and best expected utility -30.1
-B had benefit -18, cost -18, utility -36, and best expected utility -36
-C had benefit -26, cost -5.9, utility -31.9, and best expected utility -31.9
-
-Sum user utility was -98 while sum of best expected utilties was -98 (let down of 0)
-
-market required 201 round trips
-User: B had flow duration 18 in simulated schedule
-User: A had flow duration 10 in simulated schedule
-User: C had flow duration 26 in simulated schedule
-User: B had flow duration 18 in srtf schedule
-User: A had flow duration 10 in srtf schedule
-User: C had flow duration 26 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: C | 2-11: A | 12-25: C | 29-46: B ]
-finished trial 12 of 100
-
-trial shorthand= 8:26, 0:8, 20:5
-
-User: A flow start time: 8 num packets: 26
-User: B flow start time: 0 num packets: 8
-User: C flow start time: 20 num packets: 5
-
-A had benefit -31, cost -20.95, utility -51.95, and best expected utility -51.95
-B had benefit -8, cost -8, utility -16, and best expected utility -16
-C had benefit -5, cost -10.05, utility -15.05, and best expected utility -15.05
-
-Sum user utility was -83 while sum of best expected utilties was -83 (let down of 0)
-
-market required 169 round trips
-User: C had flow duration 5 in simulated schedule
-User: A had flow duration 31 in simulated schedule
-User: B had flow duration 8 in simulated schedule
-User: C had flow duration 5 in srtf schedule
-User: A had flow duration 31 in srtf schedule
-User: B had flow duration 8 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-7: B | 8-19: A | 20-24: C | 25-38: A ]
-finished trial 13 of 100
-
-trial shorthand= 0:31, 4:9, 33:19
-
-User: A flow start time: 0 num packets: 31
-User: B flow start time: 4 num packets: 9
-User: C flow start time: 33 num packets: 19
-
-A had benefit -40, cost -21.91, utility -61.91, and best expected utility -61.91
-B had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
-C had benefit -26, cost -19, utility -45, and best expected utility -45
-
-Sum user utility was -134 while sum of best expected utilties was -134 (let down of 0)
-
-market required 254 round trips
-User: C had flow duration 26 in simulated schedule
-User: B had flow duration 9 in simulated schedule
-User: A had flow duration 40 in simulated schedule
-User: C had flow duration 26 in srtf schedule
-User: B had flow duration 9 in srtf schedule
-User: A had flow duration 40 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: A | 4-12: B | 13-39: A | 40-58: C ]
-finished trial 14 of 100
-
-trial shorthand= 25:25, 0:12, 31:40
-
-User: A flow start time: 25 num packets: 25
-User: B flow start time: 0 num packets: 12
-User: C flow start time: 31 num packets: 40
-
-A had benefit -25, cost -25, utility -50, and best expected utility -50
-B had benefit -12, cost -12, utility -24, and best expected utility -24
-C had benefit -59, cost -40, utility -99, and best expected utility -99
-
-Sum user utility was -173 while sum of best expected utilties was -173 (let down of 0)
-
-market required 375 round trips
-User: C had flow duration 59 in simulated schedule
-User: A had flow duration 25 in simulated schedule
-User: B had flow duration 12 in simulated schedule
-User: C had flow duration 59 in srtf schedule
-User: A had flow duration 25 in srtf schedule
-User: B had flow duration 12 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-11: B | 25-49: A | 50-89: C ]
-finished trial 15 of 100
-
-trial shorthand= 0:21, 24:9, 7:13
-
-User: A flow start time: 0 num packets: 21
-User: B flow start time: 24 num packets: 9
-User: C flow start time: 7 num packets: 13
-
-A had benefit -43, cost 1.22, utility -41.78, and best expected utility -41.78
-B had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
-C had benefit -13, cost -26.13, utility -39.13, and best expected utility -39.13
-
-Sum user utility was -108 while sum of best expected utilties was -108 (let down of 0)
-
-market required 191 round trips
-User: B had flow duration 9 in simulated schedule
-User: C had flow duration 13 in simulated schedule
-User: A had flow duration 43 in simulated schedule
-User: B had flow duration 9 in srtf schedule
-User: C had flow duration 13 in srtf schedule
-User: A had flow duration 43 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: A | 7-19: C | 20-23: A | 24-32: B | 33-42: A ]
-finished trial 16 of 100
-
-trial shorthand= 12:27, 0:20, 21:11
-
-User: A flow start time: 12 num packets: 27
-User: B flow start time: 0 num packets: 20
-User: C flow start time: 21 num packets: 11
-
-A had benefit -46, cost -15.89, utility -61.89, and best expected utility -61.89
-B had benefit -20, cost -20, utility -40, and best expected utility -40
-C had benefit -11, cost -22.11, utility -33.11, and best expected utility -33.11
-
-Sum user utility was -135 while sum of best expected utilties was -135 (let down of 0)
-
-market required 249 round trips
-User: C had flow duration 11 in simulated schedule
-User: A had flow duration 46 in simulated schedule
-User: B had flow duration 20 in simulated schedule
-User: C had flow duration 11 in srtf schedule
-User: A had flow duration 46 in srtf schedule
-User: B had flow duration 20 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-19: B | 20: A | 21-31: C | 32-57: A ]
-finished trial 17 of 100
-
-trial shorthand= 17:19, 10:2, 0:23
-
-User: A flow start time: 17 num packets: 19
-User: B flow start time: 10 num packets: 2
-User: C flow start time: 0 num packets: 23
-
-A had benefit -27, cost -19, utility -46, and best expected utility -46
-B had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
-C had benefit -25, cost -20.98, utility -45.98, and best expected utility -45.98
-
-Sum user utility was -98 while sum of best expected utilties was -98 (let down of 0)
-
-market required 192 round trips
-User: A had flow duration 27 in simulated schedule
-User: B had flow duration 2 in simulated schedule
-User: C had flow duration 25 in simulated schedule
-User: A had flow duration 27 in srtf schedule
-User: B had flow duration 2 in srtf schedule
-User: C had flow duration 25 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-9: C | 10-11: B | 12-24: C | 25-43: A ]
-finished trial 18 of 100
-
-trial shorthand= 25:13, 0:37, 9:1
-
-User: A flow start time: 25 num packets: 13
-User: B flow start time: 0 num packets: 37
-User: C flow start time: 9 num packets: 1
-
-A had benefit -26, cost -13, utility -39, and best expected utility -39
-B had benefit -38, cost -35.99, utility -73.99, and best expected utility -73.99
-C had benefit -1, cost -2.01, utility -3.01, and best expected utility -3.01
-
-Sum user utility was -116 while sum of best expected utilties was -116 (let down of 1.42109e-14)
-
-market required 222 round trips
-User: A had flow duration 26 in simulated schedule
-User: C had flow duration 1 in simulated schedule
-User: B had flow duration 38 in simulated schedule
-User: A had flow duration 13 in srtf schedule
-User: C had flow duration 1 in srtf schedule
-User: B had flow duration 51 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-8: B | 9: C | 10-37: B | 38-50: A ]
-finished trial 19 of 100
-
-trial shorthand= 2:2, 21:10, 0:20
-
-User: A flow start time: 2 num packets: 2
-User: B flow start time: 21 num packets: 10
-User: C flow start time: 0 num packets: 20
-
-A had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
-B had benefit -11, cost -10, utility -21, and best expected utility -21
-C had benefit -22, cost -17.98, utility -39.98, and best expected utility -39.98
-
-Sum user utility was -67 while sum of best expected utilties was -67 (let down of 0)
-
-market required 145 round trips
-User: B had flow duration 11 in simulated schedule
-User: A had flow duration 2 in simulated schedule
-User: C had flow duration 22 in simulated schedule
-User: B had flow duration 11 in srtf schedule
-User: A had flow duration 2 in srtf schedule
-User: C had flow duration 22 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: C | 2-3: A | 4-21: C | 22-31: B ]
-finished trial 20 of 100
-
-trial shorthand= 0:10, 31:38, 17:12
-
-User: A flow start time: 0 num packets: 10
-User: B flow start time: 31 num packets: 38
-User: C flow start time: 17 num packets: 12
-
-A had benefit -10, cost -10, utility -20, and best expected utility -20
-B had benefit -38, cost -38, utility -76, and best expected utility -76
-C had benefit -12, cost -12, utility -24, and best expected utility -24
-
-Sum user utility was -120 while sum of best expected utilties was -120 (let down of 0)
-
-market required 287 round trips
-User: B had flow duration 38 in simulated schedule
-User: C had flow duration 12 in simulated schedule
-User: A had flow duration 10 in simulated schedule
-User: B had flow duration 38 in srtf schedule
-User: C had flow duration 12 in srtf schedule
-User: A had flow duration 10 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-9: A | 17-28: C | 31-68: B ]
-finished trial 21 of 100
-
-trial shorthand= 0:36, 28:8, 6:17
-
-User: A flow start time: 0 num packets: 36
-User: B flow start time: 28 num packets: 8
-User: C flow start time: 6 num packets: 17
-
-A had benefit -61, cost -10.75, utility -71.75, and best expected utility -71.75
-B had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
-C had benefit -17, cost -34.17, utility -51.17, and best expected utility -51.17
-
-Sum user utility was -147 while sum of best expected utilties was -147 (let down of 0)
-
-market required 260 round trips
-User: B had flow duration 8 in simulated schedule
-User: C had flow duration 17 in simulated schedule
-User: A had flow duration 61 in simulated schedule
-User: B had flow duration 8 in srtf schedule
-User: C had flow duration 17 in srtf schedule
-User: A had flow duration 61 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-5: A | 6-22: C | 23-27: A | 28-35: B | 36-60: A ]
-finished trial 22 of 100
-
-trial shorthand= 0:34, 9:6, 9:4
-
-User: A flow start time: 0 num packets: 34
-User: B flow start time: 9 num packets: 6
-User: C flow start time: 9 num packets: 4
-
-A had benefit -44, cost -23.9, utility -67.9, and best expected utility -67.9
-B had benefit -10, cost -8.02, utility -18.02, and best expected utility -18.02
-C had benefit -4, cost -12.08, utility -16.08, and best expected utility -16.08
-
-Sum user utility was -102 while sum of best expected utilties was -102 (let down of 0)
-
-market required 192 round trips
-User: B had flow duration 10 in simulated schedule
-User: C had flow duration 4 in simulated schedule
-User: A had flow duration 44 in simulated schedule
-User: B had flow duration 10 in srtf schedule
-User: C had flow duration 4 in srtf schedule
-User: A had flow duration 44 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-8: A | 9-12: C | 13-18: B | 19-43: A ]
-finished trial 23 of 100
-
-trial shorthand= 11:25, 0:32, 4:30
-
-User: A flow start time: 11 num packets: 25
-User: B flow start time: 0 num packets: 32
-User: C flow start time: 4 num packets: 30
-
-A had benefit -46, cost -50.25, utility -96.25, and best expected utility -96.25
-B had benefit -32, cost -32, utility -64, and best expected utility -64
-C had benefit -83, cost -4.75, utility -87.75, and best expected utility -87.75
-
-Sum user utility was -248 while sum of best expected utilties was -248 (let down of 0)
-
-market required 369 round trips
-User: C had flow duration 83 in simulated schedule
-User: A had flow duration 46 in simulated schedule
-User: B had flow duration 32 in simulated schedule
-User: C had flow duration 83 in srtf schedule
-User: A had flow duration 46 in srtf schedule
-User: B had flow duration 32 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-31: B | 32-56: A | 57-86: C ]
-finished trial 24 of 100
-
-trial shorthand= 0:20, 7:9, 5:36
-
-User: A flow start time: 0 num packets: 20
-User: B flow start time: 7 num packets: 9
-User: C flow start time: 5 num packets: 36
-
-A had benefit -29, cost -10.91, utility -39.91, and best expected utility -39.91
-B had benefit -9, cost -27.18, utility -36.18, and best expected utility -36.18
-C had benefit -60, cost -26.91, utility -86.91, and best expected utility -86.91
-
-Sum user utility was -163 while sum of best expected utilties was -163 (let down of 0)
-
-market required 280 round trips
-User: C had flow duration 60 in simulated schedule
-User: B had flow duration 9 in simulated schedule
-User: A had flow duration 29 in simulated schedule
-User: C had flow duration 60 in srtf schedule
-User: B had flow duration 9 in srtf schedule
-User: A had flow duration 29 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: A | 7-15: B | 16-28: A | 29-64: C ]
-finished trial 25 of 100
-
-trial shorthand= 2:30, 18:4, 0:6
-
-User: A flow start time: 2 num packets: 30
-User: B flow start time: 18 num packets: 4
+running 10 trials with 3 users and start time die size 10 and start time die size 10...
+trial shorthand= 0:7, 4:6, 0:6
+
+User: A flow start time: 0 num packets: 7
+User: B flow start time: 4 num packets: 6
 User: C flow start time: 0 num packets: 6
 
-A had benefit -38, cost -25.96, utility -63.96, and best expected utility -63.96
-B had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
-C had benefit -6, cost -6, utility -12, and best expected utility -12
-
-Sum user utility was -88 while sum of best expected utilties was -88 (let down of 0)
-
-market required 178 round trips
-User: B had flow duration 4 in simulated schedule
-User: A had flow duration 38 in simulated schedule
-User: C had flow duration 6 in simulated schedule
-User: B had flow duration 4 in srtf schedule
-User: A had flow duration 38 in srtf schedule
-User: C had flow duration 6 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-5: C | 6-17: A | 18-21: B | 22-39: A ]
-finished trial 26 of 100
-
-trial shorthand= 5:12, 0:36, 18:9
-
-User: A flow start time: 5 num packets: 12
-User: B flow start time: 0 num packets: 36
-User: C flow start time: 18 num packets: 9
-
-A had benefit -12, cost -24.12, utility -36.12, and best expected utility -36.12
-B had benefit -57, cost -14.79, utility -71.79, and best expected utility -71.79
-C had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
-
-Sum user utility was -135 while sum of best expected utilties was -135 (let down of 0)
-
-market required 243 round trips
-User: C had flow duration 9 in simulated schedule
-User: A had flow duration 12 in simulated schedule
-User: B had flow duration 57 in simulated schedule
-User: C had flow duration 9 in srtf schedule
-User: A had flow duration 12 in srtf schedule
-User: B had flow duration 57 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-4: B | 5-16: A | 17: B | 18-26: C | 27-56: B ]
-finished trial 27 of 100
-
-trial shorthand= 3:29, 0:31, 32:21
-
-User: A flow start time: 3 num packets: 29
-User: B flow start time: 0 num packets: 31
-User: C flow start time: 32 num packets: 21
-
-A had benefit -78, cost -7.79, utility -85.79, and best expected utility -85.79
-B had benefit -31, cost -31, utility -62, and best expected utility -62
-C had benefit -21, cost -42.21, utility -63.21, and best expected utility -63.21
-
-Sum user utility was -211 while sum of best expected utilties was -211 (let down of 0)
-
-market required 341 round trips
-User: C had flow duration 21 in simulated schedule
-User: A had flow duration 78 in simulated schedule
-User: B had flow duration 31 in simulated schedule
-User: C had flow duration 21 in srtf schedule
-User: A had flow duration 78 in srtf schedule
-User: B had flow duration 31 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-30: B | 31: A | 32-52: C | 53-80: A ]
-finished trial 28 of 100
-
-trial shorthand= 30:5, 0:35, 23:17
-
-User: A flow start time: 30 num packets: 5
-User: B flow start time: 0 num packets: 35
-User: C flow start time: 23 num packets: 17
-
-A had benefit -10, cost -10.05, utility -20.05, and best expected utility -20.05
-B had benefit -35, cost -35, utility -70, and best expected utility -70
-C had benefit -34, cost -11.95, utility -45.95, and best expected utility -45.95
-
-Sum user utility was -136 while sum of best expected utilties was -136 (let down of 0)
-
-market required 249 round trips
-User: C had flow duration 34 in simulated schedule
-User: A had flow duration 10 in simulated schedule
-User: B had flow duration 35 in simulated schedule
-User: C had flow duration 34 in srtf schedule
-User: A had flow duration 5 in srtf schedule
-User: B had flow duration 40 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-34: B | 35-39: A | 40-56: C ]
-finished trial 29 of 100
-
-trial shorthand= 4:12, 8:6, 0:17
-
-User: A flow start time: 4 num packets: 12
-User: B flow start time: 8 num packets: 6
-User: C flow start time: 0 num packets: 17
-
-A had benefit -18, cost -18.06, utility -36.06, and best expected utility -36.06
-B had benefit -6, cost -18.12, utility -24.12, and best expected utility -24.12
-C had benefit -35, cost 1.18, utility -33.82, and best expected utility -33.82
-
-Sum user utility was -94 while sum of best expected utilties was -94 (let down of 0)
-
-market required 160 round trips
-User: B had flow duration 6 in simulated schedule
-User: A had flow duration 18 in simulated schedule
-User: C had flow duration 35 in simulated schedule
-User: B had flow duration 6 in srtf schedule
-User: A had flow duration 18 in srtf schedule
-User: C had flow duration 35 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: C | 4-7: A | 8-13: B | 14-21: A | 22-34: C ]
-finished trial 30 of 100
-
-trial shorthand= 0:32, 5:29, 3:8
-
-User: A flow start time: 0 num packets: 32
-User: B flow start time: 5 num packets: 29
-User: C flow start time: 3 num packets: 8
-
-A had benefit -40, cost -23.92, utility -63.92, and best expected utility -63.92
-B had benefit -64, cost -29, utility -93, and best expected utility -93
-C had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
-
-Sum user utility was -181 while sum of best expected utilties was -181 (let down of 0)
-
-market required 297 round trips
-User: B had flow duration 64 in simulated schedule
-User: C had flow duration 8 in simulated schedule
-User: A had flow duration 40 in simulated schedule
-User: B had flow duration 64 in srtf schedule
-User: C had flow duration 8 in srtf schedule
-User: A had flow duration 40 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-2: A | 3-10: C | 11-39: A | 40-68: B ]
-finished trial 31 of 100
-
-trial shorthand= 16:2, 0:36, 11:38
-
-User: A flow start time: 16 num packets: 2
-User: B flow start time: 0 num packets: 36
-User: C flow start time: 11 num packets: 38
-
-A had benefit -2, cost -6.04, utility -8.04, and best expected utility -8.04
-B had benefit -38, cost -33.98, utility -71.98, and best expected utility -71.98
-C had benefit -65, cost -35.98, utility -100.98, and best expected utility -100.98
-
-Sum user utility was -181 while sum of best expected utilties was -181 (let down of 0)
-
-market required 321 round trips
-User: C had flow duration 65 in simulated schedule
-User: A had flow duration 2 in simulated schedule
-User: B had flow duration 38 in simulated schedule
-User: C had flow duration 65 in srtf schedule
-User: A had flow duration 2 in srtf schedule
-User: B had flow duration 38 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-15: B | 16-17: A | 18-37: B | 38-75: C ]
-finished trial 32 of 100
-
-trial shorthand= 17:34, 0:29, 5:12
-
-User: A flow start time: 17 num packets: 34
-User: B flow start time: 0 num packets: 29
-User: C flow start time: 5 num packets: 12
-
-A had benefit -58, cost -34, utility -92, and best expected utility -92
-B had benefit -41, cost -16.88, utility -57.88, and best expected utility -57.88
-C had benefit -12, cost -24.12, utility -36.12, and best expected utility -36.12
-
-Sum user utility was -186 while sum of best expected utilties was -186 (let down of 0)
-
-market required 318 round trips
-User: A had flow duration 58 in simulated schedule
-User: C had flow duration 12 in simulated schedule
-User: B had flow duration 41 in simulated schedule
-User: A had flow duration 58 in srtf schedule
-User: C had flow duration 12 in srtf schedule
-User: B had flow duration 41 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-4: B | 5-16: C | 17-40: B | 41-74: A ]
-finished trial 33 of 100
-
-trial shorthand= 5:10, 13:5, 0:4
-
-User: A flow start time: 5 num packets: 10
-User: B flow start time: 13 num packets: 5
-User: C flow start time: 0 num packets: 4
-
-A had benefit -10, cost -10, utility -20, and best expected utility -20
-B had benefit -7, cost -5, utility -12, and best expected utility -12
-C had benefit -4, cost -4, utility -8, and best expected utility -8
-
-Sum user utility was -40 while sum of best expected utilties was -40 (let down of 0)
-
-market required 95 round trips
-User: B had flow duration 7 in simulated schedule
-User: A had flow duration 10 in simulated schedule
-User: C had flow duration 4 in simulated schedule
-User: B had flow duration 7 in srtf schedule
-User: A had flow duration 10 in srtf schedule
-User: C had flow duration 4 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: C | 5-14: A | 15-19: B ]
-finished trial 34 of 100
-
-trial shorthand= 7:19, 0:1, 18:19
-
-User: A flow start time: 7 num packets: 19
-User: B flow start time: 0 num packets: 1
-User: C flow start time: 18 num packets: 19
-
-A had benefit -19, cost -19, utility -38, and best expected utility -38
-B had benefit -1, cost -1, utility -2, and best expected utility -2
-C had benefit -27, cost -19, utility -46, and best expected utility -46
-
-Sum user utility was -86 while sum of best expected utilties was -86 (let down of 0)
-
-market required 195 round trips
-User: C had flow duration 27 in simulated schedule
-User: A had flow duration 19 in simulated schedule
-User: B had flow duration 1 in simulated schedule
-User: C had flow duration 27 in srtf schedule
-User: A had flow duration 19 in srtf schedule
-User: B had flow duration 1 in srtf schedule
-Trial matched srtf, trial was:
-[ 0: B | 7-25: A | 26-44: C ]
-finished trial 35 of 100
-
-trial shorthand= 0:9, 1:38, 29:37
-
-User: A flow start time: 0 num packets: 9
-User: B flow start time: 1 num packets: 38
-User: C flow start time: 29 num packets: 37
-
-A had benefit -9, cost -9, utility -18, and best expected utility -18
-B had benefit -46, cost -38, utility -84, and best expected utility -84
-C had benefit -55, cost -37, utility -92, and best expected utility -92
-
-Sum user utility was -194 while sum of best expected utilties was -194 (let down of 0)
-
-market required 355 round trips
-User: C had flow duration 55 in simulated schedule
-User: B had flow duration 46 in simulated schedule
-User: A had flow duration 9 in simulated schedule
-User: C had flow duration 55 in srtf schedule
-User: B had flow duration 46 in srtf schedule
-User: A had flow duration 9 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-8: A | 9-46: B | 47-83: C ]
-finished trial 36 of 100
-
-trial shorthand= 0:24, 26:24, 6:20
-
-User: A flow start time: 0 num packets: 24
-User: B flow start time: 26 num packets: 24
-User: C flow start time: 6 num packets: 20
-
-A had benefit -24, cost -24, utility -48, and best expected utility -48
-B had benefit -42, cost -24, utility -66, and best expected utility -66
-C had benefit -38, cost -20, utility -58, and best expected utility -58
-
-Sum user utility was -172 while sum of best expected utilties was -172 (let down of 0)
-
-market required 291 round trips
-User: B had flow duration 42 in simulated schedule
-User: C had flow duration 38 in simulated schedule
-User: A had flow duration 24 in simulated schedule
-User: B had flow duration 42 in srtf schedule
-User: C had flow duration 38 in srtf schedule
-User: A had flow duration 24 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-23: A | 24-43: C | 44-67: B ]
-finished trial 37 of 100
-
-trial shorthand= 8:6, 0:31, 21:20
-
-User: A flow start time: 8 num packets: 6
-User: B flow start time: 0 num packets: 31
-User: C flow start time: 21 num packets: 20
-
-A had benefit -6, cost -12.06, utility -18.06, and best expected utility -18.06
-B had benefit -37, cost -24.94, utility -61.94, and best expected utility -61.94
-C had benefit -36, cost -20, utility -56, and best expected utility -56
-
-Sum user utility was -136 while sum of best expected utilties was -136 (let down of 0)
-
-market required 244 round trips
-User: C had flow duration 36 in simulated schedule
-User: A had flow duration 6 in simulated schedule
-User: B had flow duration 37 in simulated schedule
-User: C had flow duration 36 in srtf schedule
-User: A had flow duration 6 in srtf schedule
-User: B had flow duration 37 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-7: B | 8-13: A | 14-36: B | 37-56: C ]
-finished trial 38 of 100
-
-trial shorthand= 12:27, 7:3, 0:25
-
-User: A flow start time: 12 num packets: 27
-User: B flow start time: 7 num packets: 3
-User: C flow start time: 0 num packets: 25
-
-A had benefit -43, cost -27, utility -70, and best expected utility -70
-B had benefit -3, cost -6.03, utility -9.03, and best expected utility -9.03
-C had benefit -28, cost -21.97, utility -49.97, and best expected utility -49.97
-
-Sum user utility was -129 while sum of best expected utilties was -129 (let down of 0)
-
-market required 236 round trips
-User: A had flow duration 43 in simulated schedule
-User: B had flow duration 3 in simulated schedule
-User: C had flow duration 28 in simulated schedule
-User: A had flow duration 43 in srtf schedule
-User: B had flow duration 3 in srtf schedule
-User: C had flow duration 28 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: C | 7-9: B | 10-27: C | 28-54: A ]
-finished trial 39 of 100
-
-trial shorthand= 9:28, 7:5, 0:12
-
-User: A flow start time: 9 num packets: 28
-User: B flow start time: 7 num packets: 5
-User: C flow start time: 0 num packets: 12
-
-A had benefit -36, cost -28, utility -64, and best expected utility -64
-B had benefit -10, cost -5, utility -15, and best expected utility -15
-C had benefit -12, cost -12, utility -24, and best expected utility -24
-
-Sum user utility was -103 while sum of best expected utilties was -103 (let down of 0)
-
-market required 203 round trips
-User: A had flow duration 36 in simulated schedule
-User: B had flow duration 10 in simulated schedule
-User: C had flow duration 12 in simulated schedule
-User: A had flow duration 36 in srtf schedule
-User: B had flow duration 5 in srtf schedule
-User: C had flow duration 17 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-11: C | 12-16: B | 17-44: A ]
-finished trial 40 of 100
-
-trial shorthand= 3:29, 0:24, 7:9
-
-User: A flow start time: 3 num packets: 29
-User: B flow start time: 0 num packets: 24
-User: C flow start time: 7 num packets: 9
-
-A had benefit -59, cost -19.91, utility -78.91, and best expected utility -78.91
-B had benefit -33, cost -14.91, utility -47.91, and best expected utility -47.91
-C had benefit -9, cost -27.18, utility -36.18, and best expected utility -36.18
-
-Sum user utility was -163 while sum of best expected utilties was -163 (let down of 0)
-
-market required 269 round trips
-User: A had flow duration 59 in simulated schedule
-User: C had flow duration 9 in simulated schedule
-User: B had flow duration 33 in simulated schedule
-User: A had flow duration 59 in srtf schedule
-User: C had flow duration 9 in srtf schedule
-User: B had flow duration 33 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: B | 7-15: C | 16-32: B | 33-61: A ]
-finished trial 41 of 100
-
-trial shorthand= 15:23, 26:11, 0:2
-
-User: A flow start time: 15 num packets: 23
-User: B flow start time: 26 num packets: 11
-User: C flow start time: 0 num packets: 2
-
-A had benefit -34, cost -11.89, utility -45.89, and best expected utility -45.89
-B had benefit -11, cost -22.11, utility -33.11, and best expected utility -33.11
-C had benefit -2, cost -2, utility -4, and best expected utility -4
-
-Sum user utility was -83 while sum of best expected utilties was -83 (let down of 0)
-
-market required 211 round trips
-User: B had flow duration 11 in simulated schedule
-User: A had flow duration 34 in simulated schedule
-User: C had flow duration 2 in simulated schedule
-User: B had flow duration 11 in srtf schedule
-User: A had flow duration 34 in srtf schedule
-User: C had flow duration 2 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: C | 15-25: A | 26-36: B | 37-48: A ]
-finished trial 42 of 100
-
-trial shorthand= 21:11, 38:26, 0:17
-
-User: A flow start time: 21 num packets: 11
-User: B flow start time: 38 num packets: 26
-User: C flow start time: 0 num packets: 17
-
-A had benefit -11, cost -11, utility -22, and best expected utility -22
-B had benefit -26, cost -26, utility -52, and best expected utility -52
-C had benefit -17, cost -17, utility -34, and best expected utility -34
-
-Sum user utility was -108 while sum of best expected utilties was -108 (let down of 0)
-
-market required 267 round trips
-User: B had flow duration 26 in simulated schedule
-User: A had flow duration 11 in simulated schedule
-User: C had flow duration 17 in simulated schedule
-User: B had flow duration 26 in srtf schedule
-User: A had flow duration 11 in srtf schedule
-User: C had flow duration 17 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-16: C | 21-31: A | 38-63: B ]
-finished trial 43 of 100
-
-trial shorthand= 2:27, 0:26, 26:17
-
-User: A flow start time: 2 num packets: 27
-User: B flow start time: 0 num packets: 26
-User: C flow start time: 26 num packets: 17
-
-A had benefit -68, cost -9.83, utility -77.83, and best expected utility -77.83
-B had benefit -26, cost -26, utility -52, and best expected utility -52
-C had benefit -17, cost -34.17, utility -51.17, and best expected utility -51.17
-
-Sum user utility was -181 while sum of best expected utilties was -181 (let down of 0)
-
-market required 297 round trips
-User: A had flow duration 68 in simulated schedule
-User: C had flow duration 17 in simulated schedule
-User: B had flow duration 26 in simulated schedule
-User: A had flow duration 68 in srtf schedule
-User: C had flow duration 17 in srtf schedule
-User: B had flow duration 26 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-25: B | 26-42: C | 43-69: A ]
-finished trial 44 of 100
-
-trial shorthand= 0:19, 2:38, 20:25
-
-User: A flow start time: 0 num packets: 19
-User: B flow start time: 2 num packets: 38
-User: C flow start time: 20 num packets: 25
-
-A had benefit -19, cost -19, utility -38, and best expected utility -38
-B had benefit -80, cost -12.75, utility -92.75, and best expected utility -92.75
-C had benefit -25, cost -50.25, utility -75.25, and best expected utility -75.25
-
-Sum user utility was -206 while sum of best expected utilties was -206 (let down of 0)
-
-market required 346 round trips
-User: C had flow duration 25 in simulated schedule
-User: B had flow duration 80 in simulated schedule
-User: A had flow duration 19 in simulated schedule
-User: C had flow duration 25 in srtf schedule
-User: B had flow duration 80 in srtf schedule
-User: A had flow duration 19 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-18: A | 19: B | 20-44: C | 45-81: B ]
-finished trial 45 of 100
-
-trial shorthand= 0:37, 12:20, 19:31
-
-User: A flow start time: 0 num packets: 37
-User: B flow start time: 12 num packets: 20
-User: C flow start time: 19 num packets: 31
-
-A had benefit -57, cost -16.8, utility -73.8, and best expected utility -73.8
-B had benefit -20, cost -40.2, utility -60.2, and best expected utility -60.2
-C had benefit -69, cost -31, utility -100, and best expected utility -100
-
-Sum user utility was -234 while sum of best expected utilties was -234 (let down of 0)
-
-market required 374 round trips
-User: C had flow duration 69 in simulated schedule
-User: B had flow duration 20 in simulated schedule
-User: A had flow duration 57 in simulated schedule
-User: C had flow duration 69 in srtf schedule
-User: B had flow duration 20 in srtf schedule
-User: A had flow duration 57 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-11: A | 12-31: B | 32-56: A | 57-87: C ]
-finished trial 46 of 100
-
-trial shorthand= 27:32, 12:12, 0:11
-
-User: A flow start time: 27 num packets: 32
-User: B flow start time: 12 num packets: 12
-User: C flow start time: 0 num packets: 11
-
-A had benefit -32, cost -32, utility -64, and best expected utility -64
-B had benefit -12, cost -12, utility -24, and best expected utility -24
-C had benefit -11, cost -11, utility -22, and best expected utility -22
-
-Sum user utility was -110 while sum of best expected utilties was -110 (let down of 0)
-
-market required 247 round trips
-User: A had flow duration 32 in simulated schedule
-User: B had flow duration 12 in simulated schedule
-User: C had flow duration 11 in simulated schedule
-User: A had flow duration 32 in srtf schedule
-User: B had flow duration 12 in srtf schedule
-User: C had flow duration 11 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-10: C | 12-23: B | 27-58: A ]
-finished trial 47 of 100
-
-trial shorthand= 0:15, 7:4, 26:22
-
-User: A flow start time: 0 num packets: 15
-User: B flow start time: 7 num packets: 4
-User: C flow start time: 26 num packets: 22
-
-A had benefit -19, cost -10.96, utility -29.96, and best expected utility -29.96
-B had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
-C had benefit -22, cost -22, utility -44, and best expected utility -44
-
-Sum user utility was -86 while sum of best expected utilties was -86 (let down of 0)
-
-market required 206 round trips
-User: C had flow duration 22 in simulated schedule
-User: B had flow duration 4 in simulated schedule
-User: A had flow duration 19 in simulated schedule
-User: C had flow duration 22 in srtf schedule
-User: B had flow duration 4 in srtf schedule
-User: A had flow duration 19 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: A | 7-10: B | 11-18: A | 26-47: C ]
-finished trial 48 of 100
-
-trial shorthand= 6:37, 26:14, 0:29
-
-User: A flow start time: 6 num packets: 37
-User: B flow start time: 26 num packets: 14
-User: C flow start time: 0 num packets: 29
-
-A had benefit -74, cost -22.86, utility -96.86, and best expected utility -96.86
-B had benefit -17, cost -28.14, utility -45.14, and best expected utility -45.14
-C had benefit -29, cost -29, utility -58, and best expected utility -58
-
-Sum user utility was -200 while sum of best expected utilties was -200 (let down of 0)
-
-market required 342 round trips
-User: A had flow duration 74 in simulated schedule
-User: B had flow duration 17 in simulated schedule
-User: C had flow duration 29 in simulated schedule
-User: A had flow duration 74 in srtf schedule
-User: B had flow duration 17 in srtf schedule
-User: C had flow duration 29 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-28: C | 29-42: B | 43-79: A ]
-finished trial 49 of 100
-
-trial shorthand= 26:16, 2:27, 0:21
-
-User: A flow start time: 26 num packets: 16
-User: B flow start time: 2 num packets: 27
-User: C flow start time: 0 num packets: 21
-
-A had benefit -16, cost -32.16, utility -48.16, and best expected utility -48.16
-B had benefit -62, cost -10.84, utility -72.84, and best expected utility -72.84
-C had benefit -21, cost -21, utility -42, and best expected utility -42
-
-Sum user utility was -163 while sum of best expected utilties was -163 (let down of 0)
-
-market required 272 round trips
-User: A had flow duration 16 in simulated schedule
-User: B had flow duration 62 in simulated schedule
-User: C had flow duration 21 in simulated schedule
-User: A had flow duration 16 in srtf schedule
-User: B had flow duration 62 in srtf schedule
-User: C had flow duration 21 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-20: C | 21-25: B | 26-41: A | 42-63: B ]
-finished trial 50 of 100
-
-trial shorthand= 0:5, 6:23, 6:28
-
-User: A flow start time: 0 num packets: 5
-User: B flow start time: 6 num packets: 23
-User: C flow start time: 6 num packets: 28
-
-A had benefit -5, cost -5, utility -10, and best expected utility -10
-B had benefit -23, cost -23, utility -46, and best expected utility -46
-C had benefit -51, cost -28, utility -79, and best expected utility -79
-
-Sum user utility was -135 while sum of best expected utilties was -135 (let down of 0)
-
-market required 242 round trips
-User: C had flow duration 51 in simulated schedule
-User: B had flow duration 23 in simulated schedule
-User: A had flow duration 5 in simulated schedule
-User: C had flow duration 51 in srtf schedule
-User: B had flow duration 23 in srtf schedule
-User: A had flow duration 5 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-4: A | 6-28: B | 29-56: C ]
-finished trial 51 of 100
-
-trial shorthand= 0:37, 14:19, 2:13
-
-User: A flow start time: 0 num packets: 37
-User: B flow start time: 14 num packets: 19
-User: C flow start time: 2 num packets: 13
-
-A had benefit -69, cost -4.68, utility -73.68, and best expected utility -73.68
-B had benefit -20, cost -38.19, utility -58.19, and best expected utility -58.19
-C had benefit -13, cost -26.13, utility -39.13, and best expected utility -39.13
-
-Sum user utility was -171 while sum of best expected utilties was -171 (let down of 0)
-
-market required 296 round trips
-User: B had flow duration 20 in simulated schedule
-User: C had flow duration 13 in simulated schedule
-User: A had flow duration 69 in simulated schedule
-User: B had flow duration 20 in srtf schedule
-User: C had flow duration 13 in srtf schedule
-User: A had flow duration 69 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: A | 2-14: C | 15-33: B | 34-68: A ]
-finished trial 52 of 100
-
-trial shorthand= 12:13, 3:10, 0:11
-
-User: A flow start time: 12 num packets: 13
-User: B flow start time: 3 num packets: 10
-User: C flow start time: 0 num packets: 11
-
-A had benefit -22, cost -13, utility -35, and best expected utility -35
-B had benefit -18, cost -10, utility -28, and best expected utility -28
-C had benefit -11, cost -11, utility -22, and best expected utility -22
-
-Sum user utility was -85 while sum of best expected utilties was -85 (let down of 0)
-
-market required 155 round trips
-User: A had flow duration 22 in simulated schedule
-User: B had flow duration 18 in simulated schedule
-User: C had flow duration 11 in simulated schedule
-User: A had flow duration 22 in srtf schedule
-User: B had flow duration 18 in srtf schedule
-User: C had flow duration 11 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-10: C | 11-20: B | 21-33: A ]
-finished trial 53 of 100
-
-trial shorthand= 16:28, 0:22, 27:13
-
-User: A flow start time: 16 num packets: 28
-User: B flow start time: 0 num packets: 22
-User: C flow start time: 27 num packets: 13
-
-A had benefit -47, cost -14.87, utility -61.87, and best expected utility -61.87
-B had benefit -22, cost -22, utility -44, and best expected utility -44
-C had benefit -13, cost -26.13, utility -39.13, and best expected utility -39.13
-
-Sum user utility was -145 while sum of best expected utilties was -145 (let down of 0)
-
-market required 269 round trips
-User: C had flow duration 13 in simulated schedule
-User: A had flow duration 47 in simulated schedule
-User: B had flow duration 22 in simulated schedule
-User: C had flow duration 13 in srtf schedule
-User: A had flow duration 47 in srtf schedule
-User: B had flow duration 22 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-21: B | 22-26: A | 27-39: C | 40-62: A ]
-finished trial 54 of 100
-
-trial shorthand= 0:16, 18:40, 0:25
-
-User: A flow start time: 0 num packets: 16
-User: B flow start time: 18 num packets: 40
-User: C flow start time: 0 num packets: 25
-
-A had benefit -16, cost -16, utility -32, and best expected utility -32
-B had benefit -63, cost -40, utility -103, and best expected utility -103
-C had benefit -41, cost -25, utility -66, and best expected utility -66
-
-Sum user utility was -201 while sum of best expected utilties was -201 (let down of 0)
-
-market required 343 round trips
-User: B had flow duration 63 in simulated schedule
-User: C had flow duration 41 in simulated schedule
-User: A had flow duration 16 in simulated schedule
-User: B had flow duration 63 in srtf schedule
-User: C had flow duration 41 in srtf schedule
-User: A had flow duration 16 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-15: A | 16-40: C | 41-80: B ]
-finished trial 55 of 100
-
-trial shorthand= 0:12, 1:28, 6:29
-
-User: A flow start time: 0 num packets: 12
-User: B flow start time: 1 num packets: 28
-User: C flow start time: 6 num packets: 29
-
-A had benefit -12, cost -12, utility -24, and best expected utility -24
-B had benefit -39, cost -28, utility -67, and best expected utility -67
-C had benefit -63, cost -29, utility -92, and best expected utility -92
-
-Sum user utility was -183 while sum of best expected utilties was -183 (let down of 0)
-
-market required 299 round trips
-User: C had flow duration 63 in simulated schedule
-User: B had flow duration 39 in simulated schedule
-User: A had flow duration 12 in simulated schedule
-User: C had flow duration 63 in srtf schedule
-User: B had flow duration 39 in srtf schedule
-User: A had flow duration 12 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-11: A | 12-39: B | 40-68: C ]
-finished trial 56 of 100
-
-trial shorthand= 7:31, 24:19, 0:25
-
-User: A flow start time: 7 num packets: 31
-User: B flow start time: 24 num packets: 19
-User: C flow start time: 0 num packets: 25
-
-A had benefit -68, cost -11.81, utility -79.81, and best expected utility -79.81
-B had benefit -20, cost -38.19, utility -58.19, and best expected utility -58.19
-C had benefit -25, cost -25, utility -50, and best expected utility -50
-
-Sum user utility was -188 while sum of best expected utilties was -188 (let down of 0)
-
-market required 322 round trips
-User: A had flow duration 68 in simulated schedule
-User: B had flow duration 20 in simulated schedule
-User: C had flow duration 25 in simulated schedule
-User: A had flow duration 68 in srtf schedule
-User: B had flow duration 20 in srtf schedule
-User: C had flow duration 25 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-24: C | 25-43: B | 44-74: A ]
-finished trial 57 of 100
-
-trial shorthand= 0:30, 14:2, 8:5
-
-User: A flow start time: 0 num packets: 30
-User: B flow start time: 14 num packets: 2
-User: C flow start time: 8 num packets: 5
-
-A had benefit -37, cost -22.93, utility -59.93, and best expected utility -59.93
-B had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
-C had benefit -5, cost -10.05, utility -15.05, and best expected utility -15.05
-
-Sum user utility was -81 while sum of best expected utilties was -81 (let down of 0)
-
-market required 164 round trips
-User: B had flow duration 2 in simulated schedule
-User: C had flow duration 5 in simulated schedule
-User: A had flow duration 37 in simulated schedule
-User: B had flow duration 2 in srtf schedule
-User: C had flow duration 5 in srtf schedule
-User: A had flow duration 37 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-7: A | 8-12: C | 13: A | 14-15: B | 16-36: A ]
-finished trial 58 of 100
-
-trial shorthand= 0:13, 20:11, 13:26
-
-User: A flow start time: 0 num packets: 13
-User: B flow start time: 20 num packets: 11
-User: C flow start time: 13 num packets: 26
-
-A had benefit -13, cost -13, utility -26, and best expected utility -26
-B had benefit -11, cost -22.11, utility -33.11, and best expected utility -33.11
-C had benefit -37, cost -14.89, utility -51.89, and best expected utility -51.89
-
-Sum user utility was -111 while sum of best expected utilties was -111 (let down of 0)
-
-market required 212 round trips
-User: B had flow duration 11 in simulated schedule
-User: C had flow duration 37 in simulated schedule
-User: A had flow duration 13 in simulated schedule
-User: B had flow duration 11 in srtf schedule
-User: C had flow duration 37 in srtf schedule
-User: A had flow duration 13 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-12: A | 13-19: C | 20-30: B | 31-49: C ]
-finished trial 59 of 100
-
-trial shorthand= 22:20, 0:3, 18:34
-
-User: A flow start time: 22 num packets: 20
-User: B flow start time: 0 num packets: 3
-User: C flow start time: 18 num packets: 34
-
-A had benefit -20, cost -40.2, utility -60.2, and best expected utility -60.2
-B had benefit -3, cost -3, utility -6, and best expected utility -6
-C had benefit -54, cost -13.8, utility -67.8, and best expected utility -67.8
-
-Sum user utility was -134 while sum of best expected utilties was -134 (let down of 0)
-
-market required 301 round trips
-User: A had flow duration 20 in simulated schedule
-User: C had flow duration 54 in simulated schedule
-User: B had flow duration 3 in simulated schedule
-User: A had flow duration 20 in srtf schedule
-User: C had flow duration 54 in srtf schedule
-User: B had flow duration 3 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-2: B | 18-21: C | 22-41: A | 42-71: C ]
-finished trial 60 of 100
-
-trial shorthand= 14:31, 0:31, 5:22
-
-User: A flow start time: 14 num packets: 31
-User: B flow start time: 0 num packets: 31
-User: C flow start time: 5 num packets: 22
-
-A had benefit -70, cost -31, utility -101, and best expected utility -101
-B had benefit -53, cost -8.78, utility -61.78, and best expected utility -61.78
-C had benefit -22, cost -44.22, utility -66.22, and best expected utility -66.22
-
-Sum user utility was -229 while sum of best expected utilties was -229 (let down of 0)
-
-market required 358 round trips
-User: A had flow duration 70 in simulated schedule
-User: C had flow duration 22 in simulated schedule
-User: B had flow duration 53 in simulated schedule
-User: A had flow duration 70 in srtf schedule
-User: C had flow duration 22 in srtf schedule
-User: B had flow duration 53 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-4: B | 5-26: C | 27-52: B | 53-83: A ]
-finished trial 61 of 100
-
-trial shorthand= 7:17, 0:36, 22:5
-
-User: A flow start time: 7 num packets: 17
-User: B flow start time: 0 num packets: 36
-User: C flow start time: 22 num packets: 5
-
-A had benefit -17, cost -34.17, utility -51.17, and best expected utility -51.17
-B had benefit -58, cost -13.78, utility -71.78, and best expected utility -71.78
-C had benefit -7, cost -10.05, utility -17.05, and best expected utility -17.05
-
-Sum user utility was -140 while sum of best expected utilties was -140 (let down of 0)
-
-market required 251 round trips
-User: C had flow duration 7 in simulated schedule
-User: A had flow duration 17 in simulated schedule
-User: B had flow duration 58 in simulated schedule
-User: C had flow duration 7 in srtf schedule
-User: A had flow duration 17 in srtf schedule
-User: B had flow duration 58 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-6: B | 7-23: A | 24-28: C | 29-57: B ]
-finished trial 62 of 100
-
-trial shorthand= 9:10, 23:17, 0:16
-
-User: A flow start time: 9 num packets: 10
-User: B flow start time: 23 num packets: 17
-User: C flow start time: 0 num packets: 16
-
-A had benefit -17, cost -10, utility -27, and best expected utility -27
-B had benefit -20, cost -17, utility -37, and best expected utility -37
-C had benefit -16, cost -16, utility -32, and best expected utility -32
-
-Sum user utility was -96 while sum of best expected utilties was -96 (let down of 0)
-
-market required 191 round trips
-User: B had flow duration 20 in simulated schedule
-User: A had flow duration 17 in simulated schedule
-User: C had flow duration 16 in simulated schedule
-User: B had flow duration 20 in srtf schedule
-User: A had flow duration 17 in srtf schedule
-User: C had flow duration 16 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-15: C | 16-25: A | 26-42: B ]
-finished trial 63 of 100
-
-trial shorthand= 1:23, 0:5, 14:6
-
-User: A flow start time: 1 num packets: 23
-User: B flow start time: 0 num packets: 5
-User: C flow start time: 14 num packets: 6
-
-A had benefit -33, cost -16.94, utility -49.94, and best expected utility -49.94
-B had benefit -5, cost -5, utility -10, and best expected utility -10
+A had benefit -19, cost 5.12, utility -13.88, and best expected utility -13.88
+B had benefit -8, cost -12.06, utility -20.06, and best expected utility -20.06
 C had benefit -6, cost -12.06, utility -18.06, and best expected utility -18.06
 
-Sum user utility was -78 while sum of best expected utilties was -78 (let down of 0)
+Sum user utility was -52 while sum of best expected utilties was -52 (let down of 0)
 
-market required 153 round trips
+market required 98 round trips
+User: A had flow duration 19 in simulated schedule
+User: B had flow duration 8 in simulated schedule
 User: C had flow duration 6 in simulated schedule
-User: A had flow duration 33 in simulated schedule
-User: B had flow duration 5 in simulated schedule
+User: A had flow duration 19 in srtf schedule
+User: B had flow duration 8 in srtf schedule
 User: C had flow duration 6 in srtf schedule
-User: A had flow duration 33 in srtf schedule
-User: B had flow duration 5 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-4: B | 5-13: A | 14-19: C | 20-33: A ]
-finished trial 64 of 100
+[ 0-5: C | 6-11: B | 12-18: A ]
+and srtf was:
+[ 0-5: C | 6-11: B | 12-18: A ]
+finished trial 1 of 10
 
-trial shorthand= 20:8, 23:14, 0:35
+trial shorthand= 4:3, 7:2, 0:8
 
-User: A flow start time: 20 num packets: 8
-User: B flow start time: 23 num packets: 14
-User: C flow start time: 0 num packets: 35
+User: A flow start time: 4 num packets: 3
+User: B flow start time: 7 num packets: 2
+User: C flow start time: 0 num packets: 8
 
-A had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
-B had benefit -19, cost -28.14, utility -47.14, and best expected utility -47.14
-C had benefit -57, cost -12.78, utility -69.78, and best expected utility -69.78
+A had benefit -3, cost -6.03, utility -9.03, and best expected utility -9.03
+B had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
+C had benefit -13, cost -2.95, utility -15.95, and best expected utility -15.95
 
-Sum user utility was -141 while sum of best expected utilties was -141 (let down of 0)
+Sum user utility was -31 while sum of best expected utilties was -31 (let down of 0)
 
-market required 248 round trips
-User: B had flow duration 19 in simulated schedule
-User: A had flow duration 8 in simulated schedule
-User: C had flow duration 57 in simulated schedule
-User: B had flow duration 19 in srtf schedule
-User: A had flow duration 8 in srtf schedule
-User: C had flow duration 57 in srtf schedule
+market required 68 round trips
+User: B had flow duration 2 in simulated schedule
+User: A had flow duration 3 in simulated schedule
+User: C had flow duration 13 in simulated schedule
+User: B had flow duration 2 in srtf schedule
+User: A had flow duration 3 in srtf schedule
+User: C had flow duration 13 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-19: C | 20-27: A | 28-41: B | 42-56: C ]
-finished trial 65 of 100
+[ 0-3: C | 4-6: A | 7-8: B | 9-12: C ]
+and srtf was:
+[ 0-3: C | 4-6: A | 7-8: B | 9-12: C ]
+finished trial 2 of 10
 
-trial shorthand= 4:20, 22:3, 0:27
+trial shorthand= 0:10, 3:7, 0:7
 
-User: A flow start time: 4 num packets: 20
-User: B flow start time: 22 num packets: 3
-User: C flow start time: 0 num packets: 27
+User: A flow start time: 0 num packets: 10
+User: B flow start time: 3 num packets: 7
+User: C flow start time: 0 num packets: 7
 
-A had benefit -20, cost -40.2, utility -60.2, and best expected utility -60.2
-B had benefit -5, cost -6.03, utility -11.03, and best expected utility -11.03
-C had benefit -50, cost -3.77, utility -53.77, and best expected utility -53.77
+A had benefit -24, cost 4.14, utility -19.86, and best expected utility -19.86
+B had benefit -11, cost -14.07, utility -25.07, and best expected utility -25.07
+C had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
 
-Sum user utility was -125 while sum of best expected utilties was -125 (let down of 0)
+Sum user utility was -66 while sum of best expected utilties was -66 (let down of 0)
 
-market required 218 round trips
-User: B had flow duration 5 in simulated schedule
-User: A had flow duration 20 in simulated schedule
-User: C had flow duration 50 in simulated schedule
-User: B had flow duration 5 in srtf schedule
-User: A had flow duration 20 in srtf schedule
-User: C had flow duration 50 in srtf schedule
+market required 116 round trips
+User: A had flow duration 24 in simulated schedule
+User: B had flow duration 11 in simulated schedule
+User: C had flow duration 7 in simulated schedule
+User: A had flow duration 24 in srtf schedule
+User: B had flow duration 11 in srtf schedule
+User: C had flow duration 7 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-3: C | 4-23: A | 24-26: B | 27-49: C ]
-finished trial 66 of 100
+[ 0-6: C | 7-13: B | 14-23: A ]
+and srtf was:
+[ 0-6: C | 7-13: B | 14-23: A ]
+finished trial 3 of 10
 
-trial shorthand= 22:22, 0:29, 6:30
+trial shorthand= 1:7, 0:9, 6:10
 
-User: A flow start time: 22 num packets: 22
-User: B flow start time: 0 num packets: 29
-User: C flow start time: 6 num packets: 30
-
-A had benefit -29, cost -44.22, utility -73.22, and best expected utility -73.22
-B had benefit -29, cost -29, utility -58, and best expected utility -58
-C had benefit -75, cost -7.78, utility -82.78, and best expected utility -82.78
-
-Sum user utility was -214 while sum of best expected utilties was -214 (let down of 0)
-
-market required 345 round trips
-User: C had flow duration 75 in simulated schedule
-User: A had flow duration 29 in simulated schedule
-User: B had flow duration 29 in simulated schedule
-User: C had flow duration 75 in srtf schedule
-User: A had flow duration 29 in srtf schedule
-User: B had flow duration 29 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-28: B | 29-50: A | 51-80: C ]
-finished trial 67 of 100
-
-trial shorthand= 0:29, 6:19, 4:9
-
-User: A flow start time: 0 num packets: 29
-User: B flow start time: 6 num packets: 19
-User: C flow start time: 4 num packets: 9
-
-A had benefit -57, cost -0.72, utility -57.72, and best expected utility -57.72
-B had benefit -26, cost -38.19, utility -64.19, and best expected utility -64.19
-C had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
-
-Sum user utility was -149 while sum of best expected utilties was -149 (let down of 0)
-
-market required 248 round trips
-User: B had flow duration 26 in simulated schedule
-User: C had flow duration 9 in simulated schedule
-User: A had flow duration 57 in simulated schedule
-User: B had flow duration 26 in srtf schedule
-User: C had flow duration 9 in srtf schedule
-User: A had flow duration 57 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: A | 4-12: C | 13-31: B | 32-56: A ]
-finished trial 68 of 100
-
-trial shorthand= 20:9, 10:14, 0:9
-
-User: A flow start time: 20 num packets: 9
-User: B flow start time: 10 num packets: 14
-User: C flow start time: 0 num packets: 9
-
-A had benefit -13, cost -9, utility -22, and best expected utility -22
-B had benefit -14, cost -14, utility -28, and best expected utility -28
-C had benefit -9, cost -9, utility -18, and best expected utility -18
-
-Sum user utility was -68 while sum of best expected utilties was -68 (let down of 0)
-
-market required 147 round trips
-User: A had flow duration 13 in simulated schedule
-User: B had flow duration 14 in simulated schedule
-User: C had flow duration 9 in simulated schedule
-User: A had flow duration 13 in srtf schedule
-User: B had flow duration 14 in srtf schedule
-User: C had flow duration 9 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-8: C | 10-23: B | 24-32: A ]
-finished trial 69 of 100
-
-trial shorthand= 3:35, 0:27, 1:10
-
-User: A flow start time: 3 num packets: 35
-User: B flow start time: 0 num packets: 27
-User: C flow start time: 1 num packets: 10
-
-A had benefit -69, cost -35, utility -104, and best expected utility -104
-B had benefit -37, cost -16.9, utility -53.9, and best expected utility -53.9
-C had benefit -10, cost -20.1, utility -30.1, and best expected utility -30.1
-
-Sum user utility was -188 while sum of best expected utilties was -188 (let down of 0)
-
-market required 310 round trips
-User: A had flow duration 69 in simulated schedule
-User: C had flow duration 10 in simulated schedule
-User: B had flow duration 37 in simulated schedule
-User: A had flow duration 69 in srtf schedule
-User: C had flow duration 10 in srtf schedule
-User: B had flow duration 37 in srtf schedule
-Trial matched srtf, trial was:
-[ 0: B | 1-10: C | 11-36: B | 37-71: A ]
-finished trial 70 of 100
-
-trial shorthand= 11:7, 19:38, 0:31
-
-User: A flow start time: 11 num packets: 7
-User: B flow start time: 19 num packets: 38
-User: C flow start time: 0 num packets: 31
+User: A flow start time: 1 num packets: 7
+User: B flow start time: 0 num packets: 9
+User: C flow start time: 6 num packets: 10
 
 A had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
-B had benefit -57, cost -38, utility -95, and best expected utility -95
-C had benefit -38, cost -23.93, utility -61.93, and best expected utility -61.93
+B had benefit -16, cost -1.93, utility -17.93, and best expected utility -17.93
+C had benefit -20, cost -10, utility -30, and best expected utility -30
 
-Sum user utility was -178 while sum of best expected utilties was -178 (let down of 0)
+Sum user utility was -69 while sum of best expected utilties was -69 (let down of 0)
 
-market required 321 round trips
-User: B had flow duration 57 in simulated schedule
+market required 127 round trips
+User: C had flow duration 20 in simulated schedule
 User: A had flow duration 7 in simulated schedule
-User: C had flow duration 38 in simulated schedule
-User: B had flow duration 57 in srtf schedule
+User: B had flow duration 16 in simulated schedule
+User: C had flow duration 20 in srtf schedule
 User: A had flow duration 7 in srtf schedule
-User: C had flow duration 38 in srtf schedule
+User: B had flow duration 16 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-10: C | 11-17: A | 18-37: C | 38-75: B ]
-finished trial 71 of 100
+[ 0: B | 1-7: A | 8-15: B | 16-25: C ]
+and srtf was:
+[ 0: B | 1-7: A | 8-15: B | 16-25: C ]
+finished trial 4 of 10
 
-trial shorthand= 20:34, 0:18, 10:13
+trial shorthand= 0:1, 0:4, 5:6
 
-User: A flow start time: 20 num packets: 34
-User: B flow start time: 0 num packets: 18
-User: C flow start time: 10 num packets: 13
+User: A flow start time: 0 num packets: 1
+User: B flow start time: 0 num packets: 4
+User: C flow start time: 5 num packets: 6
 
-A had benefit -45, cost -34, utility -79, and best expected utility -79
-B had benefit -18, cost -18, utility -36, and best expected utility -36
-C had benefit -21, cost -13, utility -34, and best expected utility -34
+A had benefit -1, cost -1, utility -2, and best expected utility -2
+B had benefit -5, cost -4, utility -9, and best expected utility -9
+C had benefit -6, cost -6, utility -12, and best expected utility -12
 
-Sum user utility was -149 while sum of best expected utilties was -149 (let down of 0)
+Sum user utility was -23 while sum of best expected utilties was -23 (let down of 0)
 
-market required 279 round trips
-User: A had flow duration 45 in simulated schedule
-User: C had flow duration 21 in simulated schedule
-User: B had flow duration 18 in simulated schedule
-User: A had flow duration 45 in srtf schedule
-User: C had flow duration 21 in srtf schedule
-User: B had flow duration 18 in srtf schedule
+market required 59 round trips
+User: C had flow duration 6 in simulated schedule
+User: B had flow duration 5 in simulated schedule
+User: A had flow duration 1 in simulated schedule
+User: C had flow duration 6 in srtf schedule
+User: B had flow duration 5 in srtf schedule
+User: A had flow duration 1 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-17: B | 18-30: C | 31-64: A ]
-finished trial 72 of 100
+[ 0: A | 1-4: B | 5-10: C ]
+and srtf was:
+[ 0: A | 1-4: B | 5-10: C ]
+finished trial 5 of 10
 
-trial shorthand= 0:6, 26:37, 9:29
+trial shorthand= 7:3, 0:9, 7:8
 
-User: A flow start time: 0 num packets: 6
-User: B flow start time: 26 num packets: 37
-User: C flow start time: 9 num packets: 29
+User: A flow start time: 7 num packets: 3
+User: B flow start time: 0 num packets: 9
+User: C flow start time: 7 num packets: 8
 
-A had benefit -6, cost -6, utility -12, and best expected utility -12
-B had benefit -49, cost -37, utility -86, and best expected utility -86
-C had benefit -29, cost -29, utility -58, and best expected utility -58
+A had benefit -5, cost -3.99, utility -8.99, and best expected utility -8
+B had benefit -9, cost -9, utility -18, and best expected utility -18
+C had benefit -13, cost -7.01, utility -20.01, and best expected utility -20.01
 
-Sum user utility was -156 while sum of best expected utilties was -156 (let down of 0)
-
-market required 315 round trips
-User: B had flow duration 49 in simulated schedule
-User: C had flow duration 29 in simulated schedule
-User: A had flow duration 6 in simulated schedule
-User: B had flow duration 49 in srtf schedule
-User: C had flow duration 29 in srtf schedule
-User: A had flow duration 6 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-5: A | 9-37: C | 38-74: B ]
-finished trial 73 of 100
-
-trial shorthand= 23:10, 22:21, 0:2
-
-User: A flow start time: 23 num packets: 10
-User: B flow start time: 22 num packets: 21
-User: C flow start time: 0 num packets: 2
-
-A had benefit -10, cost -20.1, utility -30.1, and best expected utility -30.1
-B had benefit -31, cost -10.9, utility -41.9, and best expected utility -41.9
-C had benefit -2, cost -2, utility -4, and best expected utility -4
-
-Sum user utility was -76 while sum of best expected utilties was -76 (let down of 0)
-
-market required 224 round trips
-User: A had flow duration 10 in simulated schedule
-User: B had flow duration 31 in simulated schedule
-User: C had flow duration 2 in simulated schedule
-User: A had flow duration 10 in srtf schedule
-User: B had flow duration 31 in srtf schedule
-User: C had flow duration 2 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: C | 22: B | 23-32: A | 33-52: B ]
-finished trial 74 of 100
-
-trial shorthand= 10:25, 18:28, 0:29
-
-User: A flow start time: 10 num packets: 25
-User: B flow start time: 18 num packets: 28
-User: C flow start time: 0 num packets: 29
-
-A had benefit -44, cost -25, utility -69, and best expected utility -69
-B had benefit -64, cost -28, utility -92, and best expected utility -92
-C had benefit -29, cost -29, utility -58, and best expected utility -58
-
-Sum user utility was -219 while sum of best expected utilties was -219 (let down of 0)
-
-market required 351 round trips
-User: B had flow duration 64 in simulated schedule
-User: A had flow duration 44 in simulated schedule
-User: C had flow duration 29 in simulated schedule
-User: B had flow duration 64 in srtf schedule
-User: A had flow duration 44 in srtf schedule
-User: C had flow duration 29 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-28: C | 29-53: A | 54-81: B ]
-finished trial 75 of 100
-
-trial shorthand= 17:23, 15:18, 0:4
-
-User: A flow start time: 17 num packets: 23
-User: B flow start time: 15 num packets: 18
-User: C flow start time: 0 num packets: 4
-
-A had benefit -39, cost -23, utility -62, and best expected utility -62
-B had benefit -18, cost -18, utility -36, and best expected utility -36
-C had benefit -4, cost -4, utility -8, and best expected utility -8
-
-Sum user utility was -106 while sum of best expected utilties was -106 (let down of 0)
-
-market required 239 round trips
-User: A had flow duration 39 in simulated schedule
-User: B had flow duration 18 in simulated schedule
-User: C had flow duration 4 in simulated schedule
-User: A had flow duration 39 in srtf schedule
-User: B had flow duration 18 in srtf schedule
-User: C had flow duration 4 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: C | 15-32: B | 33-55: A ]
-finished trial 76 of 100
-
-trial shorthand= 19:3, 8:4, 0:2
-
-User: A flow start time: 19 num packets: 3
-User: B flow start time: 8 num packets: 4
-User: C flow start time: 0 num packets: 2
-
-A had benefit -3, cost -3, utility -6, and best expected utility -6
-B had benefit -4, cost -4, utility -8, and best expected utility -8
-C had benefit -2, cost -2, utility -4, and best expected utility -4
-
-Sum user utility was -18 while sum of best expected utilties was -18 (let down of 0)
+Sum user utility was -47 while sum of best expected utilties was -46.01 (let down of 0.99)
 
 market required 99 round trips
-User: A had flow duration 3 in simulated schedule
-User: B had flow duration 4 in simulated schedule
-User: C had flow duration 2 in simulated schedule
-User: A had flow duration 3 in srtf schedule
-User: B had flow duration 4 in srtf schedule
-User: C had flow duration 2 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: C | 8-11: B | 19-21: A ]
-finished trial 77 of 100
-
-trial shorthand= 0:19, 32:32, 8:15
-
-User: A flow start time: 0 num packets: 19
-User: B flow start time: 32 num packets: 32
-User: C flow start time: 8 num packets: 15
-
-A had benefit -19, cost -19, utility -38, and best expected utility -38
-B had benefit -34, cost -32, utility -66, and best expected utility -66
-C had benefit -26, cost -15, utility -41, and best expected utility -41
-
-Sum user utility was -145 while sum of best expected utilties was -145 (let down of 0)
-
-market required 283 round trips
-User: B had flow duration 34 in simulated schedule
-User: C had flow duration 26 in simulated schedule
-User: A had flow duration 19 in simulated schedule
-User: B had flow duration 34 in srtf schedule
-User: C had flow duration 26 in srtf schedule
-User: A had flow duration 19 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-18: A | 19-33: C | 34-65: B ]
-finished trial 78 of 100
-
-trial shorthand= 4:13, 0:8, 9:30
-
-User: A flow start time: 4 num packets: 13
-User: B flow start time: 0 num packets: 8
-User: C flow start time: 9 num packets: 30
-
-A had benefit -17, cost -13, utility -30, and best expected utility -30
-B had benefit -8, cost -8, utility -16, and best expected utility -16
-C had benefit -42, cost -30, utility -72, and best expected utility -72
-
-Sum user utility was -118 while sum of best expected utilties was -118 (let down of 0)
-
-market required 223 round trips
-User: C had flow duration 42 in simulated schedule
-User: A had flow duration 17 in simulated schedule
-User: B had flow duration 8 in simulated schedule
-User: C had flow duration 42 in srtf schedule
-User: A had flow duration 17 in srtf schedule
-User: B had flow duration 8 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-7: B | 8-20: A | 21-50: C ]
-finished trial 79 of 100
-
-trial shorthand= 4:5, 0:30, 18:16
-
-User: A flow start time: 4 num packets: 5
-User: B flow start time: 0 num packets: 30
-User: C flow start time: 18 num packets: 16
-
-A had benefit -5, cost -10.05, utility -15.05, and best expected utility -15.05
-B had benefit -51, cost -8.79, utility -59.79, and best expected utility -59.79
-C had benefit -16, cost -32.16, utility -48.16, and best expected utility -48.16
-
-Sum user utility was -123 while sum of best expected utilties was -123 (let down of 0)
-
-market required 220 round trips
-User: C had flow duration 16 in simulated schedule
-User: A had flow duration 5 in simulated schedule
-User: B had flow duration 51 in simulated schedule
-User: C had flow duration 16 in srtf schedule
-User: A had flow duration 5 in srtf schedule
-User: B had flow duration 51 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: B | 4-8: A | 9-17: B | 18-33: C | 34-50: B ]
-finished trial 80 of 100
-
-trial shorthand= 0:21, 21:12, 12:10
-
-User: A flow start time: 0 num packets: 21
-User: B flow start time: 21 num packets: 12
-User: C flow start time: 12 num packets: 10
-
-A had benefit -21, cost -21, utility -42, and best expected utility -42
-B had benefit -22, cost -12, utility -34, and best expected utility -34
-C had benefit -19, cost -10, utility -29, and best expected utility -29
-
-Sum user utility was -105 while sum of best expected utilties was -105 (let down of 0)
-
-market required 191 round trips
-User: B had flow duration 22 in simulated schedule
-User: C had flow duration 19 in simulated schedule
-User: A had flow duration 21 in simulated schedule
-User: B had flow duration 22 in srtf schedule
-User: C had flow duration 19 in srtf schedule
-User: A had flow duration 21 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-20: A | 21-30: C | 31-42: B ]
-finished trial 81 of 100
-
-trial shorthand= 0:29, 5:36, 16:25
-
-User: A flow start time: 0 num packets: 29
-User: B flow start time: 5 num packets: 36
-User: C flow start time: 16 num packets: 25
-
-A had benefit -29, cost -29, utility -58, and best expected utility -58
-B had benefit -85, cost -10.75, utility -95.75, and best expected utility -95.75
-C had benefit -38, cost -50.25, utility -88.25, and best expected utility -88.25
-
-Sum user utility was -242 while sum of best expected utilties was -242 (let down of 0)
-
-market required 382 round trips
-User: B had flow duration 85 in simulated schedule
-User: C had flow duration 38 in simulated schedule
-User: A had flow duration 29 in simulated schedule
-User: B had flow duration 85 in srtf schedule
-User: C had flow duration 38 in srtf schedule
-User: A had flow duration 29 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-28: A | 29-53: C | 54-89: B ]
-finished trial 82 of 100
-
-trial shorthand= 27:31, 0:21, 19:10
-
-User: A flow start time: 27 num packets: 31
-User: B flow start time: 0 num packets: 21
-User: C flow start time: 19 num packets: 10
-
-A had benefit -35, cost -31, utility -66, and best expected utility -66
-B had benefit -21, cost -21, utility -42, and best expected utility -42
-C had benefit -12, cost -10, utility -22, and best expected utility -22
-
-Sum user utility was -130 while sum of best expected utilties was -130 (let down of 0)
-
-market required 267 round trips
-User: A had flow duration 35 in simulated schedule
-User: C had flow duration 12 in simulated schedule
-User: B had flow duration 21 in simulated schedule
-User: A had flow duration 35 in srtf schedule
-User: C had flow duration 12 in srtf schedule
-User: B had flow duration 21 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-20: B | 21-30: C | 31-61: A ]
-finished trial 83 of 100
-
-trial shorthand= 26:33, 21:3, 0:38
-
-User: A flow start time: 26 num packets: 33
-User: B flow start time: 21 num packets: 3
-User: C flow start time: 0 num packets: 38
-
-A had benefit -48, cost -33, utility -81, and best expected utility -81
-B had benefit -3, cost -6.03, utility -9.03, and best expected utility -9.03
-C had benefit -41, cost -34.97, utility -75.97, and best expected utility -75.97
-
-Sum user utility was -166 while sum of best expected utilties was -166 (let down of 0)
-
-market required 312 round trips
-User: A had flow duration 48 in simulated schedule
-User: B had flow duration 3 in simulated schedule
-User: C had flow duration 41 in simulated schedule
-User: A had flow duration 48 in srtf schedule
-User: B had flow duration 3 in srtf schedule
-User: C had flow duration 41 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-20: C | 21-23: B | 24-40: C | 41-73: A ]
-finished trial 84 of 100
-
-trial shorthand= 22:2, 0:30, 29:26
-
-User: A flow start time: 22 num packets: 2
-User: B flow start time: 0 num packets: 30
-User: C flow start time: 29 num packets: 26
-
-A had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
-B had benefit -32, cost -27.98, utility -59.98, and best expected utility -59.98
-C had benefit -29, cost -26, utility -55, and best expected utility -55
-
-Sum user utility was -121 while sum of best expected utilties was -121 (let down of 0)
-
-market required 248 round trips
-User: C had flow duration 29 in simulated schedule
-User: A had flow duration 2 in simulated schedule
-User: B had flow duration 32 in simulated schedule
-User: C had flow duration 29 in srtf schedule
-User: A had flow duration 2 in srtf schedule
-User: B had flow duration 32 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-21: B | 22-23: A | 24-31: B | 32-57: C ]
-finished trial 85 of 100
-
-trial shorthand= 26:8, 27:35, 0:27
-
-User: A flow start time: 26 num packets: 8
-User: B flow start time: 27 num packets: 35
-User: C flow start time: 0 num packets: 27
-
-A had benefit -9, cost -8, utility -17, and best expected utility -17
-B had benefit -43, cost -35, utility -78, and best expected utility -78
-C had benefit -27, cost -27, utility -54, and best expected utility -54
-
-Sum user utility was -149 while sum of best expected utilties was -149 (let down of 0)
-
-market required 299 round trips
-User: B had flow duration 43 in simulated schedule
-User: A had flow duration 9 in simulated schedule
-User: C had flow duration 27 in simulated schedule
-User: B had flow duration 43 in srtf schedule
-User: A had flow duration 9 in srtf schedule
-User: C had flow duration 27 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-26: C | 27-34: A | 35-69: B ]
-finished trial 86 of 100
-
-trial shorthand= 0:18, 10:9, 1:39
-
-User: A flow start time: 0 num packets: 18
-User: B flow start time: 10 num packets: 9
-User: C flow start time: 1 num packets: 39
-
-A had benefit -18, cost -18, utility -36, and best expected utility -36
-B had benefit -17, cost -18.09, utility -35.09, and best expected utility -35.09
-C had benefit -65, cost -29.91, utility -94.91, and best expected utility -94.91
-
-Sum user utility was -166 while sum of best expected utilties was -166 (let down of 0)
-
-market required 284 round trips
-User: C had flow duration 65 in simulated schedule
-User: B had flow duration 17 in simulated schedule
-User: A had flow duration 18 in simulated schedule
-User: C had flow duration 65 in srtf schedule
-User: B had flow duration 17 in srtf schedule
-User: A had flow duration 18 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-17: A | 18-26: B | 27-65: C ]
-finished trial 87 of 100
-
-trial shorthand= 26:27, 14:27, 0:35
-
-User: A flow start time: 26 num packets: 27
-User: B flow start time: 14 num packets: 27
-User: C flow start time: 0 num packets: 35
-
-A had benefit -63, cost -27, utility -90, and best expected utility -90
-B had benefit -48, cost -27, utility -75, and best expected utility -75
-C had benefit -35, cost -35, utility -70, and best expected utility -70
-
-Sum user utility was -235 while sum of best expected utilties was -235 (let down of 0)
-
-market required 379 round trips
-User: A had flow duration 63 in simulated schedule
-User: B had flow duration 48 in simulated schedule
-User: C had flow duration 35 in simulated schedule
-User: B had flow duration 75 in srtf schedule
-User: A had flow duration 36 in srtf schedule
-User: C had flow duration 35 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-34: C | 35-61: B | 62-88: A ]
-finished trial 88 of 100
-
-trial shorthand= 18:33, 0:10, 8:11
-
-User: A flow start time: 18 num packets: 33
-User: B flow start time: 0 num packets: 10
-User: C flow start time: 8 num packets: 11
-
-A had benefit -36, cost -33, utility -69, and best expected utility -69
-B had benefit -10, cost -10, utility -20, and best expected utility -20
-C had benefit -13, cost -11, utility -24, and best expected utility -24
-
-Sum user utility was -113 while sum of best expected utilties was -113 (let down of 0)
-
-market required 235 round trips
-User: A had flow duration 36 in simulated schedule
 User: C had flow duration 13 in simulated schedule
-User: B had flow duration 10 in simulated schedule
-User: A had flow duration 36 in srtf schedule
+User: A had flow duration 5 in simulated schedule
+User: B had flow duration 9 in simulated schedule
 User: C had flow duration 13 in srtf schedule
-User: B had flow duration 10 in srtf schedule
+User: A had flow duration 5 in srtf schedule
+User: B had flow duration 9 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-9: B | 10-20: C | 21-53: A ]
-finished trial 89 of 100
+[ 0-8: B | 9-11: A | 12-19: C ]
+and srtf was:
+[ 0-8: B | 9-11: A | 12-19: C ]
+finished trial 6 of 10
 
-trial shorthand= 0:11, 4:1, 24:34
+trial shorthand= 2:7, 0:3, 8:4
 
-User: A flow start time: 0 num packets: 11
-User: B flow start time: 4 num packets: 1
-User: C flow start time: 24 num packets: 34
+User: A flow start time: 2 num packets: 7
+User: B flow start time: 0 num packets: 3
+User: C flow start time: 8 num packets: 4
 
-A had benefit -12, cost -9.99, utility -21.99, and best expected utility -21.99
-B had benefit -1, cost -2.01, utility -3.01, and best expected utility -3.01
-C had benefit -34, cost -34, utility -68, and best expected utility -68
+A had benefit -8, cost -7, utility -15, and best expected utility -15
+B had benefit -3, cost -3, utility -6, and best expected utility -6
+C had benefit -6, cost -4, utility -10, and best expected utility -10
 
-Sum user utility was -93 while sum of best expected utilties was -93 (let down of 0)
+Sum user utility was -31 while sum of best expected utilties was -31 (let down of 0)
 
-market required 246 round trips
-User: C had flow duration 34 in simulated schedule
+market required 75 round trips
+User: C had flow duration 6 in simulated schedule
+User: A had flow duration 8 in simulated schedule
+User: B had flow duration 3 in simulated schedule
+User: C had flow duration 6 in srtf schedule
+User: A had flow duration 8 in srtf schedule
+User: B had flow duration 3 in srtf schedule
+Trial matched srtf, trial was:
+[ 0-2: B | 3-9: A | 10-13: C ]
+and srtf was:
+[ 0-2: B | 3-9: A | 10-13: C ]
+finished trial 7 of 10
+
+trial shorthand= 0:10, 3:8, 7:5
+
+User: A flow start time: 0 num packets: 10
+User: B flow start time: 3 num packets: 8
+User: C flow start time: 7 num packets: 5
+
+A had benefit -10, cost -10, utility -20, and best expected utility -20
+B had benefit -20, cost -2.95, utility -22.95, and best expected utility -22.95
+C had benefit -8, cost -10.05, utility -18.05, and best expected utility -18.05
+
+Sum user utility was -61 while sum of best expected utilties was -61 (let down of 0)
+
+market required 114 round trips
+User: B had flow duration 20 in simulated schedule
+User: C had flow duration 8 in simulated schedule
+User: A had flow duration 10 in simulated schedule
+User: B had flow duration 20 in srtf schedule
+User: C had flow duration 8 in srtf schedule
+User: A had flow duration 10 in srtf schedule
+Trial matched srtf, trial was:
+[ 0-9: A | 10-14: C | 15-22: B ]
+and srtf was:
+[ 0-9: A | 10-14: C | 15-22: B ]
+finished trial 8 of 10
+
+trial shorthand= 4:1, 2:7, 0:1
+
+User: A flow start time: 4 num packets: 1
+User: B flow start time: 2 num packets: 7
+User: C flow start time: 0 num packets: 1
+
+A had benefit -1, cost -2.01, utility -3.01, and best expected utility -3.01
+B had benefit -8, cost -5.99, utility -13.99, and best expected utility -13.99
+C had benefit -1, cost -1, utility -2, and best expected utility -2
+
+Sum user utility was -19 while sum of best expected utilties was -19 (let down of 0)
+
+market required 52 round trips
+User: A had flow duration 1 in simulated schedule
+User: B had flow duration 8 in simulated schedule
+User: C had flow duration 1 in simulated schedule
+User: A had flow duration 1 in srtf schedule
+User: B had flow duration 8 in srtf schedule
+User: C had flow duration 1 in srtf schedule
+Trial matched srtf, trial was:
+[ 0: C | 2-3: B | 4: A | 5-9: B ]
+and srtf was:
+[ 0: C | 2-3: B | 4: A | 5-9: B ]
+finished trial 9 of 10
+
+trial shorthand= 4:4, 0:1, 4:2
+
+User: A flow start time: 4 num packets: 4
+User: B flow start time: 0 num packets: 1
+User: C flow start time: 4 num packets: 2
+
+A had benefit -6, cost -1.98, utility -7.98, and best expected utility -7.98
+B had benefit -1, cost -1, utility -2, and best expected utility -2
+C had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
+
+Sum user utility was -16 while sum of best expected utilties was -16 (let down of 0)
+
+market required 53 round trips
+User: A had flow duration 6 in simulated schedule
+User: C had flow duration 2 in simulated schedule
 User: B had flow duration 1 in simulated schedule
-User: A had flow duration 12 in simulated schedule
-User: C had flow duration 34 in srtf schedule
+User: A had flow duration 6 in srtf schedule
+User: C had flow duration 2 in srtf schedule
 User: B had flow duration 1 in srtf schedule
-User: A had flow duration 12 in srtf schedule
 Trial matched srtf, trial was:
-[ 0-3: A | 4: B | 5-11: A | 24-57: C ]
-finished trial 90 of 100
+[ 0: B | 4-5: C | 6-9: A ]
+and srtf was:
+[ 0: B | 4-5: C | 6-9: A ]
+finished trial 10 of 10
 
-trial shorthand= 3:28, 18:7, 0:36
-
-User: A flow start time: 3 num packets: 28
-User: B flow start time: 18 num packets: 7
-User: C flow start time: 0 num packets: 36
-
-A had benefit -35, cost -49.21, utility -84.21, and best expected utility -84.21
-B had benefit -7, cost -21.14, utility -28.14, and best expected utility -28.14
-C had benefit -71, cost -0.65, utility -71.65, and best expected utility -71.65
-
-Sum user utility was -184 while sum of best expected utilties was -184 (let down of 0)
-
-market required 302 round trips
-User: B had flow duration 7 in simulated schedule
-User: A had flow duration 35 in simulated schedule
-User: C had flow duration 71 in simulated schedule
-User: B had flow duration 7 in srtf schedule
-User: A had flow duration 35 in srtf schedule
-User: C had flow duration 71 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-2: C | 3-17: A | 18-24: B | 25-37: A | 38-70: C ]
-finished trial 91 of 100
-
-trial shorthand= 22:11, 2:40, 0:10
-
-User: A flow start time: 22 num packets: 11
-User: B flow start time: 2 num packets: 40
-User: C flow start time: 0 num packets: 10
-
-A had benefit -11, cost -22.11, utility -33.11, and best expected utility -33.11
-B had benefit -59, cost -28.89, utility -87.89, and best expected utility -87.89
-C had benefit -10, cost -10, utility -20, and best expected utility -20
-
-Sum user utility was -141 while sum of best expected utilties was -141 (let down of 0)
-
-market required 260 round trips
-User: A had flow duration 11 in simulated schedule
-User: B had flow duration 59 in simulated schedule
-User: C had flow duration 10 in simulated schedule
-User: A had flow duration 11 in srtf schedule
-User: B had flow duration 59 in srtf schedule
-User: C had flow duration 10 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-9: C | 10-21: B | 22-32: A | 33-60: B ]
-finished trial 92 of 100
-
-trial shorthand= 9:35, 15:2, 0:34
-
-User: A flow start time: 9 num packets: 35
-User: B flow start time: 15 num packets: 2
-User: C flow start time: 0 num packets: 34
-
-A had benefit -62, cost -32.98, utility -94.98, and best expected utility -94.98
-B had benefit -2, cost -6.04, utility -8.04, and best expected utility -8.04
-C had benefit -36, cost -31.98, utility -67.98, and best expected utility -67.98
-
-Sum user utility was -171 while sum of best expected utilties was -171 (let down of 0)
-
-market required 302 round trips
-User: A had flow duration 62 in simulated schedule
-User: B had flow duration 2 in simulated schedule
-User: C had flow duration 36 in simulated schedule
-User: A had flow duration 62 in srtf schedule
-User: B had flow duration 2 in srtf schedule
-User: C had flow duration 36 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-14: C | 15-16: B | 17-35: C | 36-70: A ]
-finished trial 93 of 100
-
-trial shorthand= 17:9, 8:7, 0:5
-
-User: A flow start time: 17 num packets: 9
-User: B flow start time: 8 num packets: 7
-User: C flow start time: 0 num packets: 5
-
-A had benefit -9, cost -9, utility -18, and best expected utility -18
-B had benefit -7, cost -7, utility -14, and best expected utility -14
-C had benefit -5, cost -5, utility -10, and best expected utility -10
-
-Sum user utility was -42 while sum of best expected utilties was -42 (let down of 0)
-
-market required 115 round trips
-User: A had flow duration 9 in simulated schedule
-User: B had flow duration 7 in simulated schedule
-User: C had flow duration 5 in simulated schedule
-User: A had flow duration 9 in srtf schedule
-User: B had flow duration 7 in srtf schedule
-User: C had flow duration 5 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-4: C | 8-14: B | 17-25: A ]
-finished trial 94 of 100
-
-trial shorthand= 10:18, 0:21, 3:38
-
-User: A flow start time: 10 num packets: 18
-User: B flow start time: 0 num packets: 21
-User: C flow start time: 3 num packets: 38
-
-A had benefit -29, cost -36.18, utility -65.18, and best expected utility -65.18
-B had benefit -21, cost -21, utility -42, and best expected utility -42
-C had benefit -74, cost -19.82, utility -93.82, and best expected utility -93.82
-
-Sum user utility was -201 while sum of best expected utilties was -201 (let down of 0)
-
-market required 329 round trips
-User: C had flow duration 74 in simulated schedule
-User: A had flow duration 29 in simulated schedule
-User: B had flow duration 21 in simulated schedule
-User: C had flow duration 74 in srtf schedule
-User: A had flow duration 29 in srtf schedule
-User: B had flow duration 21 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-20: B | 21-38: A | 39-76: C ]
-finished trial 95 of 100
-
-trial shorthand= 0:20, 12:39, 20:24
-
-User: A flow start time: 0 num packets: 20
-User: B flow start time: 12 num packets: 39
-User: C flow start time: 20 num packets: 24
-
-A had benefit -20, cost -20, utility -40, and best expected utility -40
-B had benefit -71, cost -14.76, utility -85.76, and best expected utility -85.76
-C had benefit -24, cost -48.24, utility -72.24, and best expected utility -72.24
-
-Sum user utility was -198 while sum of best expected utilties was -198 (let down of 0)
-
-market required 350 round trips
-User: B had flow duration 71 in simulated schedule
-User: C had flow duration 24 in simulated schedule
-User: A had flow duration 20 in simulated schedule
-User: B had flow duration 71 in srtf schedule
-User: C had flow duration 24 in srtf schedule
-User: A had flow duration 20 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-19: A | 20-43: C | 44-82: B ]
-finished trial 96 of 100
-
-trial shorthand= 24:19, 24:38, 0:4
-
-User: A flow start time: 24 num packets: 19
-User: B flow start time: 24 num packets: 38
-User: C flow start time: 0 num packets: 4
-
-A had benefit -19, cost -19, utility -38, and best expected utility -38
-B had benefit -57, cost -38, utility -95, and best expected utility -95
-C had benefit -4, cost -4, utility -8, and best expected utility -8
-
-Sum user utility was -141 while sum of best expected utilties was -141 (let down of 0)
-
-market required 339 round trips
-User: B had flow duration 57 in simulated schedule
-User: A had flow duration 19 in simulated schedule
-User: C had flow duration 4 in simulated schedule
-User: B had flow duration 57 in srtf schedule
-User: A had flow duration 19 in srtf schedule
-User: C had flow duration 4 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-3: C | 24-42: A | 43-80: B ]
-finished trial 97 of 100
-
-trial shorthand= 0:39, 30:35, 24:10
-
-User: A flow start time: 0 num packets: 39
-User: B flow start time: 30 num packets: 35
-User: C flow start time: 24 num packets: 10
-
-A had benefit -49, cost -28.9, utility -77.9, and best expected utility -77.9
-B had benefit -54, cost -35, utility -89, and best expected utility -89
-C had benefit -10, cost -20.1, utility -30.1, and best expected utility -30.1
-
-Sum user utility was -197 while sum of best expected utilties was -197 (let down of 0)
-
-market required 357 round trips
-User: B had flow duration 54 in simulated schedule
-User: C had flow duration 10 in simulated schedule
-User: A had flow duration 49 in simulated schedule
-User: B had flow duration 54 in srtf schedule
-User: C had flow duration 10 in srtf schedule
-User: A had flow duration 49 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-23: A | 24-33: C | 34-48: A | 49-83: B ]
-finished trial 98 of 100
-
-trial shorthand= 2:20, 0:39, 7:29
-
-User: A flow start time: 2 num packets: 20
-User: B flow start time: 0 num packets: 39
-User: C flow start time: 7 num packets: 29
-
-A had benefit -20, cost -40.2, utility -60.2, and best expected utility -60.2
-B had benefit -88, cost 10.49, utility -77.51, and best expected utility -77.51
-C had benefit -44, cost -58.29, utility -102.29, and best expected utility -102.29
-
-Sum user utility was -240 while sum of best expected utilties was -240 (let down of 0)
-
-market required 371 round trips
-User: C had flow duration 44 in simulated schedule
-User: A had flow duration 20 in simulated schedule
-User: B had flow duration 88 in simulated schedule
-User: C had flow duration 44 in srtf schedule
-User: A had flow duration 20 in srtf schedule
-User: B had flow duration 88 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-1: B | 2-21: A | 22-50: C | 51-87: B ]
-finished trial 99 of 100
-
-trial shorthand= 21:34, 24:2, 0:39
-
-User: A flow start time: 21 num packets: 34
-User: B flow start time: 24 num packets: 2
-User: C flow start time: 0 num packets: 39
-
-A had benefit -54, cost -31.98, utility -85.98, and best expected utility -85.98
-B had benefit -2, cost -6.04, utility -8.04, and best expected utility -8.04
-C had benefit -41, cost -36.98, utility -77.98, and best expected utility -77.98
-
-Sum user utility was -172 while sum of best expected utilties was -172 (let down of 0)
-
-market required 318 round trips
-User: A had flow duration 54 in simulated schedule
-User: B had flow duration 2 in simulated schedule
-User: C had flow duration 41 in simulated schedule
-User: A had flow duration 54 in srtf schedule
-User: B had flow duration 2 in srtf schedule
-User: C had flow duration 41 in srtf schedule
-Trial matched srtf, trial was:
-[ 0-23: C | 24-25: B | 26-40: C | 41-74: A ]
-finished trial 100 of 100
-
-100 of 100 scenarios matched the srtf result ( 1 )
+10 of 10 scenarios matched the srtf result ( 1 )
 average delay ratio 1
-average flow duration for srtf 27.16
-average flow duration for trials 27.16
-average number of roundtrips per user 86.08
-all users in all trials got best utility they thought they could get
+average flow duration for srtf 8.3
+average flow duration for trials 8.3
+average number of roundtrips per user 28.7
+average number of roundtrips per packet 5.18675
+largest difference from best expected utilities to final utilities (utility let down) was 0.99
 worst srtf divergence was 0

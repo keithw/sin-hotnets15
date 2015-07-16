@@ -2,9 +2,9 @@ SIN_LOCATION=../../sin/src/sin
 DELAY_RATIO_FILE=delay_over_srtf.dat
 NUM_ROUNDTRIPS_FILE=num_roundtrips.dat
 
-NUM_TRIALS=100
-START_TIME_DIE_SIZE=40
-FLOW_LENGTH_DIE_SIZE=40
+NUM_TRIALS=10
+START_TIME_DIE_SIZE=10
+FLOW_LENGTH_DIE_SIZE=10
 
 echo '"num users" "Optimal" "SIN" "ignore me" "Rate Sharing"' > $DELAY_RATIO_FILE
 echo '"num users" "Mean market round trips per user" "ignore"' > $NUM_ROUNDTRIPS_FILE
@@ -20,7 +20,7 @@ for i in 2 3 4 6 8 16 32;
            cat $DATA_LOCATION | grep "average flow duration for srtf" | sed s/'average flow duration for srtf'/' '/g | tr -d '\n' >> $DELAY_RATIO_FILE
            cat $DATA_LOCATION | grep "average flow duration for trials" | sed s/'average flow duration for trials'/' '/g | tr -d '\n' >> $DELAY_RATIO_FILE
 
-           cat $DATA_LOCATION | grep "average number of roundtrips per user" | sed s/'average number of roundtrips per user'/' '/g | tr -d '\n' >> $NUM_ROUNDTRIPS_FILE 
+           cat $DATA_LOCATION | grep "average number of roundtrips per packet" | sed s/'average number of roundtrips per packet'/' '/g | tr -d '\n' >> $NUM_ROUNDTRIPS_FILE 
             done
 
         echo "" >> $DELAY_RATIO_FILE

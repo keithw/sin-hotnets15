@@ -1,6 +1,6 @@
 set terminal svg size 600,400 fixed fname 'arial' fsize 12 standalone name "delay_ratio"
 set output "num_roundtrips.svg"
-set title "Mean number of round trips per user in simulations"
+set title "Mean number of round trips per packet sent simulations"
 
 set style fill solid border -1
 set boxwidth .5
