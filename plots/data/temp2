@@ -1,0 +1,147 @@
+running 10 trials with 2 users and die size 40...
+trial shorthand= 6:7, 0:36
+
+User: A flow start time: 6 num packets: 7
+User: B flow start time: 0 num packets: 36
+
+A had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
+B had benefit -43, cost -28.93, utility -71.93, and best expected utility -71.93
+
+Sum user utility was -93 while sum of best expected utilties was -93 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-5: B | 6-12: A | 13-42: B ]
+finished trial 1 of 10
+
+trial shorthand= 7:16, 0:13
+
+User: A flow start time: 7 num packets: 16
+User: B flow start time: 0 num packets: 13
+
+A had benefit -22, cost -16, utility -38, and best expected utility -38
+B had benefit -13, cost -13, utility -26, and best expected utility -26
+
+Sum user utility was -64 while sum of best expected utilties was -64 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-12: B | 13-28: A ]
+finished trial 2 of 10
+
+trial shorthand= 7:22, 0:28
+
+User: A flow start time: 7 num packets: 22
+User: B flow start time: 0 num packets: 28
+
+A had benefit -43, cost -22, utility -65, and best expected utility -65
+B had benefit -28, cost -28, utility -56, and best expected utility -56
+
+Sum user utility was -121 while sum of best expected utilties was -121 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-27: B | 28-49: A ]
+finished trial 3 of 10
+
+trial shorthand= 7:20, 0:7
+
+User: A flow start time: 7 num packets: 20
+User: B flow start time: 0 num packets: 7
+
+A had benefit -20, cost -20, utility -40, and best expected utility -40
+B had benefit -7, cost -7, utility -14, and best expected utility -14
+
+Sum user utility was -54 while sum of best expected utilties was -54 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-6: B | 7-26: A ]
+finished trial 4 of 10
+
+trial shorthand= 8:27, 0:17
+
+User: A flow start time: 8 num packets: 27
+User: B flow start time: 0 num packets: 17
+
+A had benefit -36, cost -27, utility -63, and best expected utility -63
+B had benefit -17, cost -17, utility -34, and best expected utility -34
+
+Sum user utility was -97 while sum of best expected utilties was -97 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-16: B | 17-43: A ]
+finished trial 5 of 10
+
+trial shorthand= 4:9, 0:30
+
+User: A flow start time: 4 num packets: 9
+User: B flow start time: 0 num packets: 30
+
+A had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
+B had benefit -39, cost -20.91, utility -59.91, and best expected utility -59.91
+
+Sum user utility was -87 while sum of best expected utilties was -87 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: B | 4-12: A | 13-38: B ]
+finished trial 6 of 10
+
+trial shorthand= 0:11, 0:4
+
+User: A flow start time: 0 num packets: 11
+User: B flow start time: 0 num packets: 4
+
+A had benefit -15, cost -6.96, utility -21.96, and best expected utility -21.96
+B had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
+
+Sum user utility was -34 while sum of best expected utilties was -34 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: B | 4-14: A ]
+finished trial 7 of 10
+
+trial shorthand= 18:16, 0:3
+
+User: A flow start time: 18 num packets: 16
+User: B flow start time: 0 num packets: 3
+
+A had benefit -16, cost -16, utility -32, and best expected utility -32
+B had benefit -3, cost -3, utility -6, and best expected utility -6
+
+Sum user utility was -38 while sum of best expected utilties was -38 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: B | 18-33: A ]
+finished trial 8 of 10
+
+trial shorthand= 0:19, 7:8
+
+User: A flow start time: 0 num packets: 19
+User: B flow start time: 7 num packets: 8
+
+A had benefit -27, cost -10.92, utility -37.92, and best expected utility -37.92
+B had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
+
+Sum user utility was -62 while sum of best expected utilties was -62 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-6: A | 7-14: B | 15-26: A ]
+finished trial 9 of 10
+
+trial shorthand= 22:17, 0:3
+
+User: A flow start time: 22 num packets: 17
+User: B flow start time: 0 num packets: 3
+
+A had benefit -17, cost -17, utility -34, and best expected utility -34
+B had benefit -3, cost -3, utility -6, and best expected utility -6
+
+Sum user utility was -40 while sum of best expected utilties was -40 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: B | 22-38: A ]
+finished trial 10 of 10
+
+10 of 10 scenarios matched the srtf result ( 1 )
+average delay ratio 1
+average flow duration for srtf 18.85
+average flow duration for trials 18.85
+all users in all trials got best utility they thought they could get
+worst srtf divergence was 0

@@ -1,0 +1,256 @@
+running 10 trials with 16 users and die size 40...
+trial shorthand= 21:7, 15:36, 31:16, 24:13, 7:22, 0:28, 8:20, 1:7, 18:27, 10:17, 9:9, 5:30, 20:11, 20:4, 25:16, 7:3
+
+User: A flow start time: 21 num packets: 7
+User: B flow start time: 15 num packets: 36
+User: C flow start time: 31 num packets: 16
+User: D flow start time: 24 num packets: 13
+User: E flow start time: 7 num packets: 22
+User: F flow start time: 0 num packets: 28
+User: G flow start time: 8 num packets: 20
+User: H flow start time: 1 num packets: 7
+User: I flow start time: 18 num packets: 27
+User: J flow start time: 10 num packets: 17
+User: K flow start time: 9 num packets: 9
+User: L flow start time: 5 num packets: 30
+User: M flow start time: 20 num packets: 11
+User: N flow start time: 20 num packets: 4
+User: O flow start time: 25 num packets: 16
+User: P flow start time: 7 num packets: 3
+trial didn't match srtf! Trial was:
+[ 0: F | 1: H | 2: F | 3: H | 4: F | 5: H | 6: L | 7: P | 8: E | 9: F | 10: G | 11: H | 12: J | 13: K | 14: L | 15: P | 16: B | 17: E | 18: F | 19: G | 20: H | 21: I | 22: J | 23: K | 24: L | 25: M | 26: N | 27: O | 28: P | 29: A | 30: B | 31: C | 32: D | 33: E | 34: F | 35: G | 36: H | 37: I | 38: J | 39: K | 40: L | 41: M | 42: N | 43: O | 44: A | 45: B | 46: C | 47: D | 48: E | 49: F | 50: G | 51: H | 52: I | 53: J | 54: K | 55: L | 56: M | 57: N | 58: O | 59: A | 60: B | 61: C | 62: D | 63: E | 64: F | 65: G | 66: I | 67: J | 68: K | 69: L | 70: M | 71: N | 72: O | 73: A | 74: B | 75: C | 76: D | 77: E | 78: F | 79: G | 80: I | 81: J | 82: K | 83: L | 84: M | 85: O | 86: A | 87: B | 88: C | 89: D | 90: E | 91: F | 92: G | 93: I | 94: J | 95: K | 96: L | 97: M | 98: O | 99: A | 100: B | 101: C | 102: D | 103: E | 104: F | 105: G | 106: I | 107: J | 108: K | 109: L | 110: M | 111: O | 112: A | 113: B | 114: C | 115: D | 116: E | 117: F | 118: G | 119: I | 120: J | 121: K | 122: L | 123: M | 124: O | 125: B | 126: C | 127: D | 128: E | 129: F | 130: G | 131: I | 132: J | 133: L | 134: M | 135: O | 136: B | 137: C | 138: D | 139: E | 140: F | 141: G | 142: I | 143: J | 144: L | 145: M | 146: O | 147: B | 148: C | 149: D | 150: E | 151: F | 152: G | 153: I | 154: J | 155: L | 156: M | 157: O | 158: B | 159: C | 160: D | 161: E | 162: F | 163: G | 164: I | 165: J | 166: L | 167: O | 168: B | 169: C | 170: D | 171: E | 172: F | 173: G | 174: I | 175: J | 176: L | 177: O | 178: B | 179: C | 180: D | 181: E | 182: F | 183: G | 184: I | 185: J | 186: L | 187: O | 188: B | 189: C | 190: E | 191: F | 192: G | 193: I | 194: J | 195: L | 196: O | 197: B | 198: C | 199: E | 200: F | 201: G | 202: I | 203: J | 204: L | 205: O | 206: B | 207: C | 208: E | 209: F | 210: G | 211: I | 212: L | 213: B | 214: E | 215: F | 216: G | 217: I | 218: L | 219: B | 220: E | 221: F | 222: G | 223: I | 224: L | 225: B | 226: E | 227: F | 228: I | 229: L | 230: B | 231: E | 232: F | 233: I | 234: L | 235: B | 236: F | 237: I | 238: L | 239: B | 240: F | 241: I | 242: L | 243: B | 244: F | 245: I | 246: L | 247: B | 248: I | 249: L | 250: B | 251: I | 252: L | 253: B | 254: I | 255: L | 256: B | 257: L | 258-265: B ]
+and srtf was:
+[ 0: F | 1-7: H | 8-10: P | 11-19: K | 20-23: N | 24-30: A | 31-41: M | 42-54: D | 55-70: C | 71-86: O | 87-103: J | 104-123: G | 124-145: E | 146-172: F | 173-199: I | 200-229: L | 230-265: B ]
+Trial had 1231 less benefit than srtf
+finished trial 1 of 10
+
+trial shorthand= 18:19, 25:8, 29:17, 7:3, 25:14, 17:40, 20:18, 34:5, 31:11, 9:7, 7:21, 32:34, 18:11, 32:2, 21:6, 0:8
+
+User: A flow start time: 18 num packets: 19
+User: B flow start time: 25 num packets: 8
+User: C flow start time: 29 num packets: 17
+User: D flow start time: 7 num packets: 3
+User: E flow start time: 25 num packets: 14
+User: F flow start time: 17 num packets: 40
+User: G flow start time: 20 num packets: 18
+User: H flow start time: 34 num packets: 5
+User: I flow start time: 31 num packets: 11
+User: J flow start time: 9 num packets: 7
+User: K flow start time: 7 num packets: 21
+User: L flow start time: 32 num packets: 34
+User: M flow start time: 18 num packets: 11
+User: N flow start time: 32 num packets: 2
+User: O flow start time: 21 num packets: 6
+User: P flow start time: 0 num packets: 8
+trial didn't match srtf! Trial was:
+[ 0-6: P | 7: D | 8: K | 9: P | 10: D | 11: J | 12: K | 13: D | 14: J | 15: K | 16: J | 17: K | 18: M | 19: A | 20: F | 21: G | 22: J | 23: K | 24: M | 25: O | 26: A | 27: B | 28: E | 29: F | 30: G | 31: I | 32: J | 33: K | 34: L | 35: M | 36: N | 37: O | 38: A | 39: B | 40: C | 41: E | 42: F | 43: G | 44: H | 45: I | 46: J | 47: K | 48: L | 49: M | 50: N | 51: O | 52: A | 53: B | 54: C | 55: E | 56: F | 57: G | 58: H | 59: I | 60: J | 61: K | 62: L | 63: M | 64: O | 65: A | 66: B | 67: C | 68: E | 69: F | 70: G | 71: H | 72: I | 73: K | 74: L | 75: M | 76: O | 77: A | 78: B | 79: C | 80: E | 81: F | 82: G | 83: H | 84: I | 85: K | 86: L | 87: M | 88: O | 89: A | 90: B | 91: C | 92: E | 93: F | 94: G | 95: H | 96: I | 97: K | 98: L | 99: M | 100: A | 101: B | 102: C | 103: E | 104: F | 105: G | 106: I | 107: K | 108: L | 109: M | 110: A | 111: B | 112: C | 113: E | 114: F | 115: G | 116: I | 117: K | 118: L | 119: M | 120: A | 121: C | 122: E | 123: F | 124: G | 125: I | 126: K | 127: L | 128: M | 129: A | 130: C | 131: E | 132: F | 133: G | 134: I | 135: K | 136: L | 137: A | 138: C | 139: E | 140: F | 141: G | 142: I | 143: K | 144: L | 145: A | 146: C | 147: E | 148: F | 149: G | 150: K | 151: L | 152: A | 153: C | 154: E | 155: F | 156: G | 157: K | 158: L | 159: A | 160: C | 161: E | 162: F | 163: G | 164: K | 165: L | 166: A | 167: C | 168: F | 169: G | 170: K | 171: L | 172: A | 173: C | 174: F | 175: G | 176: K | 177: L | 178: A | 179: C | 180: F | 181: G | 182: L | 183: A | 184: C | 185: F | 186: L | 187: F | 188: L | 189: F | 190: L | 191: F | 192: L | 193: F | 194: L | 195: F | 196: L | 197: F | 198: L | 199: F | 200: L | 201: F | 202: L | 203: F | 204: L | 205: F | 206: L | 207: F | 208: L | 209: F | 210: L | 211: F | 212: L | 213: F | 214: L | 215: F | 216: L | 217: F | 218: L | 219-223: F ]
+and srtf was:
+[ 0-7: P | 8-10: D | 11-17: J | 18-20: M | 21-26: O | 27-31: B | 32-33: N | 34-36: B | 37-41: H | 42-49: M | 50-60: I | 61-74: E | 75-91: C | 92-109: G | 110-128: A | 129-149: K | 150-183: L | 184-223: F ]
+Trial had 786 less benefit than srtf
+finished trial 2 of 10
+
+trial shorthand= 13:26, 3:10, 30:18, 1:16, 19:26, 11:8, 31:5, 0:31, 4:9, 33:19, 25:25, 0:12, 31:40, 9:21, 33:9, 16:13
+
+User: A flow start time: 13 num packets: 26
+User: B flow start time: 3 num packets: 10
+User: C flow start time: 30 num packets: 18
+User: D flow start time: 1 num packets: 16
+User: E flow start time: 19 num packets: 26
+User: F flow start time: 11 num packets: 8
+User: G flow start time: 31 num packets: 5
+User: H flow start time: 0 num packets: 31
+User: I flow start time: 4 num packets: 9
+User: J flow start time: 33 num packets: 19
+User: K flow start time: 25 num packets: 25
+User: L flow start time: 0 num packets: 12
+User: M flow start time: 31 num packets: 40
+User: N flow start time: 9 num packets: 21
+User: O flow start time: 33 num packets: 9
+User: P flow start time: 16 num packets: 13
+trial didn't match srtf! Trial was:
+[ 0: H | 1: L | 2: D | 3: H | 4: I | 5: L | 6: B | 7: D | 8: H | 9: I | 10: L | 11: N | 12: B | 13: D | 14: F | 15: H | 16: I | 17: L | 18: N | 19: P | 20: A | 21: B | 22: D | 23: E | 24: F | 25: H | 26: I | 27: K | 28: L | 29: N | 30: P | 31: A | 32: B | 33: C | 34: D | 35: E | 36: F | 37: G | 38: H | 39: I | 40: J | 41: K | 42: L | 43: M | 44: N | 45: O | 46: P | 47: A | 48: B | 49: C | 50: D | 51: E | 52: F | 53: G | 54: H | 55: I | 56: J | 57: K | 58: L | 59: M | 60: N | 61: O | 62: P | 63: A | 64: B | 65: C | 66: D | 67: E | 68: F | 69: G | 70: H | 71: I | 72: J | 73: K | 74: L | 75: M | 76: N | 77: O | 78: P | 79: A | 80: B | 81: C | 82: D | 83: E | 84: F | 85: G | 86: H | 87: I | 88: J | 89: K | 90: L | 91: M | 92: N | 93: O | 94: P | 95: A | 96: B | 97: C | 98: D | 99: E | 100: F | 101: G | 102: H | 103: I | 104: J | 105: K | 106: L | 107: M | 108: N | 109: O | 110: P | 111: A | 112: B | 113: C | 114: D | 115: E | 116: F | 117: H | 118: J | 119: K | 120: L | 121: M | 122: N | 123: O | 124: P | 125: A | 126: B | 127: C | 128: D | 129: E | 130: H | 131: J | 132: K | 133: L | 134: M | 135: N | 136: O | 137: P | 138: A | 139: C | 140: D | 141: E | 142: H | 143: J | 144: K | 145: M | 146: N | 147: O | 148: P | 149: A | 150: C | 151: D | 152: E | 153: H | 154: J | 155: K | 156: M | 157: N | 158: O | 159: P | 160: A | 161: C | 162: D | 163: E | 164: H | 165: J | 166: K | 167: M | 168: N | 169: P | 170: A | 171: C | 172: D | 173: E | 174: H | 175: J | 176: K | 177: M | 178: N | 179: P | 180: A | 181: C | 182: D | 183: E | 184: H | 185: J | 186: K | 187: M | 188: N | 189: A | 190: C | 191: E | 192: H | 193: J | 194: K | 195: M | 196: N | 197: A | 198: C | 199: E | 200: H | 201: J | 202: K | 203: M | 204: N | 205: A | 206: C | 207: E | 208: H | 209: J | 210: K | 211: M | 212: N | 213: A | 214: C | 215: E | 216: H | 217: J | 218: K | 219: M | 220: N | 221: A | 222: C | 223: E | 224: H | 225: J | 226: K | 227: M | 228: N | 229: A | 230: C | 231: E | 232: H | 233: J | 234: K | 235: M | 236: N | 237: A | 238: E | 239: H | 240: J | 241: K | 242: M | 243: A | 244: E | 245: H | 246: K | 247: M | 248: A | 249: E | 250: H | 251: K | 252: M | 253: A | 254: E | 255: H | 256: K | 257: M | 258: A | 259: E | 260: H | 261: K | 262: M | 263: A | 264: E | 265: H | 266: K | 267: M | 268: A | 269: E | 270: H | 271: M | 272: H | 273-287: M ]
+and srtf was:
+[ 0-11: L | 12-19: F | 20-28: I | 29-30: B | 31-35: G | 36-43: B | 44-52: O | 53-65: P | 66-81: D | 82-99: C | 100-118: J | 119-139: N | 140-164: K | 165-190: A | 191-216: E | 217-247: H | 248-287: M ]
+Trial had 1372 less benefit than srtf
+finished trial 3 of 10
+
+trial shorthand= 26:27, 14:20, 35:11, 34:19, 27:2, 17:23, 37:13, 12:37, 21:1, 6:2, 25:10, 4:20, 0:10, 31:38, 17:12, 1:36
+
+User: A flow start time: 26 num packets: 27
+User: B flow start time: 14 num packets: 20
+User: C flow start time: 35 num packets: 11
+User: D flow start time: 34 num packets: 19
+User: E flow start time: 27 num packets: 2
+User: F flow start time: 17 num packets: 23
+User: G flow start time: 37 num packets: 13
+User: H flow start time: 12 num packets: 37
+User: I flow start time: 21 num packets: 1
+User: J flow start time: 6 num packets: 2
+User: K flow start time: 25 num packets: 10
+User: L flow start time: 4 num packets: 20
+User: M flow start time: 0 num packets: 10
+User: N flow start time: 31 num packets: 38
+User: O flow start time: 17 num packets: 12
+User: P flow start time: 1 num packets: 36
+trial didn't match srtf! Trial was:
+[ 0: M | 1: P | 2: M | 3: P | 4: L | 5: M | 6: P | 7: J | 8: L | 9: M | 10: P | 11: J | 12: L | 13: M | 14: P | 15: B | 16: H | 17: L | 18: M | 19: O | 20: P | 21: B | 22: F | 23: H | 24: I | 25: K | 26: L | 27: M | 28: O | 29: P | 30: A | 31: B | 32: E | 33: F | 34: H | 35: K | 36: L | 37: M | 38: N | 39: O | 40: P | 41: A | 42: B | 43: C | 44: D | 45: E | 46: F | 47: G | 48: H | 49: K | 50: L | 51: M | 52: N | 53: O | 54: P | 55: A | 56: B | 57: C | 58: D | 59: F | 60: G | 61: H | 62: K | 63: L | 64: M | 65: N | 66: O | 67: P | 68: A | 69: B | 70: C | 71: D | 72: F | 73: G | 74: H | 75: K | 76: L | 77: N | 78: O | 79: P | 80: A | 81: B | 82: C | 83: D | 84: F | 85: G | 86: H | 87: K | 88: L | 89: N | 90: O | 91: P | 92: A | 93: B | 94: C | 95: D | 96: F | 97: G | 98: H | 99: K | 100: L | 101: N | 102: O | 103: P | 104: A | 105: B | 106: C | 107: D | 108: F | 109: G | 110: H | 111: K | 112: L | 113: N | 114: O | 115: P | 116: A | 117: B | 118: C | 119: D | 120: F | 121: G | 122: H | 123: K | 124: L | 125: N | 126: O | 127: P | 128: A | 129: B | 130: C | 131: D | 132: F | 133: G | 134: H | 135: K | 136: L | 137: N | 138: O | 139: P | 140: A | 141: B | 142: C | 143: D | 144: F | 145: G | 146: H | 147: L | 148: N | 149: O | 150: P | 151: A | 152: B | 153: C | 154: D | 155: F | 156: G | 157: H | 158: L | 159: N | 160: P | 161: A | 162: B | 163: C | 164: D | 165: F | 166: G | 167: H | 168: L | 169: N | 170: P | 171: A | 172: B | 173: D | 174: F | 175: G | 176: H | 177: L | 178: N | 179: P | 180: A | 181: B | 182: D | 183: F | 184: G | 185: H | 186: L | 187: N | 188: P | 189: A | 190: B | 191: D | 192: F | 193: H | 194: L | 195: N | 196: P | 197: A | 198: B | 199: D | 200: F | 201: H | 202: N | 203: P | 204: A | 205: B | 206: D | 207: F | 208: H | 209: N | 210: P | 211: A | 212: B | 213: D | 214: F | 215: H | 216: N | 217: P | 218: A | 219: D | 220: F | 221: H | 222: N | 223: P | 224: A | 225: D | 226: F | 227: H | 228: N | 229: P | 230: A | 231: F | 232: H | 233: N | 234: P | 235: A | 236: F | 237: H | 238: N | 239: P | 240: A | 241: H | 242: N | 243: P | 244: A | 245: H | 246: N | 247: P | 248: A | 249: H | 250: N | 251: P | 252: A | 253: H | 254: N | 255: P | 256: A | 257: H | 258: N | 259: P | 260: H | 261: N | 262: P | 263: H | 264: N | 265: P | 266: H | 267: N | 268: H | 269: N | 270: H | 271: N | 272: H | 273: N | 274: H | 275: N | 276: H | 277-280: N ]
+and srtf was:
+[ 0-5: M | 6-7: J | 8-11: M | 12-16: L | 17-20: O | 21: I | 22-26: O | 27-28: E | 29-31: O | 32-41: K | 42-52: C | 53-65: G | 66-80: L | 81-99: D | 100-119: B | 120-142: F | 143-169: A | 170-205: P | 206-242: H | 243-280: N ]
+Trial had 1127 less benefit than srtf
+finished trial 4 of 10
+
+trial shorthand= 28:8, 6:17, 16:34, 25:6, 25:4, 18:25, 7:32, 11:30, 22:20, 29:9, 27:36, 19:30, 35:4, 17:6, 5:12, 0:36
+
+User: A flow start time: 28 num packets: 8
+User: B flow start time: 6 num packets: 17
+User: C flow start time: 16 num packets: 34
+User: D flow start time: 25 num packets: 6
+User: E flow start time: 25 num packets: 4
+User: F flow start time: 18 num packets: 25
+User: G flow start time: 7 num packets: 32
+User: H flow start time: 11 num packets: 30
+User: I flow start time: 22 num packets: 20
+User: J flow start time: 29 num packets: 9
+User: K flow start time: 27 num packets: 36
+User: L flow start time: 19 num packets: 30
+User: M flow start time: 35 num packets: 4
+User: N flow start time: 17 num packets: 6
+User: O flow start time: 5 num packets: 12
+User: P flow start time: 0 num packets: 36
+trial didn't match srtf! Trial was:
+[ 0-4: P | 5: O | 6: P | 7: B | 8: G | 9: O | 10: P | 11: B | 12: G | 13: H | 14: O | 15: P | 16: B | 17: C | 18: F | 19: G | 20: H | 21: L | 22: N | 23: O | 24: P | 25: B | 26: C | 27: D | 28: E | 29: F | 30: G | 31: H | 32: I | 33: J | 34: K | 35: L | 36: M | 37: N | 38: O | 39: P | 40: A | 41: B | 42: C | 43: D | 44: E | 45: F | 46: G | 47: H | 48: I | 49: J | 50: K | 51: L | 52: M | 53: N | 54: O | 55: P | 56: A | 57: B | 58: C | 59: D | 60: E | 61: F | 62: G | 63: H | 64: I | 65: J | 66: K | 67: L | 68: M | 69: N | 70: O | 71: P | 72: A | 73: B | 74: C | 75: D | 76: E | 77: F | 78: G | 79: H | 80: I | 81: J | 82: K | 83: L | 84: M | 85: N | 86: O | 87: P | 88: A | 89: B | 90: C | 91: D | 92: F | 93: G | 94: H | 95: I | 96: J | 97: K | 98: L | 99: N | 100: O | 101: P | 102: A | 103: B | 104: C | 105: D | 106: F | 107: G | 108: H | 109: I | 110: J | 111: K | 112: L | 113: O | 114: P | 115: A | 116: B | 117: C | 118: F | 119: G | 120: H | 121: I | 122: J | 123: K | 124: L | 125: O | 126: P | 127: A | 128: B | 129: C | 130: F | 131: G | 132: H | 133: I | 134: J | 135: K | 136: L | 137: O | 138: P | 139: A | 140: B | 141: C | 142: F | 143: G | 144: H | 145: I | 146: J | 147: K | 148: L | 149: P | 150: B | 151: C | 152: F | 153: G | 154: H | 155: I | 156: K | 157: L | 158: P | 159: B | 160: C | 161: F | 162: G | 163: H | 164: I | 165: K | 166: L | 167: P | 168: B | 169: C | 170: F | 171: G | 172: H | 173: I | 174: K | 175: L | 176: P | 177: B | 178: C | 179: F | 180: G | 181: H | 182: I | 183: K | 184: L | 185: P | 186: B | 187: C | 188: F | 189: G | 190: H | 191: I | 192: K | 193: L | 194: P | 195: C | 196: F | 197: G | 198: H | 199: I | 200: K | 201: L | 202: P | 203: C | 204: F | 205: G | 206: H | 207: I | 208: K | 209: L | 210: P | 211: C | 212: F | 213: G | 214: H | 215: I | 216: K | 217: L | 218: P | 219: C | 220: F | 221: G | 222: H | 223: I | 224: K | 225: L | 226: P | 227: C | 228: F | 229: G | 230: H | 231: I | 232: K | 233: L | 234: P | 235: C | 236: F | 237: G | 238: H | 239: I | 240: K | 241: L | 242: P | 243: C | 244: F | 245: G | 246: H | 247: K | 248: L | 249: P | 250: C | 251: F | 252: G | 253: H | 254: K | 255: L | 256: P | 257: C | 258: F | 259: G | 260: H | 261: K | 262: L | 263: P | 264: C | 265: F | 266: G | 267: H | 268: K | 269: L | 270: P | 271: C | 272: G | 273: H | 274: K | 275: L | 276: P | 277: C | 278: G | 279: H | 280: K | 281: L | 282: P | 283: C | 284: G | 285: H | 286: K | 287: L | 288: P | 289: C | 290: G | 291: H | 292: K | 293: L | 294: C | 295: G | 296: K | 297: L | 298: C | 299: K | 300: C | 301: K | 302: C | 303: K | 304: C | 305-308: K ]
+and srtf was:
+[ 0-4: P | 5-16: O | 17-22: N | 23-24: B | 25-28: E | 29-34: D | 35-38: M | 39-46: A | 47-55: J | 56-70: B | 71-90: I | 91-115: F | 116-145: H | 146-175: L | 176-206: P | 207-238: G | 239-272: C | 273-308: K ]
+Trial had 1401 less benefit than srtf
+finished trial 5 of 10
+
+trial shorthand= 18:9, 3:29, 0:31, 32:21, 33:5, 3:35, 26:17, 22:12, 26:6, 18:17, 31:32, 36:29, 34:8, 33:2, 17:36, 28:38
+
+User: A flow start time: 18 num packets: 9
+User: B flow start time: 3 num packets: 29
+User: C flow start time: 0 num packets: 31
+User: D flow start time: 32 num packets: 21
+User: E flow start time: 33 num packets: 5
+User: F flow start time: 3 num packets: 35
+User: G flow start time: 26 num packets: 17
+User: H flow start time: 22 num packets: 12
+User: I flow start time: 26 num packets: 6
+User: J flow start time: 18 num packets: 17
+User: K flow start time: 31 num packets: 32
+User: L flow start time: 36 num packets: 29
+User: M flow start time: 34 num packets: 8
+User: N flow start time: 33 num packets: 2
+User: O flow start time: 17 num packets: 36
+User: P flow start time: 28 num packets: 38
+trial didn't match srtf! Trial was:
+[ 0-2: C | 3: F | 4: B | 5: C | 6: F | 7: B | 8: C | 9: F | 10: B | 11: C | 12: F | 13: B | 14: C | 15: F | 16: B | 17: C | 18: F | 19: J | 20: O | 21: A | 22: B | 23: C | 24: F | 25: H | 26: I | 27: J | 28: O | 29: P | 30: A | 31: B | 32: C | 33: D | 34: E | 35: F | 36: G | 37: H | 38: I | 39: J | 40: K | 41: L | 42: M | 43: N | 44: O | 45: P | 46: A | 47: B | 48: C | 49: D | 50: E | 51: F | 52: G | 53: H | 54: I | 55: J | 56: K | 57: L | 58: M | 59: N | 60: O | 61: P | 62: A | 63: B | 64: C | 65: D | 66: E | 67: F | 68: G | 69: H | 70: I | 71: J | 72: K | 73: L | 74: M | 75: O | 76: P | 77: A | 78: B | 79: C | 80: D | 81: E | 82: F | 83: G | 84: H | 85: I | 86: J | 87: K | 88: L | 89: M | 90: O | 91: P | 92: A | 93: B | 94: C | 95: D | 96: E | 97: F | 98: G | 99: H | 100: I | 101: J | 102: K | 103: L | 104: M | 105: O | 106: P | 107: A | 108: B | 109: C | 110: D | 111: F | 112: G | 113: H | 114: J | 115: K | 116: L | 117: M | 118: O | 119: P | 120: A | 121: B | 122: C | 123: D | 124: F | 125: G | 126: H | 127: J | 128: K | 129: L | 130: M | 131: O | 132: P | 133: A | 134: B | 135: C | 136: D | 137: F | 138: G | 139: H | 140: J | 141: K | 142: L | 143: M | 144: O | 145: P | 146: B | 147: C | 148: D | 149: F | 150: G | 151: H | 152: J | 153: K | 154: L | 155: O | 156: P | 157: B | 158: C | 159: D | 160: F | 161: G | 162: H | 163: J | 164: K | 165: L | 166: O | 167: P | 168: B | 169: C | 170: D | 171: F | 172: G | 173: H | 174: J | 175: K | 176: L | 177: O | 178: P | 179: B | 180: C | 181: D | 182: F | 183: G | 184: J | 185: K | 186: L | 187: O | 188: P | 189: B | 190: C | 191: D | 192: F | 193: G | 194: J | 195: K | 196: L | 197: O | 198: P | 199: B | 200: C | 201: D | 202: F | 203: G | 204: J | 205: K | 206: L | 207: O | 208: P | 209: B | 210: C | 211: D | 212: F | 213: G | 214: J | 215: K | 216: L | 217: O | 218: P | 219: B | 220: C | 221: D | 222: F | 223: G | 224: K | 225: L | 226: O | 227: P | 228: B | 229: C | 230: D | 231: F | 232: G | 233: K | 234: L | 235: O | 236: P | 237: B | 238: C | 239: D | 240: F | 241: K | 242: L | 243: O | 244: P | 245: B | 246: C | 247: D | 248: F | 249: K | 250: L | 251: O | 252: P | 253: B | 254: C | 255: D | 256: F | 257: K | 258: L | 259: O | 260: P | 261: B | 262: C | 263: D | 264: F | 265: K | 266: L | 267: O | 268: P | 269: B | 270: C | 271: F | 272: K | 273: L | 274: O | 275: P | 276: B | 277: F | 278: K | 279: L | 280: O | 281: P | 282: F | 283: K | 284: L | 285: O | 286: P | 287: F | 288: K | 289: L | 290: O | 291: P | 292: F | 293: K | 294: L | 295: O | 296: P | 297: F | 298: K | 299: L | 300: O | 301: P | 302: F | 303: K | 304: L | 305: O | 306: P | 307: K | 308: L | 309: O | 310: P | 311: K | 312: O | 313: P | 314: K | 315: O | 316: P | 317: K | 318: O | 319: P | 320: O | 321: P | 322: O | 323-326: P ]
+and srtf was:
+[ 0-17: C | 18-26: A | 27-32: I | 33-34: N | 35-39: E | 40-47: M | 48-59: H | 60-72: C | 73-89: G | 90-106: J | 107-127: D | 128-156: B | 157-185: L | 186-217: K | 218-252: F | 253-288: O | 289-326: P ]
+Trial had 1479 less benefit than srtf
+finished trial 6 of 10
+
+trial shorthand= 32:34, 15:29, 20:12, 5:10, 13:5, 0:4, 10:19, 3:1, 21:19, 5:9, 6:38, 34:37, 1:24, 27:24, 7:20, 9:6
+
+User: A flow start time: 32 num packets: 34
+User: B flow start time: 15 num packets: 29
+User: C flow start time: 20 num packets: 12
+User: D flow start time: 5 num packets: 10
+User: E flow start time: 13 num packets: 5
+User: F flow start time: 0 num packets: 4
+User: G flow start time: 10 num packets: 19
+User: H flow start time: 3 num packets: 1
+User: I flow start time: 21 num packets: 19
+User: J flow start time: 5 num packets: 9
+User: K flow start time: 6 num packets: 38
+User: L flow start time: 34 num packets: 37
+User: M flow start time: 1 num packets: 24
+User: N flow start time: 27 num packets: 24
+User: O flow start time: 7 num packets: 20
+User: P flow start time: 9 num packets: 6
+trial didn't match srtf! Trial was:
+[ 0: F | 1: M | 2: F | 3: H | 4: M | 5: D | 6: F | 7: J | 8: K | 9: M | 10: O | 11: P | 12: D | 13: E | 14: F | 15: G | 16: J | 17: K | 18: M | 19: O | 20: P | 21: B | 22: C | 23: D | 24: E | 25: G | 26: I | 27: J | 28: K | 29: M | 30: N | 31: O | 32: P | 33: A | 34: B | 35: C | 36: D | 37: E | 38: G | 39: I | 40: J | 41: K | 42: L | 43: M | 44: N | 45: O | 46: P | 47: A | 48: B | 49: C | 50: D | 51: E | 52: G | 53: I | 54: J | 55: K | 56: L | 57: M | 58: N | 59: O | 60: P | 61: A | 62: B | 63: C | 64: D | 65: E | 66: G | 67: I | 68: J | 69: K | 70: L | 71: M | 72: N | 73: O | 74: P | 75: A | 76: B | 77: C | 78: D | 79: G | 80: I | 81: J | 82: K | 83: L | 84: M | 85: N | 86: O | 87: A | 88: B | 89: C | 90: D | 91: G | 92: I | 93: J | 94: K | 95: L | 96: M | 97: N | 98: O | 99: A | 100: B | 101: C | 102: D | 103: G | 104: I | 105: J | 106: K | 107: L | 108: M | 109: N | 110: O | 111: A | 112: B | 113: C | 114: D | 115: G | 116: I | 117: K | 118: L | 119: M | 120: N | 121: O | 122: A | 123: B | 124: C | 125: G | 126: I | 127: K | 128: L | 129: M | 130: N | 131: O | 132: A | 133: B | 134: C | 135: G | 136: I | 137: K | 138: L | 139: M | 140: N | 141: O | 142: A | 143: B | 144: C | 145: G | 146: I | 147: K | 148: L | 149: M | 150: N | 151: O | 152: A | 153: B | 154: C | 155: G | 156: I | 157: K | 158: L | 159: M | 160: N | 161: O | 162: A | 163: B | 164: G | 165: I | 166: K | 167: L | 168: M | 169: N | 170: O | 171: A | 172: B | 173: G | 174: I | 175: K | 176: L | 177: M | 178: N | 179: O | 180: A | 181: B | 182: G | 183: I | 184: K | 185: L | 186: M | 187: N | 188: O | 189: A | 190: B | 191: G | 192: I | 193: K | 194: L | 195: M | 196: N | 197: O | 198: A | 199: B | 200: G | 201: I | 202: K | 203: L | 204: M | 205: N | 206: O | 207: A | 208: B | 209: G | 210: I | 211: K | 212: L | 213: M | 214: N | 215: O | 216: A | 217: B | 218: I | 219: K | 220: L | 221: M | 222: N | 223: A | 224: B | 225: K | 226: L | 227: M | 228: N | 229: A | 230: B | 231: K | 232: L | 233: N | 234: A | 235: B | 236: K | 237: L | 238: N | 239: A | 240: B | 241: K | 242: L | 243: N | 244: A | 245: B | 246: K | 247: L | 248: N | 249: A | 250: B | 251: K | 252: L | 253: A | 254: B | 255: K | 256: L | 257: A | 258: B | 259: K | 260: L | 261: A | 262: B | 263: K | 264: L | 265: A | 266: B | 267: K | 268: L | 269: A | 270: K | 271: L | 272: A | 273: K | 274: L | 275: A | 276: K | 277: L | 278: A | 279: K | 280: L | 281: A | 282: K | 283: L | 284: A | 285: K | 286: L | 287: K | 288-290: L ]
+and srtf was:
+[ 0-3: F | 4: H | 5-13: J | 14-18: E | 19-24: P | 25-34: D | 35-46: C | 47-65: G | 66-84: I | 85-104: O | 105-128: M | 129-152: N | 153-181: B | 182-215: A | 216-252: L | 253-290: K ]
+Trial had 1160 less benefit than srtf
+finished trial 7 of 10
+
+trial shorthand= 0:31, 21:20, 30:27, 25:3, 18:25, 33:28, 31:5, 24:12, 18:29, 15:24, 22:9, 16:23, 27:11, 1:2, 17:11, 34:26
+
+User: A flow start time: 0 num packets: 31
+User: B flow start time: 21 num packets: 20
+User: C flow start time: 30 num packets: 27
+User: D flow start time: 25 num packets: 3
+User: E flow start time: 18 num packets: 25
+User: F flow start time: 33 num packets: 28
+User: G flow start time: 31 num packets: 5
+User: H flow start time: 24 num packets: 12
+User: I flow start time: 18 num packets: 29
+User: J flow start time: 15 num packets: 24
+User: K flow start time: 22 num packets: 9
+User: L flow start time: 16 num packets: 23
+User: M flow start time: 27 num packets: 11
+User: N flow start time: 1 num packets: 2
+User: O flow start time: 17 num packets: 11
+User: P flow start time: 34 num packets: 26
+trial didn't match srtf! Trial was:
+[ 0: A | 1: N | 2: A | 3: N | 4-14: A | 15: J | 16: L | 17: O | 18: A | 19: E | 20: I | 21: J | 22: K | 23: L | 24: O | 25: A | 26: B | 27: D | 28: E | 29: H | 30: I | 31: J | 32: K | 33: L | 34: M | 35: O | 36: P | 37: A | 38: B | 39: C | 40: D | 41: E | 42: F | 43: G | 44: H | 45: I | 46: J | 47: K | 48: L | 49: M | 50: O | 51: P | 52: A | 53: B | 54: C | 55: D | 56: E | 57: F | 58: G | 59: H | 60: I | 61: J | 62: K | 63: L | 64: M | 65: O | 66: P | 67: A | 68: B | 69: C | 70: E | 71: F | 72: G | 73: H | 74: I | 75: J | 76: K | 77: L | 78: M | 79: O | 80: P | 81: A | 82: B | 83: C | 84: E | 85: F | 86: G | 87: H | 88: I | 89: J | 90: K | 91: L | 92: M | 93: O | 94: P | 95: A | 96: B | 97: C | 98: E | 99: F | 100: G | 101: H | 102: I | 103: J | 104: K | 105: L | 106: M | 107: O | 108: P | 109: A | 110: B | 111: C | 112: E | 113: F | 114: H | 115: I | 116: J | 117: K | 118: L | 119: M | 120: O | 121: P | 122: A | 123: B | 124: C | 125: E | 126: F | 127: H | 128: I | 129: J | 130: K | 131: L | 132: M | 133: O | 134: P | 135: A | 136: B | 137: C | 138: E | 139: F | 140: H | 141: I | 142: J | 143: L | 144: M | 145: O | 146: P | 147: A | 148: B | 149: C | 150: E | 151: F | 152: H | 153: I | 154: J | 155: L | 156: M | 157: P | 158: A | 159: B | 160: C | 161: E | 162: F | 163: H | 164: I | 165: J | 166: L | 167: M | 168: P | 169: A | 170: B | 171: C | 172: E | 173: F | 174: H | 175: I | 176: J | 177: L | 178: P | 179: A | 180: B | 181: C | 182: E | 183: F | 184: I | 185: J | 186: L | 187: P | 188: A | 189: B | 190: C | 191: E | 192: F | 193: I | 194: J | 195: L | 196: P | 197: A | 198: B | 199: C | 200: E | 201: F | 202: I | 203: J | 204: L | 205: P | 206: A | 207: B | 208: C | 209: E | 210: F | 211: I | 212: J | 213: L | 214: P | 215: A | 216: B | 217: C | 218: E | 219: F | 220: I | 221: J | 222: L | 223: P | 224: B | 225: C | 226: E | 227: F | 228: I | 229: J | 230: L | 231: P | 232: B | 233: C | 234: E | 235: F | 236: I | 237: J | 238: L | 239: P | 240: B | 241: C | 242: E | 243: F | 244: I | 245: J | 246: L | 247: P | 248: C | 249: E | 250: F | 251: I | 252: J | 253: L | 254: P | 255: C | 256: E | 257: F | 258: I | 259: J | 260: P | 261: C | 262: E | 263: F | 264: I | 265: P | 266: C | 267: E | 268: F | 269: I | 270: P | 271: C | 272: F | 273: I | 274: P | 275: C | 276: F | 277: I | 278: P | 279: C | 280: F | 281: I | 282: C | 283: F | 284: I | 285: F ]
+and srtf was:
+[ 0: A | 1-2: N | 3-16: A | 17-24: O | 25-27: D | 28-30: O | 31-35: G | 36-44: K | 45-55: M | 56-67: H | 68-83: A | 84-103: B | 104-126: L | 127-150: J | 151-175: E | 176-201: P | 202-228: C | 229-256: F | 257-285: I ]
+Trial had 1270 less benefit than srtf
+finished trial 8 of 10
+
+trial shorthand= 0:17, 4:27, 2:26, 28:17, 2:19, 4:38, 22:25, 0:37, 12:20, 19:31, 28:32, 13:12, 1:11, 13:15, 20:4, 39:22
+
+User: A flow start time: 0 num packets: 17
+User: B flow start time: 4 num packets: 27
+User: C flow start time: 2 num packets: 26
+User: D flow start time: 28 num packets: 17
+User: E flow start time: 2 num packets: 19
+User: F flow start time: 4 num packets: 38
+User: G flow start time: 22 num packets: 25
+User: H flow start time: 0 num packets: 37
+User: I flow start time: 12 num packets: 20
+User: J flow start time: 19 num packets: 31
+User: K flow start time: 28 num packets: 32
+User: L flow start time: 13 num packets: 12
+User: M flow start time: 1 num packets: 11
+User: N flow start time: 13 num packets: 15
+User: O flow start time: 20 num packets: 4
+User: P flow start time: 39 num packets: 22
+trial didn't match srtf! Trial was:
+[ 0: A | 1: H | 2: M | 3: A | 4: B | 5: C | 6: E | 7: F | 8: H | 9: M | 10: A | 11: B | 12: C | 13: E | 14: F | 15: H | 16: I | 17: L | 18: M | 19: N | 20: O | 21: A | 22: B | 23: C | 24: E | 25: F | 26: G | 27: H | 28: I | 29: J | 30: K | 31: L | 32: M | 33: N | 34: O | 35: A | 36: B | 37: C | 38: D | 39: E | 40: F | 41: G | 42: H | 43: I | 44: J | 45: K | 46: L | 47: M | 48: N | 49: O | 50: P | 51: A | 52: B | 53: C | 54: D | 55: E | 56: F | 57: G | 58: H | 59: I | 60: J | 61: K | 62: L | 63: M | 64: N | 65: O | 66: P | 67: A | 68: B | 69: C | 70: D | 71: E | 72: F | 73: G | 74: H | 75: I | 76: J | 77: K | 78: L | 79: M | 80: N | 81: P | 82: A | 83: B | 84: C | 85: D | 86: E | 87: F | 88: G | 89: H | 90: I | 91: J | 92: K | 93: L | 94: M | 95: N | 96: P | 97: A | 98: B | 99: C | 100: D | 101: E | 102: F | 103: G | 104: H | 105: I | 106: J | 107: K | 108: L | 109: M | 110: N | 111: P | 112: A | 113: B | 114: C | 115: D | 116: E | 117: F | 118: G | 119: H | 120: I | 121: J | 122: K | 123: L | 124: M | 125: N | 126: P | 127: A | 128: B | 129: C | 130: D | 131: E | 132: F | 133: G | 134: H | 135: I | 136: J | 137: K | 138: L | 139: M | 140: N | 141: P | 142: A | 143: B | 144: C | 145: D | 146: E | 147: F | 148: G | 149: H | 150: I | 151: J | 152: K | 153: L | 154: N | 155: P | 156: A | 157: B | 158: C | 159: D | 160: E | 161: F | 162: G | 163: H | 164: I | 165: J | 166: K | 167: L | 168: N | 169: P | 170: A | 171: B | 172: C | 173: D | 174: E | 175: F | 176: G | 177: H | 178: I | 179: J | 180: K | 181: L | 182: N | 183: P | 184: A | 185: B | 186: C | 187: D | 188: E | 189: F | 190: G | 191: H | 192: I | 193: J | 194: K | 195: N | 196: P | 197: A | 198: B | 199: C | 200: D | 201: E | 202: F | 203: G | 204: H | 205: I | 206: J | 207: K | 208: N | 209: P | 210: A | 211: B | 212: C | 213: D | 214: E | 215: F | 216: G | 217: H | 218: I | 219: J | 220: K | 221: N | 222: P | 223: B | 224: C | 225: D | 226: E | 227: F | 228: G | 229: H | 230: I | 231: J | 232: K | 233: P | 234: B | 235: C | 236: D | 237: E | 238: F | 239: G | 240: H | 241: I | 242: J | 243: K | 244: P | 245: B | 246: C | 247: D | 248: E | 249: F | 250: G | 251: H | 252: I | 253: J | 254: K | 255: P | 256: B | 257: C | 258: D | 259: F | 260: G | 261: H | 262: I | 263: J | 264: K | 265: P | 266: B | 267: C | 268: F | 269: G | 270: H | 271: I | 272: J | 273: K | 274: P | 275: B | 276: C | 277: F | 278: G | 279: H | 280: J | 281: K | 282: P | 283: B | 284: C | 285: F | 286: G | 287: H | 288: J | 289: K | 290: P | 291: B | 292: C | 293: F | 294: G | 295: H | 296: J | 297: K | 298: P | 299: B | 300: C | 301: F | 302: G | 303: H | 304: J | 305: K | 306: P | 307: B | 308: C | 309: F | 310: G | 311: H | 312: J | 313: K | 314: B | 315: F | 316: G | 317: H | 318: J | 319: K | 320: F | 321: H | 322: J | 323: K | 324: F | 325: H | 326: J | 327: K | 328: F | 329: H | 330: J | 331: K | 332: F | 333: H | 334: J | 335: K | 336: F | 337: H | 338: J | 339: K | 340: F | 341: H | 342: J | 343: K | 344: F | 345: H | 346: K | 347: F | 348: H | 349: F | 350: H | 351-352: F ]
+and srtf was:
+[ 0: A | 1-11: M | 12: A | 13-19: L | 20-23: O | 24-28: L | 29-43: A | 44-58: N | 59-75: D | 76-94: E | 95-114: I | 115-136: P | 137-161: G | 162-187: C | 188-214: B | 215-245: J | 246-277: K | 278-314: H | 315-352: F ]
+Trial had 1895 less benefit than srtf
+finished trial 9 of 10
+
+trial shorthand= 15:37, 35:14, 9:29, 26:16, 2:27, 0:21, 6:5, 12:23, 12:28, 1:37, 15:19, 3:13, 24:13, 15:10, 12:11, 18:28
+
+User: A flow start time: 15 num packets: 37
+User: B flow start time: 35 num packets: 14
+User: C flow start time: 9 num packets: 29
+User: D flow start time: 26 num packets: 16
+User: E flow start time: 2 num packets: 27
+User: F flow start time: 0 num packets: 21
+User: G flow start time: 6 num packets: 5
+User: H flow start time: 12 num packets: 23
+User: I flow start time: 12 num packets: 28
+User: J flow start time: 1 num packets: 37
+User: K flow start time: 15 num packets: 19
+User: L flow start time: 3 num packets: 13
+User: M flow start time: 24 num packets: 13
+User: N flow start time: 15 num packets: 10
+User: O flow start time: 12 num packets: 11
+User: P flow start time: 18 num packets: 28
+trial didn't match srtf! Trial was:
+[ 0: F | 1: J | 2: E | 3: F | 4: J | 5: L | 6: E | 7: F | 8: G | 9: J | 10: L | 11: C | 12: E | 13: F | 14: G | 15: H | 16: I | 17: J | 18: K | 19: L | 20: N | 21: O | 22: P | 23: A | 24: C | 25: E | 26: F | 27: G | 28: H | 29: I | 30: J | 31: K | 32: L | 33: M | 34: N | 35: O | 36: P | 37: A | 38: B | 39: C | 40: D | 41: E | 42: F | 43: G | 44: H | 45: I | 46: J | 47: K | 48: L | 49: M | 50: N | 51: O | 52: P | 53: A | 54: B | 55: C | 56: D | 57: E | 58: F | 59: G | 60: H | 61: I | 62: J | 63: K | 64: L | 65: M | 66: N | 67: O | 68: P | 69: A | 70: B | 71: C | 72: D | 73: E | 74: F | 75: H | 76: I | 77: J | 78: K | 79: L | 80: M | 81: N | 82: O | 83: P | 84: A | 85: B | 86: C | 87: D | 88: E | 89: F | 90: H | 91: I | 92: J | 93: K | 94: L | 95: M | 96: N | 97: O | 98: P | 99: A | 100: B | 101: C | 102: D | 103: E | 104: F | 105: H | 106: I | 107: J | 108: K | 109: L | 110: M | 111: N | 112: O | 113: P | 114: A | 115: B | 116: C | 117: D | 118: E | 119: F | 120: H | 121: I | 122: J | 123: K | 124: L | 125: M | 126: N | 127: O | 128: P | 129: A | 130: B | 131: C | 132: D | 133: E | 134: F | 135: H | 136: I | 137: J | 138: K | 139: L | 140: M | 141: N | 142: O | 143: P | 144: A | 145: B | 146: C | 147: D | 148: E | 149: F | 150: H | 151: I | 152: J | 153: K | 154: L | 155: M | 156: N | 157: O | 158: P | 159: A | 160: B | 161: C | 162: D | 163: E | 164: F | 165: H | 166: I | 167: J | 168: K | 169: L | 170: M | 171: O | 172: P | 173: A | 174: B | 175: C | 176: D | 177: E | 178: F | 179: H | 180: I | 181: J | 182: K | 183: M | 184: P | 185: A | 186: B | 187: C | 188: D | 189: E | 190: F | 191: H | 192: I | 193: J | 194: K | 195: M | 196: P | 197: A | 198: B | 199: C | 200: D | 201: E | 202: F | 203: H | 204: I | 205: J | 206: K | 207: M | 208: P | 209: A | 210: B | 211: C | 212: D | 213: E | 214: F | 215: H | 216: I | 217: J | 218: K | 219: P | 220: A | 221: B | 222: C | 223: D | 224: E | 225: F | 226: H | 227: I | 228: J | 229: K | 230: P | 231: A | 232: C | 233: D | 234: E | 235: F | 236: H | 237: I | 238: J | 239: K | 240: P | 241: A | 242: C | 243: D | 244: E | 245: F | 246: H | 247: I | 248: J | 249: K | 250: P | 251: A | 252: C | 253: E | 254: H | 255: I | 256: J | 257: K | 258: P | 259: A | 260: C | 261: E | 262: H | 263: I | 264: J | 265: P | 266: A | 267: C | 268: E | 269: H | 270: I | 271: J | 272: P | 273: A | 274: C | 275: E | 276: H | 277: I | 278: J | 279: P | 280: A | 281: C | 282: E | 283: H | 284: I | 285: J | 286: P | 287: A | 288: C | 289: E | 290: I | 291: J | 292: P | 293: A | 294: C | 295: E | 296: I | 297: J | 298: P | 299: A | 300: C | 301: I | 302: J | 303: P | 304: A | 305: C | 306: I | 307: J | 308: P | 309: A | 310: C | 311: I | 312: J | 313: P | 314: A | 315: C | 316: J | 317: A | 318: J | 319: A | 320: J | 321: A | 322: J | 323: A | 324: J | 325: A | 326: J | 327-330: A ]
+and srtf was:
+[ 0-2: F | 3-5: L | 6-10: G | 11-20: L | 21-30: N | 31-41: O | 42-54: M | 55-68: B | 69-84: D | 85-102: F | 103-121: K | 122-144: H | 145-171: E | 172-199: I | 200-227: P | 228-256: C | 257-293: A | 294-330: J ]
+Trial had 1751 less benefit than srtf
+finished trial 10 of 10
+
+0 of 10 scenarios matched the srtf result ( 0 )
+average delay ratio 1.8681
+average flow duration for srtf 96.9938
+average flow duration for trials 181.194
+worst srtf divergence was 1895

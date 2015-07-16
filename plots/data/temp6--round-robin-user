@@ -1,0 +1,156 @@
+running 10 trials with 6 users and die size 40...
+trial shorthand= 21:7, 15:36, 31:16, 24:13, 7:22, 0:28
+
+User: A flow start time: 21 num packets: 7
+User: B flow start time: 15 num packets: 36
+User: C flow start time: 31 num packets: 16
+User: D flow start time: 24 num packets: 13
+User: E flow start time: 7 num packets: 22
+User: F flow start time: 0 num packets: 28
+trial didn't match srtf! Trial was:
+[ 0-6: F | 7: E | 8: F | 9: E | 10: F | 11: E | 12: F | 13: E | 14: F | 15: B | 16: E | 17: F | 18: B | 19: E | 20: F | 21: A | 22: B | 23: E | 24: F | 25: A | 26: B | 27: D | 28: E | 29: F | 30: A | 31: B | 32: C | 33: D | 34: E | 35: F | 36: A | 37: B | 38: C | 39: D | 40: E | 41: F | 42: A | 43: B | 44: C | 45: D | 46: E | 47: F | 48: A | 49: B | 50: C | 51: D | 52: E | 53: F | 54: A | 55: B | 56: C | 57: D | 58: E | 59: F | 60: B | 61: C | 62: D | 63: E | 64: F | 65: B | 66: C | 67: D | 68: E | 69: F | 70: B | 71: C | 72: D | 73: E | 74: F | 75: B | 76: C | 77: D | 78: E | 79: F | 80: B | 81: C | 82: D | 83: E | 84: F | 85: B | 86: C | 87: D | 88: E | 89: F | 90: B | 91: C | 92: D | 93: E | 94: F | 95: B | 96: C | 97: E | 98: F | 99: B | 100: C | 101: E | 102: B | 103: C | 104: B | 105: C | 106-121: B ]
+and srtf was:
+[ 0-20: F | 21-27: A | 28-34: F | 35-47: D | 48-63: C | 64-85: E | 86-121: B ]
+Trial had 194 less benefit than srtf
+finished trial 1 of 10
+
+trial shorthand= 7:20, 0:7, 17:27, 9:17, 8:9, 4:30
+
+User: A flow start time: 7 num packets: 20
+User: B flow start time: 0 num packets: 7
+User: C flow start time: 17 num packets: 27
+User: D flow start time: 9 num packets: 17
+User: E flow start time: 8 num packets: 9
+User: F flow start time: 4 num packets: 30
+trial didn't match srtf! Trial was:
+[ 0-3: B | 4: F | 5: B | 6: F | 7: A | 8: B | 9: D | 10: E | 11: F | 12: A | 13: B | 14: D | 15: E | 16: F | 17: A | 18: C | 19: D | 20: E | 21: F | 22: A | 23: C | 24: D | 25: E | 26: F | 27: A | 28: C | 29: D | 30: E | 31: F | 32: A | 33: C | 34: D | 35: E | 36: F | 37: A | 38: C | 39: D | 40: E | 41: F | 42: A | 43: C | 44: D | 45: E | 46: F | 47: A | 48: C | 49: D | 50: E | 51: F | 52: A | 53: C | 54: D | 55: F | 56: A | 57: C | 58: D | 59: F | 60: A | 61: C | 62: D | 63: F | 64: A | 65: C | 66: D | 67: F | 68: A | 69: C | 70: D | 71: F | 72: A | 73: C | 74: D | 75: F | 76: A | 77: C | 78: D | 79: F | 80: A | 81: C | 82: D | 83: F | 84: A | 85: C | 86: F | 87: A | 88: C | 89: F | 90: A | 91: C | 92: F | 93: C | 94: F | 95: C | 96: F | 97: C | 98: F | 99: C | 100: F | 101: C | 102: F | 103: C | 104: F | 105: C | 106: F | 107: C | 108: F | 109: C ]
+and srtf was:
+[ 0-6: B | 7: A | 8-16: E | 17-33: D | 34-52: A | 53-79: C | 80-109: F ]
+Trial had 157 less benefit than srtf
+finished trial 2 of 10
+
+trial shorthand= 13:11, 13:4, 18:16, 0:3, 13:19, 20:8
+
+User: A flow start time: 13 num packets: 11
+User: B flow start time: 13 num packets: 4
+User: C flow start time: 18 num packets: 16
+User: D flow start time: 0 num packets: 3
+User: E flow start time: 13 num packets: 19
+User: F flow start time: 20 num packets: 8
+trial didn't match srtf! Trial was:
+[ 0-2: D | 13: A | 14: B | 15: E | 16: A | 17: B | 18: C | 19: E | 20: F | 21: A | 22: B | 23: C | 24: E | 25: F | 26: A | 27: B | 28: C | 29: E | 30: F | 31: A | 32: C | 33: E | 34: F | 35: A | 36: C | 37: E | 38: F | 39: A | 40: C | 41: E | 42: F | 43: A | 44: C | 45: E | 46: F | 47: A | 48: C | 49: E | 50: F | 51: A | 52: C | 53: E | 54: A | 55: C | 56: E | 57: C | 58: E | 59: C | 60: E | 61: C | 62: E | 63: C | 64: E | 65: C | 66: E | 67: C | 68-70: E ]
+and srtf was:
+[ 0-2: D | 13-16: B | 17-27: A | 28-35: F | 36-51: C | 52-70: E ]
+Trial had 69 less benefit than srtf
+finished trial 3 of 10
+
+trial shorthand= 22:17, 0:3, 18:14, 10:40, 13:18, 27:5
+
+User: A flow start time: 22 num packets: 17
+User: B flow start time: 0 num packets: 3
+User: C flow start time: 18 num packets: 14
+User: D flow start time: 10 num packets: 40
+User: E flow start time: 13 num packets: 18
+User: F flow start time: 27 num packets: 5
+trial didn't match srtf! Trial was:
+[ 0-2: B | 10-12: D | 13: E | 14: D | 15: E | 16: D | 17: E | 18: C | 19: D | 20: E | 21: C | 22: D | 23: E | 24: A | 25: C | 26: D | 27: E | 28: F | 29: A | 30: C | 31: D | 32: E | 33: F | 34: A | 35: C | 36: D | 37: E | 38: F | 39: A | 40: C | 41: D | 42: E | 43: F | 44: A | 45: C | 46: D | 47: E | 48: F | 49: A | 50: C | 51: D | 52: E | 53: A | 54: C | 55: D | 56: E | 57: A | 58: C | 59: D | 60: E | 61: A | 62: C | 63: D | 64: E | 65: A | 66: C | 67: D | 68: E | 69: A | 70: C | 71: D | 72: E | 73: A | 74: C | 75: D | 76: E | 77: A | 78: D | 79: E | 80: A | 81: D | 82: A | 83: D | 84: A | 85: D | 86: A | 87-103: D ]
+and srtf was:
+[ 0-2: B | 10-12: D | 13-30: E | 31-35: F | 36-49: C | 50-66: A | 67-103: D ]
+Trial had 107 less benefit than srtf
+finished trial 4 of 10
+
+trial shorthand= 24:11, 2:7, 0:21, 25:34, 11:11, 25:2
+
+User: A flow start time: 24 num packets: 11
+User: B flow start time: 2 num packets: 7
+User: C flow start time: 0 num packets: 21
+User: D flow start time: 25 num packets: 34
+User: E flow start time: 11 num packets: 11
+User: F flow start time: 25 num packets: 2
+trial didn't match srtf! Trial was:
+[ 0-1: C | 2: B | 3: C | 4: B | 5: C | 6: B | 7: C | 8: B | 9: C | 10: B | 11: C | 12: E | 13: B | 14: C | 15: E | 16: B | 17: C | 18: E | 19: C | 20: E | 21: C | 22: E | 23: C | 24: E | 25: F | 26: A | 27: C | 28: D | 29: E | 30: F | 31: A | 32: C | 33: D | 34: E | 35: A | 36: C | 37: D | 38: E | 39: A | 40: C | 41: D | 42: E | 43: A | 44: C | 45: D | 46: E | 47: A | 48: C | 49: D | 50: A | 51: C | 52: D | 53: A | 54: C | 55: D | 56: A | 57: C | 58: D | 59: A | 60: D | 61: A | 62-85: D ]
+and srtf was:
+[ 0-1: C | 2-8: B | 9-10: C | 11-21: E | 22-23: C | 24: A | 25-26: F | 27-36: A | 37-51: C | 52-85: D ]
+Trial had 68 less benefit than srtf
+finished trial 5 of 10
+
+trial shorthand= 21:6, 0:8, 12:26, 2:10, 29:18, 0:16
+
+User: A flow start time: 21 num packets: 6
+User: B flow start time: 0 num packets: 8
+User: C flow start time: 12 num packets: 26
+User: D flow start time: 2 num packets: 10
+User: E flow start time: 29 num packets: 18
+User: F flow start time: 0 num packets: 16
+trial didn't match srtf! Trial was:
+[ 0: B | 1: F | 2: B | 3: D | 4: F | 5: B | 6: D | 7: F | 8: B | 9: D | 10: F | 11: B | 12: C | 13: D | 14: F | 15: B | 16: C | 17: D | 18: F | 19: B | 20: C | 21: D | 22: F | 23: A | 24: B | 25: C | 26: D | 27: F | 28: A | 29: C | 30: D | 31: E | 32: F | 33: A | 34: C | 35: D | 36: E | 37: F | 38: A | 39: C | 40: D | 41: E | 42: F | 43: A | 44: C | 45: E | 46: F | 47: A | 48: C | 49: E | 50: F | 51: C | 52: E | 53: F | 54: C | 55: E | 56: F | 57: C | 58: E | 59: F | 60: C | 61: E | 62: C | 63: E | 64: C | 65: E | 66: C | 67: E | 68: C | 69: E | 70: C | 71: E | 72: C | 73: E | 74: C | 75: E | 76: C | 77: E | 78: C | 79: E | 80-83: C ]
+and srtf was:
+[ 0-7: B | 8-17: D | 18-20: F | 21-26: A | 27-39: F | 40-57: E | 58-83: C ]
+Trial had 103 less benefit than srtf
+finished trial 6 of 10
+
+trial shorthand= 19:26, 11:8, 31:5, 0:31, 4:9, 33:19
+
+User: A flow start time: 19 num packets: 26
+User: B flow start time: 11 num packets: 8
+User: C flow start time: 31 num packets: 5
+User: D flow start time: 0 num packets: 31
+User: E flow start time: 4 num packets: 9
+User: F flow start time: 33 num packets: 19
+trial didn't match srtf! Trial was:
+[ 0-3: D | 4: E | 5: D | 6: E | 7: D | 8: E | 9: D | 10: E | 11: B | 12: D | 13: E | 14: B | 15: D | 16: E | 17: B | 18: D | 19: E | 20: A | 21: B | 22: D | 23: E | 24: A | 25: B | 26: D | 27: E | 28: A | 29: B | 30: D | 31: A | 32: B | 33: C | 34: D | 35: F | 36: A | 37: B | 38: C | 39: D | 40: F | 41: A | 42: C | 43: D | 44: F | 45: A | 46: C | 47: D | 48: F | 49: A | 50: C | 51: D | 52: F | 53: A | 54: D | 55: F | 56: A | 57: D | 58: F | 59: A | 60: D | 61: F | 62: A | 63: D | 64: F | 65: A | 66: D | 67: F | 68: A | 69: D | 70: F | 71: A | 72: D | 73: F | 74: A | 75: D | 76: F | 77: A | 78: D | 79: F | 80: A | 81: D | 82: F | 83: A | 84: D | 85: F | 86: A | 87: D | 88: F | 89: A | 90: D | 91: F | 92: A | 93: F | 94-97: A ]
+and srtf was:
+[ 0-3: D | 4-12: E | 13-20: B | 21-30: A | 31-35: C | 36-51: A | 52-70: F | 71-97: D ]
+Trial had 109 less benefit than srtf
+finished trial 7 of 10
+
+trial shorthand= 25:25, 0:12, 31:40, 9:21, 33:9, 16:13
+
+User: A flow start time: 25 num packets: 25
+User: B flow start time: 0 num packets: 12
+User: C flow start time: 31 num packets: 40
+User: D flow start time: 9 num packets: 21
+User: E flow start time: 33 num packets: 9
+User: F flow start time: 16 num packets: 13
+trial didn't match srtf! Trial was:
+[ 0-8: B | 9: D | 10: B | 11: D | 12: B | 13: D | 14: B | 15: D | 16: F | 17: D | 18: F | 19: D | 20: F | 21: D | 22: F | 23: D | 24: F | 25: A | 26: D | 27: F | 28: A | 29: D | 30: F | 31: A | 32: C | 33: D | 34: E | 35: F | 36: A | 37: C | 38: D | 39: E | 40: F | 41: A | 42: C | 43: D | 44: E | 45: F | 46: A | 47: C | 48: D | 49: E | 50: F | 51: A | 52: C | 53: D | 54: E | 55: F | 56: A | 57: C | 58: D | 59: E | 60: F | 61: A | 62: C | 63: D | 64: E | 65: A | 66: C | 67: D | 68: E | 69: A | 70: C | 71: D | 72: E | 73: A | 74: C | 75: D | 76: A | 77: C | 78: D | 79: A | 80: C | 81: A | 82: C | 83: A | 84: C | 85: A | 86: C | 87: A | 88: C | 89: A | 90: C | 91: A | 92: C | 93: A | 94: C | 95: A | 96: C | 97: A | 98: C | 99: A | 100: C | 101: A | 102-119: C ]
+and srtf was:
+[ 0-11: B | 12-15: D | 16-28: F | 29-32: D | 33-41: E | 42-54: D | 55-79: A | 80-119: C ]
+Trial had 112 less benefit than srtf
+finished trial 8 of 10
+
+trial shorthand= 12:27, 0:20, 21:11, 20:19, 13:2, 3:23
+
+User: A flow start time: 12 num packets: 27
+User: B flow start time: 0 num packets: 20
+User: C flow start time: 21 num packets: 11
+User: D flow start time: 20 num packets: 19
+User: E flow start time: 13 num packets: 2
+User: F flow start time: 3 num packets: 23
+trial didn't match srtf! Trial was:
+[ 0-2: B | 3: F | 4: B | 5: F | 6: B | 7: F | 8: B | 9: F | 10: B | 11: F | 12: A | 13: B | 14: E | 15: F | 16: A | 17: B | 18: E | 19: F | 20: A | 21: B | 22: C | 23: D | 24: F | 25: A | 26: B | 27: C | 28: D | 29: F | 30: A | 31: B | 32: C | 33: D | 34: F | 35: A | 36: B | 37: C | 38: D | 39: F | 40: A | 41: B | 42: C | 43: D | 44: F | 45: A | 46: B | 47: C | 48: D | 49: F | 50: A | 51: B | 52: C | 53: D | 54: F | 55: A | 56: B | 57: C | 58: D | 59: F | 60: A | 61: B | 62: C | 63: D | 64: F | 65: A | 66: B | 67: C | 68: D | 69: F | 70: A | 71: B | 72: C | 73: D | 74: F | 75: A | 76: D | 77: F | 78: A | 79: D | 80: F | 81: A | 82: D | 83: F | 84: A | 85: D | 86: F | 87: A | 88: D | 89: F | 90: A | 91: D | 92: A | 93: D | 94: A | 95: D | 96-101: A ]
+and srtf was:
+[ 0-12: B | 13-14: E | 15-21: B | 22-32: C | 33-51: D | 52-74: F | 75-101: A ]
+Trial had 153 less benefit than srtf
+finished trial 9 of 10
+
+trial shorthand= 33:13, 8:37, 17:1, 2:2, 21:10, 0:20
+
+User: A flow start time: 33 num packets: 13
+User: B flow start time: 8 num packets: 37
+User: C flow start time: 17 num packets: 1
+User: D flow start time: 2 num packets: 2
+User: E flow start time: 21 num packets: 10
+User: F flow start time: 0 num packets: 20
+trial didn't match srtf! Trial was:
+[ 0-1: F | 2: D | 3: F | 4: D | 5-7: F | 8: B | 9: F | 10: B | 11: F | 12: B | 13: F | 14: B | 15: F | 16: B | 17: C | 18: F | 19: B | 20: F | 21: B | 22: E | 23: F | 24: B | 25: E | 26: F | 27: B | 28: E | 29: F | 30: B | 31: E | 32: F | 33: A | 34: B | 35: E | 36: F | 37: A | 38: B | 39: E | 40: F | 41: A | 42: B | 43: E | 44: F | 45: A | 46: B | 47: E | 48: F | 49: A | 50: B | 51: E | 52: A | 53: B | 54: E | 55: A | 56: B | 57: A | 58: B | 59: A | 60: B | 61: A | 62: B | 63: A | 64: B | 65: A | 66: B | 67: A | 68-82: B ]
+and srtf was:
+[ 0-1: F | 2-3: D | 4-16: F | 17: C | 18-22: F | 23-32: E | 33-45: A | 46-82: B ]
+Trial had 71 less benefit than srtf
+finished trial 10 of 10
+
+0 of 10 scenarios matched the srtf result ( 0 )
+average delay ratio 1.58257
+average flow duration for srtf 32.7
+average flow duration for trials 51.75
+worst srtf divergence was 194
