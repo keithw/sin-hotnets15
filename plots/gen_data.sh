@@ -2,7 +2,7 @@ SIN_LOCATION=../../sin/src/sin
 DELAY_RATIO_FILE=delay_over_srtf.dat
 #SRTF_RATIO_FILE=percent_match_srtf.dat
 
-NUM_TRIALS=10
+NUM_TRIALS=100
 DIE_SIZE=40
 
 echo '"num users" "Optimal" "SIN" "ignore me" "Rate Sharing"' > $DELAY_RATIO_FILE

@@ -1,4 +1,4 @@
-running 10 trials with 6 users and die size 40...
+running 100 trials with 6 users and die size 40...
 trial shorthand= 21:7, 15:36, 31:16, 24:13, 7:22, 0:28
 
 User: A flow start time: 21 num packets: 7
@@ -19,7 +19,7 @@ Sum user utility was -407 while sum of best expected utilties was -407 (let down
 
 Trial matched srtf, trial was:
 [ 0-27: F | 28-34: A | 35-47: D | 48-63: C | 64-85: E | 86-121: B ]
-finished trial 1 of 10
+finished trial 1 of 100
 
 trial shorthand= 7:20, 0:7, 17:27, 9:17, 8:9, 4:30
 
@@ -41,7 +41,7 @@ Sum user utility was -366 while sum of best expected utilties was -366 (let down
 
 Trial matched srtf, trial was:
 [ 0-6: B | 7: A | 8-16: E | 17-33: D | 34-52: A | 53-79: C | 80-109: F ]
-finished trial 2 of 10
+finished trial 2 of 100
 
 trial shorthand= 13:11, 13:4, 18:16, 0:3, 13:19, 20:8
 
@@ -63,7 +63,7 @@ Sum user utility was -191 while sum of best expected utilties was -187 (let down
 
 Trial matched srtf, trial was:
 [ 0-2: D | 13-16: B | 17-27: A | 28-35: F | 36-51: C | 52-70: E ]
-finished trial 3 of 10
+finished trial 3 of 100
 
 trial shorthand= 22:17, 0:3, 18:14, 10:40, 13:18, 27:5
 
@@ -85,7 +85,7 @@ Sum user utility was -298 while sum of best expected utilties was -298 (let down
 
 Trial matched srtf, trial was:
 [ 0-2: B | 10-12: D | 13-30: E | 31-35: F | 36-49: C | 50-66: A | 67-103: D ]
-finished trial 4 of 10
+finished trial 4 of 100
 
 trial shorthand= 24:11, 2:7, 0:21, 25:34, 11:11, 25:2
 
@@ -107,7 +107,7 @@ Sum user utility was -232 while sum of best expected utilties was -230 (let down
 
 Trial matched srtf, trial was:
 [ 0-1: C | 2-8: B | 9-10: C | 11-21: E | 22-23: C | 24: A | 25-26: F | 27-36: A | 37-51: C | 52-85: D ]
-finished trial 5 of 10
+finished trial 5 of 100
 
 trial shorthand= 21:6, 0:8, 12:26, 2:10, 29:18, 0:16
 
@@ -129,7 +129,7 @@ Sum user utility was -255 while sum of best expected utilties was -255 (let down
 
 Trial matched srtf, trial was:
 [ 0-7: B | 8-17: D | 18-20: F | 21-26: A | 27-39: F | 40-57: E | 58-83: C ]
-finished trial 6 of 10
+finished trial 6 of 100
 
 trial shorthand= 19:26, 11:8, 31:5, 0:31, 4:9, 33:19
 
@@ -151,7 +151,7 @@ Sum user utility was -291 while sum of best expected utilties was -291 (let down
 
 Trial matched srtf, trial was:
 [ 0-3: D | 4-12: E | 13-20: B | 21-30: A | 31-35: C | 36-51: A | 52-70: F | 71-97: D ]
-finished trial 7 of 10
+finished trial 7 of 100
 
 trial shorthand= 25:25, 0:12, 31:40, 9:21, 33:9, 16:13
 
@@ -173,7 +173,7 @@ Sum user utility was -344 while sum of best expected utilties was -344 (let down
 
 Trial matched srtf, trial was:
 [ 0-11: B | 12-15: D | 16-28: F | 29-32: D | 33-41: E | 42-54: D | 55-79: A | 80-119: C ]
-finished trial 8 of 10
+finished trial 8 of 100
 
 trial shorthand= 12:27, 0:20, 21:11, 20:19, 13:2, 3:23
 
@@ -195,7 +195,7 @@ Sum user utility was -332 while sum of best expected utilties was -332 (let down
 
 Trial matched srtf, trial was:
 [ 0-12: B | 13-14: E | 15-21: B | 22-32: C | 33-51: D | 52-74: F | 75-101: A ]
-finished trial 9 of 10
+finished trial 9 of 100
 
 trial shorthand= 33:13, 8:37, 17:1, 2:2, 21:10, 0:20
 
@@ -217,11 +217,2003 @@ Sum user utility was -209 while sum of best expected utilties was -209 (let down
 
 Trial matched srtf, trial was:
 [ 0-1: F | 2-3: D | 4-16: F | 17: C | 18-22: F | 23-32: E | 33-45: A | 46-82: B ]
-finished trial 10 of 10
+finished trial 10 of 100
 
-10 of 10 scenarios matched the srtf result ( 1 )
-average delay ratio 1
-average flow duration for srtf 32.7
-average flow duration for trials 32.7
-largest difference from best expected utilities to final utilities (utility let down) was 4
-worst srtf divergence was 0
+trial shorthand= 0:10, 31:38, 17:12, 1:36, 29:8, 7:17
+
+User: A flow start time: 0 num packets: 10
+User: B flow start time: 31 num packets: 38
+User: C flow start time: 17 num packets: 12
+User: D flow start time: 1 num packets: 36
+User: E flow start time: 29 num packets: 8
+User: F flow start time: 7 num packets: 17
+
+A had benefit -10, cost -10, utility -20, and best expected utility -20
+B had benefit -90, cost -38, utility -128, and best expected utility -128
+C had benefit -30, cost -16.04, utility -46.04, and best expected utility -46.04
+D had benefit -82, cost 1.37, utility -80.63, and best expected utility -80.63
+E had benefit -8, cost -24.16, utility -32.16, and best expected utility -32.16
+F had benefit -20, cost -34.17, utility -54.17, and best expected utility -54.17
+
+Sum user utility was -361 while sum of best expected utilties was -361 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-9: A | 10-26: F | 27-28: C | 29-36: E | 37-46: C | 47-82: D | 83-120: B ]
+finished trial 11 of 100
+
+trial shorthand= 9:34, 18:6, 18:4, 11:25, 0:32, 4:30
+
+User: A flow start time: 9 num packets: 34
+User: B flow start time: 18 num packets: 6
+User: C flow start time: 18 num packets: 4
+User: D flow start time: 11 num packets: 25
+User: E flow start time: 0 num packets: 32
+User: F flow start time: 4 num packets: 30
+
+A had benefit -122, cost 1.35, utility -120.65, and best expected utility -120.65
+B had benefit -10, cost -26.2, utility -36.2, and best expected utility -36.2
+C had benefit -4, cost -24.2, utility -28.2, and best expected utility -28.2
+D had benefit -56, cost -65.4, utility -121.4, and best expected utility -121.4
+E had benefit -42, cost -21.9, utility -63.9, and best expected utility -63.9
+F had benefit -93, cost 5.35, utility -87.65, and best expected utility -87.65
+
+Sum user utility was -458 while sum of best expected utilties was -458 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-17: E | 18-21: C | 22-27: B | 28-41: E | 42-66: D | 67-96: F | 97-130: A ]
+finished trial 12 of 100
+
+trial shorthand= 5:20, 12:9, 10:36, 2:30, 18:4, 0:6
+
+User: A flow start time: 5 num packets: 20
+User: B flow start time: 12 num packets: 9
+User: C flow start time: 10 num packets: 36
+User: D flow start time: 2 num packets: 30
+User: E flow start time: 18 num packets: 4
+User: F flow start time: 0 num packets: 6
+
+A had benefit -34, cost -27.07, utility -61.07, and best expected utility -61.07
+B had benefit -9, cost -36.27, utility -45.27, and best expected utility -45.27
+C had benefit -95, cost -22.87, utility -117.87, and best expected utility -117.87
+D had benefit -67, cost 3.33, utility -63.67, and best expected utility -63.67
+E had benefit -7, cost -16.12, utility -23.12, and best expected utility -23.12
+F had benefit -6, cost -6, utility -12, and best expected utility -12
+
+Sum user utility was -323 while sum of best expected utilties was -323 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-5: F | 6-11: A | 12-20: B | 21-24: E | 25-38: A | 39-68: D | 69-104: C ]
+finished trial 13 of 100
+
+trial shorthand= 5:12, 0:36, 18:9, 3:29, 0:31, 32:21
+
+User: A flow start time: 5 num packets: 12
+User: B flow start time: 0 num packets: 36
+User: C flow start time: 18 num packets: 9
+User: D flow start time: 3 num packets: 29
+User: E flow start time: 0 num packets: 31
+User: F flow start time: 32 num packets: 21
+
+A had benefit -12, cost -48.36, utility -60.36, and best expected utility -60.36
+B had benefit -138, cost 67.02, utility -70.98, and best expected utility -70.98
+C had benefit -9, cost -36.27, utility -45.27, and best expected utility -45.27
+D had benefit -99, cost -15.87, utility -114.87, and best expected utility -114.87
+E had benefit -52, cost -41.1, utility -93.1, and best expected utility -93.1
+F had benefit -41, cost -63.42, utility -104.42, and best expected utility -104.42
+
+Sum user utility was -489 while sum of best expected utilties was -489 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-4: E | 5-16: A | 17: E | 18-26: C | 27-51: E | 52-72: F | 73-101: D | 102-137: B ]
+finished trial 14 of 100
+
+trial shorthand= 30:5, 0:35, 23:17, 19:12, 23:6, 15:17
+
+User: A flow start time: 30 num packets: 5
+User: B flow start time: 0 num packets: 35
+User: C flow start time: 23 num packets: 17
+User: D flow start time: 19 num packets: 12
+User: E flow start time: 23 num packets: 6
+User: F flow start time: 15 num packets: 17
+
+A had benefit -5, cost -25.2, utility -30.2, and best expected utility -30.2
+B had benefit -92, cost 22.57, utility -69.43, and best expected utility -69.43
+C had benefit -49, cost -23.06, utility -72.06, and best expected utility -72.06
+D had benefit -23, cost -31.19, utility -54.19, and best expected utility -48.24
+E had benefit -6, cost -24.18, utility -30.18, and best expected utility -30.18
+F had benefit -40, cost -10.94, utility -50.94, and best expected utility -50.94
+
+Sum user utility was -307 while sum of best expected utilties was -301.05 (let down of 5.95)
+
+Trial matched srtf, trial was:
+[ 0-14: B | 15-18: F | 19-22: D | 23-28: E | 29: D | 30-34: A | 35-41: D | 42-54: F | 55-71: C | 72-91: B ]
+finished trial 15 of 100
+
+trial shorthand= 14:32, 19:29, 17:8, 16:2, 0:36, 11:38
+
+User: A flow start time: 14 num packets: 32
+User: B flow start time: 19 num packets: 29
+User: C flow start time: 17 num packets: 8
+User: D flow start time: 16 num packets: 2
+User: E flow start time: 0 num packets: 36
+User: F flow start time: 11 num packets: 38
+
+A had benefit -93, cost -24.93, utility -117.93, and best expected utility -117.93
+B had benefit -56, cost -87.58, utility -143.58, and best expected utility -143.58
+C had benefit -9, cost -32.24, utility -41.24, and best expected utility -41.24
+D had benefit -2, cost -8.06, utility -10.06, and best expected utility -10.06
+E had benefit -46, cost -25.9, utility -71.9, and best expected utility -71.9
+F had benefit -134, cost 33.71, utility -100.29, and best expected utility -100.29
+
+Sum user utility was -485 while sum of best expected utilties was -485 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-15: E | 16-17: D | 18-25: C | 26-45: E | 46-74: B | 75-106: A | 107-144: F ]
+finished trial 16 of 100
+
+trial shorthand= 32:34, 15:29, 20:12, 5:10, 13:5, 0:4
+
+User: A flow start time: 32 num packets: 34
+User: B flow start time: 15 num packets: 29
+User: C flow start time: 20 num packets: 12
+User: D flow start time: 5 num packets: 10
+User: E flow start time: 13 num packets: 5
+User: F flow start time: 0 num packets: 4
+
+A had benefit -63, cost -34, utility -97, and best expected utility -97
+B had benefit -46, cost -16.88, utility -62.88, and best expected utility -62.88
+C had benefit -12, cost -24.12, utility -36.12, and best expected utility -36.12
+D had benefit -10, cost -10, utility -20, and best expected utility -20
+E had benefit -7, cost -5, utility -12, and best expected utility -12
+F had benefit -4, cost -4, utility -8, and best expected utility -8
+
+Sum user utility was -236 while sum of best expected utilties was -236 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: F | 5-14: D | 15-19: E | 20-31: C | 32-60: B | 61-94: A ]
+finished trial 17 of 100
+
+trial shorthand= 7:19, 0:1, 18:19, 2:9, 3:38, 31:37
+
+User: A flow start time: 7 num packets: 19
+User: B flow start time: 0 num packets: 1
+User: C flow start time: 18 num packets: 19
+User: D flow start time: 2 num packets: 9
+User: E flow start time: 3 num packets: 38
+User: F flow start time: 31 num packets: 37
+
+A had benefit -23, cost -38.19, utility -61.19, and best expected utility -61.19
+B had benefit -1, cost -1, utility -2, and best expected utility -2
+C had benefit -31, cost -38.19, utility -69.19, and best expected utility -69.19
+D had benefit -9, cost -9, utility -18, and best expected utility -18
+E had benefit -121, cost 37.75, utility -83.25, and best expected utility -83.25
+F had benefit -55, cost -74.37, utility -129.37, and best expected utility -129.37
+
+Sum user utility was -363 while sum of best expected utilties was -363 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0: B | 2-10: D | 11-29: A | 30-48: C | 49-85: F | 86-123: E ]
+finished trial 18 of 100
+
+trial shorthand= 0:24, 26:24, 6:20, 8:6, 0:31, 21:20
+
+User: A flow start time: 0 num packets: 24
+User: B flow start time: 26 num packets: 24
+User: C flow start time: 6 num packets: 20
+User: D flow start time: 8 num packets: 6
+User: E flow start time: 0 num packets: 31
+User: F flow start time: 21 num packets: 20
+
+A had benefit -30, cost -17.94, utility -47.94, and best expected utility -47.94
+B had benefit -68, cost -48.24, utility -116.24, and best expected utility -116.24
+C had benefit -44, cost -34.14, utility -78.14, and best expected utility -78.14
+D had benefit -6, cost -24.18, utility -30.18, and best expected utility -30.18
+E had benefit -125, cost 39.7, utility -85.3, and best expected utility -85.3
+F had benefit -49, cost -40.2, utility -89.2, and best expected utility -89.2
+
+Sum user utility was -447 while sum of best expected utilties was -447 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-7: A | 8-13: D | 14-29: A | 30-49: C | 50-69: F | 70-93: B | 94-124: E ]
+finished trial 19 of 100
+
+trial shorthand= 12:27, 7:3, 0:25, 15:28, 13:5, 6:12
+
+User: A flow start time: 12 num packets: 27
+User: B flow start time: 7 num packets: 3
+User: C flow start time: 0 num packets: 25
+User: D flow start time: 15 num packets: 28
+User: E flow start time: 13 num packets: 5
+User: F flow start time: 6 num packets: 12
+
+A had benefit -60, cost -21.95, utility -81.95, and best expected utility -81.95
+B had benefit -3, cost -9.06, utility -12.06, and best expected utility -12.06
+C had benefit -45, cost -4.8, utility -49.8, and best expected utility -49.8
+D had benefit -85, cost -28, utility -113, and best expected utility -113
+E had benefit -5, cost -20.15, utility -25.15, and best expected utility -25.15
+F had benefit -20, cost -16.04, utility -36.04, and best expected utility -36.04
+
+Sum user utility was -318 while sum of best expected utilties was -318 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-5: C | 6: F | 7-9: B | 10-12: F | 13-17: E | 18-25: F | 26-44: C | 45-71: A | 72-99: D ]
+finished trial 20 of 100
+
+trial shorthand= 17:29, 14:24, 21:9, 15:23, 26:11, 0:2
+
+User: A flow start time: 17 num packets: 29
+User: B flow start time: 14 num packets: 24
+User: C flow start time: 21 num packets: 9
+User: D flow start time: 15 num packets: 23
+User: E flow start time: 26 num packets: 11
+User: F flow start time: 0 num packets: 2
+
+A had benefit -93, cost -8.8, utility -101.8, and best expected utility -101.8
+B had benefit -44, cost -3.8, utility -47.8, and best expected utility -47.8
+C had benefit -9, cost -36.27, utility -45.27, and best expected utility -45.27
+D had benefit -66, cost -2.8, utility -68.8, and best expected utility -68.8
+E had benefit -15, cost -44.33, utility -59.33, and best expected utility -59.33
+F had benefit -2, cost -2, utility -4, and best expected utility -4
+
+Sum user utility was -327 while sum of best expected utilties was -327 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-1: F | 14-20: B | 21-29: C | 30-40: E | 41-57: B | 58-80: D | 81-109: A ]
+finished trial 21 of 100
+
+trial shorthand= 21:11, 38:26, 0:17, 4:27, 2:26, 28:17
+
+User: A flow start time: 21 num packets: 11
+User: B flow start time: 38 num packets: 26
+User: C flow start time: 0 num packets: 17
+User: D flow start time: 4 num packets: 27
+User: E flow start time: 2 num packets: 26
+User: F flow start time: 28 num packets: 17
+
+A had benefit -11, cost -33.22, utility -44.22, and best expected utility -44.22
+B had benefit -59, cost -52.26, utility -111.26, and best expected utility -111.26
+C had benefit -17, cost -17, utility -34, and best expected utility -34
+D had benefit -120, cost 27.54, utility -92.46, and best expected utility -92.46
+E had benefit -69, cost 2.28, utility -66.72, and best expected utility -66.72
+F had benefit -21, cost -51.34, utility -72.34, and best expected utility -72.34
+
+Sum user utility was -421 while sum of best expected utilties was -421 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-16: C | 17-20: E | 21-31: A | 32-48: F | 49-70: E | 71-96: B | 97-123: D ]
+finished trial 22 of 100
+
+trial shorthand= 2:19, 4:38, 22:25, 0:37, 12:20, 19:31
+
+User: A flow start time: 2 num packets: 19
+User: B flow start time: 4 num packets: 38
+User: C flow start time: 22 num packets: 25
+User: D flow start time: 0 num packets: 37
+User: E flow start time: 12 num packets: 20
+User: F flow start time: 19 num packets: 31
+
+A had benefit -19, cost -38.19, utility -57.19, and best expected utility -57.19
+B had benefit -166, cost 38.76, utility -127.24, and best expected utility -127.24
+C had benefit -44, cost -100.75, utility -144.75, and best expected utility -144.75
+D had benefit -132, cost 58.95, utility -73.05, and best expected utility -73.05
+E had benefit -29, cost -60.4, utility -89.4, and best expected utility -89.4
+F had benefit -78, cost -68.37, utility -146.37, and best expected utility -146.37
+
+Sum user utility was -638 while sum of best expected utilties was -638 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-1: D | 2-20: A | 21-40: E | 41-65: C | 66-96: F | 97-131: D | 132-169: B ]
+finished trial 23 of 100
+
+trial shorthand= 27:32, 12:12, 0:11, 12:15, 19:4, 38:22
+
+User: A flow start time: 27 num packets: 32
+User: B flow start time: 12 num packets: 12
+User: C flow start time: 0 num packets: 11
+User: D flow start time: 12 num packets: 15
+User: E flow start time: 19 num packets: 4
+User: F flow start time: 38 num packets: 22
+
+A had benefit -70, cost -9.78, utility -79.78, and best expected utility -79.78
+B had benefit -16, cost -7.96, utility -23.96, and best expected utility -23.96
+C had benefit -11, cost -11, utility -22, and best expected utility -22
+D had benefit -31, cost -10.96, utility -41.96, and best expected utility -41.96
+E had benefit -4, cost -12.08, utility -16.08, and best expected utility -16.08
+F had benefit -27, cost -44.22, utility -71.22, and best expected utility -71.22
+
+Sum user utility was -255 while sum of best expected utilties was -255 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-10: C | 12-18: B | 19-22: E | 23-27: B | 28-42: D | 43-64: F | 65-96: A ]
+finished trial 24 of 100
+
+trial shorthand= 15:37, 35:14, 9:29, 26:16, 2:27, 0:21
+
+User: A flow start time: 15 num packets: 37
+User: B flow start time: 35 num packets: 14
+User: C flow start time: 9 num packets: 29
+User: D flow start time: 26 num packets: 16
+User: E flow start time: 2 num packets: 27
+User: F flow start time: 0 num packets: 21
+
+A had benefit -129, cost -6.7, utility -135.7, and best expected utility -135.7
+B had benefit -21, cost -56.42, utility -77.42, and best expected utility -77.42
+C had benefit -98, cost 1.3, utility -96.7, and best expected utility -96.7
+D had benefit -16, cost -64.48, utility -80.48, and best expected utility -80.48
+E had benefit -76, cost 3.3, utility -72.7, and best expected utility -72.7
+F had benefit -21, cost -21, utility -42, and best expected utility -42
+
+Sum user utility was -505 while sum of best expected utilties was -505 (let down of 1.13687e-13)
+
+Trial matched srtf, trial was:
+[ 0-20: F | 21-25: E | 26-41: D | 42-55: B | 56-77: E | 78-106: C | 107-143: A ]
+finished trial 25 of 100
+
+trial shorthand= 5:5, 11:23, 11:28, 0:37, 14:19, 2:13
+
+User: A flow start time: 5 num packets: 5
+User: B flow start time: 11 num packets: 23
+User: C flow start time: 11 num packets: 28
+User: D flow start time: 0 num packets: 37
+User: E flow start time: 14 num packets: 19
+User: F flow start time: 2 num packets: 13
+
+A had benefit -5, cost -15.1, utility -20.1, and best expected utility -20.1
+B had benefit -51, cost -28.03, utility -79.03, and best expected utility -78.23
+C had benefit -114, cost 14.42, utility -99.58, and best expected utility -99.58
+D had benefit -97, cost 1.36, utility -95.64, and best expected utility -73.82
+E had benefit -25, cost -76.57, utility -101.57, and best expected utility -101.57
+F had benefit -18, cost -21.08, utility -39.08, and best expected utility -39.08
+
+Sum user utility was -435 while sum of best expected utilties was -412.38 (let down of 22.62)
+
+trial didn't match srtf! Trial was:
+[ 0-1: D | 2-4: F | 5-9: A | 10-19: F | 20-38: E | 39-61: B | 62-96: D | 97-124: C ]
+and srtf was:
+[ 0-1: D | 2-4: F | 5-9: A | 10-19: F | 20-38: E | 39-61: B | 62-89: C | 90-124: D ]
+Trial had 7 less benefit than srtf
+finished trial 26 of 100
+
+trial shorthand= 22:13, 13:10, 10:11, 16:28, 0:22, 27:13
+
+User: A flow start time: 22 num packets: 13
+User: B flow start time: 13 num packets: 10
+User: C flow start time: 10 num packets: 11
+User: D flow start time: 16 num packets: 28
+User: E flow start time: 0 num packets: 22
+User: F flow start time: 27 num packets: 13
+
+A had benefit -34, cost -26.13, utility -60.13, and best expected utility -60.13
+B had benefit -18, cost -20.1, utility -38.1, and best expected utility -38.1
+C had benefit -11, cost -22.11, utility -33.11, and best expected utility -33.11
+D had benefit -81, cost -1.74, utility -82.74, and best expected utility -82.74
+E had benefit -43, cost -0.79, utility -43.79, and best expected utility -43.79
+F had benefit -42, cost -26.13, utility -68.13, and best expected utility -68.13
+
+Sum user utility was -326 while sum of best expected utilties was -326 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-9: E | 10-20: C | 21-30: B | 31-42: E | 43-55: A | 56-68: F | 69-96: D ]
+finished trial 27 of 100
+
+trial shorthand= 0:16, 18:40, 0:25, 18:12, 19:28, 24:29
+
+User: A flow start time: 0 num packets: 16
+User: B flow start time: 18 num packets: 40
+User: C flow start time: 0 num packets: 25
+User: D flow start time: 18 num packets: 12
+User: E flow start time: 19 num packets: 28
+User: F flow start time: 24 num packets: 29
+
+A had benefit -16, cost -16, utility -32, and best expected utility -32
+B had benefit -132, cost 29.69, utility -102.31, and best expected utility -102.31
+C had benefit -53, cost -12.88, utility -65.88, and best expected utility -65.88
+D had benefit -12, cost -36.24, utility -48.24, and best expected utility -48.24
+E had benefit -62, cost -56.28, utility -118.28, and best expected utility -118.28
+F had benefit -86, cost -58.29, utility -144.29, and best expected utility -144.29
+
+Sum user utility was -511 while sum of best expected utilties was -511 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-15: A | 16-17: C | 18-29: D | 30-52: C | 53-80: E | 81-109: F | 110-149: B ]
+finished trial 28 of 100
+
+trial shorthand= 7:31, 24:19, 0:25, 22:30, 36:2, 30:5
+
+User: A flow start time: 7 num packets: 31
+User: B flow start time: 24 num packets: 19
+User: C flow start time: 0 num packets: 25
+User: D flow start time: 22 num packets: 30
+User: E flow start time: 36 num packets: 2
+User: F flow start time: 30 num packets: 5
+
+A had benefit -105, cost 25.56, utility -79.44, and best expected utility -79.44
+B had benefit -27, cost -50.31, utility -77.31, and best expected utility -77.31
+C had benefit -25, cost -25, utility -50, and best expected utility -50
+D had benefit -59, cost -34.04, utility -93.04, and best expected utility -93.04
+E had benefit -2, cost -8.06, utility -10.06, and best expected utility -10.06
+F had benefit -5, cost -20.15, utility -25.15, and best expected utility -25.15
+
+Sum user utility was -335 while sum of best expected utilties was -335 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-24: C | 25-29: B | 30-34: F | 35: B | 36-37: E | 38-50: B | 51-80: D | 81-111: A ]
+finished trial 29 of 100
+
+trial shorthand= 12:13, 32:11, 25:26, 22:20, 0:3, 18:34
+
+User: A flow start time: 12 num packets: 13
+User: B flow start time: 32 num packets: 11
+User: C flow start time: 25 num packets: 26
+User: D flow start time: 22 num packets: 20
+User: E flow start time: 0 num packets: 3
+User: F flow start time: 18 num packets: 34
+
+A had benefit -13, cost -13, utility -26, and best expected utility -26
+B had benefit -11, cost -44.33, utility -55.33, and best expected utility -55.33
+C had benefit -57, cost -41.15, utility -98.15, and best expected utility -98.15
+D had benefit -34, cost -29.09, utility -63.09, and best expected utility -63.09
+E had benefit -3, cost -3, utility -6, and best expected utility -6
+F had benefit -98, cost 23.57, utility -74.43, and best expected utility -74.43
+
+Sum user utility was -323 while sum of best expected utilties was -323 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: E | 12-24: A | 25-31: D | 32-42: B | 43-55: D | 56-81: C | 82-115: F ]
+finished trial 30 of 100
+
+trial shorthand= 14:31, 0:31, 5:22, 15:17, 8:36, 30:5
+
+User: A flow start time: 14 num packets: 31
+User: B flow start time: 0 num packets: 31
+User: C flow start time: 5 num packets: 22
+User: D flow start time: 15 num packets: 17
+User: E flow start time: 8 num packets: 36
+User: F flow start time: 30 num packets: 5
+
+A had benefit -92, cost -40.09, utility -132.09, and best expected utility -132.09
+B had benefit -75, cost 13.44, utility -61.56, and best expected utility -61.56
+C had benefit -22, cost -44.22, utility -66.22, and best expected utility -66.22
+D had benefit -34, cost -63.46, utility -97.46, and best expected utility -97.46
+E had benefit -134, cost 17.53, utility -116.47, and best expected utility -116.47
+F had benefit -5, cost -25.2, utility -30.2, and best expected utility -30.2
+
+Sum user utility was -504 while sum of best expected utilties was -504 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-4: B | 5-26: C | 27-29: D | 30-34: F | 35-48: D | 49-74: B | 75-105: A | 106-141: E ]
+finished trial 31 of 100
+
+trial shorthand= 9:10, 23:17, 0:16, 10:23, 9:5, 23:6
+
+User: A flow start time: 9 num packets: 10
+User: B flow start time: 23 num packets: 17
+User: C flow start time: 0 num packets: 16
+User: D flow start time: 10 num packets: 23
+User: E flow start time: 9 num packets: 5
+User: F flow start time: 23 num packets: 6
+
+A had benefit -28, cost -4.95, utility -32.95, and best expected utility -26.95
+B had benefit -31, cost -28.11, utility -59.11, and best expected utility -59.11
+C had benefit -21, cost -10.95, utility -31.95, and best expected utility -31.95
+D had benefit -67, cost 0.23, utility -66.77, and best expected utility -66.77
+E had benefit -5, cost -15.1, utility -20.1, and best expected utility -20.1
+F had benefit -6, cost -18.12, utility -24.12, and best expected utility -24.12
+
+Sum user utility was -235 while sum of best expected utilties was -229 (let down of 6)
+
+Trial matched srtf, trial was:
+[ 0-8: C | 9-13: E | 14-20: C | 21-22: A | 23-28: F | 29-36: A | 37-53: B | 54-76: D ]
+finished trial 32 of 100
+
+trial shorthand= 20:8, 23:14, 0:35, 5:20, 23:3, 1:27
+
+User: A flow start time: 20 num packets: 8
+User: B flow start time: 23 num packets: 14
+User: C flow start time: 0 num packets: 35
+User: D flow start time: 5 num packets: 20
+User: E flow start time: 23 num packets: 3
+User: F flow start time: 1 num packets: 27
+
+A had benefit -16, cost -23.17, utility -39.17, and best expected utility -37.16
+B had benefit -27, cost -39.25, utility -66.25, and best expected utility -66.25
+C had benefit -107, cost 37.72, utility -69.28, and best expected utility -69.28
+D had benefit -20, cost -60.4, utility -80.4, and best expected utility -80.4
+E had benefit -5, cost -13.08, utility -18.08, and best expected utility -17.09
+F had benefit -72, cost -8.82, utility -80.82, and best expected utility -80.82
+
+Sum user utility was -354 while sum of best expected utilties was -351 (let down of 3)
+
+Trial matched srtf, trial was:
+[ 0: C | 1-4: F | 5-24: D | 25-27: E | 28-35: A | 36-49: B | 50-72: F | 73-106: C ]
+finished trial 33 of 100
+
+trial shorthand= 22:22, 0:29, 6:30, 30:29, 36:19, 34:9
+
+User: A flow start time: 22 num packets: 22
+User: B flow start time: 0 num packets: 29
+User: C flow start time: 6 num packets: 30
+User: D flow start time: 30 num packets: 29
+User: E flow start time: 36 num packets: 19
+User: F flow start time: 34 num packets: 9
+
+A had benefit -38, cost -35.13, utility -73.13, and best expected utility -73.13
+B had benefit -29, cost -29, utility -58, and best expected utility -58
+C had benefit -132, cost 49.79, utility -82.21, and best expected utility -82.21
+D had benefit -78, cost -30.01, utility -108.01, and best expected utility -108.01
+E had benefit -43, cost -57.38, utility -100.38, and best expected utility -100.38
+F had benefit -9, cost -36.27, utility -45.27, and best expected utility -45.27
+
+Sum user utility was -467 while sum of best expected utilties was -467 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-28: B | 29-33: A | 34-42: F | 43-59: A | 60-78: E | 79-107: D | 108-137: C ]
+finished trial 34 of 100
+
+trial shorthand= 26:9, 16:14, 6:9, 3:35, 0:27, 1:10
+
+User: A flow start time: 26 num packets: 9
+User: B flow start time: 16 num packets: 14
+User: C flow start time: 6 num packets: 9
+User: D flow start time: 3 num packets: 35
+User: E flow start time: 0 num packets: 27
+User: F flow start time: 1 num packets: 10
+
+A had benefit -17, cost -27.18, utility -44.18, and best expected utility -44.18
+B had benefit -18, cost -42.28, utility -60.28, and best expected utility -60.28
+C had benefit -14, cost -27.18, utility -41.18, and best expected utility -41.18
+D had benefit -101, cost -2.68, utility -103.68, and best expected utility -103.68
+E had benefit -69, cost 15.42, utility -53.58, and best expected utility -53.58
+F had benefit -10, cost -20.1, utility -30.1, and best expected utility -30.1
+
+Sum user utility was -333 while sum of best expected utilties was -333 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0: E | 1-10: F | 11-19: C | 20-33: B | 34-42: A | 43-68: E | 69-103: D ]
+finished trial 35 of 100
+
+trial shorthand= 17:7, 25:38, 6:31, 20:34, 0:18, 10:13
+
+User: A flow start time: 17 num packets: 7
+User: B flow start time: 25 num packets: 38
+User: C flow start time: 6 num packets: 31
+User: D flow start time: 20 num packets: 34
+User: E flow start time: 0 num packets: 18
+User: F flow start time: 10 num packets: 13
+
+A had benefit -8, cost -21.14, utility -29.14, and best expected utility -29.14
+B had benefit -116, cost -38, utility -154, and best expected utility -154
+C had benefit -63, cost -10.8, utility -73.8, and best expected utility -73.8
+D had benefit -83, cost -34, utility -117, and best expected utility -117
+E had benefit -18, cost -18, utility -36, and best expected utility -36
+F had benefit -28, cost -19.06, utility -47.06, and best expected utility -47.06
+
+Sum user utility was -457 while sum of best expected utilties was -457 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-17: E | 18-24: A | 25-37: F | 38-68: C | 69-102: D | 103-140: B ]
+finished trial 36 of 100
+
+trial shorthand= 0:6, 26:37, 9:29, 31:10, 30:21, 8:2
+
+User: A flow start time: 0 num packets: 6
+User: B flow start time: 26 num packets: 37
+User: C flow start time: 9 num packets: 29
+User: D flow start time: 31 num packets: 10
+User: E flow start time: 30 num packets: 21
+User: F flow start time: 8 num packets: 2
+
+A had benefit -6, cost -6, utility -12, and best expected utility -12
+B had benefit -81, cost -5.69, utility -86.69, and best expected utility -86.69
+C had benefit -30, cost -29, utility -59, and best expected utility -59
+D had benefit -18, cost -30.2, utility -48.2, and best expected utility -48.2
+E had benefit -40, cost -32.11, utility -72.11, and best expected utility -72.11
+F had benefit -2, cost -2, utility -4, and best expected utility -4
+
+Sum user utility was -282 while sum of best expected utilties was -282 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-5: A | 8-9: F | 10-38: C | 39-48: D | 49-69: E | 70-106: B ]
+finished trial 37 of 100
+
+trial shorthand= 10:25, 18:28, 0:29, 26:23, 24:18, 9:4
+
+User: A flow start time: 10 num packets: 25
+User: B flow start time: 18 num packets: 28
+User: C flow start time: 0 num packets: 29
+User: D flow start time: 26 num packets: 23
+User: E flow start time: 24 num packets: 18
+User: F flow start time: 9 num packets: 4
+
+A had benefit -89, cost 16.41, utility -72.59, and best expected utility -72.59
+B had benefit -109, cost 13.41, utility -95.59, and best expected utility -95.59
+C had benefit -33, cost -24.96, utility -57.96, and best expected utility -57.96
+D had benefit -48, cost -69.46, utility -117.46, and best expected utility -117.46
+E had benefit -27, cost -54.36, utility -81.36, and best expected utility -81.36
+F had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
+
+Sum user utility was -437 while sum of best expected utilties was -437 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-8: C | 9-12: F | 13-32: C | 33-50: E | 51-73: D | 74-98: A | 99-126: B ]
+finished trial 38 of 100
+
+trial shorthand= 32:3, 21:4, 13:2, 0:19, 32:32, 8:15
+
+User: A flow start time: 32 num packets: 3
+User: B flow start time: 21 num packets: 4
+User: C flow start time: 13 num packets: 2
+User: D flow start time: 0 num packets: 19
+User: E flow start time: 32 num packets: 32
+User: F flow start time: 8 num packets: 15
+
+A had benefit -3, cost -6.03, utility -9.03, and best expected utility -9.03
+B had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
+C had benefit -2, cost -6.04, utility -8.04, and best expected utility -8.04
+D had benefit -21, cost -16.98, utility -37.98, and best expected utility -37.98
+E had benefit -43, cost -28.97, utility -71.97, and best expected utility -71.97
+F had benefit -35, cost -8.94, utility -43.94, and best expected utility -40.94
+
+Sum user utility was -183 while sum of best expected utilties was -180 (let down of 3)
+
+Trial matched srtf, trial was:
+[ 0-12: D | 13-14: C | 15-20: D | 21-24: B | 25-31: F | 32-34: A | 35-42: F | 43-74: E ]
+finished trial 39 of 100
+
+trial shorthand= 14:13, 10:8, 19:30, 4:5, 0:30, 18:16
+
+User: A flow start time: 14 num packets: 13
+User: B flow start time: 10 num packets: 8
+User: C flow start time: 19 num packets: 30
+User: D flow start time: 4 num packets: 5
+User: E flow start time: 0 num packets: 30
+User: F flow start time: 18 num packets: 16
+
+A had benefit -17, cost -26.13, utility -43.13, and best expected utility -43.13
+B had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
+C had benefit -83, cost -30, utility -113, and best expected utility -113
+D had benefit -5, cost -10.05, utility -15.05, and best expected utility -15.05
+E had benefit -72, cost 12.42, utility -59.58, and best expected utility -59.58
+F had benefit -29, cost -32.16, utility -61.16, and best expected utility -61.16
+
+Sum user utility was -316 while sum of best expected utilties was -316 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: E | 4-8: D | 9: E | 10-17: B | 18-30: A | 31-46: F | 47-71: E | 72-101: C ]
+finished trial 40 of 100
+
+trial shorthand= 10:21, 31:12, 22:10, 0:29, 5:36, 16:25
+
+User: A flow start time: 10 num packets: 21
+User: B flow start time: 31 num packets: 12
+User: C flow start time: 22 num packets: 10
+User: D flow start time: 0 num packets: 29
+User: E flow start time: 5 num packets: 36
+User: F flow start time: 16 num packets: 25
+
+A had benefit -62, cost -19.99, utility -81.99, and best expected utility -81.99
+B had benefit -20, cost -48.36, utility -68.36, and best expected utility -68.36
+C had benefit -17, cost -40.3, utility -57.3, and best expected utility -57.3
+D had benefit -29, cost -29, utility -58, and best expected utility -58
+E had benefit -128, cost 32.68, utility -95.32, and best expected utility -95.32
+F had benefit -81, cost -28.03, utility -109.03, and best expected utility -109.03
+
+Sum user utility was -470 while sum of best expected utilties was -470 (let down of 5.68434e-14)
+
+Trial matched srtf, trial was:
+[ 0-28: D | 29-38: C | 39-50: B | 51-71: A | 72-96: F | 97-132: E ]
+finished trial 41 of 100
+
+trial shorthand= 29:31, 2:21, 21:10, 26:33, 21:3, 0:38
+
+User: A flow start time: 29 num packets: 31
+User: B flow start time: 2 num packets: 21
+User: C flow start time: 21 num packets: 10
+User: D flow start time: 26 num packets: 33
+User: E flow start time: 21 num packets: 3
+User: F flow start time: 0 num packets: 38
+
+A had benefit -38, cost -93.62, utility -131.62, and best expected utility -131.62
+B had benefit -21, cost -44.23, utility -65.23, and best expected utility -63.21
+C had benefit -15, cost -17.07, utility -32.07, and best expected utility -32.07
+D had benefit -74, cost -35.02, utility -109.02, and best expected utility -109.02
+E had benefit -5, cost -7.04, utility -12.04, and best expected utility -12.04
+F had benefit -136, cost 60.98, utility -75.02, and best expected utility -75.02
+
+Sum user utility was -425 while sum of best expected utilties was -422.98 (let down of 2.02)
+
+Trial matched srtf, trial was:
+[ 0-1: F | 2-22: B | 23-25: E | 26-35: C | 36-66: A | 67-99: D | 100-135: F ]
+finished trial 42 of 100
+
+trial shorthand= 22:2, 0:30, 29:26, 35:8, 36:35, 9:27
+
+User: A flow start time: 22 num packets: 2
+User: B flow start time: 0 num packets: 30
+User: C flow start time: 29 num packets: 26
+User: D flow start time: 35 num packets: 8
+User: E flow start time: 36 num packets: 35
+User: F flow start time: 9 num packets: 27
+
+A had benefit -2, cost -6.04, utility -8.04, and best expected utility -8.04
+B had benefit -32, cost -27.98, utility -59.98, and best expected utility -59.98
+C had benefit -37, cost -44.18, utility -81.18, and best expected utility -81.18
+D had benefit -8, cost -24.16, utility -32.16, and best expected utility -32.16
+E had benefit -92, cost -35, utility -127, and best expected utility -127
+F had benefit -84, cost 9.36, utility -74.64, and best expected utility -74.64
+
+Sum user utility was -383 while sum of best expected utilties was -383 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-21: B | 22-23: A | 24-31: B | 32-34: C | 35-42: D | 43-65: C | 66-92: F | 93-127: E ]
+finished trial 43 of 100
+
+trial shorthand= 0:18, 10:9, 1:39, 28:27, 16:27, 2:35
+
+User: A flow start time: 0 num packets: 18
+User: B flow start time: 10 num packets: 9
+User: C flow start time: 1 num packets: 39
+User: D flow start time: 28 num packets: 27
+User: E flow start time: 16 num packets: 27
+User: F flow start time: 2 num packets: 35
+
+A had benefit -18, cost -18, utility -36, and best expected utility -36
+B had benefit -17, cost -27.18, utility -44.18, and best expected utility -44.18
+C had benefit -154, cost 59.98, utility -94.02, and best expected utility -94.02
+D had benefit -53, cost -81.54, utility -134.54, and best expected utility -134.54
+E had benefit -38, cost -81.54, utility -119.54, and best expected utility -119.54
+F had benefit -114, cost -6.72, utility -120.72, and best expected utility -120.72
+
+Sum user utility was -549 while sum of best expected utilties was -549 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-17: A | 18-26: B | 27-53: E | 54-80: D | 81-115: F | 116-154: C ]
+finished trial 44 of 100
+
+trial shorthand= 29:33, 11:10, 19:11, 0:11, 4:1, 24:34
+
+User: A flow start time: 29 num packets: 33
+User: B flow start time: 11 num packets: 10
+User: C flow start time: 19 num packets: 11
+User: D flow start time: 0 num packets: 11
+User: E flow start time: 4 num packets: 1
+User: F flow start time: 24 num packets: 34
+
+A had benefit -37, cost -66.33, utility -103.33, and best expected utility -103.33
+B had benefit -11, cost -10, utility -21, and best expected utility -21
+C had benefit -14, cost -11, utility -25, and best expected utility -25
+D had benefit -12, cost -9.99, utility -21.99, and best expected utility -21.99
+E had benefit -1, cost -2.01, utility -3.01, and best expected utility -3.01
+F had benefit -76, cost -0.67, utility -76.67, and best expected utility -76.67
+
+Sum user utility was -251 while sum of best expected utilties was -251 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: D | 4: E | 5-11: D | 12-21: B | 22-32: C | 33-65: A | 66-99: F ]
+finished trial 45 of 100
+
+trial shorthand= 7:28, 22:7, 4:36, 22:11, 2:40, 0:10
+
+User: A flow start time: 7 num packets: 28
+User: B flow start time: 22 num packets: 7
+User: C flow start time: 4 num packets: 36
+User: D flow start time: 22 num packets: 11
+User: E flow start time: 2 num packets: 40
+User: F flow start time: 0 num packets: 10
+
+A had benefit -38, cost -84.56, utility -122.56, and best expected utility -115.56
+B had benefit -7, cost -28.21, utility -35.21, and best expected utility -35.21
+C had benefit -88, cost -25.9, utility -113.9, and best expected utility -113.9
+D had benefit -34, cost -26.15, utility -60.15, and best expected utility -60.15
+E had benefit -130, cost 42.82, utility -87.18, and best expected utility -87.18
+F had benefit -10, cost -10, utility -20, and best expected utility -20
+
+Sum user utility was -439 while sum of best expected utilties was -432 (let down of 7)
+
+trial didn't match srtf! Trial was:
+[ 0-9: F | 10-21: A | 22-28: B | 29-44: A | 45-55: D | 56-91: C | 92-131: E ]
+and srtf was:
+[ 0-9: F | 10-21: A | 22-28: B | 29-39: D | 40-55: A | 56-91: C | 92-131: E ]
+Trial had 5 less benefit than srtf
+finished trial 46 of 100
+
+trial shorthand= 19:35, 25:2, 10:34, 17:9, 8:7, 0:5
+
+User: A flow start time: 19 num packets: 35
+User: B flow start time: 25 num packets: 2
+User: C flow start time: 10 num packets: 34
+User: D flow start time: 17 num packets: 9
+User: E flow start time: 8 num packets: 7
+User: F flow start time: 0 num packets: 5
+
+A had benefit -76, cost -32.98, utility -108.98, and best expected utility -108.98
+B had benefit -3, cost -6.04, utility -9.04, and best expected utility -9.04
+C had benefit -50, cost -22.89, utility -72.89, and best expected utility -72.89
+D had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
+E had benefit -7, cost -7, utility -14, and best expected utility -14
+F had benefit -5, cost -5, utility -10, and best expected utility -10
+
+Sum user utility was -242 while sum of best expected utilties was -242 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-4: F | 8-14: E | 15-16: C | 17-25: D | 26-27: B | 28-59: C | 60-94: A ]
+finished trial 47 of 100
+
+trial shorthand= 11:18, 1:21, 4:38, 0:20, 12:39, 20:24
+
+User: A flow start time: 11 num packets: 18
+User: B flow start time: 1 num packets: 21
+User: C flow start time: 4 num packets: 38
+User: D flow start time: 0 num packets: 20
+User: E flow start time: 12 num packets: 39
+User: F flow start time: 20 num packets: 24
+
+A had benefit -27, cost -54.36, utility -81.36, and best expected utility -81.36
+B had benefit -58, cost -2.82, utility -60.82, and best expected utility -60.82
+C had benefit -117, cost 4.42, utility -112.58, and best expected utility -112.58
+D had benefit -20, cost -20, utility -40, and best expected utility -40
+E had benefit -148, cost -14.76, utility -162.76, and best expected utility -162.76
+F had benefit -63, cost -72.48, utility -135.48, and best expected utility -135.48
+
+Sum user utility was -593 while sum of best expected utilties was -593 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-19: D | 20-37: A | 38-58: B | 59-82: F | 83-120: C | 121-159: E ]
+finished trial 48 of 100
+
+trial shorthand= 26:19, 26:38, 2:4, 0:39, 30:35, 24:10
+
+User: A flow start time: 26 num packets: 19
+User: B flow start time: 26 num packets: 38
+User: C flow start time: 2 num packets: 4
+User: D flow start time: 0 num packets: 39
+User: E flow start time: 30 num packets: 35
+User: F flow start time: 24 num packets: 10
+
+A had benefit -46, cost -19, utility -65, and best expected utility -65
+B had benefit -119, cost -1.66, utility -120.66, and best expected utility -120.66
+C had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
+D had benefit -53, cost -25.85, utility -78.85, and best expected utility -77.86
+E had benefit -77, cost -70.35, utility -147.35, and best expected utility -147.35
+F had benefit -10, cost -20.1, utility -30.1, and best expected utility -30.1
+
+Sum user utility was -454 while sum of best expected utilties was -453.01 (let down of 0.99)
+
+Trial matched srtf, trial was:
+[ 0-1: D | 2-5: C | 6-23: D | 24-33: F | 34-52: D | 53-71: A | 72-106: E | 107-144: B ]
+finished trial 49 of 100
+
+trial shorthand= 7:20, 5:39, 12:29, 21:34, 24:2, 0:39
+
+User: A flow start time: 7 num packets: 20
+User: B flow start time: 5 num packets: 39
+User: C flow start time: 12 num packets: 29
+User: D flow start time: 21 num packets: 34
+User: E flow start time: 24 num packets: 2
+User: F flow start time: 0 num packets: 39
+
+A had benefit -22, cost -58.38, utility -80.38, and best expected utility -80.38
+B had benefit -158, cost 46.85, utility -111.15, and best expected utility -111.15
+C had benefit -46, cost -85.56, utility -131.56, and best expected utility -131.56
+D had benefit -103, cost -66.32, utility -169.32, and best expected utility -169.32
+E had benefit -2, cost -12.1, utility -14.1, and best expected utility -14.1
+F had benefit -90, cost 12.51, utility -77.49, and best expected utility -77.49
+
+Sum user utility was -584 while sum of best expected utilties was -584 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-6: F | 7-23: A | 24-25: E | 26-28: A | 29-57: C | 58-89: F | 90-123: D | 124-162: B ]
+finished trial 50 of 100
+
+trial shorthand= 21:20, 8:40, 0:4, 13:35, 4:8, 22:23
+
+User: A flow start time: 21 num packets: 20
+User: B flow start time: 8 num packets: 40
+User: C flow start time: 0 num packets: 4
+User: D flow start time: 13 num packets: 35
+User: E flow start time: 4 num packets: 8
+User: F flow start time: 22 num packets: 23
+
+A had benefit -20, cost -60.4, utility -80.4, and best expected utility -80.4
+B had benefit -122, cost 38.78, utility -83.22, and best expected utility -83.22
+C had benefit -4, cost -4, utility -8, and best expected utility -8
+D had benefit -78, cost -26.92, utility -104.92, and best expected utility -104.92
+E had benefit -8, cost -8, utility -16, and best expected utility -16
+F had benefit -42, cost -69.46, utility -111.46, and best expected utility -111.46
+
+Sum user utility was -404 while sum of best expected utilties was -404 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: C | 4-11: E | 12: B | 13-20: D | 21-40: A | 41-63: F | 64-90: D | 91-129: B ]
+finished trial 51 of 100
+
+trial shorthand= 1:31, 11:32, 16:36, 0:38, 13:12, 26:32
+
+User: A flow start time: 1 num packets: 31
+User: B flow start time: 11 num packets: 32
+User: C flow start time: 16 num packets: 36
+User: D flow start time: 0 num packets: 38
+User: E flow start time: 13 num packets: 12
+User: F flow start time: 26 num packets: 32
+
+A had benefit -43, cost -50.19, utility -93.19, and best expected utility -93.19
+B had benefit -65, cost -52.2, utility -117.2, and best expected utility -117.2
+C had benefit -128, cost -40.04, utility -168.04, and best expected utility -168.04
+D had benefit -181, cost 106.43, utility -74.57, and best expected utility -74.57
+E had benefit -12, cost -48.36, utility -60.36, and best expected utility -60.36
+F had benefit -82, cost -96.64, utility -178.64, and best expected utility -178.64
+
+Sum user utility was -692 while sum of best expected utilties was -692 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0: D | 1-12: A | 13-24: E | 25-43: A | 44-75: B | 76-107: F | 108-143: C | 144-180: D ]
+finished trial 52 of 100
+
+trial shorthand= 30:22, 16:21, 13:31, 17:6, 0:37, 35:3
+
+User: A flow start time: 30 num packets: 22
+User: B flow start time: 16 num packets: 21
+User: C flow start time: 13 num packets: 31
+User: D flow start time: 17 num packets: 6
+User: E flow start time: 0 num packets: 37
+User: F flow start time: 35 num packets: 3
+
+A had benefit -59, cost -41.19, utility -100.19, and best expected utility -100.19
+B had benefit -51, cost -33.12, utility -84.12, and best expected utility -84.12
+C had benefit -107, cost 21.52, utility -85.48, and best expected utility -85.48
+D had benefit -6, cost -24.18, utility -30.18, and best expected utility -30.18
+E had benefit -46, cost -27.91, utility -73.91, and best expected utility -73.91
+F had benefit -3, cost -15.12, utility -18.12, and best expected utility -18.12
+
+Sum user utility was -392 while sum of best expected utilties was -392 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-16: E | 17-22: D | 23-34: E | 35-37: F | 38-45: E | 46-66: B | 67-88: A | 89-119: C ]
+finished trial 53 of 100
+
+trial shorthand= 21:20, 26:5, 8:21, 8:22, 0:23, 2:20
+
+User: A flow start time: 21 num packets: 20
+User: B flow start time: 26 num packets: 5
+User: C flow start time: 8 num packets: 21
+User: D flow start time: 8 num packets: 22
+User: E flow start time: 0 num packets: 23
+User: F flow start time: 2 num packets: 20
+
+A had benefit -26, cost -75.55, utility -101.55, and best expected utility -101.55
+B had benefit -5, cost -25.2, utility -30.2, and best expected utility -30.2
+C had benefit -103, cost 26.47, utility -76.53, and best expected utility -76.53
+D had benefit -82, cost 2.24, utility -79.76, and best expected utility -79.76
+E had benefit -68, cost 15.38, utility -52.62, and best expected utility -45.8
+F had benefit -20, cost -54.34, utility -74.34, and best expected utility -60.2
+
+Sum user utility was -415 while sum of best expected utilties was -394.04 (let down of 20.96)
+
+trial didn't match srtf! Trial was:
+[ 0-1: E | 2-21: F | 22-25: A | 26-30: B | 31-46: A | 47-67: E | 68-89: D | 90-110: C ]
+and srtf was:
+[ 0-1: E | 2-21: F | 22-25: A | 26-30: B | 31-46: A | 47-67: C | 68-88: E | 89-110: D ]
+Trial had 1 less benefit than srtf
+finished trial 54 of 100
+
+trial shorthand= 10:6, 9:25, 9:4, 0:40, 10:25, 12:32
+
+User: A flow start time: 10 num packets: 6
+User: B flow start time: 9 num packets: 25
+User: C flow start time: 9 num packets: 4
+User: D flow start time: 0 num packets: 40
+User: E flow start time: 10 num packets: 25
+User: F flow start time: 12 num packets: 32
+
+A had benefit -9, cost -18.12, utility -27.12, and best expected utility -27.12
+B had benefit -35, cost -41.12, utility -76.12, and best expected utility -75.15
+C had benefit -4, cost -12.08, utility -16.08, and best expected utility -16.08
+D had benefit -100, cost 20.6, utility -79.4, and best expected utility -79.4
+E had benefit -59, cost -49.28, utility -108.28, and best expected utility -108.28
+F had benefit -120, cost -32, utility -152, and best expected utility -152
+
+Sum user utility was -459 while sum of best expected utilties was -458.03 (let down of 0.97)
+
+Trial matched srtf, trial was:
+[ 0-8: D | 9-12: C | 13-18: A | 19-43: B | 44-68: E | 69-99: D | 100-131: F ]
+finished trial 55 of 100
+
+trial shorthand= 4:31, 33:1, 15:26, 0:10, 1:32, 2:15
+
+User: A flow start time: 4 num packets: 31
+User: B flow start time: 33 num packets: 1
+User: C flow start time: 15 num packets: 26
+User: D flow start time: 0 num packets: 10
+User: E flow start time: 1 num packets: 32
+User: F flow start time: 2 num packets: 15
+
+A had benefit -79, cost -35.04, utility -114.04, and best expected utility -114.04
+B had benefit -1, cost -4.03, utility -5.03, and best expected utility -5.03
+C had benefit -37, cost -77.51, utility -114.51, and best expected utility -114.51
+D had benefit -10, cost -10, utility -20, and best expected utility -20
+E had benefit -114, cost 41.73, utility -72.27, and best expected utility -72.27
+F had benefit -23, cost -30.15, utility -53.15, and best expected utility -53.15
+
+Sum user utility was -379 while sum of best expected utilties was -379 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-9: D | 10-24: F | 25-32: C | 33: B | 34-51: C | 52-82: A | 83-114: E ]
+finished trial 56 of 100
+
+trial shorthand= 6:16, 30:15, 24:9, 28:39, 0:3, 17:23
+
+User: A flow start time: 6 num packets: 16
+User: B flow start time: 30 num packets: 15
+User: C flow start time: 24 num packets: 9
+User: D flow start time: 28 num packets: 39
+User: E flow start time: 0 num packets: 3
+User: F flow start time: 17 num packets: 23
+
+A had benefit -16, cost -16, utility -32, and best expected utility -32
+B had benefit -18, cost -45.3, utility -63.3, and best expected utility -63.3
+C had benefit -9, cost -18.09, utility -27.09, and best expected utility -27.09
+D had benefit -80, cost -23.85, utility -103.85, and best expected utility -103.85
+E had benefit -3, cost -3, utility -6, and best expected utility -6
+F had benefit -52, cost 1.24, utility -50.76, and best expected utility -50.76
+
+Sum user utility was -283 while sum of best expected utilties was -283 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: E | 6-21: A | 22-23: F | 24-32: C | 33-47: B | 48-68: F | 69-107: D ]
+finished trial 57 of 100
+
+trial shorthand= 31:31, 7:15, 0:34, 0:14, 17:35, 8:34
+
+User: A flow start time: 31 num packets: 31
+User: B flow start time: 7 num packets: 15
+User: C flow start time: 0 num packets: 34
+User: D flow start time: 0 num packets: 14
+User: E flow start time: 17 num packets: 35
+User: F flow start time: 8 num packets: 34
+
+A had benefit -31, cost -124.93, utility -155.93, and best expected utility -155.93
+B had benefit -22, cost -30.15, utility -52.15, and best expected utility -52.15
+C had benefit -94, cost 26.6, utility -67.4, and best expected utility -67.4
+D had benefit -14, cost -28.14, utility -42.14, and best expected utility -42.14
+E had benefit -146, cost -3.69, utility -149.69, and best expected utility -149.69
+F had benefit -120, cost -2.69, utility -122.69, and best expected utility -122.69
+
+Sum user utility was -590 while sum of best expected utilties was -590 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-13: D | 14-28: B | 29-30: C | 31-61: A | 62-93: C | 94-127: F | 128-162: E ]
+finished trial 58 of 100
+
+trial shorthand= 17:18, 0:16, 6:40, 28:13, 12:18, 24:36
+
+User: A flow start time: 17 num packets: 18
+User: B flow start time: 0 num packets: 16
+User: C flow start time: 6 num packets: 40
+User: D flow start time: 28 num packets: 13
+User: E flow start time: 12 num packets: 18
+User: F flow start time: 24 num packets: 36
+
+A had benefit -48, cost -23.05, utility -71.05, and best expected utility -71.05
+B had benefit -16, cost -16, utility -32, and best expected utility -32
+C had benefit -135, cost 45.85, utility -89.15, and best expected utility -89.15
+D had benefit -19, cost -52.39, utility -71.39, and best expected utility -71.39
+E had benefit -22, cost -36.18, utility -58.18, and best expected utility -58.18
+F had benefit -77, cost -59.23, utility -136.23, and best expected utility -136.23
+
+Sum user utility was -458 while sum of best expected utilties was -458 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-15: B | 16-33: E | 34-46: D | 47-64: A | 65-100: F | 101-140: C ]
+finished trial 59 of 100
+
+trial shorthand= 12:12, 28:24, 8:9, 0:12, 25:19, 12:37
+
+User: A flow start time: 12 num packets: 12
+User: B flow start time: 28 num packets: 24
+User: C flow start time: 8 num packets: 9
+User: D flow start time: 0 num packets: 12
+User: E flow start time: 25 num packets: 19
+User: F flow start time: 12 num packets: 37
+
+A had benefit -21, cost -12.99, utility -33.99, and best expected utility -33
+B had benefit -48, cost -48.24, utility -96.24, and best expected utility -96.24
+C had benefit -13, cost -9, utility -22, and best expected utility -22
+D had benefit -12, cost -12, utility -24, and best expected utility -24
+E had benefit -27, cost -38.19, utility -65.19, and best expected utility -65.19
+F had benefit -101, cost 7.42, utility -93.58, and best expected utility -93.58
+
+Sum user utility was -335 while sum of best expected utilties was -334.01 (let down of 0.99)
+
+Trial matched srtf, trial was:
+[ 0-11: D | 12-20: C | 21-32: A | 33-51: E | 52-75: B | 76-112: F ]
+finished trial 60 of 100
+
+trial shorthand= 0:16, 7:19, 7:25, 8:22, 30:6, 26:34
+
+User: A flow start time: 0 num packets: 16
+User: B flow start time: 7 num packets: 19
+User: C flow start time: 7 num packets: 25
+User: D flow start time: 8 num packets: 22
+User: E flow start time: 30 num packets: 6
+User: F flow start time: 26 num packets: 34
+
+A had benefit -16, cost -25.09, utility -41.09, and best expected utility -32
+B had benefit -59, cost 12.31, utility -46.69, and best expected utility -46.69
+C had benefit -40, cost -35.1, utility -75.1, and best expected utility -75.1
+D had benefit -80, cost -15.94, utility -95.94, and best expected utility -95.94
+E had benefit -6, cost -30.24, utility -36.24, and best expected utility -36.24
+F had benefit -96, cost -27.94, utility -123.94, and best expected utility -123.94
+
+Sum user utility was -419 while sum of best expected utilties was -409.91 (let down of 9.09)
+
+trial didn't match srtf! Trial was:
+[ 0-15: A | 16-29: C | 30-35: E | 36-46: C | 47-65: B | 66-87: D | 88-121: F ]
+and srtf was:
+[ 0-15: A | 16-34: B | 35-40: E | 41-62: D | 63-87: C | 88-121: F ]
+Trial had 10 less benefit than srtf
+finished trial 61 of 100
+
+trial shorthand= 0:12, 1:11, 24:24, 1:7, 31:40, 25:1
+
+User: A flow start time: 0 num packets: 12
+User: B flow start time: 1 num packets: 11
+User: C flow start time: 24 num packets: 24
+User: D flow start time: 1 num packets: 7
+User: E flow start time: 31 num packets: 40
+User: F flow start time: 25 num packets: 1
+
+A had benefit -19, cost -12, utility -31, and best expected utility -24
+B had benefit -30, cost -2.92, utility -32.92, and best expected utility -32.92
+C had benefit -31, cost -22.99, utility -53.99, and best expected utility -53.99
+D had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
+E had benefit -64, cost -40, utility -104, and best expected utility -104
+F had benefit -1, cost -3.02, utility -4.02, and best expected utility -4.02
+
+Sum user utility was -247 while sum of best expected utilties was -240 (let down of 7)
+
+Trial matched srtf, trial was:
+[ 0: A | 1-7: D | 8-18: A | 19-24: B | 25: F | 26-30: B | 31-54: C | 55-94: E ]
+finished trial 62 of 100
+
+trial shorthand= 4:27, 0:38, 33:22, 22:1, 33:36, 7:39
+
+User: A flow start time: 4 num packets: 27
+User: B flow start time: 0 num packets: 38
+User: C flow start time: 33 num packets: 22
+User: D flow start time: 22 num packets: 1
+User: E flow start time: 33 num packets: 36
+User: F flow start time: 7 num packets: 39
+
+A had benefit -28, cost -53.26, utility -81.26, and best expected utility -81.26
+B had benefit -88, cost -9.72, utility -97.72, and best expected utility -75.72
+C had benefit -22, cost -66.44, utility -88.44, and best expected utility -88.44
+D had benefit -1, cost -4.03, utility -5.03, and best expected utility -5.03
+E had benefit -91, cost -50.14, utility -141.14, and best expected utility -141.14
+F had benefit -156, cost 20.59, utility -135.41, and best expected utility -135.41
+
+Sum user utility was -549 while sum of best expected utilties was -527 (let down of 22)
+
+Trial matched srtf, trial was:
+[ 0-3: B | 4-21: A | 22: D | 23-31: A | 32: B | 33-54: C | 55-87: B | 88-123: E | 124-162: F ]
+finished trial 63 of 100
+
+trial shorthand= 0:23, 1:37, 8:2, 19:25, 1:28, 23:1
+
+User: A flow start time: 0 num packets: 23
+User: B flow start time: 1 num packets: 37
+User: C flow start time: 8 num packets: 2
+User: D flow start time: 19 num packets: 25
+User: E flow start time: 1 num packets: 28
+User: F flow start time: 23 num packets: 1
+
+A had benefit -26, cost -42.19, utility -68.19, and best expected utility -46
+B had benefit -115, cost 19.56, utility -95.44, and best expected utility -95.44
+C had benefit -2, cost -8.06, utility -10.06, and best expected utility -10.06
+D had benefit -32, cost -74.49, utility -106.49, and best expected utility -106.49
+E had benefit -78, cost -5.78, utility -83.78, and best expected utility -83.78
+F had benefit -1, cost -5.04, utility -6.04, and best expected utility -6.04
+
+Sum user utility was -370 while sum of best expected utilties was -347.81 (let down of 22.19)
+
+Trial matched srtf, trial was:
+[ 0-7: A | 8-9: C | 10-22: A | 23: F | 24-25: A | 26-50: D | 51-78: E | 79-115: B ]
+finished trial 64 of 100
+
+trial shorthand= 0:33, 35:31, 20:28, 27:31, 10:35, 16:3
+
+User: A flow start time: 0 num packets: 33
+User: B flow start time: 35 num packets: 31
+User: C flow start time: 20 num packets: 28
+User: D flow start time: 27 num packets: 31
+User: E flow start time: 10 num packets: 35
+User: F flow start time: 16 num packets: 3
+
+A had benefit -36, cost -29.97, utility -65.97, and best expected utility -65.97
+B had benefit -91, cost -62.31, utility -153.31, and best expected utility -153.31
+C had benefit -44, cost -56.28, utility -100.28, and best expected utility -100.28
+D had benefit -68, cost -62.31, utility -130.31, and best expected utility -130.31
+E had benefit -151, cost 58.93, utility -92.07, and best expected utility -92.07
+F had benefit -3, cost -9.06, utility -12.06, and best expected utility -12.06
+
+Sum user utility was -554 while sum of best expected utilties was -554 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-15: A | 16-18: F | 19-35: A | 36-63: C | 64-94: D | 95-125: B | 126-160: E ]
+finished trial 65 of 100
+
+trial shorthand= 7:5, 2:36, 32:5, 34:4, 18:7, 0:39
+
+User: A flow start time: 7 num packets: 5
+User: B flow start time: 2 num packets: 36
+User: C flow start time: 32 num packets: 5
+User: D flow start time: 34 num packets: 4
+User: E flow start time: 18 num packets: 7
+User: F flow start time: 0 num packets: 39
+
+A had benefit -5, cost -15.1, utility -20.1, and best expected utility -20.1
+B had benefit -57, cost -51.15, utility -108.15, and best expected utility -108.15
+C had benefit -5, cost -15.1, utility -20.1, and best expected utility -20.1
+D had benefit -7, cost -12.08, utility -19.08, and best expected utility -19.08
+E had benefit -7, cost -21.14, utility -28.14, and best expected utility -28.14
+F had benefit -96, cost 18.57, utility -77.43, and best expected utility -77.43
+
+Sum user utility was -273 while sum of best expected utilties was -273 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-1: F | 2-6: B | 7-11: A | 12-17: B | 18-24: E | 25-31: B | 32-36: C | 37-40: D | 41-58: B | 59-95: F ]
+finished trial 66 of 100
+
+trial shorthand= 38:23, 21:4, 0:9, 2:5, 31:3, 33:16
+
+User: A flow start time: 38 num packets: 23
+User: B flow start time: 21 num packets: 4
+User: C flow start time: 0 num packets: 9
+User: D flow start time: 2 num packets: 5
+User: E flow start time: 31 num packets: 3
+User: F flow start time: 33 num packets: 16
+
+A had benefit -35, cost -23, utility -58, and best expected utility -58
+B had benefit -4, cost -4, utility -8, and best expected utility -8
+C had benefit -14, cost -3.95, utility -17.95, and best expected utility -17.95
+D had benefit -5, cost -10.05, utility -15.05, and best expected utility -15.05
+E had benefit -3, cost -3, utility -6, and best expected utility -6
+F had benefit -17, cost -16, utility -33, and best expected utility -33
+
+Sum user utility was -138 while sum of best expected utilties was -138 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-1: C | 2-6: D | 7-13: C | 21-24: B | 31-33: E | 34-49: F | 50-72: A ]
+finished trial 67 of 100
+
+trial shorthand= 16:18, 0:28, 6:17, 24:19, 16:24, 8:14
+
+User: A flow start time: 16 num packets: 18
+User: B flow start time: 0 num packets: 28
+User: C flow start time: 6 num packets: 17
+User: D flow start time: 24 num packets: 19
+User: E flow start time: 16 num packets: 24
+User: F flow start time: 8 num packets: 14
+
+A had benefit -39, cost -37.15, utility -76.15, and best expected utility -75.18
+B had benefit -96, cost 40.68, utility -55.32, and best expected utility -55.32
+C had benefit -31, cost -20.03, utility -51.03, and best expected utility -51.03
+D had benefit -50, cost -57.38, utility -107.38, and best expected utility -107.38
+E had benefit -104, cost -3.84, utility -107.84, and best expected utility -107.84
+F had benefit -14, cost -42.28, utility -56.28, and best expected utility -56.28
+
+Sum user utility was -454 while sum of best expected utilties was -453.03 (let down of 0.97)
+
+Trial matched srtf, trial was:
+[ 0-5: B | 6-7: C | 8-21: F | 22-36: C | 37-54: A | 55-73: D | 74-95: B | 96-119: E ]
+finished trial 68 of 100
+
+trial shorthand= 23:40, 4:7, 33:1, 0:29, 10:19, 27:17
+
+User: A flow start time: 23 num packets: 40
+User: B flow start time: 4 num packets: 7
+User: C flow start time: 33 num packets: 1
+User: D flow start time: 0 num packets: 29
+User: E flow start time: 10 num packets: 19
+User: F flow start time: 27 num packets: 17
+
+A had benefit -90, cost -21.82, utility -111.82, and best expected utility -111.82
+B had benefit -7, cost -14.07, utility -21.07, and best expected utility -21.07
+C had benefit -1, cost -4.03, utility -5.03, and best expected utility -5.03
+D had benefit -73, cost 15.44, utility -57.56, and best expected utility -57.56
+E had benefit -20, cost -38.19, utility -58.19, and best expected utility -58.19
+F had benefit -21, cost -50.33, utility -71.33, and best expected utility -71.33
+
+Sum user utility was -325 while sum of best expected utilties was -325 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: D | 4-10: B | 11-29: E | 30-32: F | 33: C | 34-47: F | 48-72: D | 73-112: A ]
+finished trial 69 of 100
+
+trial shorthand= 6:36, 0:12, 17:40, 14:11, 4:25, 17:20
+
+User: A flow start time: 6 num packets: 36
+User: B flow start time: 0 num packets: 12
+User: C flow start time: 17 num packets: 40
+User: D flow start time: 14 num packets: 11
+User: E flow start time: 4 num packets: 25
+User: F flow start time: 17 num packets: 20
+
+A had benefit -98, cost -4.69, utility -102.69, and best expected utility -102.69
+B had benefit -12, cost -12, utility -24, and best expected utility -24
+C had benefit -127, cost -19.8, utility -146.8, and best expected utility -146.8
+D had benefit -11, cost -33.22, utility -44.22, and best expected utility -44.22
+E had benefit -64, cost -12.9, utility -76.9, and best expected utility -57.89
+F had benefit -28, cost -61.39, utility -89.39, and best expected utility -88.4
+
+Sum user utility was -484 while sum of best expected utilties was -464 (let down of 20)
+
+Trial matched srtf, trial was:
+[ 0-11: B | 12-13: E | 14-24: D | 25-44: F | 45-67: E | 68-103: A | 104-143: C ]
+finished trial 70 of 100
+
+trial shorthand= 0:19, 29:14, 1:35, 18:30, 26:28, 27:24
+
+User: A flow start time: 0 num packets: 19
+User: B flow start time: 29 num packets: 14
+User: C flow start time: 1 num packets: 35
+User: D flow start time: 18 num packets: 30
+User: E flow start time: 26 num packets: 28
+User: F flow start time: 27 num packets: 24
+
+A had benefit -19, cost -19, utility -38, and best expected utility -38
+B had benefit -14, cost -70.56, utility -84.56, and best expected utility -84.56
+C had benefit -149, cost 61.96, utility -87.04, and best expected utility -87.04
+D had benefit -45, cost -46.16, utility -91.16, and best expected utility -91.16
+E had benefit -89, cost -17.9, utility -106.9, and best expected utility -106.9
+F had benefit -60, cost -58.34, utility -118.34, and best expected utility -118.34
+
+Sum user utility was -526 while sum of best expected utilties was -526 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-18: A | 19-28: D | 29-42: B | 43-62: D | 63-86: F | 87-114: E | 115-149: C ]
+finished trial 71 of 100
+
+trial shorthand= 26:32, 11:3, 0:36, 9:20, 29:15, 29:12
+
+User: A flow start time: 26 num packets: 32
+User: B flow start time: 11 num packets: 3
+User: C flow start time: 0 num packets: 36
+User: D flow start time: 9 num packets: 20
+User: E flow start time: 29 num packets: 15
+User: F flow start time: 29 num packets: 12
+
+A had benefit -92, cost -4.73, utility -96.73, and best expected utility -96.73
+B had benefit -3, cost -9.06, utility -12.06, and best expected utility -12.06
+C had benefit -86, cost 14.5, utility -71.5, and best expected utility -71.5
+D had benefit -23, cost -40.2, utility -63.2, and best expected utility -60.17
+E had benefit -30, cost -33.18, utility -63.18, and best expected utility -63.18
+F had benefit -15, cost -45.33, utility -60.33, and best expected utility -60.33
+
+Sum user utility was -367 while sum of best expected utilties was -363.97 (let down of 3.03)
+
+Trial matched srtf, trial was:
+[ 0-8: C | 9-10: D | 11-13: B | 14-31: D | 32-43: F | 44-58: E | 59-85: C | 86-117: A ]
+finished trial 72 of 100
+
+trial shorthand= 13:18, 14:22, 1:4, 0:34, 22:22, 7:16
+
+User: A flow start time: 13 num packets: 18
+User: B flow start time: 14 num packets: 22
+User: C flow start time: 1 num packets: 4
+User: D flow start time: 0 num packets: 34
+User: E flow start time: 22 num packets: 22
+User: F flow start time: 7 num packets: 16
+
+A had benefit -28, cost -36.18, utility -64.18, and best expected utility -64.18
+B had benefit -49, cost -44.22, utility -93.22, and best expected utility -93.22
+C had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
+D had benefit -116, cost 48.82, utility -67.18, and best expected utility -67.18
+E had benefit -63, cost -44.22, utility -107.22, and best expected utility -107.22
+F had benefit -16, cost -32.16, utility -48.16, and best expected utility -48.16
+
+Sum user utility was -392 while sum of best expected utilties was -392 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0: D | 1-4: C | 5-6: D | 7-22: F | 23-40: A | 41-62: B | 63-84: E | 85-115: D ]
+finished trial 73 of 100
+
+trial shorthand= 12:26, 0:3, 8:32, 13:33, 10:22, 22:16
+
+User: A flow start time: 12 num packets: 26
+User: B flow start time: 0 num packets: 3
+User: C flow start time: 8 num packets: 32
+User: D flow start time: 13 num packets: 33
+User: E flow start time: 10 num packets: 22
+User: F flow start time: 22 num packets: 16
+
+A had benefit -62, cost -36.1, utility -98.1, and best expected utility -98.1
+B had benefit -3, cost -3, utility -6, and best expected utility -6
+C had benefit -96, cost 32.64, utility -63.36, and best expected utility -63.36
+D had benefit -124, cost -16.84, utility -140.84, and best expected utility -140.84
+E had benefit -22, cost -44.22, utility -66.22, and best expected utility -66.22
+F had benefit -26, cost -64.48, utility -90.48, and best expected utility -90.48
+
+Sum user utility was -465 while sum of best expected utilties was -465 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: B | 8-9: C | 10-31: E | 32-47: F | 48-73: A | 74-103: C | 104-136: D ]
+finished trial 74 of 100
+
+trial shorthand= 15:29, 33:40, 0:18, 1:17, 32:18, 27:28
+
+User: A flow start time: 15 num packets: 29
+User: B flow start time: 33 num packets: 40
+User: C flow start time: 0 num packets: 18
+User: D flow start time: 1 num packets: 17
+User: E flow start time: 32 num packets: 18
+User: F flow start time: 27 num packets: 28
+
+A had benefit -95, cost 17.46, utility -77.54, and best expected utility -77.54
+B had benefit -117, cost -40, utility -157, and best expected utility -157
+C had benefit -18, cost -18, utility -36, and best expected utility -36
+D had benefit -34, cost -17, utility -51, and best expected utility -51
+E had benefit -21, cost -54.36, utility -75.36, and best expected utility -75.36
+F had benefit -54, cost -38.1, utility -92.1, and best expected utility -92.1
+
+Sum user utility was -489 while sum of best expected utilties was -489 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-17: C | 18-34: D | 35-52: E | 53-80: F | 81-109: A | 110-149: B ]
+finished trial 75 of 100
+
+trial shorthand= 10:23, 19:27, 1:21, 0:12, 3:7, 3:11
+
+User: A flow start time: 10 num packets: 23
+User: B flow start time: 19 num packets: 27
+User: C flow start time: 1 num packets: 21
+User: D flow start time: 0 num packets: 12
+User: E flow start time: 3 num packets: 7
+User: F flow start time: 3 num packets: 11
+
+A had benefit -64, cost -23, utility -87, and best expected utility -87
+B had benefit -82, cost -27, utility -109, and best expected utility -109
+C had benefit -50, cost -2.82, utility -52.82, and best expected utility -52.82
+D had benefit -19, cost -12, utility -31, and best expected utility -24
+E had benefit -7, cost -21.14, utility -28.14, and best expected utility -28.14
+F had benefit -27, cost -15.04, utility -42.04, and best expected utility -42.04
+
+Sum user utility was -350 while sum of best expected utilties was -343 (let down of 7)
+
+Trial matched srtf, trial was:
+[ 0-2: D | 3-9: E | 10-18: D | 19-29: F | 30-50: C | 51-73: A | 74-100: B ]
+finished trial 76 of 100
+
+trial shorthand= 25:24, 29:37, 31:21, 7:6, 3:40, 0:11
+
+User: A flow start time: 25 num packets: 24
+User: B flow start time: 29 num packets: 37
+User: C flow start time: 31 num packets: 21
+User: D flow start time: 7 num packets: 6
+User: E flow start time: 3 num packets: 40
+User: F flow start time: 0 num packets: 11
+
+A had benefit -24, cost -48.24, utility -72.24, and best expected utility -72.24
+B had benefit -110, cost -15.79, utility -125.79, and best expected utility -125.79
+C had benefit -39, cost -63.42, utility -102.42, and best expected utility -102.42
+D had benefit -10, cost -12.06, utility -22.06, and best expected utility -22.06
+E had benefit -99, cost 11.51, utility -87.49, and best expected utility -87.49
+F had benefit -11, cost -11, utility -22, and best expected utility -22
+
+Sum user utility was -432 while sum of best expected utilties was -432 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-10: F | 11-16: D | 17-24: E | 25-48: A | 49-69: C | 70-101: E | 102-138: B ]
+finished trial 77 of 100
+
+trial shorthand= 8:1, 10:4, 9:9, 14:22, 22:36, 0:26
+
+User: A flow start time: 8 num packets: 1
+User: B flow start time: 10 num packets: 4
+User: C flow start time: 9 num packets: 9
+User: D flow start time: 14 num packets: 22
+User: E flow start time: 22 num packets: 36
+User: F flow start time: 0 num packets: 26
+
+A had benefit -1, cost -2.01, utility -3.01, and best expected utility -3.01
+B had benefit -4, cost -12.08, utility -16.08, and best expected utility -16.08
+C had benefit -13, cost -14.05, utility -27.05, and best expected utility -27.05
+D had benefit -48, cost -22, utility -70, and best expected utility -70
+E had benefit -76, cost -36, utility -112, and best expected utility -112
+F had benefit -40, cost -11.86, utility -51.86, and best expected utility -51.86
+
+Sum user utility was -280 while sum of best expected utilties was -280 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-7: F | 8: A | 9: C | 10-13: B | 14-21: C | 22-39: F | 40-61: D | 62-97: E ]
+finished trial 78 of 100
+
+trial shorthand= 7:11, 29:14, 0:3, 15:31, 9:18, 19:7
+
+User: A flow start time: 7 num packets: 11
+User: B flow start time: 29 num packets: 14
+User: C flow start time: 0 num packets: 3
+User: D flow start time: 15 num packets: 31
+User: E flow start time: 9 num packets: 18
+User: F flow start time: 19 num packets: 7
+
+A had benefit -11, cost -11, utility -22, and best expected utility -22
+B had benefit -28, cost -28.14, utility -56.14, and best expected utility -56.14
+C had benefit -3, cost -3, utility -6, and best expected utility -6
+D had benefit -73, cost -9.79, utility -82.79, and best expected utility -82.79
+E had benefit -34, cost -10.93, utility -44.93, and best expected utility -44.93
+F had benefit -7, cost -21.14, utility -28.14, and best expected utility -28.14
+
+Sum user utility was -240 while sum of best expected utilties was -240 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: C | 7-17: A | 18: E | 19-25: F | 26-42: E | 43-56: B | 57-87: D ]
+finished trial 79 of 100
+
+trial shorthand= 21:32, 3:30, 22:9, 31:39, 0:11, 25:18
+
+User: A flow start time: 21 num packets: 32
+User: B flow start time: 3 num packets: 30
+User: C flow start time: 22 num packets: 9
+User: D flow start time: 31 num packets: 39
+User: E flow start time: 0 num packets: 11
+User: F flow start time: 25 num packets: 18
+
+A had benefit -79, cost -4.73, utility -83.73, and best expected utility -83.73
+B had benefit -65, cost -2.73, utility -67.73, and best expected utility -67.73
+C had benefit -9, cost -27.18, utility -36.18, and best expected utility -36.18
+D had benefit -108, cost -39, utility -147, and best expected utility -147
+E had benefit -11, cost -11, utility -22, and best expected utility -22
+F had benefit -24, cost -54.36, utility -78.36, and best expected utility -78.36
+
+Sum user utility was -435 while sum of best expected utilties was -435 (let down of -5.68434e-14)
+
+Trial matched srtf, trial was:
+[ 0-10: E | 11-21: B | 22-30: C | 31-48: F | 49-67: B | 68-99: A | 100-138: D ]
+finished trial 80 of 100
+
+trial shorthand= 0:17, 29:33, 1:8, 7:20, 7:7, 22:18
+
+User: A flow start time: 0 num packets: 17
+User: B flow start time: 29 num packets: 33
+User: C flow start time: 1 num packets: 8
+User: D flow start time: 7 num packets: 20
+User: E flow start time: 7 num packets: 7
+User: F flow start time: 22 num packets: 18
+
+A had benefit -32, cost -7.93, utility -39.93, and best expected utility -33.92
+B had benefit -74, cost -33, utility -107, and best expected utility -107
+C had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
+D had benefit -63, cost 5.25, utility -57.75, and best expected utility -57.75
+E had benefit -9, cost -15.06, utility -24.06, and best expected utility -23.07
+F had benefit -28, cost -36.18, utility -64.18, and best expected utility -64.18
+
+Sum user utility was -317 while sum of best expected utilties was -310 (let down of 7)
+
+Trial matched srtf, trial was:
+[ 0: A | 1-8: C | 9-15: E | 16-31: A | 32-49: F | 50-69: D | 70-102: B ]
+finished trial 81 of 100
+
+trial shorthand= 0:16, 7:19, 23:36, 15:6, 25:29, 33:9
+
+User: A flow start time: 0 num packets: 16
+User: B flow start time: 7 num packets: 19
+User: C flow start time: 23 num packets: 36
+User: D flow start time: 15 num packets: 6
+User: E flow start time: 25 num packets: 29
+User: F flow start time: 33 num packets: 9
+
+A had benefit -16, cost -16, utility -32, and best expected utility -32
+B had benefit -34, cost -12.94, utility -46.94, and best expected utility -46.94
+C had benefit -92, cost 2.38, utility -89.62, and best expected utility -89.62
+D had benefit -7, cost -12.06, utility -19.06, and best expected utility -19.06
+E had benefit -54, cost -49.2, utility -103.2, and best expected utility -103.2
+F had benefit -17, cost -27.18, utility -44.18, and best expected utility -44.18
+
+Sum user utility was -335 while sum of best expected utilties was -335 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-15: A | 16-21: D | 22-40: B | 41-49: F | 50-78: E | 79-114: C ]
+finished trial 82 of 100
+
+trial shorthand= 28:34, 38:38, 35:33, 14:6, 0:6, 37:4
+
+User: A flow start time: 28 num packets: 34
+User: B flow start time: 38 num packets: 38
+User: C flow start time: 35 num packets: 33
+User: D flow start time: 14 num packets: 6
+User: E flow start time: 0 num packets: 6
+User: F flow start time: 37 num packets: 4
+
+A had benefit -38, cost -29.96, utility -67.96, and best expected utility -67.96
+B had benefit -99, cost -38, utility -137, and best expected utility -137
+C had benefit -64, cost -28.96, utility -92.96, and best expected utility -92.96
+D had benefit -6, cost -6, utility -12, and best expected utility -12
+E had benefit -6, cost -6, utility -12, and best expected utility -12
+F had benefit -4, cost -12.08, utility -16.08, and best expected utility -16.08
+
+Sum user utility was -338 while sum of best expected utilties was -338 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-5: E | 14-19: D | 28-36: A | 37-40: F | 41-65: A | 66-98: C | 99-136: B ]
+finished trial 83 of 100
+
+trial shorthand= 0:8, 10:22, 1:15, 27:15, 9:40, 13:38
+
+User: A flow start time: 0 num packets: 8
+User: B flow start time: 10 num packets: 22
+User: C flow start time: 1 num packets: 15
+User: D flow start time: 27 num packets: 15
+User: E flow start time: 9 num packets: 40
+User: F flow start time: 13 num packets: 38
+
+A had benefit -8, cost -8, utility -16, and best expected utility -16
+B had benefit -50, cost -29.07, utility -79.07, and best expected utility -79.07
+C had benefit -22, cost -15, utility -37, and best expected utility -37
+D had benefit -15, cost -60.45, utility -75.45, and best expected utility -75.45
+E had benefit -129, cost 35.75, utility -93.25, and best expected utility -93.25
+F had benefit -85, cost -61.23, utility -146.23, and best expected utility -146.23
+
+Sum user utility was -447 while sum of best expected utilties was -447 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-7: A | 8-22: C | 23-26: B | 27-41: D | 42-59: B | 60-97: F | 98-137: E ]
+finished trial 84 of 100
+
+trial shorthand= 32:2, 0:13, 19:37, 10:11, 20:3, 37:18
+
+User: A flow start time: 32 num packets: 2
+User: B flow start time: 0 num packets: 13
+User: C flow start time: 19 num packets: 37
+User: D flow start time: 10 num packets: 11
+User: E flow start time: 20 num packets: 3
+User: F flow start time: 37 num packets: 18
+
+A had benefit -2, cost -4.02, utility -6.02, and best expected utility -6.02
+B had benefit -13, cost -13, utility -26, and best expected utility -26
+C had benefit -65, cost -13.77, utility -78.77, and best expected utility -78.77
+D had benefit -17, cost -7.97, utility -24.97, and best expected utility -24.97
+E had benefit -3, cost -9.06, utility -12.06, and best expected utility -12.06
+F had benefit -18, cost -36.18, utility -54.18, and best expected utility -54.18
+
+Sum user utility was -202 while sum of best expected utilties was -202 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-12: B | 13-19: D | 20-22: E | 23-26: D | 27-31: C | 32-33: A | 34-36: C | 37-54: F | 55-83: C ]
+finished trial 85 of 100
+
+trial shorthand= 23:14, 4:27, 0:5, 19:24, 0:13, 26:18
+
+User: A flow start time: 23 num packets: 14
+User: B flow start time: 4 num packets: 27
+User: C flow start time: 0 num packets: 5
+User: D flow start time: 19 num packets: 24
+User: E flow start time: 0 num packets: 13
+User: F flow start time: 26 num packets: 18
+
+A had benefit -14, cost -42.28, utility -56.28, and best expected utility -56.28
+B had benefit -97, cost 29.56, utility -67.44, and best expected utility -67.44
+C had benefit -5, cost -5, utility -10, and best expected utility -10
+D had benefit -56, cost -15.92, utility -71.92, and best expected utility -71.92
+E had benefit -18, cost -13, utility -31, and best expected utility -31
+F had benefit -29, cost -54.36, utility -83.36, and best expected utility -83.36
+
+Sum user utility was -320 while sum of best expected utilties was -320 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-4: C | 5-17: E | 18: B | 19-22: D | 23-36: A | 37-54: F | 55-74: D | 75-100: B ]
+finished trial 86 of 100
+
+trial shorthand= 9:29, 21:1, 17:17, 20:22, 0:33, 15:32
+
+User: A flow start time: 9 num packets: 29
+User: B flow start time: 21 num packets: 1
+User: C flow start time: 17 num packets: 17
+User: D flow start time: 20 num packets: 22
+User: E flow start time: 0 num packets: 33
+User: F flow start time: 15 num packets: 32
+
+A had benefit -93, cost 11.4, utility -81.6, and best expected utility -81.6
+B had benefit -1, cost -6.05, utility -7.05, and best expected utility -7.05
+C had benefit -34, cost -50.33, utility -84.33, and best expected utility -84.33
+D had benefit -53, cost -65.43, utility -118.43, and best expected utility -118.43
+E had benefit -34, cost -31.99, utility -65.99, and best expected utility -65.99
+F had benefit -119, cost 8.4, utility -110.6, and best expected utility -110.6
+
+Sum user utility was -468 while sum of best expected utilties was -468 (let down of 5.68434e-14)
+
+Trial matched srtf, trial was:
+[ 0-20: E | 21: B | 22-33: E | 34-50: C | 51-72: D | 73-101: A | 102-133: F ]
+finished trial 87 of 100
+
+trial shorthand= 28:38, 0:4, 30:33, 19:27, 37:28, 3:10
+
+User: A flow start time: 28 num packets: 38
+User: B flow start time: 0 num packets: 4
+User: C flow start time: 30 num packets: 33
+User: D flow start time: 19 num packets: 27
+User: E flow start time: 37 num packets: 28
+User: F flow start time: 3 num packets: 10
+
+A had benefit -117, cost 23.61, utility -93.39, and best expected utility -93.39
+B had benefit -4, cost -4, utility -8, and best expected utility -8
+C had benefit -77, cost -38.05, utility -115.05, and best expected utility -115.05
+D had benefit -27, cost -27, utility -54, and best expected utility -54
+E had benefit -37, cost -84.56, utility -121.56, and best expected utility -121.56
+F had benefit -11, cost -10, utility -21, and best expected utility -21
+
+Sum user utility was -413 while sum of best expected utilties was -413 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: B | 4-13: F | 19-45: D | 46-73: E | 74-106: C | 107-144: A ]
+finished trial 88 of 100
+
+trial shorthand= 23:35, 15:36, 30:22, 3:19, 0:37, 1:37
+
+User: A flow start time: 23 num packets: 35
+User: B flow start time: 15 num packets: 36
+User: C flow start time: 30 num packets: 22
+User: D flow start time: 3 num packets: 19
+User: E flow start time: 0 num packets: 37
+User: F flow start time: 1 num packets: 37
+
+A had benefit -90, cost -83.48, utility -173.48, and best expected utility -173.48
+B had benefit -134, cost -14.79, utility -148.79, and best expected utility -148.79
+C had benefit -22, cost -110.88, utility -132.88, and best expected utility -132.88
+D had benefit -19, cost -57.38, utility -76.38, and best expected utility -76.38
+E had benefit -78, cost 4.41, utility -73.59, and best expected utility -73.59
+F had benefit -185, cost 76.12, utility -108.88, and best expected utility -108.88
+
+Sum user utility was -714 while sum of best expected utilties was -714 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-2: E | 3-21: D | 22-29: E | 30-51: C | 52-77: E | 78-112: A | 113-148: B | 149-185: F ]
+finished trial 89 of 100
+
+trial shorthand= 0:1, 5:15, 21:35, 2:7, 19:40, 5:16
+
+User: A flow start time: 0 num packets: 1
+User: B flow start time: 5 num packets: 15
+User: C flow start time: 21 num packets: 35
+User: D flow start time: 2 num packets: 7
+User: E flow start time: 19 num packets: 40
+User: F flow start time: 5 num packets: 16
+
+A had benefit -1, cost -1, utility -2, and best expected utility -2
+B had benefit -19, cost -15.99, utility -34.99, and best expected utility -34
+C had benefit -54, cost -70.35, utility -124.35, and best expected utility -124.35
+D had benefit -7, cost -7, utility -14, and best expected utility -14
+E had benefit -96, cost -4.65, utility -100.65, and best expected utility -100.65
+F had benefit -35, cost -15.01, utility -50.01, and best expected utility -50.01
+
+Sum user utility was -326 while sum of best expected utilties was -325.01 (let down of 0.99)
+
+Trial matched srtf, trial was:
+[ 0: A | 2-8: D | 9-23: B | 24-39: F | 40-74: C | 75-114: E ]
+finished trial 90 of 100
+
+trial shorthand= 23:22, 24:31, 0:30, 22:34, 15:16, 19:16
+
+User: A flow start time: 23 num packets: 22
+User: B flow start time: 24 num packets: 31
+User: C flow start time: 0 num packets: 30
+User: D flow start time: 22 num packets: 34
+User: E flow start time: 15 num packets: 16
+User: F flow start time: 19 num packets: 16
+
+A had benefit -61, cost -44.22, utility -105.22, and best expected utility -105.22
+B had benefit -91, cost -62.31, utility -153.31, and best expected utility -153.31
+C had benefit -30, cost -30, utility -60, and best expected utility -60
+D had benefit -127, cost 19.53, utility -107.47, and best expected utility -107.47
+E had benefit -31, cost -16, utility -47, and best expected utility -47
+F had benefit -43, cost -16, utility -59, and best expected utility -59
+
+Sum user utility was -532 while sum of best expected utilties was -532 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-29: C | 30-45: E | 46-61: F | 62-83: A | 84-114: B | 115-148: D ]
+finished trial 91 of 100
+
+trial shorthand= 37:34, 33:39, 29:36, 35:34, 28:37, 0:14
+
+User: A flow start time: 37 num packets: 34
+User: B flow start time: 33 num packets: 39
+User: C flow start time: 29 num packets: 36
+User: D flow start time: 35 num packets: 34
+User: E flow start time: 28 num packets: 37
+User: F flow start time: 0 num packets: 14
+
+A had benefit -96, cost -102.68, utility -198.68, and best expected utility -198.68
+B had benefit -175, cost 29.68, utility -145.32, and best expected utility -145.32
+C had benefit -140, cost 32.68, utility -107.32, and best expected utility -107.32
+D had benefit -64, cost -102.68, utility -166.68, and best expected utility -166.68
+E had benefit -37, cost -37, utility -74, and best expected utility -74
+F had benefit -14, cost -14, utility -28, and best expected utility -28
+
+Sum user utility was -720 while sum of best expected utilties was -720 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-13: F | 28-64: E | 65-98: D | 99-132: A | 133-168: C | 169-207: B ]
+finished trial 92 of 100
+
+trial shorthand= 22:7, 10:39, 36:21, 4:22, 0:31, 2:11
+
+User: A flow start time: 22 num packets: 7
+User: B flow start time: 10 num packets: 39
+User: C flow start time: 36 num packets: 21
+User: D flow start time: 4 num packets: 22
+User: E flow start time: 0 num packets: 31
+User: F flow start time: 2 num packets: 11
+
+A had benefit -7, cost -28.21, utility -35.21, and best expected utility -35.21
+B had benefit -121, cost -10.72, utility -131.72, and best expected utility -131.72
+C had benefit -27, cost -63.42, utility -90.42, and best expected utility -90.42
+D had benefit -38, cost -37.15, utility -75.15, and best expected utility -75.15
+E had benefit -92, cost 30.61, utility -61.39, and best expected utility -61.39
+F had benefit -11, cost -22.11, utility -33.11, and best expected utility -33.11
+
+Sum user utility was -427 while sum of best expected utilties was -427 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-1: E | 2-12: F | 13-21: D | 22-28: A | 29-41: D | 42-62: C | 63-91: E | 92-130: B ]
+finished trial 93 of 100
+
+trial shorthand= 18:35, 33:5, 0:25, 17:40, 7:5, 27:39
+
+User: A flow start time: 18 num packets: 35
+User: B flow start time: 33 num packets: 5
+User: C flow start time: 0 num packets: 25
+User: D flow start time: 17 num packets: 40
+User: E flow start time: 7 num packets: 5
+User: F flow start time: 27 num packets: 39
+
+A had benefit -52, cost -65.3, utility -117.3, and best expected utility -117.3
+B had benefit -5, cost -20.15, utility -25.15, and best expected utility -25.15
+C had benefit -30, cost -19.95, utility -49.95, and best expected utility -49.95
+D had benefit -132, cost 39.79, utility -92.21, and best expected utility -92.21
+E had benefit -5, cost -10.05, utility -15.05, and best expected utility -15.05
+F had benefit -82, cost -73.34, utility -155.34, and best expected utility -155.34
+
+Sum user utility was -455 while sum of best expected utilties was -455 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-6: C | 7-11: E | 12-29: C | 30-32: A | 33-37: B | 38-69: A | 70-108: F | 109-148: D ]
+finished trial 94 of 100
+
+trial shorthand= 18:17, 10:20, 0:24, 11:37, 8:36, 13:12
+
+User: A flow start time: 18 num packets: 17
+User: B flow start time: 10 num packets: 20
+User: C flow start time: 0 num packets: 24
+User: D flow start time: 11 num packets: 37
+User: E flow start time: 8 num packets: 36
+User: F flow start time: 13 num packets: 12
+
+A had benefit -35, cost -68.51, utility -103.51, and best expected utility -103.51
+B had benefit -63, cost -10.91, utility -73.91, and best expected utility -73.91
+C had benefit -24, cost -24, utility -48, and best expected utility -48
+D had benefit -135, cost -7.71, utility -142.71, and best expected utility -142.71
+E had benefit -101, cost 13.49, utility -87.51, and best expected utility -87.51
+F had benefit -23, cost -48.36, utility -71.36, and best expected utility -71.36
+
+Sum user utility was -527 while sum of best expected utilties was -527 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-23: C | 24-35: F | 36-52: A | 53-72: B | 73-108: E | 109-145: D ]
+finished trial 95 of 100
+
+trial shorthand= 0:33, 25:10, 15:29, 4:3, 7:8, 31:17
+
+User: A flow start time: 0 num packets: 33
+User: B flow start time: 25 num packets: 10
+User: C flow start time: 15 num packets: 29
+User: D flow start time: 4 num packets: 3
+User: E flow start time: 7 num packets: 8
+User: F flow start time: 31 num packets: 17
+
+A had benefit -71, cost 5.38, utility -65.62, and best expected utility -65.62
+B had benefit -10, cost -30.2, utility -40.2, and best expected utility -40.2
+C had benefit -85, cost -1.73, utility -86.73, and best expected utility -86.73
+D had benefit -3, cost -6.03, utility -9.03, and best expected utility -9.03
+E had benefit -8, cost -16.08, utility -24.08, and best expected utility -24.08
+F had benefit -21, cost -51.34, utility -72.34, and best expected utility -72.34
+
+Sum user utility was -298 while sum of best expected utilties was -298 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-3: A | 4-6: D | 7-14: E | 15-24: A | 25-34: B | 35-51: F | 52-70: A | 71-99: C ]
+finished trial 96 of 100
+
+trial shorthand= 16:18, 0:33, 6:38, 15:6, 6:38, 9:19
+
+User: A flow start time: 16 num packets: 18
+User: B flow start time: 0 num packets: 33
+User: C flow start time: 6 num packets: 38
+User: D flow start time: 15 num packets: 6
+User: E flow start time: 6 num packets: 38
+User: F flow start time: 9 num packets: 19
+
+A had benefit -36, cost -72.54, utility -108.54, and best expected utility -108.54
+B had benefit -76, cost -16.84, utility -92.84, and best expected utility -66
+C had benefit -146, cost 43.81, utility -102.19, and best expected utility -102.19
+D had benefit -6, cost -30.24, utility -36.24, and best expected utility -36.24
+E had benefit -108, cost -5.68, utility -113.68, and best expected utility -113.68
+F had benefit -25, cost -70.51, utility -95.51, and best expected utility -95.51
+
+Sum user utility was -549 while sum of best expected utilties was -522.16 (let down of 26.84)
+
+Trial matched srtf, trial was:
+[ 0-8: B | 9-14: F | 15-20: D | 21-33: F | 34-51: A | 52-75: B | 76-113: E | 114-151: C ]
+finished trial 97 of 100
+
+trial shorthand= 16:34, 1:35, 15:34, 0:29, 20:31, 24:40
+
+User: A flow start time: 16 num packets: 34
+User: B flow start time: 1 num packets: 35
+User: C flow start time: 15 num packets: 34
+User: D flow start time: 0 num packets: 29
+User: E flow start time: 20 num packets: 31
+User: F flow start time: 24 num packets: 40
+
+A had benefit -112, cost -37.03, utility -149.03, and best expected utility -149.03
+B had benefit -162, cost 64.99, utility -97.01, and best expected utility -97.01
+C had benefit -79, cost -37.03, utility -116.03, and best expected utility -116.03
+D had benefit -29, cost -29, utility -58, and best expected utility -58
+E had benefit -40, cost -124.93, utility -164.93, and best expected utility -164.93
+F had benefit -179, cost -40, utility -219, and best expected utility -219
+
+Sum user utility was -804 while sum of best expected utilties was -804 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-28: D | 29-59: E | 60-93: C | 94-127: A | 128-162: B | 163-202: F ]
+finished trial 98 of 100
+
+trial shorthand= 17:1, 1:25, 38:1, 0:23, 9:1, 5:24
+
+User: A flow start time: 17 num packets: 1
+User: B flow start time: 1 num packets: 25
+User: C flow start time: 38 num packets: 1
+User: D flow start time: 0 num packets: 23
+User: E flow start time: 9 num packets: 1
+User: F flow start time: 5 num packets: 24
+
+A had benefit -1, cost -4.03, utility -5.03, and best expected utility -5.03
+B had benefit -74, cost 2.27, utility -71.73, and best expected utility -71.73
+C had benefit -1, cost -3.02, utility -4.02, and best expected utility -4.02
+D had benefit -25, cost -20.98, utility -45.98, and best expected utility -45.98
+E had benefit -1, cost -4.03, utility -5.03, and best expected utility -5.03
+F had benefit -45, cost -45.21, utility -90.21, and best expected utility -90.21
+
+Sum user utility was -222 while sum of best expected utilties was -222 (let down of 2.84217e-14)
+
+Trial matched srtf, trial was:
+[ 0-8: D | 9: E | 10-16: D | 17: A | 18-24: D | 25-37: F | 38: C | 39-49: F | 50-74: B ]
+finished trial 99 of 100
+
+trial shorthand= 16:21, 15:4, 5:38, 0:32, 17:21, 12:11
+
+User: A flow start time: 16 num packets: 21
+User: B flow start time: 15 num packets: 4
+User: C flow start time: 5 num packets: 38
+User: D flow start time: 0 num packets: 32
+User: E flow start time: 17 num packets: 21
+User: F flow start time: 12 num packets: 11
+
+A had benefit -52, cost -42.21, utility -94.21, and best expected utility -94.21
+B had benefit -4, cost -16.12, utility -20.12, and best expected utility -20.12
+C had benefit -122, cost 19.57, utility -102.43, and best expected utility -102.43
+D had benefit -47, cost -16.85, utility -63.85, and best expected utility -63.85
+E had benefit -72, cost -42.21, utility -114.21, and best expected utility -114.21
+F had benefit -15, cost -29.18, utility -44.18, and best expected utility -44.18
+
+Sum user utility was -439 while sum of best expected utilties was -439 (let down of 0)
+
+Trial matched srtf, trial was:
+[ 0-11: D | 12-14: F | 15-18: B | 19-26: F | 27-46: D | 47-67: A | 68-88: E | 89-126: C ]
+finished trial 100 of 100
+
+96 of 100 scenarios matched the srtf result ( 0.96 )
+average delay ratio 1.00083
+average flow duration for srtf 45.9333
+average flow duration for trials 45.9717
+largest difference from best expected utilities to final utilities (utility let down) was 26.84
+worst srtf divergence was 10
