@@ -2,7 +2,7 @@ SIN_LOCATION=../../sin/src/sin
 DELAY_RATIO_FILE=delay_over_srtf.dat
 #SRTF_RATIO_FILE=percent_match_srtf.dat
 
-NUM_TRIALS=50
+NUM_TRIALS=1000
 START_TIME_DIE_SIZE=40
 FLOW_LENGTH_DIE_SIZE=40
 
