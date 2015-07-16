@@ -3,7 +3,7 @@ DELAY_RATIO_FILE=delay_over_srtf.dat
 #SRTF_RATIO_FILE=percent_match_srtf.dat
 
 NUM_TRIALS=50
-START_TIME_DIE_SIZE=1
+START_TIME_DIE_SIZE=40
 FLOW_LENGTH_DIE_SIZE=40
 
 echo '"num users" "Optimal" "SIN" "ignore me" "Rate Sharing"' > $DELAY_RATIO_FILE
