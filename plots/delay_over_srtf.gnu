@@ -46,7 +46,7 @@ set angles radians
 unset grid
 set raxis
 set key title ""
-set key inside right top vertical Right noreverse enhanced autotitles nobox
+set key inside left top vertical Right noreverse enhanced autotitles nobox
 set key noinvert samplen 4 spacing 1 width 0 height 0 
 set key maxcolumns 0 maxrows 0
 set key noopaque
@@ -106,7 +106,7 @@ set cbtics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autoj
 set cbtics autofreq  norangelimit
 set rtics axis in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
 set rtics autofreq  norangelimit
-set title "Mean Percentage Increase in Queuing Delay vs. Optimal" 
+set title "Mean sum flow completion time for trials\nnormalized to shortest remaining time first" 
 set title  offset character 0, 0, 0 font "" norotate
 set timestamp bottom 
 set timestamp "" 
@@ -125,7 +125,7 @@ set ylabel ""
 set ylabel  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
 set y2label "" 
 set y2label  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
-set yrange [ 1.00000 : 2.00000 ] noreverse nowriteback
+set yrange [ 0.00000 : 2.00000 ] noreverse nowriteback
 set y2range [ * : * ] noreverse nowriteback
 set zlabel "" 
 set zlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
@@ -151,5 +151,5 @@ set loadpath
 set fontpath 
 set psdir
 set fit noerrorvariables
-plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 4 title column
 #    EOF

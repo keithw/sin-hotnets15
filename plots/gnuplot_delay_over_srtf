@@ -1,14 +1,16 @@
 set terminal svg size 600,400 fixed fname 'arial' fsize 12 standalone name "delay_ratio"
 set output "delay_over_srtf.svg"
-set title "Mean Percentage Increase in Queuing Delay vs. Optimal"
+set title "Mean sum flow completion time for trials\nnormalized to shortest remaining time first"
 
 set style data histogram
 set style histogram cluster gap 1
 set style fill solid border -1
 
+set key left top
+
 set xlabel 'Number of users'
 set xtics nomirror
 
-set yrange [1:2]
-plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column
+set yrange [0:2]
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 4 title column
 save 'delay_over_srtf.gnu'
