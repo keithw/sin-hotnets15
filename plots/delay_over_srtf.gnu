@@ -106,7 +106,7 @@ set cbtics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autoj
 set cbtics autofreq  norangelimit
 set rtics axis in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
 set rtics autofreq  norangelimit
-set title "Mean sum flow completion time for trials\nnormalized to shortest remaining time first" 
+set title "Mean flow completion time for trials" 
 set title  offset character 0, 0, 0 font "" norotate
 set timestamp bottom 
 set timestamp "" 
@@ -125,7 +125,7 @@ set ylabel ""
 set ylabel  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
 set y2label "" 
 set y2label  offset character 0, 0, 0 font "" textcolor lt -1 rotate by -270
-set yrange [ 0.00000 : 2.00000 ] noreverse nowriteback
+set yrange [ * : * ] noreverse nowriteback
 set y2range [ * : * ] noreverse nowriteback
 set zlabel "" 
 set zlabel  offset character 0, 0, 0 font "" textcolor lt -1 norotate
@@ -151,5 +151,5 @@ set loadpath
 set fontpath 
 set psdir
 set fit noerrorvariables
-plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 4 title column
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 5 title column
 #    EOF
