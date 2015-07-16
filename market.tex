@@ -19,7 +19,8 @@ This intial design has high overhead and our current simulated users have the ab
 \subsection{Simple Market Design}
 Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. Figure \ref{f:simple_market} gives the basic market layout.
 
-can simulate multiple users with different objectives
+\subsection{User types}
+Consistent bandwidth user, flow completion time user, owner user, evil user
 
 \subsubsection{Flow completion time user}
 This user type has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -t - c$, where $t$ is the flow completion time and $c$ is the total amount paid for slots. In practice, this user checks the market to see if any of its slots have been sold and buys the $n$ slots that maximize its utility function. Once slots have been purchased, this user sets the price of each slot it owns to be \$.01 more than the loss of utility if they did not own that slot and had to buy another one.
@@ -49,6 +50,17 @@ We compare with a round robin scheme, which is the ideal equillibrium of mutlipl
 In our simulations, there are a varying number of users with a flow start time chosen from a uniform random distribution between 0 and 9 with flow lengths chosen from a uniform random distribution between 1 and 10. We compare to the allocation of packets to times that minimizes the queued time for each flow: shortest remaining time first scheduling (TODO cite).
 
 We find that bots in our market almost always converge on an allocation that is equivalent to the optimal shortest remaining time first schedule when there is a small number of users. Larger numbers of users are less likely to achieve a perfectly optimal solution, but the excess queuing delay over the optimal SRTF solution remains extremely low with a large number of users: less than 1\% overhead in all of our evaluations.
+
+\subsubsection{Market Benefits}
+SRTF minimizes queuing (make span?) but does not attempt to be fair to users. For example, a string of short flows will starve a long flow.
+Our market recovers solutions equal or close to SRTF in terms of sum queuing delay, but it also more fairly distributes value among its users.
+If a new flow arrives to a busy market, it must either wait to go after existing flows or compensate the owners of the flows it preempts. In our market, a long flow can be starved infinitely by the repeated arrival of short flows, just like SRTF, however, the owner of that flow would be compensated infintely as well to keep moving back in the order book.
+
+TODO: it would be cool to have a graph of user utility
+\subsubsection{Market Incentives}
+Someone who contributes network capacity to the market would be compensated based on the prices they set.
+In our current scheme, the market is acting in the interest of its users in sharing the order book and facilitating trades between users.
+To incentivize the market to function efficiently, the market could potentially tax every transaction made through it. We will leave further analysis down this path for future work.
 
 \subsubsection{User Disappointment}
 Unfortunately, in this scheme it is possible that a user would have had a higher utility at the end if it refused to put offers on its slots once it recieved them.
