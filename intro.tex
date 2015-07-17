@@ -34,8 +34,12 @@ customers, such as TCP port 25.
 
 In this position paper, we argue that network neutrality got it
 backwards. Internet growth is to be had by \emph{encouraging} paid
-prioritization, while requiring the owners of communications link to
-deal neutrally with everybody.
+prioritization, while requiring ISPs to deal neutrally with
+everybody. Just as an ISP can no longer discriminate among packets
+sent by a noncustomer (e.g., RCN cannot prevent Amazon from reselling
+its bandwidth to EC2 customers), we propose that an ISP should be
+required to allow its own customers to resell their spare capacity as
+well.
 
 \subsection{Stickiness in today's Internet}
 
@@ -47,10 +51,9 @@ customers away from their current providers.
 
 Although Internet access is essentially a commodity, there is
 substantial evidence that consumers are swayed by noneconomic
-factors. Last year, Comcast spent \$3.1 billion on advertising and
+factors. For example, in 2014, Comcast spent \$3.1 billion on advertising and
 marketing for its Cable Communications business,\footnote{This figure
-  does not include advertising for NBC or Universal Studios, but does
-  include ads that promote both cable-TV and Internet connectivity.}
+  includes ads that promote both Internet and cable-TV connectivity.}
 compared with \$2.0 billion in capital expenditures to improve its
 cable distribution system~\cite{comcastannualreport}. By contrast,
 mature commodities markets with sophisticated buyers (e.g.~coal,
@@ -72,6 +75,106 @@ tantalizingly unrealized.  Google's attempt at a Wi-Fi mesh network
 for Mountain View, Calif., ultimately became overloaded with traffic
 and was shut down in 2014~\cite{pcworld13}. Cisco Meraki's mesh
 network in San Francisco suffered a similar fate~\cite{economist14}.
+The question of this work is: Would these networks have shut down, and
+would urban mesh networks become viable, if individual mesh-node
+operators were compensated for the value they were contributing
+to the network's users?
 
 \subsection{Towards self-incentivizing networks}
 
+We believe that in designing new subnetwork technologies, the
+networking-research community should consider how to make them
+function as self-incentivizing enclaves of the Internet. In these
+enclaves, transaction costs would be explicitly
+considered and minimized.
+
+As examples, we envision the following use-cases for a
+self-incentivizing network that address needs unmet by existing systems:
+
+\begin{itemize}
+\item \textbf{Neighbor sharing:} Two neighbors with Internet access
+  should be able to offer each other their spare capacity (and the
+  chance of redundant service) for a price, settling up at the end of
+  the month.
+
+\item \textbf{Urban mesh network:} In a dense urban region, building
+  owners should be able to install mesh nodes and be compensated for
+  the value they contribute to the users. Before investing in a mesh
+  node (or a mesh node with uplink capacity to the real Internet),
+  they should be able to predict how much revenue they will earn and
+  how long it will take them to recoup their investment, by looking at
+  what users are currently offering to pay.
+
+\item \textbf{Train:} Cellular Internet service on a commuter train
+  often has dead spots. Passengers should not have to pay for capacity
+  they're not getting, but network operators should be able to
+  predict when it becomes worthwhile to invest in building a new
+  cell-phone tower to fill in a dead spot. Passengers should be
+  agnostic as to which provider does this.
+
+\item \textbf{Wide-area service:} There should be a liquid market in
+  ``whose packet goes next'' over high-capacity
+  transcontinental and transoceanic links. Anybody should be able to
+  add more capacity to a pair of endpoints and start bidding on that
+  market, without having to persuade customers to abandon their
+  loyalty to existing providers.
+
+\end{itemize}
+
+In these networks, anybody (even a retail ISP customer) would be able
+to contribute incremental capacity and be compensated for it. In this
+vision, applications and endpoints express how much they care about
+getting any particular packet or group of packets through, in what
+kind of timeframe, and network providers will compete to make that
+happen.
+
+We imagine that users would express their overall preferences similar
+to today---perhaps by stating that they wish to pay about \$30/month
+for Internet service, and leaving the actual bidding procedures up to
+their computers. Instead of congestion-control protocols, we will have
+``bidding-control protocols'' that achieve application-defined objectives in the
+micro scale, and meet a user-specified budget in the macro scale.
+
+Transport protocols would need to become roamable and robust to the
+possibility that their upstream link could change at any moment
+(necessitating a change in IP source address).\footnote{The recent
+  emergence of single-packet roaming in QUIC, MOSH, and OpenVPN
+  suggests this is feasible.}
+
+We follow a long line of work on wide-area network economics and
+bandwidth auctions, which we discuss further in
+Section~\ref{sec:related}. But our focus is slightly different: for now, we concern ourselves
+with the ability of a market mechanism to replace TCP and active-queue
+management on a hop or small number of hops, without (yet) tackling
+issues of interdomain routing.
+
+In our simulation experiments so far, we demonstrate that \emph{on a
+  single contended hop}, a market mechanism can recover very close to the
+shortest-remaining-time-first schedule among distributed endpoints who
+only interact with each other through a ``bidding-control protocol.''
+This produces faster flow-completion times than an idealized TCP.
+
+\subsection{Contributions}
+
+The contributions of this position paper are:
+
+\begin{itemize}
+
+\item An architectural sketch suggesting that
+  self-incentivizing networks could solve some currently-vexing problems in
+  networking, without requiring a refactor of the whole Internet (this section).
+
+\item A design of a simple market that replaces TCP and AQM over a
+  single hop, which we evaluated in simulation. It has good
+  performance where all users behave ``nicely,'' but is susceptible to
+  mischief (Section~\ref{ss:simplemarket}).
+
+\item The design of a multiresolution market that presents a range of
+  compromises between throughput, jitter, and price and which we
+  believe will be more robust (Section~\ref{ss:multires}).
+
+\end{itemize}
+
+Before discussing the contributions, we survey the related work in
+Section~\ref{sec:related}. We close with a discussion of limitations
+and future work (Section~\ref{sec:limits}).
