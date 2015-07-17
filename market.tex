@@ -3,8 +3,8 @@
 We set out to design a market interface that any router could expose and users could interact with multiple markets.
 We wanted to allow different users with their own objectives to be able to buy guaruntees of packet carriage but also change their reservations to increase their own percieved utility.
 
-In the rest of the section, we introduce a first simple market to achieve these goals and then evaluate its performance with simulated users.
-This intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case "evil user," and finally propose a new multi-resolution market that addresses these problems.
+In this section, we introduce a simple market to achieve these goals and then evaluate its performance with simulated users.
+Our intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case \emph{evil user}, and finally propose a new multi-resolution market that addresses these problems.
 
 %\begin{itemize}
 %
@@ -20,7 +20,7 @@ This intial design has high overhead and our current simulated users have the ab
 Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. Figure \ref{f:simple_market} gives the basic market layout.
 
 \subsection{User types}
-
+There are multiple types of users that could interact in a self-incentivizing market, four example user types are outlined in~\ref{f:user_types}.
 \begin{figure*}
 \begin{tabular}{|p{.25\textwidth}|p{.70\textwidth}|}
 \hline
@@ -38,10 +38,14 @@ Owner user & adds capacity slots to order book at reserve price \$$r$\\
 \caption{Example types of users}
 \label{f:user_types}
 \end{figure*}
-There are multiple types of users that could interact in a self-incentivizing market, four are listed above in~\ref{f:user_types}.
+
+\subsection{Implementation}
+\subsubsection{Market Simulator}
+The market simulator takes a set of users bots and runs them in round robin order giving them the current order book, packets sent, and money exchanged. The simulator runs until all users have stopped changing the order book, then advances time by declaring the front-most packet on the order book sent. This process is repeated until all flows have completed. We this this model is sufficiently realistic to simulate a home router that would push the order book to interested machines when it changed.
 
 \subsubsection{Flow completion time user}
-This user type has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -t - c$, where $t$ is the flow completion time and $c$ is the total amount paid for slots. In practice, this user checks the market to see if any of its slots have been sold and buys the $n$ slots that maximize its utility function. Once slots have been purchased, this user sets the price of each slot it owns to be \$.01 more than the loss of utility if they did not own that slot and had to buy another one.
+The flow completion time user bot arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
+Upon arrival, this user buys the $n$ slots that maximize its utility function. Once slots have been purchased, it puts up an offer for each slot it owns priced at \$.01 more than negated loss of utility the user would experience if it did not own that slot and had to buy another one.
 
 \begin{figure*}
 %\includegraphics[width=\columnwidth]{diagrams/simple_market.pdf}
