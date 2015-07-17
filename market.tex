@@ -63,15 +63,16 @@ In our current scheme, the market is acting in the interest of its users in shar
 To incentivize the market to function efficiently, the market could potentially tax every transaction made through it. We will leave further analysis down this path for future work.
 
 \subsubsection{User Disappointment}
-Unfortunately, in this scheme it is possible that a user would have had a higher utility at the end if it refused to put offers on its slots once it recieved them.
-This is possible because a flow completion time user bases its offer prices on the price of a replacement slot, but that slot can be purchased and their offer can be matched before they can re-price their offer.
-This leads to a phenomena we call Disappointment, which when a user puts offers on slots it owns expecting to only increase their overall utility function but instead reduce it.
-While this does happen sometimes in our simulations (TODO maybe figure for this), a user normally increases their utility when they list a slot.
-However, this Disappointment can be arbitrarily bad in the case of a hypothesized evil user: whose objective is to reduce the final utilityof another user.
-\subsubsection{Evil User}
-An evil user could maximally reduce the utility of a flow completion time user for the cheapest cost by buying the cheapest slot that that user has for sale, and then buying the next $m$ slots after the last packet of the flow completion time user without putting up offers. Unless the flow completion time can move earlier, this reduces the utility function of the flow completion time user by ... TODO need example with reserve prices I think. Possbily diagram.
+Unfortunately, in this scheme it is possible that a user would have had a higher utility at the end if it refused to put offers on its slots once it successfully purchased them.
+This is possible because a flow completion time user bases its offer prices on the prices the slots they would buy instead if their slots are sold, but they are not always able to purchase those replacement slots for those prices (for example if they were sold to someone else who raised the price). In an attempt to avoid this, users frequently re-price their slots, but unless their price can instantly reflect a price change, this affect is unavoidable with our current market.
+%replacement slot, but if cost of that replacement slot goes up that slot can be purchased and their offer can be matched before they can re-price their offer.
 
-problem: exposure problem, evil user
+This leads to a phenomena we call Disappointment, which when a user puts offers on slots it owns expecting to only increase their overall utility function in the future but instead have it reduced. User dissapointment could potentially lead to users putting higher offers or no offers at all on their slots, reducing the quality of schedules the market produces.
+The User Dissapoitnment problem has parallels to the \emph{exposure problem} of auction theory \cite{milgrom00, englmaier06} because the slot prices are dependent on each other.
+While user dissapointment does happen sometimes in our simulations (TODO maybe figure for this), a user normally increases their utility when they list a slot.
+However, disappointment can be arbitrarily bad in the case of a hypothesized evil user: whose sole objective is to reduce the utility of another user.
+\subsubsection{Evil User}
+An evil user could maximally reduce the utility of a flow completion time user for the cheapest cost by buying the cheapest slot that that user has for sale, and then buying the next $m$ slots after the last packet of the flow completion time user without putting up offers for any slots. Unless the flow completion time can move earlier, this reduces the utility function of the flow completion time user by $m$. (TODO need example with reserve prices I think. Possbily diagram.)
 
 \subsubsection{Communication overhead}
 
@@ -81,7 +82,8 @@ problem: exposure problem, evil user
 \label{f:num_market_updates}
 \end{figure}
 
-Another disadvantage of the simple market is that it can take a long time to converge on a solution where no user wants to buy more slots. In simulation flow completion time users would buy back and forth from each other many times, making small price adjustments throughout. The number of round trips each user performed is showin in Figure~\ref{f:num_market_updates}. As more users concurrently access the market, the more roundtrips were required to reach a stable solution.
+Another problem with the simple market is that it can take a long time to converge on a solution where no user wants to buy more slots. In simulation, flow completion time users buy back and forth from each other many times, making small price adjustments throughout. More contention between slots increases the number of market updates required. 
+Figure~\ref{f:num_market_updates} shows the number times a user bought a set of packets on the market, or market updates, per packet sent in the simulations from in Figure~\ref{f:delay_over_srtf}.
 
 
 the problems we encountered with the simple market led us to our current design:

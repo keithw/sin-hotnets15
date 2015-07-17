@@ -94,18 +94,20 @@ set mztics default
 set mx2tics default
 set my2tics default
 set mcbtics default
-set noxtics
-set ytics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autojustify
+set xtics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojustify
+set xtics  norangelimit
+set xtics   ()
+set ytics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojustify
 set ytics autofreq  norangelimit
-set ztics border in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
+set ztics border in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
 set ztics autofreq  norangelimit
 set nox2tics
 set noy2tics
-set cbtics border in scale 1,0.5 mirror norotate  offset character 0, 0, 0 autojustify
+set cbtics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojustify
 set cbtics autofreq  norangelimit
-set rtics axis in scale 1,0.5 nomirror norotate  offset character 0, 0, 0 autojustify
+set rtics axis in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
 set rtics autofreq  norangelimit
-set title "Mean number of market updates per packet sent in simulations" 
+set title "Mean number of market updates per packet" 
 set title  offset character 0, 0, 0 font "" norotate
 set timestamp bottom 
 set timestamp "" 
