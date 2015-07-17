@@ -9,10 +9,10 @@ Our proposal for self-incentivizing networks is a speculative one. To
 assess, preliminarily, whether such a scheme could work, we
 conducted simulation experiments for a one-hop version of the system.
 
-We describe here the design for a packet-by-packet market that allows
-anybody to contribute transmission capacity between two nodes and be
-rewarded for it, while endpoints purchase the right to send each
-packet, or groups of packets, from the market.
+We describe here the design for a logically centralized
+packet-by-packet market that allows anybody to contribute transmission
+capacity between two nodes and be rewarded for it, as endpoints
+purchase the right to send each packet from the market.
 
 In these systems, the scarce resources of the communications links are
 allocated not by TCP, AQM, or a traffic-engineering scheme. Instead,
@@ -98,20 +98,22 @@ strategic bidders in Section~\ref{ss:evil}. \\
 ISP & Simply posts offers to transmit packets; doesn't bid. \\
 \hline
 \end{tabular}
-\caption{Example types of users}
+\caption{Flows and their Bidding-Control Protocols may come in a variety of flavors.}
 \label{f:user_types}
 \end{figure*}
 
 \subsection{Implementation}
-We implemented ``bots'' in C++ that participate in the market, placing bids
-and offers to maximize the objectives described in Figure~\ref{f:user_types}.
+We implemented a range of bidding-control protocols, or BCPs, in
+C++. These BCPs participate in the market, placing bids and offers to
+maximize the objectives described in Figure~\ref{f:user_types} on
+behalf of user flows.
 
-We then built a market simulator, which takes a set of user ``bots''
+We then built a market simulator, which takes a set of user BCPs
 and executes them in round-robin order, giving them the current order
 book and the list of packets actually transmitted on the link (so they
 can see which opportunities they have ``won'').
 
-At a given timestep, the simulator runs each bot until all users have
+At a given timestep, the simulator runs each BCP until all users have
 stopped changing the order book, then advances time. When time
 advances, any user owns the right to send a packet during front-most
 slot in the order book is deemed to send a packet across the link. (If more than one
@@ -120,11 +122,20 @@ might be sent.) The simulation ends when all flows have
 completed. We view this as a simplified, idealized model of what might
 occur in a home router controlling, e.g., a contended cable-modem link.
 
-\textbf{Flow-completion priority bot:} The implementation of the
-``bot'' for flows that care only about their completion time
-(``flow-completion priority'' in Figure~\ref{f:user_types} deserves
-some further discussion. This type models a flow that arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
-Upon arrival, this user buys the $n$ slots that maximize its utility function. Once slots have been purchased, it puts up an offer for each slot it owns priced at \$.01 more than negated loss of utility the user would experience if it did not own that slot and had to buy another one.
+\textbf{Flow-completion priority BCP:} The implementation of the
+BCP for flows that care only about their completion time
+(``flow-completion priority'' in Figure~\ref{f:user_types}) deserves
+some further discussion. This type models a flow that arrives at a set
+time and has a set number of packets $n$ to send. It tries to maximize
+the utility function $U = -d - c$, where $d$ is the number of
+timeslots until the \emph{last} packet is transmitted, and $c$ is the
+total amount paid for slots.  Upon arrival, this user buys $n$
+slots, choosing the best balance between cost and duration. Once slots have been
+purchased, it posts an offer for each slot that it owns, offering
+to sell the slot for \$.01
+more than the negated loss of utility that the user would experience if it lost
+that slot and had to buy the next-best one. We find that this mechanism
+is generally sufficient to closely approximate the shortest-remaining-time-first schedule.
 
 \subsection{Simple-Market Evaluation}
 \label{ss:eval}
@@ -132,68 +143,123 @@ Upon arrival, this user buys the $n$ slots that maximize its utility function. O
 \begin{figure}
 %\vspace{\baselineskip}
 \includegraphics[width=\columnwidth]{plots/delay_over_srtf.pdf}
-\caption{Simulation results for 32,000 flows with varying concurrency.}
+\caption{In simulations where every user runs the flow-completion priority BCP,
+the simple self-incentivizing network (SIN) closely approximates the
+optimal shortest-remaining-time-first (SRTF) schedule and outperforms
+a policy of perfect rate sharing among live flows, such as achieved by
+an idealized TCP.}
 \label{f:delay_over_srtf}
 \end{figure}
 
 \begin{figure}
 %\vspace{\baselineskip}
 \includegraphics[width=\columnwidth]{plots/95th_delay_over_srtf.pdf}
-\caption{95th percentile flow duration.}
+\caption{The self-incentivizing network also performs well in terms of tail FCT.}
 \label{f:95th_delay_over_srtf}
 \end{figure}
 
-We simulated the results of running a market in practice with flow completion time users that would arrive at time $t$ had a known number of packets $n$ they wanted to send.
-Figures~\ref{f:delay_over_srtf} and \ref{f:95th_delay_over_srtf} show the result of running the simulation with 2 to 32 concurrent flow completion time user bots. In this simulation flows arrive at time $uniform(0, 39)$ and have length $uniform(1, 40)$ MTU size packets.
-The link being scheduled can send one MTU packet per millisecond (12Mb/s). In the market case, this is manifested by a single owner user that provides 1 packet of capacity every millisecond with an initial offer of \$1 per slot.
+We simulated the results of running the simple market with
+flow-completion priority users that would arrive at time $t$, drawn
+from a uniform distribution on $[0, 39]$, with a flow length drawn
+from a uniform distribution on $[0, 40]$ packets.
+Figures~\ref{f:delay_over_srtf} and \ref{f:95th_delay_over_srtf} show
+the result of running the simulation with between 2~and~32 concurrent
+flows. A single ISP offers to send one packet per millisecond,
+resulting in a capacity of 12~Mb/s, and posts these offers initially at \$1 per
+packet.
 
-We compare the mean flow duration achieved by our market against the shortest remaining time first schedule and an equal rate sharing or round robin schedule. Shortest remaining time first (or SRTF) achieves the minimum possible mean flow duration for an online algorithm with known job durations\cite{karger10,bansal01} (SRTF is also called shortest remaining processing time in some literature).
-Rate sharing is an idealized model of what TCP would achieve on FIFO queued router with a large buffer.
+We compare the mean flow duration achieved among greedy users by our
+market mechanism against the shortest-remaining-time-first schedule
+(SRTF). We also compared against an equal rate-sharing or round-robin
+schedule, such as would be achieved by an idealized TCP.
 
-As our figures show, the selfish acting bots in our market simulation always converge on a near optimal flow mean flow duration schedule for the link. The majority of time wiht a smaller number of concurrent users, the schedule produced by the market was equivalent to the SRTF schedule. For all numbers of users, the market schedule had mean flow duration that was less than 1\% higher than SRTF.
-TODO: talk about 95th chart
+It is well known that SRTF achieves
+the minimum mean flow duration for an online algorithm with
+known job durations~\cite{karger10,bansal01}.
 
-\subsubsection{Market Benefits}
-SRTF minimizes the mean flow duration but does not attempt to be fair to users. For example, a string of short flows will starve a long flow \cite{bender98}.
-Our market recovers solutions equal or close to SRTF in terms of mean flow duration, but it also more fairly distributes value among its users.
-If a new flow arrives to a busy market, it must either wait to go after existing flows or directly compensate the owners of the flows it preempts. Like SRTF, a long flow in our market could be starved indefinately by the repeated arrival of short flows, however, this starvation is voluntary by the owner who puts offers up and they would be compensated to infinity to do so.
+As our figures show, the greedy BCPs in our simulation converge on a
+near-optimal mean-flow-duration schedule for the link. For all numberss
+of users, the SIN schedule had a mean flow duration that was less
+than 1\% higher than SRTF.
 
-TODO: it would be cool to have a graph of user utility
-\subsubsection{Market Incentives}
-Someone who contributes network capacity to the market would be compensated based on the prices they set.
-In our current scheme, the market is acting in the interest of its users in sharing the order book and facilitating trades between users.
-To incentivize the market to function efficiently, the market could potentially tax every transaction made through it. We will leave further analysis down this path for future work.
+\subsubsection{The Exposure Problem}
 
-\subsubsection{User Disappointment}
-Unfortunately, in simulation it is possible that a user bot would have had a higher utility at the end if it refused to put offers on slots it had purchased.
-This is possible because our flow completion time user bot bases its offer prices on the offer prices of the slots they would buy instead if their slots are sold, but they are not always able to purchase those replacement slots for those prices (for example if they were sold to someone else who raised the price).
-In an attempt to avoid this, users frequently re-price their slots, but unless their price can instantly reflect a price change, this possibility of a user hurting their final utility is unavoidable with our current market.
-%replacement slot, but if cost of that replacement slot goes up that slot can be purchased and their offer can be matched before they can re-price their offer.
+Unfortunately, in simulation it is possible that a user BCP would have
+had a higher utility at the end if it had refused to put offers on slots it had purchased.
 
-We call this phenomena \emph{disappointment} beause a user puts offers on slots it owns expecting to only increase their overall utility function in the future but instead have it reduced. User dissapointment could potentially lead to users putting higher offers or no offers at all on slots they own, which would reduce the quality of schedules the market produces.
-The user disappointment problem has parallels to the \emph{exposure problem} of auction theory \cite{milgrom00, englmaier06} because the slot prices are dependent on each other.
-%While user disappointment does happen sometimes in our simulations (TODO maybe figure for this), a user normally increases their utility when they list a slot.
-Disappointment can be arbitrarily bad in the case of a hypothesized evil user: whose sole objective is to reduce the utility of another user.
-\subsubsection{Evil User}
+This is possible because our flow-completion priority BCP bases its
+offer prices on the offer prices of the slots that it would buy instead
+if their slot were sold, but they are not always able to purchase
+those replacement slots for those prices (for example if they were
+sold to someone else who raised the price in the meantime). In an attempt to avoid
+this, users frequently re-price their slots, but unless their price
+can instantly reflect a price change, this possibility of a user
+hurting their final utility is unavoidable with our current market.
+
+This is a serious problem with the simple market: why would a greedy
+user, who has just purchased a slot, offer to resell that slot if it
+were likely that this would \emph{decrease} its ultimate utility?
+Fear of this outcome could lead users to post inflated offer prices, or no offers at all, on
+slots they own, which would reduce the quality of schedules the market
+produces. In auction theory, similar issues are known as 
+\emph{exposure problems}~\cite{milgrom00,
+englmaier06}, where slot prices are dependent on one other.
+
+\subsubsection{The problem of evil}
 \label{ss:evil}
-An evil user could maximally reduce the utility of a flow completion time user for the cheapest cost by buying the cheapest slot that that user has for sale, and then buying the next $m$ slots after the last packet of the flow completion time user without putting up offers for any slots. Unless the flow completion time can move earlier, this reduces the utility function of the flow completion time user by $m$.%(TODO need example with reserve prices I think. Possbily diagram.)
-% talk about how this still better than current situation because evil user has to pay?, lots of faith in current implementations
+We sought to exploit this problem as much as possible, and found that
+disappointment can be arbitrarily bad in the case of an ``evil user'':
+one whose sole objective is to reduce the utility of another
+user.
+
+An evil user could maximally reduce the utility of a flow-completion
+time BCP for the cheapest cost, by buying the next $m$ slots after the
+last packet of the flow-completion priority BCP without putting up
+offers for any slots, and then buying the cheapest packet that the
+flow-completion priority BCP has offered for sale before it has a
+chance to re-price that offer.
+
+To finish its flow, the flow-completion priority BCP
+will then have to buy another packet much later, which reduces its
+utility by at least $m$.
+
+The amount of money spent by the evil user is typically only a
+constant offset from the amount of pain it is able to inflict on
+another user by exploiting the Exposure Problem---a serious
+weakness. A better market would eliminate the Exposure Problem or make
+disruption more costly.
+
 \subsubsection{Communication overhead}
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{plots/num_market_updates.pdf}
-\caption{Mean number of sets of slot purchases made by flow completion time bots in simulation.}
+\caption{Mean number of sets of slot purchases made by flow-completion
+priority BCPs in simulation.}
 \label{f:num_market_updates}
 \end{figure}
 
-Another problem with the simple market is that it can take a long time to converge on a solution where no user wants to buy more slots. In simulation, flow completion time user bots would buy back and forth from each other many times, making small price adjustments throughout.  
+Another problem with the simple market is that it can take many rounds
+of bidding
+to converge on a quiescent order book, where no user wants to buy more slots. In
+simulation, flow-completion priority BCPs would buy back and forth from each other many times, making small price adjustments throughout.  
 Figure~\ref{f:num_market_updates} shows the number times a user bought a set of packets on the market, or market updates, per packet sent in the simulations from in Figure~\ref{f:delay_over_srtf}.
-More contention between slots increased the number of market updates required.
+More contention between slots increased the number of market updates
+required.
+
+We can envision scenarios where this number of roundtrips might be
+acceptable---for example, if the market is run very close to the users
+(e.g.~at a home cable modem) and the link that is being adjudicated is
+much slower than the link used to access the logically-centralized
+market. But clearly it would be preferable to reduce the number of
+roundtrips to the order book.
 
 %TODO improve below sentence
-The problems we encountered with the simple market led us to our current design:
-\subsection{Multiresolution Market Design}
+\subsection{Multiresolution market design}
+\label{ss:multires}
+The weaknesses we encountered with the simple market have led us to our current design:
 
+
+\begin{comment}
 TODO
 
 \begin{figure*}
@@ -213,3 +279,5 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \caption{Multiresolution market order book.}
 \label{f:multiresolution _market}
 \end{figure*}
+
+\end{comment}
