@@ -1,0 +1,13 @@
+set terminal svg size 600,400 fixed fname 'arial' fsize 12 standalone name "delay_ratio"
+set output "test.svg"
+set title "- benefit / flow length for a given flow length"
+
+set style fill solid border -1
+#set boxwidth .5
+
+set nokey
+
+set xlabel 'flow length'
+
+plot 'temp_srtf', \
+     'temp_simulated'
