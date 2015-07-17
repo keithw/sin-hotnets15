@@ -14,16 +14,27 @@ Our goals for a market were as follows:
 A market could be exposed by a single router or a gateway connected to multiple network capacity providers.
 We envision users could also interact with multiple markets.
 
-In following section, we sketch a simple market to achieve these goals and then evaluate its performance with simulated users.
+In following section, we sketch a simple market we designed to achieve these goals and then evaluate its performance with simulated users.
 We outline our current performance as well as the limitations of our market and them propse a multiresolution market that addresses the issues we found.
 %Our intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case \emph{evil user}, and finally propose a new multi-resolution market that addresses these problems.
 
 \subsection{Simple Market Design}
 Our market is composed of consecutive time slots in which a packets can be delivered. Users are able to buy the rights to send a packet at a given time slot.
-Once a slot is owned by a user, they have a guaruntee their packet will be carried to its next destination at that time if they can deliver it to the router before in time. Users who own a slot can also post an offer to re-sell their slot to another user for a given price.
+Once a slot is owned by a user, they have a guaruntee their packet will be carried to its next destination at that time if they can deliver it to the router before that time. Users who own a slot can also post an offer to re-sell their slot to another user for a given price.
 %With this mechanism, users can be granted guaruntees of packet carriage but also change to increase their own percieved utility.
+Figure \ref{f:simple_market} gives an example of the basic market state.
 
-Figure \ref{f:simple_market} gives the basic market layout.
+\begin{figure*}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}[height=3in]{|*{8}{p{\slotwidth}|}}
+\hline
+Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
+\{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
+\hline
+\end{tabular}
+\caption{Simple market sample state. User A owns the first two time slots and has an offer of \$2.01 for each. User B owns the next two slots and has not put up an offer to sell them. User C owns slot at time 6 and has posted an offer of \$10 to sell it. ISP owns remaining slots with an offer of \$1 for each.}
+\label{f:simple_market}
+\end{figure*}
 
 \subsection{User types}
 The objectives of market users could vary greatly. Four example user types are outlined in Figure~\ref{f:user_types}, and many more are possible.
@@ -32,13 +43,16 @@ The objectives of market users could vary greatly. Four example user types are o
 \hline
 User Type & Objective \\
 \hline
-Flow completion time user & send $n$ minimizing flow completion time \\
 \hline
-Consistent bandwidth user & send $m$ packets every $t$ milliseconds. Example values $t=100$ for interactive audio/video or $t=$ current buffered time for video streaming \\
+Flow completion time user & Send $n$ minimizing flow completion time \\
 \hline
-Evil user & maximally reduce utility of another user while staying within a budget $c$ \\
+Consistent bandwidth user & Send $n$ packets every $t$ milliseconds. Example values $t=100$ for interactive audio/video or $t=$ current buffered time for video streaming \\
 \hline
-Owner user & adds capacity slots to order book at reserve price \$$r$\\
+Deadline user & Send $n$ packets by deadline $d$. $d$ could be a few seconds for an email message to many hours for a low cost data backup.\\
+\hline
+Evil user & Maximally reduce utility of another market user while staying within a budget $c$ \\
+\hline
+Capacity owner user & Add capacity slots market at reserve price \$$r$\\
 \hline
 \end{tabular}
 \caption{Example types of users}
@@ -52,18 +66,6 @@ The market simulator takes a set of users bots and runs them in round robin orde
 \subsubsection{Flow completion time user}
 The flow completion time user bot arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
 Upon arrival, this user buys the $n$ slots that maximize its utility function. Once slots have been purchased, it puts up an offer for each slot it owns priced at \$.01 more than negated loss of utility the user would experience if it did not own that slot and had to buy another one.
-
-\begin{figure*}
-\renewcommand{\arraystretch}{2}
-\begin{tabular}[height=3in]{|*{8}{p{\slotwidth}|}}
-\hline
-Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
-\{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
-\hline
-\end{tabular}
-\caption{Simple market sample state. User A owns the first two time slots and has an offer of \$2.01 for each. User B owns the next two slots and has not put up an offer to sell them. User C owns slot at time 6 and has posted an offer of \$10 to sell it. ISP owns remaining slots with an offer of \$1 for each.}
-\label{f:simple_market}
-\end{figure*}
 
 \subsection{Simple Market Evaluation}
 \begin{figure}
