@@ -34,8 +34,9 @@ some of the problems in the simple design.
 \label{ss:simplemarket}
 
 \begin{figure*}
-\renewcommand{\arraystretch}{2}
-\begin{tabular}[height=3in]{|*{8}{p{\slotwidth}|}}
+%\renewcommand{\arraystretch}{2}
+\small
+\begin{tabular}[height=1in]{|*{8}{p{\slotwidth}|}}
 \hline
 Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
@@ -80,6 +81,7 @@ auctions---at a given time.
 The objectives of market users and their flows could vary greatly. In our simulations,
 we have experimented with several types, outlined in Figure~\ref{f:user_types}.
 \begin{figure*}
+\small
 \begin{tabular}{|p{.25\textwidth}|p{.70\textwidth}|}
 \hline
 Flow Type & Objective \\
@@ -182,7 +184,7 @@ near-optimal mean-flow-duration schedule for the link. For all numberss
 of users, the SIN schedule had a mean flow duration that was less
 than 1\% higher than SRTF.
 
-\subsubsection{The Exposure Problem}
+\subsubsection{The exposure problem}
 
 Unfortunately, in simulation it is possible that a user BCP would have
 had a higher utility at the end if it had refused to put offers on slots it had purchased.
