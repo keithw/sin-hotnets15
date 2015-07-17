@@ -1,4 +1,4 @@
-running 10 trials with 8 users and start time die size 40 and start time die size 40...
+running 40 trials with 8 users and start time die size 40 and start time die size 40...
 trial shorthand= 21:7, 15:36, 31:16, 24:13, 7:22, 0:28, 8:20, 1:7
 
 User: A flow start time: 21 num packets: 7
@@ -30,7 +30,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0: F | 1-7: H | 8-27: G | 28-34: A | 35-47: D | 48-63: C | 64-85: E | 86-112: F | 113-148: B ]
 Trial had 321 longer sum flow duration than srtf ( 745-424 )
-finished trial 1 of 10
+finished trial 1 of 40
 
 trial shorthand= 13:27, 5:17, 4:9, 0:30, 15:11, 15:4, 20:16, 2:3
 
@@ -63,7 +63,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-1: D | 2-4: H | 5-13: C | 14: B | 15-18: F | 19-29: E | 30-45: B | 46-61: G | 62-88: A | 89-116: D ]
 Trial had 211 longer sum flow duration than srtf ( 519-308 )
-finished trial 2 of 10
+finished trial 2 of 40
 
 trial shorthand= 11:19, 18:8, 22:17, 0:3, 18:14, 10:40, 13:18, 27:5
 
@@ -96,7 +96,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-2: D | 10: F | 11-17: A | 18-25: B | 26: A | 27-31: H | 32-42: A | 43-56: E | 57-73: C | 74-91: G | 92-130: F ]
 Trial had 221 longer sum flow duration than srtf ( 560-339 )
-finished trial 3 of 10
+finished trial 3 of 40
 
 trial shorthand= 31:11, 9:7, 7:21, 32:34, 18:11, 32:2, 21:6, 0:8
 
@@ -129,7 +129,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-7: H | 8: C | 9-15: B | 16-17: C | 18-20: E | 21-26: G | 27-31: E | 32-33: F | 34-36: E | 37-47: A | 48-65: C | 66-99: D ]
 Trial had 103 longer sum flow duration than srtf ( 289-186 )
-finished trial 4 of 10
+finished trial 4 of 40
 
 trial shorthand= 13:26, 3:10, 30:18, 1:16, 19:26, 11:8, 31:5, 0:31
 
@@ -162,7 +162,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0: H | 1-2: D | 3-12: B | 13-20: F | 21-34: D | 35-39: G | 40-57: C | 58-83: A | 84-109: E | 110-139: H ]
 Trial had 306 longer sum flow duration than srtf ( 699-393 )
-finished trial 5 of 10
+finished trial 5 of 40
 
 trial shorthand= 4:9, 33:19, 25:25, 0:12, 31:40, 9:21, 33:9, 16:13
 
@@ -195,7 +195,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-11: D | 12-20: A | 21-33: H | 34-42: G | 43-61: B | 62-82: F | 83-107: C | 108-147: E ]
 Trial had 229 longer sum flow duration than srtf ( 589-360 )
-finished trial 6 of 10
+finished trial 6 of 40
 
 trial shorthand= 14:27, 2:20, 23:11, 22:19, 15:2, 5:23, 25:13, 0:37
 
@@ -228,7 +228,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-1: H | 2-14: B | 15-16: E | 17-23: B | 24-34: C | 35-47: G | 48-66: D | 67-89: F | 90-116: A | 117-151: H ]
 Trial had 359 longer sum flow duration than srtf ( 803-444 )
-finished trial 7 of 10
+finished trial 7 of 40
 
 trial shorthand= 21:1, 6:2, 25:10, 4:20, 0:10, 31:38, 17:12, 1:36
 
@@ -261,7 +261,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-5: E | 6-7: B | 8-11: E | 12-16: D | 17-20: G | 21: A | 22-29: G | 30-39: C | 40-54: D | 55-90: H | 91-128: F ]
 Trial had 173 longer sum flow duration than srtf ( 455-282 )
-finished trial 8 of 10
+finished trial 8 of 40
 
 trial shorthand= 22:8, 0:17, 10:34, 19:6, 19:4, 12:25, 1:32, 5:30
 
@@ -294,7 +294,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-16: B | 17-18: F | 19-22: E | 23-28: D | 29-36: A | 37-59: F | 60-89: H | 90-121: G | 122-155: C ]
 Trial had 337 longer sum flow duration than srtf ( 783-446 )
-finished trial 9 of 10
+finished trial 9 of 40
 
 trial shorthand= 22:20, 29:9, 27:36, 19:30, 35:4, 17:6, 5:12, 0:36
 
@@ -327,12 +327,1002 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-4: H | 5-16: G | 17-22: F | 23-28: A | 29-37: B | 38-41: E | 42-55: A | 56-85: D | 86-116: H | 117-152: C ]
 Trial had 265 longer sum flow duration than srtf ( 643-378 )
-finished trial 10 of 10
+finished trial 10 of 40
 
-0 of 10 scenarios matched the srtf result ( 0 )
-average delay ratio 1.70927
-average flow duration for srtf 44.5
-average flow duration for trials 76.0625
+trial shorthand= 18:9, 3:29, 0:31, 32:21, 33:5, 3:35, 26:17, 22:12
+
+User: A flow start time: 18 num packets: 9
+User: B flow start time: 3 num packets: 29
+User: C flow start time: 0 num packets: 31
+User: D flow start time: 32 num packets: 21
+User: E flow start time: 33 num packets: 5
+User: F flow start time: 3 num packets: 35
+User: G flow start time: 26 num packets: 17
+User: H flow start time: 22 num packets: 12
+User: E had flow duration 34 in simulated schedule
+User: D had flow duration 119 in simulated schedule
+User: G had flow duration 106 in simulated schedule
+User: H had flow duration 80 in simulated schedule
+User: A had flow duration 60 in simulated schedule
+User: B had flow duration 150 in simulated schedule
+User: F had flow duration 156 in simulated schedule
+User: C had flow duration 150 in simulated schedule
+User: F had flow duration 156 in srtf schedule
+User: B had flow duration 121 in srtf schedule
+User: D had flow duration 63 in srtf schedule
+User: G had flow duration 48 in srtf schedule
+User: E had flow duration 5 in srtf schedule
+User: H had flow duration 22 in srtf schedule
+User: A had flow duration 9 in srtf schedule
+User: C had flow duration 57 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-2: C | 3: F | 4: B | 5: C | 6: F | 7: B | 8: C | 9: F | 10: B | 11: C | 12: F | 13: B | 14: C | 15: F | 16: B | 17: C | 18: F | 19: A | 20: B | 21: C | 22: F | 23: H | 24: A | 25: B | 26: C | 27: F | 28: G | 29: H | 30: A | 31: B | 32: C | 33: D | 34: E | 35: F | 36: G | 37: H | 38: A | 39: B | 40: C | 41: D | 42: E | 43: F | 44: G | 45: H | 46: A | 47: B | 48: C | 49: D | 50: E | 51: F | 52: G | 53: H | 54: A | 55: B | 56: C | 57: D | 58: E | 59: F | 60: G | 61: H | 62: A | 63: B | 64: C | 65: D | 66: E | 67: F | 68: G | 69: H | 70: A | 71: B | 72: C | 73: D | 74: F | 75: G | 76: H | 77: A | 78: B | 79: C | 80: D | 81: F | 82: G | 83: H | 84: B | 85: C | 86: D | 87: F | 88: G | 89: H | 90: B | 91: C | 92: D | 93: F | 94: G | 95: H | 96: B | 97: C | 98: D | 99: F | 100: G | 101: H | 102: B | 103: C | 104: D | 105: F | 106: G | 107: B | 108: C | 109: D | 110: F | 111: G | 112: B | 113: C | 114: D | 115: F | 116: G | 117: B | 118: C | 119: D | 120: F | 121: G | 122: B | 123: C | 124: D | 125: F | 126: G | 127: B | 128: C | 129: D | 130: F | 131: G | 132: B | 133: C | 134: D | 135: F | 136: B | 137: C | 138: D | 139: F | 140: B | 141: C | 142: D | 143: F | 144: B | 145: C | 146: D | 147: F | 148: B | 149: C | 150: D | 151: F | 152: B | 153-158: F ]
+and srtf was:
+[ 0-17: C | 18-26: A | 27-32: H | 33-37: E | 38-43: H | 44-56: C | 57-73: G | 74-94: D | 95-123: B | 124-158: F ]
+Trial had 374 longer sum flow duration than srtf ( 855-481 )
+finished trial 11 of 40
+
+trial shorthand= 9:6, 1:17, 14:32, 19:29, 17:8, 16:2, 0:36, 11:38
+
+User: A flow start time: 9 num packets: 6
+User: B flow start time: 1 num packets: 17
+User: C flow start time: 14 num packets: 32
+User: D flow start time: 19 num packets: 29
+User: E flow start time: 17 num packets: 8
+User: F flow start time: 16 num packets: 2
+User: G flow start time: 0 num packets: 36
+User: H flow start time: 11 num packets: 38
+User: E had flow duration 53 in simulated schedule
+User: D had flow duration 138 in simulated schedule
+User: F had flow duration 9 in simulated schedule
+User: C had flow duration 148 in simulated schedule
+User: H had flow duration 157 in simulated schedule
+User: A had flow duration 33 in simulated schedule
+User: B had flow duration 82 in simulated schedule
+User: G had flow duration 158 in simulated schedule
+User: H had flow duration 157 in srtf schedule
+User: C had flow duration 81 in srtf schedule
+User: D had flow duration 44 in srtf schedule
+User: E had flow duration 17 in srtf schedule
+User: F had flow duration 2 in srtf schedule
+User: A had flow duration 6 in srtf schedule
+User: B had flow duration 25 in srtf schedule
+User: G had flow duration 130 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: G | 1: B | 2: G | 3: B | 4: G | 5: B | 6: G | 7: B | 8: G | 9: A | 10: B | 11: G | 12: H | 13: A | 14: B | 15: C | 16: F | 17: G | 18: H | 19: A | 20: B | 21: C | 22: D | 23: E | 24: F | 25: G | 26: H | 27: A | 28: B | 29: C | 30: D | 31: E | 32: G | 33: H | 34: A | 35: B | 36: C | 37: D | 38: E | 39: G | 40: H | 41: A | 42: B | 43: C | 44: D | 45: E | 46: G | 47: H | 48: B | 49: C | 50: D | 51: E | 52: G | 53: H | 54: B | 55: C | 56: D | 57: E | 58: G | 59: H | 60: B | 61: C | 62: D | 63: E | 64: G | 65: H | 66: B | 67: C | 68: D | 69: E | 70: G | 71: H | 72: B | 73: C | 74: D | 75: G | 76: H | 77: B | 78: C | 79: D | 80: G | 81: H | 82: B | 83: C | 84: D | 85: G | 86: H | 87: C | 88: D | 89: G | 90: H | 91: C | 92: D | 93: G | 94: H | 95: C | 96: D | 97: G | 98: H | 99: C | 100: D | 101: G | 102: H | 103: C | 104: D | 105: G | 106: H | 107: C | 108: D | 109: G | 110: H | 111: C | 112: D | 113: G | 114: H | 115: C | 116: D | 117: G | 118: H | 119: C | 120: D | 121: G | 122: H | 123: C | 124: D | 125: G | 126: H | 127: C | 128: D | 129: G | 130: H | 131: C | 132: D | 133: G | 134: H | 135: C | 136: D | 137: G | 138: H | 139: C | 140: D | 141: G | 142: H | 143: C | 144: D | 145: G | 146: H | 147: C | 148: D | 149: G | 150: H | 151: C | 152: D | 153: G | 154: H | 155: C | 156: D | 157: G | 158: H | 159: C | 160: H | 161: C | 162-167: H ]
+and srtf was:
+[ 0: G | 1-8: B | 9-14: A | 15: B | 16-17: F | 18-25: B | 26-33: E | 34-62: D | 63-94: C | 95-129: G | 130-167: H ]
+Trial had 316 longer sum flow duration than srtf ( 778-462 )
+finished trial 12 of 40
+
+trial shorthand= 32:34, 15:29, 20:12, 5:10, 13:5, 0:4, 10:19, 3:1
+
+User: A flow start time: 32 num packets: 34
+User: B flow start time: 15 num packets: 29
+User: C flow start time: 20 num packets: 12
+User: D flow start time: 5 num packets: 10
+User: E flow start time: 13 num packets: 5
+User: F flow start time: 0 num packets: 4
+User: G flow start time: 10 num packets: 19
+User: H flow start time: 3 num packets: 1
+User: A had flow duration 82 in simulated schedule
+User: C had flow duration 49 in simulated schedule
+User: B had flow duration 90 in simulated schedule
+User: E had flow duration 20 in simulated schedule
+User: G had flow duration 69 in simulated schedule
+User: D had flow duration 23 in simulated schedule
+User: H had flow duration 1 in simulated schedule
+User: F had flow duration 5 in simulated schedule
+User: A had flow duration 82 in srtf schedule
+User: B had flow duration 65 in srtf schedule
+User: G had flow duration 41 in srtf schedule
+User: C had flow duration 12 in srtf schedule
+User: E had flow duration 7 in srtf schedule
+User: D had flow duration 10 in srtf schedule
+User: H had flow duration 2 in srtf schedule
+User: F had flow duration 4 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-2: F | 3: H | 4: F | 5-9: D | 10: G | 11: D | 12: G | 13: D | 14: E | 15: G | 16: B | 17: D | 18: E | 19: G | 20: B | 21: C | 22: D | 23: E | 24: G | 25: B | 26: C | 27: D | 28: E | 29: G | 30: B | 31: C | 32: E | 33: G | 34: A | 35: B | 36: C | 37: G | 38: A | 39: B | 40: C | 41: G | 42: A | 43: B | 44: C | 45: G | 46: A | 47: B | 48: C | 49: G | 50: A | 51: B | 52: C | 53: G | 54: A | 55: B | 56: C | 57: G | 58: A | 59: B | 60: C | 61: G | 62: A | 63: B | 64: C | 65: G | 66: A | 67: B | 68: C | 69: G | 70: A | 71: B | 72: G | 73: A | 74: B | 75: G | 76: A | 77: B | 78: G | 79: A | 80: B | 81: A | 82: B | 83: A | 84: B | 85: A | 86: B | 87: A | 88: B | 89: A | 90: B | 91: A | 92: B | 93: A | 94: B | 95: A | 96: B | 97: A | 98: B | 99: A | 100: B | 101: A | 102: B | 103: A | 104: B | 105-113: A ]
+and srtf was:
+[ 0-3: F | 4: H | 5-14: D | 15-19: E | 20-31: C | 32-50: G | 51-79: B | 80-113: A ]
+Trial had 116 longer sum flow duration than srtf ( 339-223 )
+finished trial 13 of 40
+
+trial shorthand= 20:19, 4:9, 5:38, 33:37, 0:24, 26:24, 6:20, 8:6
+
+User: A flow start time: 20 num packets: 19
+User: B flow start time: 4 num packets: 9
+User: C flow start time: 5 num packets: 38
+User: D flow start time: 33 num packets: 37
+User: E flow start time: 0 num packets: 24
+User: F flow start time: 26 num packets: 24
+User: G flow start time: 6 num packets: 20
+User: H flow start time: 8 num packets: 6
+User: D had flow duration 144 in simulated schedule
+User: F had flow duration 127 in simulated schedule
+User: A had flow duration 115 in simulated schedule
+User: H had flow duration 31 in simulated schedule
+User: G had flow duration 120 in simulated schedule
+User: C had flow duration 167 in simulated schedule
+User: B had flow duration 51 in simulated schedule
+User: E had flow duration 124 in simulated schedule
+User: C had flow duration 172 in srtf schedule
+User: D had flow duration 106 in srtf schedule
+User: F had flow duration 76 in srtf schedule
+User: G had flow duration 72 in srtf schedule
+User: A had flow duration 38 in srtf schedule
+User: H had flow duration 11 in srtf schedule
+User: B had flow duration 9 in srtf schedule
+User: E had flow duration 39 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-3: E | 4: B | 5: C | 6: E | 7: G | 8: H | 9: B | 10: C | 11: E | 12: G | 13: H | 14: B | 15: C | 16: E | 17: G | 18: H | 19: B | 20: C | 21: E | 22: G | 23: H | 24: A | 25: B | 26: C | 27: E | 28: F | 29: G | 30: H | 31: A | 32: B | 33: C | 34: D | 35: E | 36: F | 37: G | 38: H | 39: A | 40: B | 41: C | 42: D | 43: E | 44: F | 45: G | 46: A | 47: B | 48: C | 49: D | 50: E | 51: F | 52: G | 53: A | 54: B | 55: C | 56: D | 57: E | 58: F | 59: G | 60: A | 61: C | 62: D | 63: E | 64: F | 65: G | 66: A | 67: C | 68: D | 69: E | 70: F | 71: G | 72: A | 73: C | 74: D | 75: E | 76: F | 77: G | 78: A | 79: C | 80: D | 81: E | 82: F | 83: G | 84: A | 85: C | 86: D | 87: E | 88: F | 89: G | 90: A | 91: C | 92: D | 93: E | 94: F | 95: G | 96: A | 97: C | 98: D | 99: E | 100: F | 101: G | 102: A | 103: C | 104: D | 105: E | 106: F | 107: G | 108: A | 109: C | 110: D | 111: E | 112: F | 113: G | 114: A | 115: C | 116: D | 117: E | 118: F | 119: G | 120: A | 121: C | 122: D | 123: E | 124: F | 125: G | 126: A | 127: C | 128: D | 129: F | 130: A | 131: C | 132: D | 133: F | 134: A | 135: C | 136: D | 137: F | 138: C | 139: D | 140: F | 141: C | 142: D | 143: F | 144: C | 145: D | 146: F | 147: C | 148: D | 149: F | 150: C | 151: D | 152: F | 153: C | 154: D | 155: C | 156: D | 157: C | 158: D | 159: C | 160: D | 161: C | 162: D | 163: C | 164: D | 165: C | 166: D | 167: C | 168: D | 169: C | 170: D | 171: C | 172-176: D ]
+and srtf was:
+[ 0-3: E | 4-12: B | 13-18: H | 19-38: E | 39-57: A | 58-77: G | 78-101: F | 102-138: D | 139-176: C ]
+Trial had 356 longer sum flow duration than srtf ( 879-523 )
+finished trial 14 of 40
+
+trial shorthand= 0:31, 21:20, 30:27, 25:3, 18:25, 33:28, 31:5, 24:12
+
+User: A flow start time: 0 num packets: 31
+User: B flow start time: 21 num packets: 20
+User: C flow start time: 30 num packets: 27
+User: D flow start time: 25 num packets: 3
+User: E flow start time: 18 num packets: 25
+User: F flow start time: 33 num packets: 28
+User: G flow start time: 31 num packets: 5
+User: H flow start time: 24 num packets: 12
+User: G had flow duration 35 in simulated schedule
+User: F had flow duration 118 in simulated schedule
+User: C had flow duration 119 in simulated schedule
+User: D had flow duration 17 in simulated schedule
+User: H had flow duration 73 in simulated schedule
+User: B had flow duration 105 in simulated schedule
+User: E had flow duration 119 in simulated schedule
+User: A had flow duration 92 in simulated schedule
+User: F had flow duration 118 in srtf schedule
+User: C had flow duration 93 in srtf schedule
+User: E had flow duration 78 in srtf schedule
+User: B had flow duration 50 in srtf schedule
+User: H had flow duration 27 in srtf schedule
+User: G had flow duration 8 in srtf schedule
+User: D had flow duration 3 in srtf schedule
+User: A had flow duration 34 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-17: A | 18: E | 19: A | 20: E | 21: A | 22: B | 23: E | 24: H | 25: A | 26: B | 27: D | 28: E | 29: H | 30: A | 31: B | 32: C | 33: D | 34: E | 35: F | 36: G | 37: H | 38: A | 39: B | 40: C | 41: D | 42: E | 43: F | 44: G | 45: H | 46: A | 47: B | 48: C | 49: E | 50: F | 51: G | 52: H | 53: A | 54: B | 55: C | 56: E | 57: F | 58: G | 59: H | 60: A | 61: B | 62: C | 63: E | 64: F | 65: G | 66: H | 67: A | 68: B | 69: C | 70: E | 71: F | 72: H | 73: A | 74: B | 75: C | 76: E | 77: F | 78: H | 79: A | 80: B | 81: C | 82: E | 83: F | 84: H | 85: A | 86: B | 87: C | 88: E | 89: F | 90: H | 91: A | 92: B | 93: C | 94: E | 95: F | 96: H | 97: B | 98: C | 99: E | 100: F | 101: B | 102: C | 103: E | 104: F | 105: B | 106: C | 107: E | 108: F | 109: B | 110: C | 111: E | 112: F | 113: B | 114: C | 115: E | 116: F | 117: B | 118: C | 119: E | 120: F | 121: B | 122: C | 123: E | 124: F | 125: B | 126: C | 127: E | 128: F | 129: C | 130: E | 131: F | 132: C | 133: E | 134: F | 135: C | 136: E | 137: F | 138: C | 139: F | 140: C | 141: F | 142: C | 143: F | 144: C | 145: F | 146: C | 147: F | 148: C | 149-150: F ]
+and srtf was:
+[ 0-24: A | 25-27: D | 28-33: A | 34-38: G | 39-50: H | 51-70: B | 71-95: E | 96-122: C | 123-150: F ]
+Trial had 267 longer sum flow duration than srtf ( 678-411 )
+finished trial 15 of 40
+
+trial shorthand= 17:29, 14:24, 21:9, 15:23, 26:11, 0:2, 16:11, 33:26
+
+User: A flow start time: 17 num packets: 29
+User: B flow start time: 14 num packets: 24
+User: C flow start time: 21 num packets: 9
+User: D flow start time: 15 num packets: 23
+User: E flow start time: 26 num packets: 11
+User: F flow start time: 0 num packets: 2
+User: G flow start time: 16 num packets: 11
+User: H flow start time: 33 num packets: 26
+User: H had flow duration 114 in simulated schedule
+User: E had flow duration 69 in simulated schedule
+User: C had flow duration 56 in simulated schedule
+User: A had flow duration 129 in simulated schedule
+User: G had flow duration 64 in simulated schedule
+User: D had flow duration 116 in simulated schedule
+User: B had flow duration 120 in simulated schedule
+User: F had flow duration 2 in simulated schedule
+User: A had flow duration 130 in srtf schedule
+User: H had flow duration 85 in srtf schedule
+User: D had flow duration 77 in srtf schedule
+User: E had flow duration 21 in srtf schedule
+User: C had flow duration 15 in srtf schedule
+User: G had flow duration 11 in srtf schedule
+User: B had flow duration 55 in srtf schedule
+User: F had flow duration 2 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: F | 14: B | 15: D | 16: G | 17: A | 18: B | 19: D | 20: G | 21: A | 22: B | 23: C | 24: D | 25: G | 26: A | 27: B | 28: C | 29: D | 30: E | 31: G | 32: A | 33: B | 34: C | 35: D | 36: E | 37: G | 38: H | 39: A | 40: B | 41: C | 42: D | 43: E | 44: G | 45: H | 46: A | 47: B | 48: C | 49: D | 50: E | 51: G | 52: H | 53: A | 54: B | 55: C | 56: D | 57: E | 58: G | 59: H | 60: A | 61: B | 62: C | 63: D | 64: E | 65: G | 66: H | 67: A | 68: B | 69: C | 70: D | 71: E | 72: G | 73: H | 74: A | 75: B | 76: C | 77: D | 78: E | 79: G | 80: H | 81: A | 82: B | 83: D | 84: E | 85: H | 86: A | 87: B | 88: D | 89: E | 90: H | 91: A | 92: B | 93: D | 94: E | 95: H | 96: A | 97: B | 98: D | 99: H | 100: A | 101: B | 102: D | 103: H | 104: A | 105: B | 106: D | 107: H | 108: A | 109: B | 110: D | 111: H | 112: A | 113: B | 114: D | 115: H | 116: A | 117: B | 118: D | 119: H | 120: A | 121: B | 122: D | 123: H | 124: A | 125: B | 126: D | 127: H | 128: A | 129: B | 130: D | 131: H | 132: A | 133: B | 134: H | 135: A | 136: H | 137: A | 138: H | 139: A | 140: H | 141: A | 142: H | 143: A | 144: H | 145: A | 146: H ]
+and srtf was:
+[ 0-1: F | 14-15: B | 16-26: G | 27-35: C | 36-46: E | 47-68: B | 69-91: D | 92-117: H | 118-146: A ]
+Trial had 274 longer sum flow duration than srtf ( 670-396 )
+finished trial 16 of 40
+
+trial shorthand= 0:17, 4:27, 2:26, 28:17, 2:19, 4:38, 22:25, 0:37
+
+User: A flow start time: 0 num packets: 17
+User: B flow start time: 4 num packets: 27
+User: C flow start time: 2 num packets: 26
+User: D flow start time: 28 num packets: 17
+User: E flow start time: 2 num packets: 19
+User: F flow start time: 4 num packets: 38
+User: G flow start time: 22 num packets: 25
+User: H flow start time: 0 num packets: 37
+User: D had flow duration 124 in simulated schedule
+User: G had flow duration 165 in simulated schedule
+User: B had flow duration 181 in simulated schedule
+User: F had flow duration 202 in simulated schedule
+User: E had flow duration 138 in simulated schedule
+User: C had flow duration 175 in simulated schedule
+User: H had flow duration 204 in simulated schedule
+User: A had flow duration 115 in simulated schedule
+User: F had flow duration 202 in srtf schedule
+User: H had flow duration 168 in srtf schedule
+User: B had flow duration 127 in srtf schedule
+User: C had flow duration 102 in srtf schedule
+User: G had flow duration 56 in srtf schedule
+User: D had flow duration 25 in srtf schedule
+User: E had flow duration 34 in srtf schedule
+User: A had flow duration 17 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: A | 1: H | 2: A | 3: C | 4: E | 5: F | 6: H | 7: A | 8: B | 9: C | 10: E | 11: F | 12: H | 13: A | 14: B | 15: C | 16: E | 17: F | 18: H | 19: A | 20: B | 21: C | 22: E | 23: F | 24: G | 25: H | 26: A | 27: B | 28: C | 29: D | 30: E | 31: F | 32: G | 33: H | 34: A | 35: B | 36: C | 37: D | 38: E | 39: F | 40: G | 41: H | 42: A | 43: B | 44: C | 45: D | 46: E | 47: F | 48: G | 49: H | 50: A | 51: B | 52: C | 53: D | 54: E | 55: F | 56: G | 57: H | 58: A | 59: B | 60: C | 61: D | 62: E | 63: F | 64: G | 65: H | 66: A | 67: B | 68: C | 69: D | 70: E | 71: F | 72: G | 73: H | 74: A | 75: B | 76: C | 77: D | 78: E | 79: F | 80: G | 81: H | 82: A | 83: B | 84: C | 85: D | 86: E | 87: F | 88: G | 89: H | 90: A | 91: B | 92: C | 93: D | 94: E | 95: F | 96: G | 97: H | 98: A | 99: B | 100: C | 101: D | 102: E | 103: F | 104: G | 105: H | 106: A | 107: B | 108: C | 109: D | 110: E | 111: F | 112: G | 113: H | 114: A | 115: B | 116: C | 117: D | 118: E | 119: F | 120: G | 121: H | 122: B | 123: C | 124: D | 125: E | 126: F | 127: G | 128: H | 129: B | 130: C | 131: D | 132: E | 133: F | 134: G | 135: H | 136: B | 137: C | 138: D | 139: E | 140: F | 141: G | 142: H | 143: B | 144: C | 145: D | 146: F | 147: G | 148: H | 149: B | 150: C | 151: D | 152: F | 153: G | 154: H | 155: B | 156: C | 157: F | 158: G | 159: H | 160: B | 161: C | 162: F | 163: G | 164: H | 165: B | 166: C | 167: F | 168: G | 169: H | 170: B | 171: C | 172: F | 173: G | 174: H | 175: B | 176: C | 177: F | 178: G | 179: H | 180: B | 181: F | 182: G | 183: H | 184: B | 185: F | 186: G | 187: H | 188: F | 189: H | 190: F | 191: H | 192: F | 193: H | 194: F | 195: H | 196: F | 197: H | 198: F | 199: H | 200: F | 201: H | 202: F | 203: H | 204-205: F ]
+and srtf was:
+[ 0-16: A | 17-35: E | 36-52: D | 53-77: G | 78-103: C | 104-130: B | 131-167: H | 168-205: F ]
+Trial had 573 longer sum flow duration than srtf ( 1304-731 )
+finished trial 17 of 40
+
+trial shorthand= 11:20, 18:31, 27:32, 12:12, 0:11, 12:15, 19:4, 38:22
+
+User: A flow start time: 11 num packets: 20
+User: B flow start time: 18 num packets: 31
+User: C flow start time: 27 num packets: 32
+User: D flow start time: 12 num packets: 12
+User: E flow start time: 0 num packets: 11
+User: F flow start time: 12 num packets: 15
+User: G flow start time: 19 num packets: 4
+User: H flow start time: 38 num packets: 22
+User: H had flow duration 94 in simulated schedule
+User: C had flow duration 120 in simulated schedule
+User: G had flow duration 20 in simulated schedule
+User: B had flow duration 125 in simulated schedule
+User: F had flow duration 78 in simulated schedule
+User: D had flow duration 62 in simulated schedule
+User: A had flow duration 97 in simulated schedule
+User: E had flow duration 11 in simulated schedule
+User: C had flow duration 120 in srtf schedule
+User: B had flow duration 97 in srtf schedule
+User: H had flow duration 46 in srtf schedule
+User: F had flow duration 31 in srtf schedule
+User: G had flow duration 4 in srtf schedule
+User: D had flow duration 16 in srtf schedule
+User: A had flow duration 51 in srtf schedule
+User: E had flow duration 11 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-10: E | 11: A | 12: D | 13: F | 14: A | 15: D | 16: F | 17: A | 18: B | 19: D | 20: F | 21: G | 22: A | 23: B | 24: D | 25: F | 26: G | 27: A | 28: B | 29: C | 30: D | 31: F | 32: G | 33: A | 34: B | 35: C | 36: D | 37: F | 38: G | 39: H | 40: A | 41: B | 42: C | 43: D | 44: F | 45: H | 46: A | 47: B | 48: C | 49: D | 50: F | 51: H | 52: A | 53: B | 54: C | 55: D | 56: F | 57: H | 58: A | 59: B | 60: C | 61: D | 62: F | 63: H | 64: A | 65: B | 66: C | 67: D | 68: F | 69: H | 70: A | 71: B | 72: C | 73: D | 74: F | 75: H | 76: A | 77: B | 78: C | 79: F | 80: H | 81: A | 82: B | 83: C | 84: F | 85: H | 86: A | 87: B | 88: C | 89: F | 90: H | 91: A | 92: B | 93: C | 94: H | 95: A | 96: B | 97: C | 98: H | 99: A | 100: B | 101: C | 102: H | 103: A | 104: B | 105: C | 106: H | 107: A | 108: B | 109: C | 110: H | 111: B | 112: C | 113: H | 114: B | 115: C | 116: H | 117: B | 118: C | 119: H | 120: B | 121: C | 122: H | 123: B | 124: C | 125: H | 126: B | 127: C | 128: H | 129: B | 130: C | 131: H | 132: B | 133: C | 134: B | 135: C | 136: B | 137: C | 138: B | 139: C | 140: B | 141: C | 142: B | 143-146: C ]
+and srtf was:
+[ 0-10: E | 11: A | 12-18: D | 19-22: G | 23-27: D | 28-42: F | 43-61: A | 62-83: H | 84-114: B | 115-146: C ]
+Trial had 231 longer sum flow duration than srtf ( 607-376 )
+finished trial 18 of 40
+
+trial shorthand= 15:37, 35:14, 9:29, 26:16, 2:27, 0:21, 6:5, 12:23
+
+User: A flow start time: 15 num packets: 37
+User: B flow start time: 35 num packets: 14
+User: C flow start time: 9 num packets: 29
+User: D flow start time: 26 num packets: 16
+User: E flow start time: 2 num packets: 27
+User: F flow start time: 0 num packets: 21
+User: G flow start time: 6 num packets: 5
+User: H flow start time: 12 num packets: 23
+User: B had flow duration 95 in simulated schedule
+User: D had flow duration 106 in simulated schedule
+User: A had flow duration 157 in simulated schedule
+User: H had flow duration 138 in simulated schedule
+User: C had flow duration 154 in simulated schedule
+User: G had flow duration 20 in simulated schedule
+User: E had flow duration 151 in simulated schedule
+User: F had flow duration 115 in simulated schedule
+User: A had flow duration 157 in srtf schedule
+User: C had flow duration 126 in srtf schedule
+User: E had flow duration 104 in srtf schedule
+User: H had flow duration 67 in srtf schedule
+User: B had flow duration 21 in srtf schedule
+User: D had flow duration 16 in srtf schedule
+User: G had flow duration 5 in srtf schedule
+User: F had flow duration 26 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: F | 2: E | 3: F | 4: E | 5: F | 6: G | 7: E | 8: F | 9: G | 10: C | 11: E | 12: F | 13: G | 14: H | 15: A | 16: C | 17: E | 18: F | 19: G | 20: H | 21: A | 22: C | 23: E | 24: F | 25: G | 26: H | 27: A | 28: C | 29: D | 30: E | 31: F | 32: H | 33: A | 34: C | 35: D | 36: E | 37: F | 38: H | 39: A | 40: B | 41: C | 42: D | 43: E | 44: F | 45: H | 46: A | 47: B | 48: C | 49: D | 50: E | 51: F | 52: H | 53: A | 54: B | 55: C | 56: D | 57: E | 58: F | 59: H | 60: A | 61: B | 62: C | 63: D | 64: E | 65: F | 66: H | 67: A | 68: B | 69: C | 70: D | 71: E | 72: F | 73: H | 74: A | 75: B | 76: C | 77: D | 78: E | 79: F | 80: H | 81: A | 82: B | 83: C | 84: D | 85: E | 86: F | 87: H | 88: A | 89: B | 90: C | 91: D | 92: E | 93: F | 94: H | 95: A | 96: B | 97: C | 98: D | 99: E | 100: F | 101: H | 102: A | 103: B | 104: C | 105: D | 106: E | 107: F | 108: H | 109: A | 110: B | 111: C | 112: D | 113: E | 114: F | 115: H | 116: A | 117: B | 118: C | 119: D | 120: E | 121: H | 122: A | 123: B | 124: C | 125: D | 126: E | 127: H | 128: A | 129: B | 130: C | 131: D | 132: E | 133: H | 134: A | 135: C | 136: E | 137: H | 138: A | 139: C | 140: E | 141: H | 142: A | 143: C | 144: E | 145: H | 146: A | 147: C | 148: E | 149: H | 150: A | 151: C | 152: E | 153: A | 154: C | 155: A | 156: C | 157: A | 158: C | 159: A | 160: C | 161: A | 162: C | 163-171: A ]
+and srtf was:
+[ 0-5: F | 6-10: G | 11-25: F | 26-41: D | 42-55: B | 56-78: H | 79-105: E | 106-134: C | 135-171: A ]
+Trial had 414 longer sum flow duration than srtf ( 936-522 )
+finished trial 19 of 40
+
+trial shorthand= 11:28, 0:37, 14:19, 2:13, 23:13, 14:10, 11:11, 17:28
+
+User: A flow start time: 11 num packets: 28
+User: B flow start time: 0 num packets: 37
+User: C flow start time: 14 num packets: 19
+User: D flow start time: 2 num packets: 13
+User: E flow start time: 23 num packets: 13
+User: F flow start time: 14 num packets: 10
+User: G flow start time: 11 num packets: 11
+User: H flow start time: 17 num packets: 28
+User: E had flow duration 85 in simulated schedule
+User: H had flow duration 139 in simulated schedule
+User: F had flow duration 73 in simulated schedule
+User: C had flow duration 114 in simulated schedule
+User: A had flow duration 143 in simulated schedule
+User: G had flow duration 77 in simulated schedule
+User: D had flow duration 69 in simulated schedule
+User: B had flow duration 159 in simulated schedule
+User: H had flow duration 107 in srtf schedule
+User: A had flow duration 85 in srtf schedule
+User: C had flow duration 54 in srtf schedule
+User: E had flow duration 26 in srtf schedule
+User: G had flow duration 25 in srtf schedule
+User: F had flow duration 11 in srtf schedule
+User: D had flow duration 13 in srtf schedule
+User: B had flow duration 159 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: B | 2: D | 3: B | 4: D | 5: B | 6: D | 7: B | 8: D | 9: B | 10: D | 11: G | 12: A | 13: B | 14: C | 15: D | 16: F | 17: G | 18: H | 19: A | 20: B | 21: C | 22: D | 23: E | 24: F | 25: G | 26: H | 27: A | 28: B | 29: C | 30: D | 31: E | 32: F | 33: G | 34: H | 35: A | 36: B | 37: C | 38: D | 39: E | 40: F | 41: G | 42: H | 43: A | 44: B | 45: C | 46: D | 47: E | 48: F | 49: G | 50: H | 51: A | 52: B | 53: C | 54: D | 55: E | 56: F | 57: G | 58: H | 59: A | 60: B | 61: C | 62: D | 63: E | 64: F | 65: G | 66: H | 67: A | 68: B | 69: C | 70: D | 71: E | 72: F | 73: G | 74: H | 75: A | 76: B | 77: C | 78: E | 79: F | 80: G | 81: H | 82: A | 83: B | 84: C | 85: E | 86: F | 87: G | 88: H | 89: A | 90: B | 91: C | 92: E | 93: H | 94: A | 95: B | 96: C | 97: E | 98: H | 99: A | 100: B | 101: C | 102: E | 103: H | 104: A | 105: B | 106: C | 107: E | 108: H | 109: A | 110: B | 111: C | 112: H | 113: A | 114: B | 115: C | 116: H | 117: A | 118: B | 119: C | 120: H | 121: A | 122: B | 123: C | 124: H | 125: A | 126: B | 127: C | 128: H | 129: A | 130: B | 131: H | 132: A | 133: B | 134: H | 135: A | 136: B | 137: H | 138: A | 139: B | 140: H | 141: A | 142: B | 143: H | 144: A | 145: B | 146: H | 147: A | 148: B | 149: H | 150: A | 151: B | 152: H | 153: A | 154: B | 155: H | 156-158: B ]
+and srtf was:
+[ 0-1: B | 2-14: D | 15-24: F | 25-35: G | 36-48: E | 49-67: C | 68-95: A | 96-123: H | 124-158: B ]
+Trial had 379 longer sum flow duration than srtf ( 859-480 )
+finished trial 20 of 40
+
+trial shorthand= 5:22, 32:13, 0:16, 18:40, 0:25, 18:12, 19:28, 24:29
+
+User: A flow start time: 5 num packets: 22
+User: B flow start time: 32 num packets: 13
+User: C flow start time: 0 num packets: 16
+User: D flow start time: 18 num packets: 40
+User: E flow start time: 0 num packets: 25
+User: F flow start time: 18 num packets: 12
+User: G flow start time: 19 num packets: 28
+User: H flow start time: 24 num packets: 29
+User: B had flow duration 92 in simulated schedule
+User: H had flow duration 150 in simulated schedule
+User: D had flow duration 167 in simulated schedule
+User: G had flow duration 150 in simulated schedule
+User: F had flow duration 84 in simulated schedule
+User: A had flow duration 134 in simulated schedule
+User: E had flow duration 141 in simulated schedule
+User: C had flow duration 85 in simulated schedule
+User: D had flow duration 167 in srtf schedule
+User: H had flow duration 121 in srtf schedule
+User: G had flow duration 97 in srtf schedule
+User: E had flow duration 88 in srtf schedule
+User: B had flow duration 13 in srtf schedule
+User: F had flow duration 12 in srtf schedule
+User: A had flow duration 58 in srtf schedule
+User: C had flow duration 16 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: C | 1: E | 2: C | 3: E | 4: C | 5: E | 6: A | 7: C | 8: E | 9: A | 10: C | 11: E | 12: A | 13: C | 14: E | 15: A | 16: C | 17: E | 18: F | 19: G | 20: A | 21: C | 22: D | 23: E | 24: F | 25: G | 26: H | 27: A | 28: C | 29: D | 30: E | 31: F | 32: G | 33: H | 34: A | 35: B | 36: C | 37: D | 38: E | 39: F | 40: G | 41: H | 42: A | 43: B | 44: C | 45: D | 46: E | 47: F | 48: G | 49: H | 50: A | 51: B | 52: C | 53: D | 54: E | 55: F | 56: G | 57: H | 58: A | 59: B | 60: C | 61: D | 62: E | 63: F | 64: G | 65: H | 66: A | 67: B | 68: C | 69: D | 70: E | 71: F | 72: G | 73: H | 74: A | 75: B | 76: C | 77: D | 78: E | 79: F | 80: G | 81: H | 82: A | 83: B | 84: C | 85: D | 86: E | 87: F | 88: G | 89: H | 90: A | 91: B | 92: D | 93: E | 94: F | 95: G | 96: H | 97: A | 98: B | 99: D | 100: E | 101: F | 102: G | 103: H | 104: A | 105: B | 106: D | 107: E | 108: G | 109: H | 110: A | 111: B | 112: D | 113: E | 114: G | 115: H | 116: A | 117: B | 118: D | 119: E | 120: G | 121: H | 122: A | 123: B | 124: D | 125: E | 126: G | 127: H | 128: A | 129: D | 130: E | 131: G | 132: H | 133: A | 134: D | 135: E | 136: G | 137: H | 138: A | 139: D | 140: E | 141: G | 142: H | 143: D | 144: G | 145: H | 146: D | 147: G | 148: H | 149: D | 150: G | 151: H | 152: D | 153: G | 154: H | 155: D | 156: G | 157: H | 158: D | 159: G | 160: H | 161: D | 162: G | 163: H | 164: D | 165: G | 166: H | 167: D | 168: G | 169: H | 170: D | 171: H | 172: D | 173: H | 174-184: D ]
+and srtf was:
+[ 0-15: C | 16-17: A | 18-29: F | 30-31: A | 32-44: B | 45-62: A | 63-87: E | 88-115: G | 116-144: H | 145-184: D ]
+Trial had 431 longer sum flow duration than srtf ( 1003-572 )
+finished trial 21 of 40
+
+trial shorthand= 7:31, 24:19, 0:25, 22:30, 36:2, 30:5, 12:13, 32:11
+
+User: A flow start time: 7 num packets: 31
+User: B flow start time: 24 num packets: 19
+User: C flow start time: 0 num packets: 25
+User: D flow start time: 22 num packets: 30
+User: E flow start time: 36 num packets: 2
+User: F flow start time: 30 num packets: 5
+User: G flow start time: 12 num packets: 13
+User: H flow start time: 32 num packets: 11
+User: E had flow duration 13 in simulated schedule
+User: H had flow duration 67 in simulated schedule
+User: F had flow duration 34 in simulated schedule
+User: B had flow duration 95 in simulated schedule
+User: D had flow duration 114 in simulated schedule
+User: G had flow duration 71 in simulated schedule
+User: A had flow duration 124 in simulated schedule
+User: C had flow duration 97 in simulated schedule
+User: A had flow duration 129 in srtf schedule
+User: D had flow duration 83 in srtf schedule
+User: B had flow duration 51 in srtf schedule
+User: H had flow duration 24 in srtf schedule
+User: E had flow duration 2 in srtf schedule
+User: F had flow duration 5 in srtf schedule
+User: G had flow duration 33 in srtf schedule
+User: C had flow duration 25 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-6: C | 7: A | 8: C | 9: A | 10: C | 11: A | 12: C | 13: G | 14: A | 15: C | 16: G | 17: A | 18: C | 19: G | 20: A | 21: C | 22: D | 23: G | 24: A | 25: B | 26: C | 27: D | 28: G | 29: A | 30: B | 31: C | 32: D | 33: F | 34: G | 35: H | 36: A | 37: B | 38: C | 39: D | 40: E | 41: F | 42: G | 43: H | 44: A | 45: B | 46: C | 47: D | 48: E | 49: F | 50: G | 51: H | 52: A | 53: B | 54: C | 55: D | 56: F | 57: G | 58: H | 59: A | 60: B | 61: C | 62: D | 63: F | 64: G | 65: H | 66: A | 67: B | 68: C | 69: D | 70: G | 71: H | 72: A | 73: B | 74: C | 75: D | 76: G | 77: H | 78: A | 79: B | 80: C | 81: D | 82: G | 83: H | 84: A | 85: B | 86: C | 87: D | 88: H | 89: A | 90: B | 91: C | 92: D | 93: H | 94: A | 95: B | 96: C | 97: D | 98: H | 99: A | 100: B | 101: D | 102: A | 103: B | 104: D | 105: A | 106: B | 107: D | 108: A | 109: B | 110: D | 111: A | 112: B | 113: D | 114: A | 115: B | 116: D | 117: A | 118: B | 119: D | 120: A | 121: D | 122: A | 123: D | 124: A | 125: D | 126: A | 127: D | 128: A | 129: D | 130: A | 131-135: D ]
+and srtf was:
+[ 0-24: C | 25-29: G | 30-34: F | 35: G | 36-37: E | 38-44: G | 45-55: H | 56-74: B | 75-104: D | 105-135: A ]
+Trial had 263 longer sum flow duration than srtf ( 615-352 )
+finished trial 22 of 40
+
+trial shorthand= 25:26, 22:20, 0:3, 18:34, 18:31, 4:31, 9:22, 19:17
+
+User: A flow start time: 25 num packets: 26
+User: B flow start time: 22 num packets: 20
+User: C flow start time: 0 num packets: 3
+User: D flow start time: 18 num packets: 34
+User: E flow start time: 18 num packets: 31
+User: F flow start time: 4 num packets: 31
+User: G flow start time: 9 num packets: 22
+User: H flow start time: 19 num packets: 17
+User: A had flow duration 149 in simulated schedule
+User: B had flow duration 129 in simulated schedule
+User: H had flow duration 115 in simulated schedule
+User: E had flow duration 164 in simulated schedule
+User: D had flow duration 167 in simulated schedule
+User: G had flow duration 124 in simulated schedule
+User: F had flow duration 154 in simulated schedule
+User: C had flow duration 3 in simulated schedule
+User: D had flow duration 167 in srtf schedule
+User: E had flow duration 133 in srtf schedule
+User: A had flow duration 69 in srtf schedule
+User: B had flow duration 46 in srtf schedule
+User: H had flow duration 29 in srtf schedule
+User: G had flow duration 22 in srtf schedule
+User: F had flow duration 116 in srtf schedule
+User: C had flow duration 3 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-2: C | 4-8: F | 9: G | 10: F | 11: G | 12: F | 13: G | 14: F | 15: G | 16: F | 17: G | 18: D | 19: E | 20: F | 21: G | 22: H | 23: B | 24: D | 25: E | 26: F | 27: G | 28: H | 29: A | 30: B | 31: D | 32: E | 33: F | 34: G | 35: H | 36: A | 37: B | 38: D | 39: E | 40: F | 41: G | 42: H | 43: A | 44: B | 45: D | 46: E | 47: F | 48: G | 49: H | 50: A | 51: B | 52: D | 53: E | 54: F | 55: G | 56: H | 57: A | 58: B | 59: D | 60: E | 61: F | 62: G | 63: H | 64: A | 65: B | 66: D | 67: E | 68: F | 69: G | 70: H | 71: A | 72: B | 73: D | 74: E | 75: F | 76: G | 77: H | 78: A | 79: B | 80: D | 81: E | 82: F | 83: G | 84: H | 85: A | 86: B | 87: D | 88: E | 89: F | 90: G | 91: H | 92: A | 93: B | 94: D | 95: E | 96: F | 97: G | 98: H | 99: A | 100: B | 101: D | 102: E | 103: F | 104: G | 105: H | 106: A | 107: B | 108: D | 109: E | 110: F | 111: G | 112: H | 113: A | 114: B | 115: D | 116: E | 117: F | 118: G | 119: H | 120: A | 121: B | 122: D | 123: E | 124: F | 125: G | 126: H | 127: A | 128: B | 129: D | 130: E | 131: F | 132: G | 133: H | 134: A | 135: B | 136: D | 137: E | 138: F | 139: A | 140: B | 141: D | 142: E | 143: F | 144: A | 145: B | 146: D | 147: E | 148: F | 149: A | 150: B | 151: D | 152: E | 153: F | 154: A | 155: D | 156: E | 157: F | 158: A | 159: D | 160: E | 161: A | 162: D | 163: E | 164: A | 165: D | 166: E | 167: A | 168: D | 169: E | 170: A | 171: D | 172: E | 173: A | 174: D | 175: E | 176: D | 177: E | 178: D | 179: E | 180: D | 181: E | 182-184: D ]
+and srtf was:
+[ 0-2: C | 4-8: F | 9-30: G | 31-47: H | 48-67: B | 68-93: A | 94-119: F | 120-150: E | 151-184: D ]
+Trial had 420 longer sum flow duration than srtf ( 1005-585 )
+finished trial 23 of 40
+
+trial shorthand= 2:36, 24:5, 9:10, 23:17, 0:16, 10:23, 9:5, 23:6
+
+User: A flow start time: 2 num packets: 36
+User: B flow start time: 24 num packets: 5
+User: C flow start time: 9 num packets: 10
+User: D flow start time: 23 num packets: 17
+User: E flow start time: 0 num packets: 16
+User: F flow start time: 10 num packets: 23
+User: G flow start time: 9 num packets: 5
+User: H flow start time: 23 num packets: 6
+User: D had flow duration 78 in simulated schedule
+User: B had flow duration 32 in simulated schedule
+User: H had flow duration 38 in simulated schedule
+User: G had flow duration 30 in simulated schedule
+User: F had flow duration 98 in simulated schedule
+User: C had flow duration 59 in simulated schedule
+User: A had flow duration 116 in simulated schedule
+User: E had flow duration 74 in simulated schedule
+User: A had flow duration 116 in srtf schedule
+User: F had flow duration 72 in srtf schedule
+User: D had flow duration 36 in srtf schedule
+User: B had flow duration 10 in srtf schedule
+User: H had flow duration 6 in srtf schedule
+User: C had flow duration 33 in srtf schedule
+User: G had flow duration 5 in srtf schedule
+User: E had flow duration 21 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: E | 2: A | 3: E | 4: A | 5: E | 6: A | 7: E | 8: A | 9: C | 10: E | 11: F | 12: G | 13: A | 14: C | 15: E | 16: F | 17: G | 18: A | 19: C | 20: E | 21: F | 22: G | 23: H | 24: A | 25: B | 26: C | 27: D | 28: E | 29: F | 30: G | 31: H | 32: A | 33: B | 34: C | 35: D | 36: E | 37: F | 38: G | 39: H | 40: A | 41: B | 42: C | 43: D | 44: E | 45: F | 46: H | 47: A | 48: B | 49: C | 50: D | 51: E | 52: F | 53: H | 54: A | 55: B | 56: C | 57: D | 58: E | 59: F | 60: H | 61: A | 62: C | 63: D | 64: E | 65: F | 66: A | 67: C | 68: D | 69: E | 70: F | 71: A | 72: D | 73: E | 74: F | 75: A | 76: D | 77: F | 78: A | 79: D | 80: F | 81: A | 82: D | 83: F | 84: A | 85: D | 86: F | 87: A | 88: D | 89: F | 90: A | 91: D | 92: F | 93: A | 94: D | 95: F | 96: A | 97: D | 98: F | 99: A | 100: D | 101: F | 102: A | 103: F | 104: A | 105: F | 106: A | 107: F | 108-117: A ]
+and srtf was:
+[ 0-8: E | 9-13: G | 14-20: E | 21-22: C | 23-28: H | 29-33: B | 34-41: C | 42-58: D | 59-81: F | 82-117: A ]
+Trial had 226 longer sum flow duration than srtf ( 525-299 )
+finished trial 24 of 40
+
+trial shorthand= 20:8, 23:14, 0:35, 5:20, 23:3, 1:27, 23:22, 1:29
+
+User: A flow start time: 20 num packets: 8
+User: B flow start time: 23 num packets: 14
+User: C flow start time: 0 num packets: 35
+User: D flow start time: 5 num packets: 20
+User: E flow start time: 23 num packets: 3
+User: F flow start time: 1 num packets: 27
+User: G flow start time: 23 num packets: 22
+User: H flow start time: 1 num packets: 29
+User: G had flow duration 126 in simulated schedule
+User: E had flow duration 20 in simulated schedule
+User: B had flow duration 89 in simulated schedule
+User: A had flow duration 55 in simulated schedule
+User: D had flow duration 119 in simulated schedule
+User: H had flow duration 151 in simulated schedule
+User: F had flow duration 144 in simulated schedule
+User: C had flow duration 158 in simulated schedule
+User: H had flow duration 123 in srtf schedule
+User: G had flow duration 49 in srtf schedule
+User: B had flow duration 27 in srtf schedule
+User: A had flow duration 16 in srtf schedule
+User: E had flow duration 5 in srtf schedule
+User: D had flow duration 20 in srtf schedule
+User: F had flow duration 94 in srtf schedule
+User: C had flow duration 158 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: C | 1: F | 2: H | 3: C | 4: F | 5: H | 6: C | 7: D | 8: F | 9: H | 10: C | 11: D | 12: F | 13: H | 14: C | 15: D | 16: F | 17: H | 18: C | 19: D | 20: F | 21: H | 22: A | 23: B | 24: C | 25: D | 26: E | 27: F | 28: G | 29: H | 30: A | 31: B | 32: C | 33: D | 34: E | 35: F | 36: G | 37: H | 38: A | 39: B | 40: C | 41: D | 42: E | 43: F | 44: G | 45: H | 46: A | 47: B | 48: C | 49: D | 50: F | 51: G | 52: H | 53: A | 54: B | 55: C | 56: D | 57: F | 58: G | 59: H | 60: A | 61: B | 62: C | 63: D | 64: F | 65: G | 66: H | 67: A | 68: B | 69: C | 70: D | 71: F | 72: G | 73: H | 74: A | 75: B | 76: C | 77: D | 78: F | 79: G | 80: H | 81: B | 82: C | 83: D | 84: F | 85: G | 86: H | 87: B | 88: C | 89: D | 90: F | 91: G | 92: H | 93: B | 94: C | 95: D | 96: F | 97: G | 98: H | 99: B | 100: C | 101: D | 102: F | 103: G | 104: H | 105: B | 106: C | 107: D | 108: F | 109: G | 110: H | 111: B | 112: C | 113: D | 114: F | 115: G | 116: H | 117: C | 118: D | 119: F | 120: G | 121: H | 122: C | 123: D | 124: F | 125: G | 126: H | 127: C | 128: F | 129: G | 130: H | 131: C | 132: F | 133: G | 134: H | 135: C | 136: F | 137: G | 138: H | 139: C | 140: F | 141: G | 142: H | 143: C | 144: F | 145: G | 146: H | 147: C | 148: G | 149: H | 150: C | 151: H | 152-157: C ]
+and srtf was:
+[ 0: C | 1-4: F | 5-24: D | 25-27: E | 28-35: A | 36-49: B | 50-71: G | 72-94: F | 95-123: H | 124-157: C ]
+Trial had 370 longer sum flow duration than srtf ( 862-492 )
+finished trial 25 of 40
+
+trial shorthand= 0:30, 24:29, 30:19, 28:9, 25:9, 15:14, 5:9, 2:35
+
+User: A flow start time: 0 num packets: 30
+User: B flow start time: 24 num packets: 29
+User: C flow start time: 30 num packets: 19
+User: D flow start time: 28 num packets: 9
+User: E flow start time: 25 num packets: 9
+User: F flow start time: 15 num packets: 14
+User: G flow start time: 5 num packets: 9
+User: H flow start time: 2 num packets: 35
+User: C had flow duration 106 in simulated schedule
+User: E had flow duration 64 in simulated schedule
+User: D had flow duration 60 in simulated schedule
+User: B had flow duration 130 in simulated schedule
+User: F had flow duration 85 in simulated schedule
+User: G had flow duration 43 in simulated schedule
+User: H had flow duration 150 in simulated schedule
+User: A had flow duration 138 in simulated schedule
+User: H had flow duration 152 in srtf schedule
+User: B had flow duration 95 in srtf schedule
+User: C had flow duration 36 in srtf schedule
+User: E had flow duration 22 in srtf schedule
+User: D had flow duration 10 in srtf schedule
+User: F had flow duration 14 in srtf schedule
+User: G had flow duration 9 in srtf schedule
+User: A had flow duration 90 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: A | 2: H | 3: A | 4: H | 5: A | 6: G | 7: H | 8: A | 9: G | 10: H | 11: A | 12: G | 13: H | 14: A | 15: F | 16: G | 17: H | 18: A | 19: F | 20: G | 21: H | 22: A | 23: F | 24: G | 25: H | 26: A | 27: B | 28: D | 29: E | 30: F | 31: G | 32: H | 33: A | 34: B | 35: C | 36: D | 37: E | 38: F | 39: G | 40: H | 41: A | 42: B | 43: C | 44: D | 45: E | 46: F | 47: G | 48: H | 49: A | 50: B | 51: C | 52: D | 53: E | 54: F | 55: H | 56: A | 57: B | 58: C | 59: D | 60: E | 61: F | 62: H | 63: A | 64: B | 65: C | 66: D | 67: E | 68: F | 69: H | 70: A | 71: B | 72: C | 73: D | 74: E | 75: F | 76: H | 77: A | 78: B | 79: C | 80: D | 81: E | 82: F | 83: H | 84: A | 85: B | 86: C | 87: D | 88: E | 89: F | 90: H | 91: A | 92: B | 93: C | 94: F | 95: H | 96: A | 97: B | 98: C | 99: F | 100: H | 101: A | 102: B | 103: C | 104: H | 105: A | 106: B | 107: C | 108: H | 109: A | 110: B | 111: C | 112: H | 113: A | 114: B | 115: C | 116: H | 117: A | 118: B | 119: C | 120: H | 121: A | 122: B | 123: C | 124: H | 125: A | 126: B | 127: C | 128: H | 129: A | 130: B | 131: C | 132: H | 133: A | 134: B | 135: C | 136: H | 137: A | 138: B | 139: H | 140: B | 141: H | 142: B | 143: H | 144: B | 145: H | 146: B | 147: H | 148: B | 149: H | 150: B | 151: H | 152-153: B ]
+and srtf was:
+[ 0-4: A | 5-13: G | 14: A | 15-28: F | 29-37: D | 38-46: E | 47-65: C | 66-89: A | 90-118: B | 119-153: H ]
+Trial had 348 longer sum flow duration than srtf ( 776-428 )
+finished trial 26 of 40
+
+trial shorthand= 4:27, 5:10, 17:7, 25:38, 6:31, 20:34, 0:18, 10:13
+
+User: A flow start time: 4 num packets: 27
+User: B flow start time: 5 num packets: 10
+User: C flow start time: 17 num packets: 7
+User: D flow start time: 25 num packets: 38
+User: E flow start time: 6 num packets: 31
+User: F flow start time: 20 num packets: 34
+User: G flow start time: 0 num packets: 18
+User: H flow start time: 10 num packets: 13
+User: D had flow duration 153 in simulated schedule
+User: F had flow duration 153 in simulated schedule
+User: C had flow duration 51 in simulated schedule
+User: H had flow duration 87 in simulated schedule
+User: E had flow duration 154 in simulated schedule
+User: B had flow duration 62 in simulated schedule
+User: A had flow duration 142 in simulated schedule
+User: G had flow duration 96 in simulated schedule
+User: D had flow duration 153 in srtf schedule
+User: F had flow duration 120 in srtf schedule
+User: E had flow duration 100 in srtf schedule
+User: A had flow duration 71 in srtf schedule
+User: H had flow duration 38 in srtf schedule
+User: C had flow duration 7 in srtf schedule
+User: B had flow duration 10 in srtf schedule
+User: G had flow duration 35 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-3: G | 4: A | 5: B | 6: E | 7: G | 8: A | 9: B | 10: E | 11: G | 12: H | 13: A | 14: B | 15: E | 16: G | 17: H | 18: A | 19: B | 20: C | 21: E | 22: F | 23: G | 24: H | 25: A | 26: B | 27: C | 28: D | 29: E | 30: F | 31: G | 32: H | 33: A | 34: B | 35: C | 36: D | 37: E | 38: F | 39: G | 40: H | 41: A | 42: B | 43: C | 44: D | 45: E | 46: F | 47: G | 48: H | 49: A | 50: B | 51: C | 52: D | 53: E | 54: F | 55: G | 56: H | 57: A | 58: B | 59: C | 60: D | 61: E | 62: F | 63: G | 64: H | 65: A | 66: B | 67: C | 68: D | 69: E | 70: F | 71: G | 72: H | 73: A | 74: D | 75: E | 76: F | 77: G | 78: H | 79: A | 80: D | 81: E | 82: F | 83: G | 84: H | 85: A | 86: D | 87: E | 88: F | 89: G | 90: H | 91: A | 92: D | 93: E | 94: F | 95: G | 96: H | 97: A | 98: D | 99: E | 100: F | 101: A | 102: D | 103: E | 104: F | 105: A | 106: D | 107: E | 108: F | 109: A | 110: D | 111: E | 112: F | 113: A | 114: D | 115: E | 116: F | 117: A | 118: D | 119: E | 120: F | 121: A | 122: D | 123: E | 124: F | 125: A | 126: D | 127: E | 128: F | 129: A | 130: D | 131: E | 132: F | 133: A | 134: D | 135: E | 136: F | 137: A | 138: D | 139: E | 140: F | 141: A | 142: D | 143: E | 144: F | 145: A | 146: D | 147: E | 148: F | 149: D | 150: E | 151: F | 152: D | 153: E | 154: F | 155: D | 156: E | 157: F | 158: D | 159: E | 160: F | 161: D | 162: F | 163: D | 164: F | 165: D | 166: F | 167: D | 168: F | 169: D | 170: F | 171: D | 172: F | 173-177: D ]
+and srtf was:
+[ 0-4: G | 5-14: B | 15-16: G | 17-23: C | 24-34: G | 35-47: H | 48-74: A | 75-105: E | 106-139: F | 140-177: D ]
+Trial had 364 longer sum flow duration than srtf ( 898-534 )
+finished trial 27 of 40
+
+trial shorthand= 0:6, 26:37, 9:29, 31:10, 30:21, 8:2, 14:25, 22:28
+
+User: A flow start time: 0 num packets: 6
+User: B flow start time: 26 num packets: 37
+User: C flow start time: 9 num packets: 29
+User: D flow start time: 31 num packets: 10
+User: E flow start time: 30 num packets: 21
+User: F flow start time: 8 num packets: 2
+User: G flow start time: 14 num packets: 25
+User: H flow start time: 22 num packets: 28
+User: E had flow duration 110 in simulated schedule
+User: D had flow duration 57 in simulated schedule
+User: B had flow duration 134 in simulated schedule
+User: H had flow duration 127 in simulated schedule
+User: G had flow duration 116 in simulated schedule
+User: C had flow duration 124 in simulated schedule
+User: F had flow duration 3 in simulated schedule
+User: A had flow duration 6 in simulated schedule
+User: B had flow duration 134 in srtf schedule
+User: H had flow duration 101 in srtf schedule
+User: G had flow duration 81 in srtf schedule
+User: E had flow duration 40 in srtf schedule
+User: D had flow duration 18 in srtf schedule
+User: C had flow duration 30 in srtf schedule
+User: F had flow duration 2 in srtf schedule
+User: A had flow duration 6 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-5: A | 8: F | 9: C | 10: F | 11-13: C | 14: G | 15: C | 16: G | 17: C | 18: G | 19: C | 20: G | 21: C | 22: G | 23: H | 24: C | 25: G | 26: H | 27: B | 28: C | 29: G | 30: H | 31: B | 32: C | 33: D | 34: E | 35: G | 36: H | 37: B | 38: C | 39: D | 40: E | 41: G | 42: H | 43: B | 44: C | 45: D | 46: E | 47: G | 48: H | 49: B | 50: C | 51: D | 52: E | 53: G | 54: H | 55: B | 56: C | 57: D | 58: E | 59: G | 60: H | 61: B | 62: C | 63: D | 64: E | 65: G | 66: H | 67: B | 68: C | 69: D | 70: E | 71: G | 72: H | 73: B | 74: C | 75: D | 76: E | 77: G | 78: H | 79: B | 80: C | 81: D | 82: E | 83: G | 84: H | 85: B | 86: C | 87: D | 88: E | 89: G | 90: H | 91: B | 92: C | 93: E | 94: G | 95: H | 96: B | 97: C | 98: E | 99: G | 100: H | 101: B | 102: C | 103: E | 104: G | 105: H | 106: B | 107: C | 108: E | 109: G | 110: H | 111: B | 112: C | 113: E | 114: G | 115: H | 116: B | 117: C | 118: E | 119: G | 120: H | 121: B | 122: C | 123: E | 124: G | 125: H | 126: B | 127: C | 128: E | 129: G | 130: H | 131: B | 132: C | 133: E | 134: H | 135: B | 136: E | 137: H | 138: B | 139: E | 140: H | 141: B | 142: H | 143: B | 144: H | 145: B | 146: H | 147: B | 148: H | 149-159: B ]
+and srtf was:
+[ 0-5: A | 8-9: F | 10-38: C | 39-48: D | 49-69: E | 70-94: G | 95-122: H | 123-159: B ]
+Trial had 265 longer sum flow duration than srtf ( 677-412 )
+finished trial 28 of 40
+
+trial shorthand= 3:29, 29:23, 27:18, 12:4, 32:3, 21:4, 13:2, 0:19
+
+User: A flow start time: 3 num packets: 29
+User: B flow start time: 29 num packets: 23
+User: C flow start time: 27 num packets: 18
+User: D flow start time: 12 num packets: 4
+User: E flow start time: 32 num packets: 3
+User: F flow start time: 21 num packets: 4
+User: G flow start time: 13 num packets: 2
+User: H flow start time: 0 num packets: 19
+User: E had flow duration 14 in simulated schedule
+User: B had flow duration 73 in simulated schedule
+User: C had flow duration 66 in simulated schedule
+User: F had flow duration 15 in simulated schedule
+User: G had flow duration 5 in simulated schedule
+User: D had flow duration 13 in simulated schedule
+User: A had flow duration 95 in simulated schedule
+User: H had flow duration 63 in simulated schedule
+User: A had flow duration 99 in srtf schedule
+User: B had flow duration 44 in srtf schedule
+User: E had flow duration 3 in srtf schedule
+User: C had flow duration 23 in srtf schedule
+User: F had flow duration 8 in srtf schedule
+User: G had flow duration 2 in srtf schedule
+User: D had flow duration 6 in srtf schedule
+User: H had flow duration 25 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-2: H | 3: A | 4: H | 5: A | 6: H | 7: A | 8: H | 9: A | 10: H | 11: A | 12: D | 13: G | 14: H | 15: A | 16: D | 17: G | 18: H | 19: A | 20: D | 21: F | 22: H | 23: A | 24: D | 25: F | 26: H | 27: A | 28: C | 29: F | 30: H | 31: A | 32: B | 33: C | 34: E | 35: F | 36: H | 37: A | 38: B | 39: C | 40: E | 41: H | 42: A | 43: B | 44: C | 45: E | 46: H | 47: A | 48: B | 49: C | 50: H | 51: A | 52: B | 53: C | 54: H | 55: A | 56: B | 57: C | 58: H | 59: A | 60: B | 61: C | 62: H | 63: A | 64: B | 65: C | 66: A | 67: B | 68: C | 69: A | 70: B | 71: C | 72: A | 73: B | 74: C | 75: A | 76: B | 77: C | 78: A | 79: B | 80: C | 81: A | 82: B | 83: C | 84: A | 85: B | 86: C | 87: A | 88: B | 89: C | 90: A | 91: B | 92: C | 93: A | 94: B | 95: A | 96: B | 97: A | 98-101: B ]
+and srtf was:
+[ 0-11: H | 12: D | 13-14: G | 15-17: D | 18-24: H | 25-28: F | 29-31: C | 32-34: E | 35-49: C | 50-72: B | 73-101: A ]
+Trial had 134 longer sum flow duration than srtf ( 344-210 )
+finished trial 29 of 40
+
+trial shorthand= 34:32, 10:15, 14:13, 10:8, 19:30, 4:5, 0:30, 18:16
+
+User: A flow start time: 34 num packets: 32
+User: B flow start time: 10 num packets: 15
+User: C flow start time: 14 num packets: 13
+User: D flow start time: 10 num packets: 8
+User: E flow start time: 19 num packets: 30
+User: F flow start time: 4 num packets: 5
+User: G flow start time: 0 num packets: 30
+User: H flow start time: 18 num packets: 16
+User: A had flow duration 115 in simulated schedule
+User: E had flow duration 125 in simulated schedule
+User: H had flow duration 90 in simulated schedule
+User: C had flow duration 78 in simulated schedule
+User: D had flow duration 46 in simulated schedule
+User: B had flow duration 87 in simulated schedule
+User: F had flow duration 14 in simulated schedule
+User: G had flow duration 126 in simulated schedule
+User: A had flow duration 115 in srtf schedule
+User: E had flow duration 98 in srtf schedule
+User: H had flow duration 44 in srtf schedule
+User: B had flow duration 36 in srtf schedule
+User: C had flow duration 17 in srtf schedule
+User: D had flow duration 8 in srtf schedule
+User: F had flow duration 5 in srtf schedule
+User: G had flow duration 87 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-3: G | 4: F | 5: G | 6: F | 7: G | 8: F | 9: G | 10: B | 11: D | 12: F | 13: G | 14: B | 15: C | 16: D | 17: F | 18: G | 19: H | 20: B | 21: C | 22: D | 23: E | 24: G | 25: H | 26: B | 27: C | 28: D | 29: E | 30: G | 31: H | 32: B | 33: C | 34: D | 35: E | 36: G | 37: H | 38: A | 39: B | 40: C | 41: D | 42: E | 43: G | 44: H | 45: A | 46: B | 47: C | 48: D | 49: E | 50: G | 51: H | 52: A | 53: B | 54: C | 55: D | 56: E | 57: G | 58: H | 59: A | 60: B | 61: C | 62: E | 63: G | 64: H | 65: A | 66: B | 67: C | 68: E | 69: G | 70: H | 71: A | 72: B | 73: C | 74: E | 75: G | 76: H | 77: A | 78: B | 79: C | 80: E | 81: G | 82: H | 83: A | 84: B | 85: C | 86: E | 87: G | 88: H | 89: A | 90: B | 91: C | 92: E | 93: G | 94: H | 95: A | 96: B | 97: E | 98: G | 99: H | 100: A | 101: E | 102: G | 103: H | 104: A | 105: E | 106: G | 107: H | 108: A | 109: E | 110: G | 111: A | 112: E | 113: G | 114: A | 115: E | 116: G | 117: A | 118: E | 119: G | 120: A | 121: E | 122: G | 123: A | 124: E | 125: G | 126: A | 127: E | 128: A | 129: E | 130: A | 131: E | 132: A | 133: E | 134: A | 135: E | 136: A | 137: E | 138: A | 139: E | 140: A | 141: E | 142: A | 143: E | 144-148: A ]
+and srtf was:
+[ 0-3: G | 4-8: F | 9: G | 10-17: D | 18-30: C | 31-45: B | 46-61: H | 62-86: G | 87-116: E | 117-148: A ]
+Trial had 271 longer sum flow duration than srtf ( 681-410 )
+finished trial 30 of 40
+
+trial shorthand= 15:21, 36:12, 27:10, 5:29, 10:36, 21:25, 27:31, 0:21
+
+User: A flow start time: 15 num packets: 21
+User: B flow start time: 36 num packets: 12
+User: C flow start time: 27 num packets: 10
+User: D flow start time: 5 num packets: 29
+User: E flow start time: 10 num packets: 36
+User: F flow start time: 21 num packets: 25
+User: G flow start time: 27 num packets: 31
+User: H flow start time: 0 num packets: 21
+User: B had flow duration 86 in simulated schedule
+User: C had flow duration 77 in simulated schedule
+User: G had flow duration 157 in simulated schedule
+User: F had flow duration 148 in simulated schedule
+User: A had flow duration 132 in simulated schedule
+User: E had flow duration 175 in simulated schedule
+User: D had flow duration 159 in simulated schedule
+User: H had flow duration 101 in simulated schedule
+User: E had flow duration 175 in srtf schedule
+User: G had flow duration 122 in srtf schedule
+User: D had flow duration 113 in srtf schedule
+User: F had flow duration 68 in srtf schedule
+User: B had flow duration 13 in srtf schedule
+User: C had flow duration 10 in srtf schedule
+User: A had flow duration 49 in srtf schedule
+User: H had flow duration 21 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-4: H | 5: D | 6: H | 7: D | 8: H | 9: D | 10: E | 11: H | 12: D | 13: E | 14: H | 15: A | 16: D | 17: E | 18: H | 19: A | 20: D | 21: E | 22: F | 23: H | 24: A | 25: D | 26: E | 27: F | 28: G | 29: H | 30: A | 31: C | 32: D | 33: E | 34: F | 35: G | 36: H | 37: A | 38: B | 39: C | 40: D | 41: E | 42: F | 43: G | 44: H | 45: A | 46: B | 47: C | 48: D | 49: E | 50: F | 51: G | 52: H | 53: A | 54: B | 55: C | 56: D | 57: E | 58: F | 59: G | 60: H | 61: A | 62: B | 63: C | 64: D | 65: E | 66: F | 67: G | 68: H | 69: A | 70: B | 71: C | 72: D | 73: E | 74: F | 75: G | 76: H | 77: A | 78: B | 79: C | 80: D | 81: E | 82: F | 83: G | 84: H | 85: A | 86: B | 87: C | 88: D | 89: E | 90: F | 91: G | 92: H | 93: A | 94: B | 95: C | 96: D | 97: E | 98: F | 99: G | 100: H | 101: A | 102: B | 103: C | 104: D | 105: E | 106: F | 107: G | 108: A | 109: B | 110: D | 111: E | 112: F | 113: G | 114: A | 115: B | 116: D | 117: E | 118: F | 119: G | 120: A | 121: B | 122: D | 123: E | 124: F | 125: G | 126: A | 127: D | 128: E | 129: F | 130: G | 131: A | 132: D | 133: E | 134: F | 135: G | 136: A | 137: D | 138: E | 139: F | 140: G | 141: A | 142: D | 143: E | 144: F | 145: G | 146: A | 147: D | 148: E | 149: F | 150: G | 151: D | 152: E | 153: F | 154: G | 155: D | 156: E | 157: F | 158: G | 159: D | 160: E | 161: F | 162: G | 163: D | 164: E | 165: F | 166: G | 167: E | 168: F | 169: G | 170: E | 171: G | 172: E | 173: G | 174: E | 175: G | 176: E | 177: G | 178: E | 179: G | 180: E | 181: G | 182: E | 183: G | 184: E ]
+and srtf was:
+[ 0-20: H | 21-26: A | 27-36: C | 37-48: B | 49-63: A | 64-88: F | 89-117: D | 118-148: G | 149-184: E ]
+Trial had 464 longer sum flow duration than srtf ( 1035-571 )
+finished trial 31 of 40
+
+trial shorthand= 21:10, 26:33, 21:3, 0:38, 23:2, 1:30, 30:26, 36:8
+
+User: A flow start time: 21 num packets: 10
+User: B flow start time: 26 num packets: 33
+User: C flow start time: 21 num packets: 3
+User: D flow start time: 0 num packets: 38
+User: E flow start time: 23 num packets: 2
+User: F flow start time: 1 num packets: 30
+User: G flow start time: 30 num packets: 26
+User: H flow start time: 36 num packets: 8
+User: H had flow duration 47 in simulated schedule
+User: G had flow duration 113 in simulated schedule
+User: B had flow duration 124 in simulated schedule
+User: E had flow duration 9 in simulated schedule
+User: C had flow duration 16 in simulated schedule
+User: A had flow duration 57 in simulated schedule
+User: F had flow duration 117 in simulated schedule
+User: D had flow duration 142 in simulated schedule
+User: B had flow duration 87 in srtf schedule
+User: G had flow duration 50 in srtf schedule
+User: H had flow duration 8 in srtf schedule
+User: A had flow duration 15 in srtf schedule
+User: E had flow duration 3 in srtf schedule
+User: C had flow duration 3 in srtf schedule
+User: F had flow duration 53 in srtf schedule
+User: D had flow duration 150 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: D | 1: F | 2: D | 3: F | 4: D | 5: F | 6: D | 7: F | 8: D | 9: F | 10: D | 11: F | 12: D | 13: F | 14: D | 15: F | 16: D | 17: F | 18: D | 19: F | 20: D | 21: F | 22: A | 23: C | 24: D | 25: E | 26: F | 27: A | 28: B | 29: C | 30: D | 31: E | 32: F | 33: G | 34: A | 35: B | 36: C | 37: D | 38: F | 39: G | 40: H | 41: A | 42: B | 43: D | 44: F | 45: G | 46: H | 47: A | 48: B | 49: D | 50: F | 51: G | 52: H | 53: A | 54: B | 55: D | 56: F | 57: G | 58: H | 59: A | 60: B | 61: D | 62: F | 63: G | 64: H | 65: A | 66: B | 67: D | 68: F | 69: G | 70: H | 71: A | 72: B | 73: D | 74: F | 75: G | 76: H | 77: A | 78: B | 79: D | 80: F | 81: G | 82: H | 83: B | 84: D | 85: F | 86: G | 87: B | 88: D | 89: F | 90: G | 91: B | 92: D | 93: F | 94: G | 95: B | 96: D | 97: F | 98: G | 99: B | 100: D | 101: F | 102: G | 103: B | 104: D | 105: F | 106: G | 107: B | 108: D | 109: F | 110: G | 111: B | 112: D | 113: F | 114: G | 115: B | 116: D | 117: F | 118: G | 119: B | 120: D | 121: G | 122: B | 123: D | 124: G | 125: B | 126: D | 127: G | 128: B | 129: D | 130: G | 131: B | 132: D | 133: G | 134: B | 135: D | 136: G | 137: B | 138: D | 139: G | 140: B | 141: D | 142: G | 143-149: B ]
+and srtf was:
+[ 0: D | 1-20: F | 21-23: C | 24-25: E | 26-35: A | 36-43: H | 44-53: F | 54-79: G | 80-112: B | 113-149: D ]
+Trial had 256 longer sum flow duration than srtf ( 625-369 )
+finished trial 32 of 40
+
+trial shorthand= 33:35, 6:27, 0:18, 10:9, 1:39, 28:27, 16:27, 2:35
+
+User: A flow start time: 33 num packets: 35
+User: B flow start time: 6 num packets: 27
+User: C flow start time: 0 num packets: 18
+User: D flow start time: 10 num packets: 9
+User: E flow start time: 1 num packets: 39
+User: F flow start time: 28 num packets: 27
+User: G flow start time: 16 num packets: 27
+User: H flow start time: 2 num packets: 35
+User: A had flow duration 184 in simulated schedule
+User: F had flow duration 171 in simulated schedule
+User: G had flow duration 175 in simulated schedule
+User: D had flow duration 60 in simulated schedule
+User: B had flow duration 172 in simulated schedule
+User: H had flow duration 204 in simulated schedule
+User: E had flow duration 213 in simulated schedule
+User: C had flow duration 112 in simulated schedule
+User: E had flow duration 216 in srtf schedule
+User: H had flow duration 176 in srtf schedule
+User: A had flow duration 110 in srtf schedule
+User: G had flow duration 92 in srtf schedule
+User: F had flow duration 53 in srtf schedule
+User: B had flow duration 48 in srtf schedule
+User: D had flow duration 17 in srtf schedule
+User: C had flow duration 18 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: C | 1: E | 2: H | 3: C | 4: E | 5: H | 6: B | 7: C | 8: E | 9: H | 10: B | 11: C | 12: D | 13: E | 14: H | 15: B | 16: C | 17: D | 18: E | 19: G | 20: H | 21: B | 22: C | 23: D | 24: E | 25: G | 26: H | 27: B | 28: C | 29: D | 30: E | 31: F | 32: G | 33: H | 34: A | 35: B | 36: C | 37: D | 38: E | 39: F | 40: G | 41: H | 42: A | 43: B | 44: C | 45: D | 46: E | 47: F | 48: G | 49: H | 50: A | 51: B | 52: C | 53: D | 54: E | 55: F | 56: G | 57: H | 58: A | 59: B | 60: C | 61: D | 62: E | 63: F | 64: G | 65: H | 66: A | 67: B | 68: C | 69: D | 70: E | 71: F | 72: G | 73: H | 74: A | 75: B | 76: C | 77: E | 78: F | 79: G | 80: H | 81: A | 82: B | 83: C | 84: E | 85: F | 86: G | 87: H | 88: A | 89: B | 90: C | 91: E | 92: F | 93: G | 94: H | 95: A | 96: B | 97: C | 98: E | 99: F | 100: G | 101: H | 102: A | 103: B | 104: C | 105: E | 106: F | 107: G | 108: H | 109: A | 110: B | 111: C | 112: E | 113: F | 114: G | 115: H | 116: A | 117: B | 118: E | 119: F | 120: G | 121: H | 122: A | 123: B | 124: E | 125: F | 126: G | 127: H | 128: A | 129: B | 130: E | 131: F | 132: G | 133: H | 134: A | 135: B | 136: E | 137: F | 138: G | 139: H | 140: A | 141: B | 142: E | 143: F | 144: G | 145: H | 146: A | 147: B | 148: E | 149: F | 150: G | 151: H | 152: A | 153: B | 154: E | 155: F | 156: G | 157: H | 158: A | 159: B | 160: E | 161: F | 162: G | 163: H | 164: A | 165: B | 166: E | 167: F | 168: G | 169: H | 170: A | 171: B | 172: E | 173: F | 174: G | 175: H | 176: A | 177: B | 178: E | 179: F | 180: G | 181: H | 182: A | 183: E | 184: F | 185: G | 186: H | 187: A | 188: E | 189: F | 190: G | 191: H | 192: A | 193: E | 194: F | 195: H | 196: A | 197: E | 198: F | 199: H | 200: A | 201: E | 202: H | 203: A | 204: E | 205: H | 206: A | 207: E | 208: A | 209: E | 210: A | 211: E | 212: A | 213: E | 214-216: A ]
+and srtf was:
+[ 0-17: C | 18-26: D | 27-53: B | 54-80: F | 81-107: G | 108-142: A | 143-177: H | 178-216: E ]
+Trial had 561 longer sum flow duration than srtf ( 1291-730 )
+finished trial 33 of 40
+
+trial shorthand= 29:33, 11:10, 19:11, 0:11, 4:1, 24:34, 10:28, 25:7
+
+User: A flow start time: 29 num packets: 33
+User: B flow start time: 11 num packets: 10
+User: C flow start time: 19 num packets: 11
+User: D flow start time: 0 num packets: 11
+User: E flow start time: 4 num packets: 1
+User: F flow start time: 24 num packets: 34
+User: G flow start time: 10 num packets: 28
+User: H flow start time: 25 num packets: 7
+User: A had flow duration 106 in simulated schedule
+User: H had flow duration 36 in simulated schedule
+User: F had flow duration 110 in simulated schedule
+User: C had flow duration 52 in simulated schedule
+User: B had flow duration 41 in simulated schedule
+User: G had flow duration 102 in simulated schedule
+User: E had flow duration 1 in simulated schedule
+User: D had flow duration 16 in simulated schedule
+User: F had flow duration 111 in srtf schedule
+User: A had flow duration 72 in srtf schedule
+User: G had flow duration 58 in srtf schedule
+User: H had flow duration 7 in srtf schedule
+User: C had flow duration 21 in srtf schedule
+User: B had flow duration 11 in srtf schedule
+User: E had flow duration 1 in srtf schedule
+User: D had flow duration 12 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-3: D | 4: E | 5-9: D | 10: G | 11: B | 12: D | 13: G | 14: B | 15: D | 16: G | 17: B | 18: G | 19: B | 20: C | 21: G | 22: B | 23: C | 24: F | 25: G | 26: H | 27: B | 28: C | 29: F | 30: G | 31: H | 32: A | 33: B | 34: C | 35: F | 36: G | 37: H | 38: A | 39: B | 40: C | 41: F | 42: G | 43: H | 44: A | 45: B | 46: C | 47: F | 48: G | 49: H | 50: A | 51: B | 52: C | 53: F | 54: G | 55: H | 56: A | 57: C | 58: F | 59: G | 60: H | 61: A | 62: C | 63: F | 64: G | 65: A | 66: C | 67: F | 68: G | 69: A | 70: C | 71: F | 72: G | 73: A | 74: F | 75: G | 76: A | 77: F | 78: G | 79: A | 80: F | 81: G | 82: A | 83: F | 84: G | 85: A | 86: F | 87: G | 88: A | 89: F | 90: G | 91: A | 92: F | 93: G | 94: A | 95: F | 96: G | 97: A | 98: F | 99: G | 100: A | 101: F | 102: G | 103: A | 104: F | 105: G | 106: A | 107: F | 108: G | 109: A | 110: F | 111: G | 112: A | 113: F | 114: A | 115: F | 116: A | 117: F | 118: A | 119: F | 120: A | 121: F | 122: A | 123: F | 124: A | 125: F | 126: A | 127: F | 128: A | 129: F | 130: A | 131: F | 132: A | 133: F | 134: A ]
+and srtf was:
+[ 0-3: D | 4: E | 5-11: D | 12-21: B | 22-24: C | 25-31: H | 32-39: C | 40-67: G | 68-100: A | 101-134: F ]
+Trial had 171 longer sum flow duration than srtf ( 464-293 )
+finished trial 34 of 40
+
+trial shorthand= 4:36, 22:11, 2:40, 0:10, 19:35, 25:2, 10:34, 17:9
+
+User: A flow start time: 4 num packets: 36
+User: B flow start time: 22 num packets: 11
+User: C flow start time: 2 num packets: 40
+User: D flow start time: 0 num packets: 10
+User: E flow start time: 19 num packets: 35
+User: F flow start time: 25 num packets: 2
+User: G flow start time: 10 num packets: 34
+User: H flow start time: 17 num packets: 9
+User: F had flow duration 15 in simulated schedule
+User: B had flow duration 67 in simulated schedule
+User: E had flow duration 158 in simulated schedule
+User: H had flow duration 55 in simulated schedule
+User: G had flow duration 158 in simulated schedule
+User: A had flow duration 165 in simulated schedule
+User: C had flow duration 174 in simulated schedule
+User: D had flow duration 38 in simulated schedule
+User: C had flow duration 175 in srtf schedule
+User: A had flow duration 133 in srtf schedule
+User: E had flow duration 82 in srtf schedule
+User: B had flow duration 17 in srtf schedule
+User: F had flow duration 3 in srtf schedule
+User: H had flow duration 9 in srtf schedule
+User: G had flow duration 56 in srtf schedule
+User: D had flow duration 10 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: D | 2: C | 3: D | 4: A | 5: C | 6: D | 7: A | 8: C | 9: D | 10: G | 11: A | 12: C | 13: D | 14: G | 15: A | 16: C | 17: D | 18: G | 19: H | 20: A | 21: C | 22: D | 23: E | 24: G | 25: H | 26: A | 27: B | 28: C | 29: D | 30: E | 31: F | 32: G | 33: H | 34: A | 35: B | 36: C | 37: D | 38: E | 39: F | 40: G | 41: H | 42: A | 43: B | 44: C | 45: E | 46: G | 47: H | 48: A | 49: B | 50: C | 51: E | 52: G | 53: H | 54: A | 55: B | 56: C | 57: E | 58: G | 59: H | 60: A | 61: B | 62: C | 63: E | 64: G | 65: H | 66: A | 67: B | 68: C | 69: E | 70: G | 71: H | 72: A | 73: B | 74: C | 75: E | 76: G | 77: A | 78: B | 79: C | 80: E | 81: G | 82: A | 83: B | 84: C | 85: E | 86: G | 87: A | 88: B | 89: C | 90: E | 91: G | 92: A | 93: C | 94: E | 95: G | 96: A | 97: C | 98: E | 99: G | 100: A | 101: C | 102: E | 103: G | 104: A | 105: C | 106: E | 107: G | 108: A | 109: C | 110: E | 111: G | 112: A | 113: C | 114: E | 115: G | 116: A | 117: C | 118: E | 119: G | 120: A | 121: C | 122: E | 123: G | 124: A | 125: C | 126: E | 127: G | 128: A | 129: C | 130: E | 131: G | 132: A | 133: C | 134: E | 135: G | 136: A | 137: C | 138: E | 139: G | 140: A | 141: C | 142: E | 143: G | 144: A | 145: C | 146: E | 147: G | 148: A | 149: C | 150: E | 151: G | 152: A | 153: C | 154: E | 155: G | 156: A | 157: C | 158: E | 159: G | 160: A | 161: C | 162: E | 163: G | 164: A | 165: C | 166: E | 167: G | 168: A | 169: C | 170: E | 171: C | 172: E | 173: C | 174: E | 175: C | 176: E ]
+and srtf was:
+[ 0-9: D | 10-16: G | 17-25: H | 26-27: F | 28-38: B | 39-65: G | 66-100: E | 101-136: A | 137-176: C ]
+Trial had 345 longer sum flow duration than srtf ( 830-485 )
+finished trial 35 of 40
+
+trial shorthand= 13:7, 5:5, 11:18, 1:21, 4:38, 0:20, 12:39, 20:24
+
+User: A flow start time: 13 num packets: 7
+User: B flow start time: 5 num packets: 5
+User: C flow start time: 11 num packets: 18
+User: D flow start time: 1 num packets: 21
+User: E flow start time: 4 num packets: 38
+User: F flow start time: 0 num packets: 20
+User: G flow start time: 12 num packets: 39
+User: H flow start time: 20 num packets: 24
+User: H had flow duration 127 in simulated schedule
+User: A had flow duration 49 in simulated schedule
+User: G had flow duration 160 in simulated schedule
+User: C had flow duration 111 in simulated schedule
+User: B had flow duration 29 in simulated schedule
+User: E had flow duration 164 in simulated schedule
+User: D had flow duration 122 in simulated schedule
+User: F had flow duration 114 in simulated schedule
+User: G had flow duration 160 in srtf schedule
+User: E had flow duration 129 in srtf schedule
+User: H had flow duration 75 in srtf schedule
+User: D had flow duration 70 in srtf schedule
+User: C had flow duration 39 in srtf schedule
+User: A had flow duration 7 in srtf schedule
+User: B had flow duration 5 in srtf schedule
+User: F had flow duration 32 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: F | 1: D | 2: F | 3: D | 4: E | 5: F | 6: B | 7: D | 8: E | 9: F | 10: B | 11: C | 12: D | 13: E | 14: F | 15: G | 16: A | 17: B | 18: C | 19: D | 20: E | 21: F | 22: G | 23: H | 24: A | 25: B | 26: C | 27: D | 28: E | 29: F | 30: G | 31: H | 32: A | 33: B | 34: C | 35: D | 36: E | 37: F | 38: G | 39: H | 40: A | 41: C | 42: D | 43: E | 44: F | 45: G | 46: H | 47: A | 48: C | 49: D | 50: E | 51: F | 52: G | 53: H | 54: A | 55: C | 56: D | 57: E | 58: F | 59: G | 60: H | 61: A | 62: C | 63: D | 64: E | 65: F | 66: G | 67: H | 68: C | 69: D | 70: E | 71: F | 72: G | 73: H | 74: C | 75: D | 76: E | 77: F | 78: G | 79: H | 80: C | 81: D | 82: E | 83: F | 84: G | 85: H | 86: C | 87: D | 88: E | 89: F | 90: G | 91: H | 92: C | 93: D | 94: E | 95: F | 96: G | 97: H | 98: C | 99: D | 100: E | 101: F | 102: G | 103: H | 104: C | 105: D | 106: E | 107: F | 108: G | 109: H | 110: C | 111: D | 112: E | 113: F | 114: G | 115: H | 116: C | 117: D | 118: E | 119: G | 120: H | 121: C | 122: D | 123: E | 124: G | 125: H | 126: E | 127: G | 128: H | 129: E | 130: G | 131: H | 132: E | 133: G | 134: H | 135: E | 136: G | 137: H | 138: E | 139: G | 140: H | 141: E | 142: G | 143: H | 144: E | 145: G | 146: H | 147: E | 148: G | 149: E | 150: G | 151: E | 152: G | 153: E | 154: G | 155: E | 156: G | 157: E | 158: G | 159: E | 160: G | 161: E | 162: G | 163: E | 164: G | 165: E | 166: G | 167: E | 168-171: G ]
+and srtf was:
+[ 0-4: F | 5-9: B | 10-12: F | 13-19: A | 20-31: F | 32-49: C | 50-70: D | 71-94: H | 95-132: E | 133-171: G ]
+Trial had 359 longer sum flow duration than srtf ( 876-517 )
+finished trial 36 of 40
+
+trial shorthand= 26:19, 26:38, 2:4, 0:39, 30:35, 24:10, 13:20, 11:39
+
+User: A flow start time: 26 num packets: 19
+User: B flow start time: 26 num packets: 38
+User: C flow start time: 2 num packets: 4
+User: D flow start time: 0 num packets: 39
+User: E flow start time: 30 num packets: 35
+User: F flow start time: 24 num packets: 10
+User: G flow start time: 13 num packets: 20
+User: H flow start time: 11 num packets: 39
+User: E had flow duration 171 in simulated schedule
+User: B had flow duration 178 in simulated schedule
+User: A had flow duration 117 in simulated schedule
+User: F had flow duration 65 in simulated schedule
+User: G had flow duration 113 in simulated schedule
+User: H had flow duration 186 in simulated schedule
+User: C had flow duration 7 in simulated schedule
+User: D had flow duration 177 in simulated schedule
+User: H had flow duration 193 in srtf schedule
+User: B had flow duration 139 in srtf schedule
+User: E had flow duration 97 in srtf schedule
+User: A had flow duration 36 in srtf schedule
+User: F had flow duration 19 in srtf schedule
+User: G had flow duration 20 in srtf schedule
+User: C had flow duration 4 in srtf schedule
+User: D had flow duration 92 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: D | 2: C | 3: D | 4: C | 5: D | 6: C | 7: D | 8: C | 9-10: D | 11: H | 12: D | 13: G | 14: H | 15: D | 16: G | 17: H | 18: D | 19: G | 20: H | 21: D | 22: G | 23: H | 24: D | 25: F | 26: G | 27: H | 28: A | 29: B | 30: D | 31: E | 32: F | 33: G | 34: H | 35: A | 36: B | 37: D | 38: E | 39: F | 40: G | 41: H | 42: A | 43: B | 44: D | 45: E | 46: F | 47: G | 48: H | 49: A | 50: B | 51: D | 52: E | 53: F | 54: G | 55: H | 56: A | 57: B | 58: D | 59: E | 60: F | 61: G | 62: H | 63: A | 64: B | 65: D | 66: E | 67: F | 68: G | 69: H | 70: A | 71: B | 72: D | 73: E | 74: F | 75: G | 76: H | 77: A | 78: B | 79: D | 80: E | 81: F | 82: G | 83: H | 84: A | 85: B | 86: D | 87: E | 88: F | 89: G | 90: H | 91: A | 92: B | 93: D | 94: E | 95: G | 96: H | 97: A | 98: B | 99: D | 100: E | 101: G | 102: H | 103: A | 104: B | 105: D | 106: E | 107: G | 108: H | 109: A | 110: B | 111: D | 112: E | 113: G | 114: H | 115: A | 116: B | 117: D | 118: E | 119: G | 120: H | 121: A | 122: B | 123: D | 124: E | 125: G | 126: H | 127: A | 128: B | 129: D | 130: E | 131: H | 132: A | 133: B | 134: D | 135: E | 136: H | 137: A | 138: B | 139: D | 140: E | 141: H | 142: A | 143: B | 144: D | 145: E | 146: H | 147: B | 148: D | 149: E | 150: H | 151: B | 152: D | 153: E | 154: H | 155: B | 156: D | 157: E | 158: H | 159: B | 160: D | 161: E | 162: H | 163: B | 164: D | 165: E | 166: H | 167: B | 168: D | 169: E | 170: H | 171: B | 172: D | 173: E | 174: H | 175: B | 176: D | 177: E | 178: H | 179: B | 180: E | 181: H | 182: B | 183: E | 184: H | 185: B | 186: E | 187: H | 188: B | 189: E | 190: H | 191: B | 192: E | 193: H | 194: B | 195: E | 196: H | 197: B | 198: E | 199: B | 200: E | 201-203: B ]
+and srtf was:
+[ 0-1: D | 2-5: C | 6-12: D | 13-32: G | 33-42: F | 43-61: A | 62-91: D | 92-126: E | 127-164: B | 165-203: H ]
+Trial had 414 longer sum flow duration than srtf ( 1014-600 )
+finished trial 37 of 40
+
+trial shorthand= 16:29, 25:34, 28:2, 4:39, 21:20, 8:40, 0:4, 13:35
+
+User: A flow start time: 16 num packets: 29
+User: B flow start time: 25 num packets: 34
+User: C flow start time: 28 num packets: 2
+User: D flow start time: 4 num packets: 39
+User: E flow start time: 21 num packets: 20
+User: F flow start time: 8 num packets: 40
+User: G flow start time: 0 num packets: 4
+User: H flow start time: 13 num packets: 35
+User: C had flow duration 8 in simulated schedule
+User: B had flow duration 177 in simulated schedule
+User: E had flow duration 119 in simulated schedule
+User: A had flow duration 162 in simulated schedule
+User: H had flow duration 184 in simulated schedule
+User: F had flow duration 195 in simulated schedule
+User: D had flow duration 188 in simulated schedule
+User: G had flow duration 4 in simulated schedule
+User: F had flow duration 195 in srtf schedule
+User: H had flow duration 150 in srtf schedule
+User: B had flow duration 103 in srtf schedule
+User: A had flow duration 78 in srtf schedule
+User: C had flow duration 2 in srtf schedule
+User: E had flow duration 22 in srtf schedule
+User: D had flow duration 61 in srtf schedule
+User: G had flow duration 4 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-3: G | 4-7: D | 8: F | 9: D | 10: F | 11: D | 12: F | 13: H | 14: D | 15: F | 16: H | 17: A | 18: D | 19: F | 20: H | 21: A | 22: D | 23: E | 24: F | 25: H | 26: A | 27: B | 28: C | 29: D | 30: E | 31: F | 32: H | 33: A | 34: B | 35: C | 36: D | 37: E | 38: F | 39: H | 40: A | 41: B | 42: D | 43: E | 44: F | 45: H | 46: A | 47: B | 48: D | 49: E | 50: F | 51: H | 52: A | 53: B | 54: D | 55: E | 56: F | 57: H | 58: A | 59: B | 60: D | 61: E | 62: F | 63: H | 64: A | 65: B | 66: D | 67: E | 68: F | 69: H | 70: A | 71: B | 72: D | 73: E | 74: F | 75: H | 76: A | 77: B | 78: D | 79: E | 80: F | 81: H | 82: A | 83: B | 84: D | 85: E | 86: F | 87: H | 88: A | 89: B | 90: D | 91: E | 92: F | 93: H | 94: A | 95: B | 96: D | 97: E | 98: F | 99: H | 100: A | 101: B | 102: D | 103: E | 104: F | 105: H | 106: A | 107: B | 108: D | 109: E | 110: F | 111: H | 112: A | 113: B | 114: D | 115: E | 116: F | 117: H | 118: A | 119: B | 120: D | 121: E | 122: F | 123: H | 124: A | 125: B | 126: D | 127: E | 128: F | 129: H | 130: A | 131: B | 132: D | 133: E | 134: F | 135: H | 136: A | 137: B | 138: D | 139: E | 140: F | 141: H | 142: A | 143: B | 144: D | 145: F | 146: H | 147: A | 148: B | 149: D | 150: F | 151: H | 152: A | 153: B | 154: D | 155: F | 156: H | 157: A | 158: B | 159: D | 160: F | 161: H | 162: A | 163: B | 164: D | 165: F | 166: H | 167: A | 168: B | 169: D | 170: F | 171: H | 172: A | 173: B | 174: D | 175: F | 176: H | 177: A | 178: B | 179: D | 180: F | 181: H | 182: B | 183: D | 184: F | 185: H | 186: B | 187: D | 188: F | 189: H | 190: B | 191: D | 192: F | 193: H | 194: B | 195: F | 196: H | 197: B | 198: F | 199: B | 200: F | 201: B | 202: F ]
+and srtf was:
+[ 0-3: G | 4-20: D | 21-27: E | 28-29: C | 30-42: E | 43-64: D | 65-93: A | 94-127: B | 128-162: H | 163-202: F ]
+Trial had 422 longer sum flow duration than srtf ( 1037-615 )
+finished trial 38 of 40
+
+trial shorthand= 12:8, 30:23, 1:31, 11:32, 16:36, 0:38, 13:12, 26:32
+
+User: A flow start time: 12 num packets: 8
+User: B flow start time: 30 num packets: 23
+User: C flow start time: 1 num packets: 31
+User: D flow start time: 11 num packets: 32
+User: E flow start time: 16 num packets: 36
+User: F flow start time: 0 num packets: 38
+User: G flow start time: 13 num packets: 12
+User: H flow start time: 26 num packets: 32
+User: B had flow duration 151 in simulated schedule
+User: H had flow duration 183 in simulated schedule
+User: E had flow duration 196 in simulated schedule
+User: A had flow duration 56 in simulated schedule
+User: G had flow duration 82 in simulated schedule
+User: D had flow duration 191 in simulated schedule
+User: C had flow duration 175 in simulated schedule
+User: F had flow duration 204 in simulated schedule
+User: E had flow duration 159 in srtf schedule
+User: H had flow duration 113 in srtf schedule
+User: D had flow duration 96 in srtf schedule
+User: B had flow duration 45 in srtf schedule
+User: G had flow duration 19 in srtf schedule
+User: A had flow duration 8 in srtf schedule
+User: C had flow duration 51 in srtf schedule
+User: F had flow duration 212 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: F | 1: C | 2: F | 3: C | 4: F | 5: C | 6: F | 7: C | 8: F | 9: C | 10: F | 11: C | 12: D | 13: F | 14: G | 15: A | 16: C | 17: D | 18: E | 19: F | 20: G | 21: A | 22: C | 23: D | 24: E | 25: F | 26: G | 27: H | 28: A | 29: C | 30: D | 31: E | 32: F | 33: G | 34: H | 35: A | 36: B | 37: C | 38: D | 39: E | 40: F | 41: G | 42: H | 43: A | 44: B | 45: C | 46: D | 47: E | 48: F | 49: G | 50: H | 51: A | 52: B | 53: C | 54: D | 55: E | 56: F | 57: G | 58: H | 59: A | 60: B | 61: C | 62: D | 63: E | 64: F | 65: G | 66: H | 67: A | 68: B | 69: C | 70: D | 71: E | 72: F | 73: G | 74: H | 75: B | 76: C | 77: D | 78: E | 79: F | 80: G | 81: H | 82: B | 83: C | 84: D | 85: E | 86: F | 87: G | 88: H | 89: B | 90: C | 91: D | 92: E | 93: F | 94: G | 95: H | 96: B | 97: C | 98: D | 99: E | 100: F | 101: H | 102: B | 103: C | 104: D | 105: E | 106: F | 107: H | 108: B | 109: C | 110: D | 111: E | 112: F | 113: H | 114: B | 115: C | 116: D | 117: E | 118: F | 119: H | 120: B | 121: C | 122: D | 123: E | 124: F | 125: H | 126: B | 127: C | 128: D | 129: E | 130: F | 131: H | 132: B | 133: C | 134: D | 135: E | 136: F | 137: H | 138: B | 139: C | 140: D | 141: E | 142: F | 143: H | 144: B | 145: C | 146: D | 147: E | 148: F | 149: H | 150: B | 151: C | 152: D | 153: E | 154: F | 155: H | 156: B | 157: C | 158: D | 159: E | 160: F | 161: H | 162: B | 163: C | 164: D | 165: E | 166: F | 167: H | 168: B | 169: C | 170: D | 171: E | 172: F | 173: H | 174: B | 175: C | 176: D | 177: E | 178: F | 179: H | 180: B | 181: D | 182: E | 183: F | 184: H | 185: D | 186: E | 187: F | 188: H | 189: D | 190: E | 191: F | 192: H | 193: D | 194: E | 195: F | 196: H | 197: D | 198: E | 199: F | 200: H | 201: D | 202: E | 203: F | 204: H | 205: E | 206: H | 207: E | 208: H | 209-211: E ]
+and srtf was:
+[ 0: F | 1-11: C | 12-19: A | 20-31: G | 32-51: C | 52-74: B | 75-106: D | 107-138: H | 139-174: E | 175-211: F ]
+Trial had 535 longer sum flow duration than srtf ( 1238-703 )
+finished trial 39 of 40
+
+trial shorthand= 30:22, 16:21, 13:31, 17:6, 0:37, 35:3, 30:20, 35:5
+
+User: A flow start time: 30 num packets: 22
+User: B flow start time: 16 num packets: 21
+User: C flow start time: 13 num packets: 31
+User: D flow start time: 17 num packets: 6
+User: E flow start time: 0 num packets: 37
+User: F flow start time: 35 num packets: 3
+User: G flow start time: 30 num packets: 20
+User: H flow start time: 35 num packets: 5
+User: H had flow duration 34 in simulated schedule
+User: F had flow duration 20 in simulated schedule
+User: A had flow duration 111 in simulated schedule
+User: G had flow duration 106 in simulated schedule
+User: D had flow duration 29 in simulated schedule
+User: B had flow duration 110 in simulated schedule
+User: C had flow duration 132 in simulated schedule
+User: E had flow duration 132 in simulated schedule
+User: C had flow duration 132 in srtf schedule
+User: A had flow duration 84 in srtf schedule
+User: B had flow duration 76 in srtf schedule
+User: G had flow duration 41 in srtf schedule
+User: H had flow duration 8 in srtf schedule
+User: F had flow duration 3 in srtf schedule
+User: D had flow duration 6 in srtf schedule
+User: E had flow duration 51 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-12: E | 13: C | 14: E | 15: C | 16: E | 17: B | 18: C | 19: D | 20: E | 21: B | 22: C | 23: D | 24: E | 25: B | 26: C | 27: D | 28: E | 29: B | 30: C | 31: D | 32: E | 33: G | 34: A | 35: B | 36: C | 37: D | 38: E | 39: F | 40: G | 41: H | 42: A | 43: B | 44: C | 45: D | 46: E | 47: F | 48: G | 49: H | 50: A | 51: B | 52: C | 53: E | 54: F | 55: G | 56: H | 57: A | 58: B | 59: C | 60: E | 61: G | 62: H | 63: A | 64: B | 65: C | 66: E | 67: G | 68: H | 69: A | 70: B | 71: C | 72: E | 73: G | 74: A | 75: B | 76: C | 77: E | 78: G | 79: A | 80: B | 81: C | 82: E | 83: G | 84: A | 85: B | 86: C | 87: E | 88: G | 89: A | 90: B | 91: C | 92: E | 93: G | 94: A | 95: B | 96: C | 97: E | 98: G | 99: A | 100: B | 101: C | 102: E | 103: G | 104: A | 105: B | 106: C | 107: E | 108: G | 109: A | 110: B | 111: C | 112: E | 113: G | 114: A | 115: B | 116: C | 117: E | 118: G | 119: A | 120: B | 121: C | 122: E | 123: G | 124: A | 125: B | 126: C | 127: E | 128: G | 129: A | 130: C | 131: E | 132: G | 133: A | 134: C | 135: G | 136: A | 137: C | 138: A | 139: C | 140: A | 141-144: C ]
+and srtf was:
+[ 0-16: E | 17-22: D | 23-34: E | 35-37: F | 38-42: H | 43-50: E | 51-70: G | 71-91: B | 92-113: A | 114-144: C ]
+Trial had 273 longer sum flow duration than srtf ( 674-401 )
+finished trial 40 of 40
+
+0 of 40 scenarios matched the srtf result ( 0 )
+average delay ratio 1.71673
+average flow duration for srtf 55.4469
+average flow duration for trials 95.1875
 average number of market updates per user 0
 average number of market updates per packet 0
-worst srtf divergence was 359
+worst srtf divergence was 573

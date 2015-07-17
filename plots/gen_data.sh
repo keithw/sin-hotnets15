@@ -15,7 +15,8 @@ for i in 2 3 4 6 8 16 32;
         for user_type in " " "--round-robin-user"
             do
             DATA_LOCATION=data/temp$i$user_type
-            $SIN_LOCATION --num-users=$i --num-trials=$NUM_TRIALS --start-time-die-size=$START_TIME_DIE_SIZE --flow-length-die-size=$FLOW_LENGTH_DIE_SIZE $user_type --vv > $DATA_LOCATION
+            TIMES_TO_RUN=$(($NUM_TRIALS*32/$i))
+            $SIN_LOCATION --num-users=$i --num-trials=$TIMES_TO_RUN --start-time-die-size=$START_TIME_DIE_SIZE --flow-length-die-size=$FLOW_LENGTH_DIE_SIZE $user_type --vv > $DATA_LOCATION
 
            cat $DATA_LOCATION | grep "average flow duration for srtf" | sed s/'average flow duration for srtf'/' '/g | tr -d '\n' >> $DELAY_RATIO_FILE
            cat $DATA_LOCATION | grep "average flow duration for trials" | sed s/'average flow duration for trials'/' '/g | tr -d '\n' >> $DELAY_RATIO_FILE

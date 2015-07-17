@@ -1,4 +1,4 @@
-running 10 trials with 16 users and start time die size 40 and start time die size 40...
+running 20 trials with 16 users and start time die size 40 and start time die size 40...
 trial shorthand= 21:7, 15:36, 31:16, 24:13, 7:22, 0:28, 8:20, 1:7, 18:27, 10:17, 9:9, 5:30, 20:11, 20:4, 25:16, 7:3
 
 User: A flow start time: 21 num packets: 7
@@ -74,7 +74,7 @@ Trial matched srtf, trial was:
 [ 0: F | 1-7: H | 8-10: P | 11-19: K | 20-23: N | 24-30: A | 31-41: M | 42-54: D | 55-70: O | 71-86: C | 87-103: J | 104-123: G | 124-145: E | 146-172: F | 173-199: I | 200-229: L | 230-265: B ]
 and srtf was:
 [ 0: F | 1-7: H | 8-10: P | 11-19: K | 20-23: N | 24-30: A | 31-41: M | 42-54: D | 55-70: C | 71-86: O | 87-103: J | 104-123: G | 124-145: E | 146-172: F | 173-199: I | 200-229: L | 230-265: B ]
-finished trial 1 of 10
+finished trial 1 of 20
 
 trial shorthand= 18:19, 25:8, 29:17, 7:3, 25:14, 17:40, 20:18, 34:5, 31:11, 9:7, 7:21, 32:34, 18:11, 32:2, 21:6, 0:8
 
@@ -152,7 +152,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-7: P | 8-10: D | 11-17: J | 18-20: M | 21-26: O | 27-31: B | 32-33: N | 34-36: B | 37-41: H | 42-49: M | 50-60: I | 61-74: E | 75-91: C | 92-109: G | 110-128: A | 129-149: K | 150-183: L | 184-223: F ]
 Trial had 5 longer sum flow duration than srtf ( 932-927 )
-finished trial 2 of 10
+finished trial 2 of 20
 
 trial shorthand= 13:26, 3:10, 30:18, 1:16, 19:26, 11:8, 31:5, 0:31, 4:9, 33:19, 25:25, 0:12, 31:40, 9:21, 33:9, 16:13
 
@@ -229,7 +229,7 @@ Trial matched srtf, trial was:
 [ 0-11: L | 12-19: F | 20-28: I | 29-30: B | 31-35: G | 36-43: B | 44-52: O | 53-65: P | 66-81: D | 82-99: C | 100-118: J | 119-139: N | 140-164: K | 165-190: A | 191-216: E | 217-247: H | 248-287: M ]
 and srtf was:
 [ 0-11: L | 12-19: F | 20-28: I | 29-30: B | 31-35: G | 36-43: B | 44-52: O | 53-65: P | 66-81: D | 82-99: C | 100-118: J | 119-139: N | 140-164: K | 165-190: A | 191-216: E | 217-247: H | 248-287: M ]
-finished trial 3 of 10
+finished trial 3 of 20
 
 trial shorthand= 26:27, 14:20, 35:11, 34:19, 27:2, 17:23, 37:13, 12:37, 21:1, 6:2, 25:10, 4:20, 0:10, 31:38, 17:12, 1:36
 
@@ -306,7 +306,7 @@ Trial matched srtf, trial was:
 [ 0-5: M | 6-7: J | 8-11: M | 12-16: L | 17-20: O | 21: I | 22-26: O | 27-28: E | 29-31: O | 32-41: K | 42-52: C | 53-65: G | 66-80: L | 81-99: D | 100-119: B | 120-142: F | 143-169: A | 170-205: P | 206-242: H | 243-280: N ]
 and srtf was:
 [ 0-5: M | 6-7: J | 8-11: M | 12-16: L | 17-20: O | 21: I | 22-26: O | 27-28: E | 29-31: O | 32-41: K | 42-52: C | 53-65: G | 66-80: L | 81-99: D | 100-119: B | 120-142: F | 143-169: A | 170-205: P | 206-242: H | 243-280: N ]
-finished trial 4 of 10
+finished trial 4 of 20
 
 trial shorthand= 28:8, 6:17, 16:34, 25:6, 25:4, 18:25, 7:32, 11:30, 22:20, 29:9, 27:36, 19:30, 35:4, 17:6, 5:12, 0:36
 
@@ -383,7 +383,7 @@ Trial matched srtf, trial was:
 [ 0-4: P | 5-16: O | 17-22: N | 23-24: B | 25-28: E | 29-34: D | 35-38: M | 39-46: A | 47-55: J | 56-70: B | 71-90: I | 91-115: F | 116-145: H | 146-175: L | 176-206: P | 207-238: G | 239-272: C | 273-308: K ]
 and srtf was:
 [ 0-4: P | 5-16: O | 17-22: N | 23-24: B | 25-28: E | 29-34: D | 35-38: M | 39-46: A | 47-55: J | 56-70: B | 71-90: I | 91-115: F | 116-145: H | 146-175: L | 176-206: P | 207-238: G | 239-272: C | 273-308: K ]
-finished trial 5 of 10
+finished trial 5 of 20
 
 trial shorthand= 18:9, 3:29, 0:31, 32:21, 33:5, 3:35, 26:17, 22:12, 26:6, 18:17, 31:32, 36:29, 34:8, 33:2, 17:36, 28:38
 
@@ -460,7 +460,7 @@ Trial matched srtf, trial was:
 [ 0-17: C | 18-26: A | 27-32: I | 33-34: N | 35-39: E | 40-47: M | 48-59: H | 60-72: C | 73-89: J | 90-106: G | 107-127: D | 128-156: B | 157-185: L | 186-217: K | 218-252: F | 253-288: O | 289-326: P ]
 and srtf was:
 [ 0-17: C | 18-26: A | 27-32: I | 33-34: N | 35-39: E | 40-47: M | 48-59: H | 60-72: C | 73-89: G | 90-106: J | 107-127: D | 128-156: B | 157-185: L | 186-217: K | 218-252: F | 253-288: O | 289-326: P ]
-finished trial 6 of 10
+finished trial 6 of 20
 
 trial shorthand= 32:34, 15:29, 20:12, 5:10, 13:5, 0:4, 10:19, 3:1, 21:19, 5:9, 6:38, 34:37, 1:24, 27:24, 7:20, 9:6
 
@@ -537,7 +537,7 @@ Trial matched srtf, trial was:
 [ 0-3: F | 4: H | 5-13: J | 14-18: E | 19-24: P | 25-34: D | 35-46: C | 47-65: G | 66-84: I | 85-104: O | 105-128: M | 129-152: N | 153-181: B | 182-215: A | 216-252: L | 253-290: K ]
 and srtf was:
 [ 0-3: F | 4: H | 5-13: J | 14-18: E | 19-24: P | 25-34: D | 35-46: C | 47-65: G | 66-84: I | 85-104: O | 105-128: M | 129-152: N | 153-181: B | 182-215: A | 216-252: L | 253-290: K ]
-finished trial 7 of 10
+finished trial 7 of 20
 
 trial shorthand= 0:31, 21:20, 30:27, 25:3, 18:25, 33:28, 31:5, 24:12, 18:29, 15:24, 22:9, 16:23, 27:11, 1:2, 17:11, 34:26
 
@@ -615,7 +615,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0: A | 1-2: N | 3-16: A | 17-27: O | 28-30: D | 31-35: G | 36-44: K | 45-55: M | 56-67: H | 68-83: A | 84-103: B | 104-126: L | 127-150: J | 151-175: E | 176-201: P | 202-228: C | 229-256: F | 257-285: I ]
 Trial had 3 longer sum flow duration than srtf ( 1554-1551 )
-finished trial 8 of 10
+finished trial 8 of 20
 
 trial shorthand= 0:17, 4:27, 2:26, 28:17, 2:19, 4:38, 22:25, 0:37, 12:20, 19:31, 28:32, 13:12, 1:11, 13:15, 20:4, 39:22
 
@@ -693,7 +693,7 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0: A | 1-11: M | 12: A | 13-19: L | 20-23: O | 24-28: L | 29-43: A | 44-58: N | 59-75: D | 76-94: E | 95-114: I | 115-136: P | 137-161: G | 162-187: C | 188-214: B | 215-245: J | 246-277: K | 278-314: H | 315-352: F ]
 Trial had 7 longer sum flow duration than srtf ( 2148-2141 )
-finished trial 9 of 10
+finished trial 9 of 20
 
 trial shorthand= 15:37, 35:14, 9:29, 26:16, 2:27, 0:21, 6:5, 12:23, 12:28, 1:37, 15:19, 3:13, 24:13, 15:10, 12:11, 18:28
 
@@ -771,13 +771,788 @@ trial didn't match srtf! Trial was:
 and srtf was:
 [ 0-2: F | 3-5: L | 6-10: G | 11-20: L | 21-30: N | 31-41: O | 42-54: M | 55-68: B | 69-84: D | 85-102: F | 103-121: K | 122-144: H | 145-171: E | 172-199: I | 200-227: P | 228-256: C | 257-293: A | 294-330: J ]
 Trial had 4 longer sum flow duration than srtf ( 1965-1961 )
-finished trial 10 of 10
+finished trial 10 of 20
 
-6 of 10 scenarios matched the srtf result ( 0.6 )
-average delay ratio 1.00122
-average flow duration for srtf 96.9938
-average flow duration for trials 97.1125
-average number of market updates per user 25.9187
-average number of market updates per packet 1.40291
+trial shorthand= 6:22, 33:13, 1:16, 19:40, 1:25, 19:12, 20:28, 25:29, 7:31, 24:19, 0:25, 22:30, 36:2, 30:5, 12:13, 32:11
+
+User: A flow start time: 6 num packets: 22
+User: B flow start time: 33 num packets: 13
+User: C flow start time: 1 num packets: 16
+User: D flow start time: 19 num packets: 40
+User: E flow start time: 1 num packets: 25
+User: F flow start time: 19 num packets: 12
+User: G flow start time: 20 num packets: 28
+User: H flow start time: 25 num packets: 29
+User: I flow start time: 7 num packets: 31
+User: J flow start time: 24 num packets: 19
+User: K flow start time: 0 num packets: 25
+User: L flow start time: 22 num packets: 30
+User: M flow start time: 36 num packets: 2
+User: N flow start time: 30 num packets: 5
+User: O flow start time: 12 num packets: 13
+User: P flow start time: 32 num packets: 11
+
+A had benefit -108, cost 8.34, utility -99.66, and best expected utility -99.19
+B had benefit -40, cost -129.15, utility -169.15, and best expected utility -169.15
+C had benefit -16, cost -32.16, utility -48.16, and best expected utility -48.16
+D had benefit -302, cost 110.49, utility -191.51, and best expected utility -191.51
+E had benefit -162, cost 89.13, utility -72.87, and best expected utility -72.87
+F had benefit -41, cost -42.3, utility -83.3, and best expected utility -83.3
+G had benefit -171, cost -34.06, utility -205.06, and best expected utility -205.06
+H had benefit -195, cost -85.56, utility -280.56, and best expected utility -280.56
+I had benefit -274, cost 132.62, utility -141.38, and best expected utility -141.38
+J had benefit -68, cost -122.02, utility -190.02, and best expected utility -190.02
+K had benefit -138, cost 61.82, utility -76.18, and best expected utility -50
+L had benefit -228, cost -10.81, utility -238.81, and best expected utility -238.81
+M had benefit -2, cost -26.24, utility -28.24, and best expected utility -28.24
+N had benefit -5, cost -55.5, utility -60.5, and best expected utility -60.5
+O had benefit -18, cost -65.52, utility -83.52, and best expected utility -83.52
+P had benefit -16, cost -120.08, utility -136.08, and best expected utility -136.08
+
+Sum user utility was -2105 while sum of best expected utilties was -2078.35 (let down of 26.65)
+
+market required 332 updates
+User: D had flow duration 302 in simulated schedule
+User: I had flow duration 274 in simulated schedule
+User: L had flow duration 228 in simulated schedule
+User: H had flow duration 195 in simulated schedule
+User: G had flow duration 171 in simulated schedule
+User: E had flow duration 162 in simulated schedule
+User: K had flow duration 138 in simulated schedule
+User: C had flow duration 16 in simulated schedule
+User: N had flow duration 5 in simulated schedule
+User: O had flow duration 18 in simulated schedule
+User: P had flow duration 16 in simulated schedule
+User: M had flow duration 2 in simulated schedule
+User: B had flow duration 40 in simulated schedule
+User: F had flow duration 41 in simulated schedule
+User: J had flow duration 68 in simulated schedule
+User: A had flow duration 108 in simulated schedule
+User: D had flow duration 302 in srtf schedule
+User: I had flow duration 274 in srtf schedule
+User: L had flow duration 228 in srtf schedule
+User: H had flow duration 195 in srtf schedule
+User: G had flow duration 171 in srtf schedule
+User: E had flow duration 162 in srtf schedule
+User: K had flow duration 138 in srtf schedule
+User: C had flow duration 16 in srtf schedule
+User: N had flow duration 5 in srtf schedule
+User: O had flow duration 18 in srtf schedule
+User: P had flow duration 16 in srtf schedule
+User: M had flow duration 2 in srtf schedule
+User: B had flow duration 40 in srtf schedule
+User: F had flow duration 41 in srtf schedule
+User: J had flow duration 68 in srtf schedule
+User: A had flow duration 108 in srtf schedule
+Trial matched srtf, trial was:
+[ 0: K | 1-16: C | 17-29: O | 30-34: N | 35: P | 36-37: M | 38-47: P | 48-59: F | 60-72: B | 73-91: J | 92-113: A | 114-137: K | 138-162: E | 163-190: G | 191-219: H | 220-249: L | 250-280: I | 281-320: D ]
+and srtf was:
+[ 0: K | 1-16: C | 17-29: O | 30-34: N | 35: P | 36-37: M | 38-47: P | 48-59: F | 60-72: B | 73-91: J | 92-113: A | 114-137: K | 138-162: E | 163-190: G | 191-219: H | 220-249: L | 250-280: I | 281-320: D ]
+finished trial 11 of 20
+
+trial shorthand= 25:26, 22:20, 0:3, 18:34, 18:31, 4:31, 9:22, 19:17, 12:36, 34:5, 19:10, 33:17, 10:16, 20:23, 19:5, 33:6
+
+User: A flow start time: 25 num packets: 26
+User: B flow start time: 22 num packets: 20
+User: C flow start time: 0 num packets: 3
+User: D flow start time: 18 num packets: 34
+User: E flow start time: 18 num packets: 31
+User: F flow start time: 4 num packets: 31
+User: G flow start time: 9 num packets: 22
+User: H flow start time: 19 num packets: 17
+User: I flow start time: 12 num packets: 36
+User: J flow start time: 34 num packets: 5
+User: K flow start time: 19 num packets: 10
+User: L flow start time: 33 num packets: 17
+User: M flow start time: 10 num packets: 16
+User: N flow start time: 20 num packets: 23
+User: O flow start time: 19 num packets: 5
+User: P flow start time: 33 num packets: 6
+
+A had benefit -177, cost -76.5, utility -253.5, and best expected utility -253.5
+B had benefit -84, cost -112.92, utility -196.92, and best expected utility -196.92
+C had benefit -3, cost -3, utility -6, and best expected utility -6
+D had benefit -218, cost 61.95, utility -156.05, and best expected utility -156.05
+E had benefit -249, cost 96.38, utility -152.62, and best expected utility -152.62
+F had benefit -172, cost 111.41, utility -60.59, and best expected utility -60.59
+G had benefit -118, cost 52.74, utility -65.26, and best expected utility -65.26
+H had benefit -50, cost -76.59, utility -126.59, and best expected utility -126.59
+I had benefit -291, cost 131.54, utility -159.46, and best expected utility -133
+J had benefit -10, cost -60.55, utility -70.55, and best expected utility -70.55
+K had benefit -33, cost -55.51, utility -88.51, and best expected utility -80.6
+L had benefit -53, cost -143.25, utility -196.25, and best expected utility -196.25
+M had benefit -16, cost -55.39, utility -71.39, and best expected utility -64.32
+N had benefit -130, cost -67.44, utility -197.44, and best expected utility -197.44
+O had benefit -12, cost -38.27, utility -50.27, and best expected utility -50.27
+P had benefit -6, cost -66.6, utility -72.6, and best expected utility -72.6
+
+Sum user utility was -1924 while sum of best expected utilties was -1882.56 (let down of 41.44)
+
+market required 338 updates
+User: I had flow duration 291 in simulated schedule
+User: E had flow duration 249 in simulated schedule
+User: D had flow duration 218 in simulated schedule
+User: A had flow duration 177 in simulated schedule
+User: N had flow duration 130 in simulated schedule
+User: B had flow duration 84 in simulated schedule
+User: C had flow duration 3 in simulated schedule
+User: F had flow duration 172 in simulated schedule
+User: G had flow duration 118 in simulated schedule
+User: M had flow duration 16 in simulated schedule
+User: O had flow duration 12 in simulated schedule
+User: K had flow duration 33 in simulated schedule
+User: P had flow duration 6 in simulated schedule
+User: J had flow duration 10 in simulated schedule
+User: H had flow duration 50 in simulated schedule
+User: L had flow duration 53 in simulated schedule
+User: I had flow duration 291 in srtf schedule
+User: D had flow duration 249 in srtf schedule
+User: E had flow duration 215 in srtf schedule
+User: A had flow duration 151 in srtf schedule
+User: N had flow duration 130 in srtf schedule
+User: B had flow duration 84 in srtf schedule
+User: C had flow duration 3 in srtf schedule
+User: F had flow duration 198 in srtf schedule
+User: G had flow duration 118 in srtf schedule
+User: M had flow duration 21 in srtf schedule
+User: O had flow duration 5 in srtf schedule
+User: K had flow duration 33 in srtf schedule
+User: P had flow duration 6 in srtf schedule
+User: J had flow duration 10 in srtf schedule
+User: H had flow duration 50 in srtf schedule
+User: L had flow duration 53 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-2: C | 4-8: F | 9: G | 10-25: M | 26-30: O | 31-32: K | 33-38: P | 39-43: J | 44-51: K | 52-68: H | 69-85: L | 86-105: B | 106-126: G | 127-149: N | 150-175: F | 176-201: A | 202-235: D | 236-266: E | 267-302: I ]
+and srtf was:
+[ 0-2: C | 4-8: F | 9: G | 10-18: M | 19-23: O | 24-30: M | 31-32: K | 33-38: P | 39-43: J | 44-51: K | 52-68: H | 69-85: L | 86-105: B | 106-126: G | 127-149: N | 150-175: A | 176-201: F | 202-232: E | 233-266: D | 267-302: I ]
+Trial had 5 longer sum flow duration than srtf ( 1622-1617 )
+finished trial 12 of 20
+
+trial shorthand= 20:8, 23:14, 0:35, 5:20, 23:3, 1:27, 23:22, 1:29, 7:30, 31:29, 37:19, 35:9, 32:9, 22:14, 12:9, 9:35
+
+User: A flow start time: 20 num packets: 8
+User: B flow start time: 23 num packets: 14
+User: C flow start time: 0 num packets: 35
+User: D flow start time: 5 num packets: 20
+User: E flow start time: 23 num packets: 3
+User: F flow start time: 1 num packets: 27
+User: G flow start time: 23 num packets: 22
+User: H flow start time: 1 num packets: 29
+User: I flow start time: 7 num packets: 30
+User: J flow start time: 31 num packets: 29
+User: K flow start time: 37 num packets: 19
+User: L flow start time: 35 num packets: 9
+User: M flow start time: 32 num packets: 9
+User: N flow start time: 22 num packets: 14
+User: O flow start time: 12 num packets: 9
+User: P flow start time: 9 num packets: 35
+
+A had benefit -12, cost -57.47, utility -69.47, and best expected utility -65.48
+B had benefit -68, cost -63.35, utility -131.35, and best expected utility -131.35
+C had benefit -312, cost 220.66, utility -91.34, and best expected utility -70
+D had benefit -72, cost -38.22, utility -110.22, and best expected utility -100.43
+E had benefit -3, cost -27.24, utility -30.24, and best expected utility -30.24
+F had benefit -154, cost 74, utility -80, and best expected utility -80
+G had benefit -109, cost -82.72, utility -191.72, and best expected utility -191.72
+H had benefit -183, cost 69.79, utility -113.21, and best expected utility -90.53
+I had benefit -207, cost 54.98, utility -152.02, and best expected utility -152.02
+J had benefit -247, cost -21.12, utility -268.12, and best expected utility -262.16
+K had benefit -73, cost -153.33, utility -226.33, and best expected utility -226.33
+L had benefit -15, cost -99.9, utility -114.9, and best expected utility -114.9
+M had benefit -9, cost -99.9, utility -108.9, and best expected utility -108.9
+N had benefit -42, cost -79.65, utility -121.65, and best expected utility -118.7
+O had benefit -9, cost -63.54, utility -72.54, and best expected utility -72.54
+P had benefit -240, cost 55.01, utility -184.99, and best expected utility -184.99
+
+Sum user utility was -2067 while sum of best expected utilties was -2000.29 (let down of 66.71)
+
+market required 458 updates
+User: J had flow duration 247 in simulated schedule
+User: P had flow duration 240 in simulated schedule
+User: I had flow duration 207 in simulated schedule
+User: H had flow duration 183 in simulated schedule
+User: G had flow duration 109 in simulated schedule
+User: K had flow duration 73 in simulated schedule
+User: C had flow duration 312 in simulated schedule
+User: N had flow duration 42 in simulated schedule
+User: F had flow duration 154 in simulated schedule
+User: D had flow duration 72 in simulated schedule
+User: O had flow duration 9 in simulated schedule
+User: A had flow duration 12 in simulated schedule
+User: L had flow duration 15 in simulated schedule
+User: E had flow duration 3 in simulated schedule
+User: M had flow duration 9 in simulated schedule
+User: B had flow duration 68 in simulated schedule
+User: P had flow duration 303 in srtf schedule
+User: I had flow duration 236 in srtf schedule
+User: J had flow duration 182 in srtf schedule
+User: H had flow duration 183 in srtf schedule
+User: G had flow duration 109 in srtf schedule
+User: K had flow duration 73 in srtf schedule
+User: C had flow duration 277 in srtf schedule
+User: N had flow duration 69 in srtf schedule
+User: F had flow duration 154 in srtf schedule
+User: D had flow duration 58 in srtf schedule
+User: O had flow duration 9 in srtf schedule
+User: A had flow duration 12 in srtf schedule
+User: L had flow duration 15 in srtf schedule
+User: E had flow duration 3 in srtf schedule
+User: M had flow duration 9 in srtf schedule
+User: B had flow duration 54 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: C | 1-4: F | 5-11: D | 12-20: O | 21-22: A | 23-25: E | 26-31: A | 32-40: M | 41-49: L | 50-63: N | 64-76: D | 77-90: B | 91-109: K | 110-131: G | 132-154: F | 155-183: H | 184-213: I | 214-248: P | 249-277: J | 278-311: C ]
+and srtf was:
+[ 0: C | 1-4: F | 5-11: D | 12-20: O | 21-22: A | 23-25: E | 26-31: A | 32-40: M | 41-49: L | 50-62: D | 63-76: B | 77-90: N | 91-109: K | 110-131: G | 132-154: F | 155-183: H | 184-212: J | 213-242: I | 243-276: C | 277-311: P ]
+Trial had 9 longer sum flow duration than srtf ( 1755-1746 )
+finished trial 13 of 20
+
+trial shorthand= 4:27, 5:10, 17:7, 25:38, 6:31, 20:34, 0:18, 10:13, 3:6, 29:37, 12:29, 34:10, 33:21, 11:2, 17:25, 25:28
+
+User: A flow start time: 4 num packets: 27
+User: B flow start time: 5 num packets: 10
+User: C flow start time: 17 num packets: 7
+User: D flow start time: 25 num packets: 38
+User: E flow start time: 6 num packets: 31
+User: F flow start time: 20 num packets: 34
+User: G flow start time: 0 num packets: 18
+User: H flow start time: 10 num packets: 13
+User: I flow start time: 3 num packets: 6
+User: J flow start time: 29 num packets: 37
+User: K flow start time: 12 num packets: 29
+User: L flow start time: 34 num packets: 10
+User: M flow start time: 33 num packets: 21
+User: N flow start time: 11 num packets: 2
+User: O flow start time: 17 num packets: 25
+User: P flow start time: 25 num packets: 28
+
+A had benefit -192, cost 111.59, utility -80.41, and best expected utility -57.35
+B had benefit -16, cost -28.18, utility -44.18, and best expected utility -44.18
+C had benefit -11, cost -42.35, utility -53.35, and best expected utility -53.35
+D had benefit -274, cost 75.46, utility -198.54, and best expected utility -184.13
+E had benefit -255, cost 116.44, utility -138.56, and best expected utility -116.24
+F had benefit -210, cost -15.55, utility -225.55, and best expected utility -202.22
+G had benefit -66, cost 42.16, utility -23.84, and best expected utility -22.98
+H had benefit -31, cost -45.64, utility -76.64, and best expected utility -74.3
+I had benefit -6, cost -12.06, utility -18.06, and best expected utility -18.06
+J had benefit -307, cost -8.76, utility -315.76, and best expected utility -312.18
+K had benefit -104, cost -21.03, utility -125.03, and best expected utility -110.13
+L had benefit -17, cost -111, utility -128, and best expected utility -128
+M had benefit -54, cost -187.1, utility -241.1, and best expected utility -240.89
+N had benefit -2, cost -12.1, utility -14.1, and best expected utility -14.1
+O had benefit -124, cost -48.03, utility -172.03, and best expected utility -144.33
+P had benefit -144, cost -149.85, utility -293.85, and best expected utility -223.84
+
+Sum user utility was -2149 while sum of best expected utilties was -1946.28 (let down of 202.72)
+
+market required 503 updates
+User: J had flow duration 307 in simulated schedule
+User: D had flow duration 274 in simulated schedule
+User: E had flow duration 255 in simulated schedule
+User: F had flow duration 210 in simulated schedule
+User: A had flow duration 192 in simulated schedule
+User: P had flow duration 144 in simulated schedule
+User: G had flow duration 66 in simulated schedule
+User: I had flow duration 6 in simulated schedule
+User: B had flow duration 16 in simulated schedule
+User: M had flow duration 54 in simulated schedule
+User: N had flow duration 2 in simulated schedule
+User: C had flow duration 11 in simulated schedule
+User: H had flow duration 31 in simulated schedule
+User: L had flow duration 17 in simulated schedule
+User: K had flow duration 104 in simulated schedule
+User: O had flow duration 124 in simulated schedule
+User: D had flow duration 311 in srtf schedule
+User: J had flow duration 269 in srtf schedule
+User: F had flow duration 241 in srtf schedule
+User: E had flow duration 221 in srtf schedule
+User: K had flow duration 184 in srtf schedule
+User: P had flow duration 142 in srtf schedule
+User: G had flow duration 66 in srtf schedule
+User: I had flow duration 6 in srtf schedule
+User: B had flow duration 16 in srtf schedule
+User: M had flow duration 54 in srtf schedule
+User: N had flow duration 2 in srtf schedule
+User: C had flow duration 11 in srtf schedule
+User: H had flow duration 31 in srtf schedule
+User: L had flow duration 17 in srtf schedule
+User: A had flow duration 135 in srtf schedule
+User: O had flow duration 95 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-2: G | 3-8: I | 9-10: B | 11-12: N | 13-20: B | 21-27: C | 28-40: H | 41-50: L | 51-65: G | 66-86: M | 87-115: K | 116-140: O | 141-168: P | 169-195: A | 196-229: F | 230-260: E | 261-298: D | 299-335: J ]
+and srtf was:
+[ 0-2: G | 3-8: I | 9-10: B | 11-12: N | 13-20: B | 21-27: C | 28-40: H | 41-50: L | 51-65: G | 66-86: M | 87-111: O | 112-138: A | 139-166: P | 167-195: K | 196-226: E | 227-260: F | 261-297: J | 298-335: D ]
+Trial had 12 longer sum flow duration than srtf ( 1813-1801 )
+finished trial 14 of 20
+
+trial shorthand= 5:29, 31:23, 29:18, 14:4, 34:3, 23:4, 15:2, 2:19, 34:32, 10:15, 14:13, 10:8, 19:30, 4:5, 0:30, 18:16
+
+User: A flow start time: 5 num packets: 29
+User: B flow start time: 31 num packets: 23
+User: C flow start time: 29 num packets: 18
+User: D flow start time: 14 num packets: 4
+User: E flow start time: 34 num packets: 3
+User: F flow start time: 23 num packets: 4
+User: G flow start time: 15 num packets: 2
+User: H flow start time: 2 num packets: 19
+User: I flow start time: 34 num packets: 32
+User: J flow start time: 10 num packets: 15
+User: K flow start time: 14 num packets: 13
+User: L flow start time: 10 num packets: 8
+User: M flow start time: 19 num packets: 30
+User: N flow start time: 4 num packets: 5
+User: O flow start time: 0 num packets: 30
+User: P flow start time: 18 num packets: 16
+
+A had benefit -184, cost 78.06, utility -105.94, and best expected utility -105.94
+B had benefit -101, cost -89.66, utility -190.66, and best expected utility -190.66
+C had benefit -80, cost -69.51, utility -149.51, and best expected utility -149.51
+D had benefit -6, cost -22.18, utility -28.18, and best expected utility -28.18
+E had benefit -4, cost -30.27, utility -34.27, and best expected utility -34.27
+F had benefit -4, cost -36.32, utility -40.32, and best expected utility -40.32
+G had benefit -2, cost -16.14, utility -18.14, and best expected utility -18.14
+H had benefit -73, cost 8.33, utility -64.67, and best expected utility -57.14
+I had benefit -217, cost -28.97, utility -245.97, and best expected utility -245.97
+J had benefit -25, cost -50.35, utility -75.35, and best expected utility -75.35
+K had benefit -45, cost -39.26, utility -84.26, and best expected utility -84.26
+L had benefit -36, cost -16.06, utility -52.06, and best expected utility -48.15
+M had benefit -200, cost 18.48, utility -181.52, and best expected utility -181.52
+N had benefit -5, cost -15.1, utility -20.1, and best expected utility -20.1
+O had benefit -160, cost 101.3, utility -58.7, and best expected utility -58.7
+P had benefit -73, cost -43.35, utility -116.35, and best expected utility -114.28
+
+Sum user utility was -1466 while sum of best expected utilties was -1452.49 (let down of 13.51)
+
+market required 328 updates
+User: I had flow duration 217 in simulated schedule
+User: M had flow duration 200 in simulated schedule
+User: A had flow duration 184 in simulated schedule
+User: B had flow duration 101 in simulated schedule
+User: C had flow duration 80 in simulated schedule
+User: P had flow duration 73 in simulated schedule
+User: O had flow duration 160 in simulated schedule
+User: D had flow duration 6 in simulated schedule
+User: H had flow duration 73 in simulated schedule
+User: N had flow duration 5 in simulated schedule
+User: J had flow duration 25 in simulated schedule
+User: G had flow duration 2 in simulated schedule
+User: F had flow duration 4 in simulated schedule
+User: E had flow duration 4 in simulated schedule
+User: L had flow duration 36 in simulated schedule
+User: K had flow duration 45 in simulated schedule
+User: I had flow duration 217 in srtf schedule
+User: M had flow duration 200 in srtf schedule
+User: A had flow duration 184 in srtf schedule
+User: B had flow duration 101 in srtf schedule
+User: C had flow duration 80 in srtf schedule
+User: P had flow duration 73 in srtf schedule
+User: O had flow duration 160 in srtf schedule
+User: D had flow duration 10 in srtf schedule
+User: H had flow duration 73 in srtf schedule
+User: N had flow duration 5 in srtf schedule
+User: L had flow duration 10 in srtf schedule
+User: G had flow duration 2 in srtf schedule
+User: F had flow duration 5 in srtf schedule
+User: K had flow duration 30 in srtf schedule
+User: E had flow duration 3 in srtf schedule
+User: J had flow duration 49 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0-1: O | 2-3: H | 4-8: N | 9: H | 10-13: J | 14: D | 15-16: G | 17-19: D | 20-22: J | 23-26: F | 27-34: J | 35-37: E | 38-45: L | 46-58: K | 59-74: H | 75-90: P | 91-108: C | 109-131: B | 132-159: O | 160-188: A | 189-218: M | 219-250: I ]
+and srtf was:
+[ 0-1: O | 2-3: H | 4-8: N | 9: H | 10-14: L | 15-16: G | 17-19: L | 20-23: D | 24-27: F | 28-33: K | 34-36: E | 37-43: K | 44-58: J | 59-74: H | 75-90: P | 91-108: C | 109-131: B | 132-159: O | 160-188: A | 189-218: M | 219-250: I ]
+Trial had 13 longer sum flow duration than srtf ( 1215-1202 )
+finished trial 15 of 20
+
+trial shorthand= 17:21, 38:12, 29:10, 7:29, 12:36, 23:25, 29:31, 2:21, 21:10, 26:33, 21:3, 0:38, 23:2, 1:30, 30:26, 36:8
+
+User: A flow start time: 17 num packets: 21
+User: B flow start time: 38 num packets: 12
+User: C flow start time: 29 num packets: 10
+User: D flow start time: 7 num packets: 29
+User: E flow start time: 12 num packets: 36
+User: F flow start time: 23 num packets: 25
+User: G flow start time: 29 num packets: 31
+User: H flow start time: 2 num packets: 21
+User: I flow start time: 21 num packets: 10
+User: J flow start time: 26 num packets: 33
+User: K flow start time: 21 num packets: 3
+User: L flow start time: 0 num packets: 38
+User: M flow start time: 23 num packets: 2
+User: N flow start time: 1 num packets: 30
+User: O flow start time: 30 num packets: 26
+User: P flow start time: 36 num packets: 8
+
+A had benefit -72, cost -60.39, utility -132.39, and best expected utility -132.39
+B had benefit -30, cost -121.08, utility -151.08, and best expected utility -151.08
+C had benefit -27, cost -72.62, utility -99.62, and best expected utility -99.62
+D had benefit -191, cost 59.88, utility -131.12, and best expected utility -131.12
+E had benefit -286, cost 110.45, utility -175.55, and best expected utility -175.55
+F had benefit -91, cost -94.63, utility -185.63, and best expected utility -184.88
+G had benefit -200, cost -68.37, utility -268.37, and best expected utility -268.37
+H had benefit -21, cost -65.44, utility -86.44, and best expected utility -84.42
+I had benefit -17, cost -55.45, utility -72.45, and best expected utility -72.45
+J had benefit -236, cost -11.79, utility -247.79, and best expected utility -247.79
+K had benefit -7, cost -19.16, utility -26.16, and best expected utility -24.16
+L had benefit -335, cost 261.97, utility -73.03, and best expected utility -73.03
+M had benefit -2, cost -16.14, utility -18.14, and best expected utility -18.14
+N had benefit -168, cost 69.93, utility -98.07, and best expected utility -89.48
+O had benefit -110, cost -163.36, utility -273.36, and best expected utility -273.36
+P had benefit -10, cost -88.8, utility -98.8, and best expected utility -98.8
+
+Sum user utility was -2138 while sum of best expected utilties was -2124.64 (let down of 13.36)
+
+market required 298 updates
+User: E had flow duration 286 in simulated schedule
+User: J had flow duration 236 in simulated schedule
+User: G had flow duration 200 in simulated schedule
+User: D had flow duration 191 in simulated schedule
+User: O had flow duration 110 in simulated schedule
+User: F had flow duration 91 in simulated schedule
+User: L had flow duration 335 in simulated schedule
+User: A had flow duration 72 in simulated schedule
+User: N had flow duration 168 in simulated schedule
+User: C had flow duration 27 in simulated schedule
+User: H had flow duration 21 in simulated schedule
+User: M had flow duration 2 in simulated schedule
+User: B had flow duration 30 in simulated schedule
+User: K had flow duration 7 in simulated schedule
+User: I had flow duration 17 in simulated schedule
+User: P had flow duration 10 in simulated schedule
+User: E had flow duration 286 in srtf schedule
+User: J had flow duration 236 in srtf schedule
+User: G had flow duration 200 in srtf schedule
+User: D had flow duration 162 in srtf schedule
+User: O had flow duration 110 in srtf schedule
+User: F had flow duration 91 in srtf schedule
+User: L had flow duration 335 in srtf schedule
+User: A had flow duration 72 in srtf schedule
+User: N had flow duration 197 in srtf schedule
+User: C had flow duration 27 in srtf schedule
+User: H had flow duration 21 in srtf schedule
+User: M had flow duration 2 in srtf schedule
+User: B had flow duration 30 in srtf schedule
+User: K had flow duration 7 in srtf schedule
+User: I had flow duration 17 in srtf schedule
+User: P had flow duration 10 in srtf schedule
+Trial matched srtf, trial was:
+[ 0: L | 1: N | 2-22: H | 23-24: M | 25-27: K | 28-37: I | 38-45: P | 46-55: C | 56-67: B | 68-88: A | 89-113: F | 114-139: O | 140-168: N | 169-197: D | 198-228: G | 229-261: J | 262-297: E | 298-334: L ]
+and srtf was:
+[ 0: L | 1: N | 2-22: H | 23-24: M | 25-27: K | 28-37: I | 38-45: P | 46-55: C | 56-67: B | 68-88: A | 89-113: F | 114-139: O | 140-168: D | 169-197: N | 198-228: G | 229-261: J | 262-297: E | 298-334: L ]
+finished trial 16 of 20
+
+trial shorthand= 33:35, 6:27, 0:18, 10:9, 1:39, 28:27, 16:27, 2:35, 32:33, 14:10, 22:11, 3:11, 7:1, 27:34, 13:28, 28:7
+
+User: A flow start time: 33 num packets: 35
+User: B flow start time: 6 num packets: 27
+User: C flow start time: 0 num packets: 18
+User: D flow start time: 10 num packets: 9
+User: E flow start time: 1 num packets: 39
+User: F flow start time: 28 num packets: 27
+User: G flow start time: 16 num packets: 27
+User: H flow start time: 2 num packets: 35
+User: I flow start time: 32 num packets: 33
+User: J flow start time: 14 num packets: 10
+User: K flow start time: 22 num packets: 11
+User: L flow start time: 3 num packets: 11
+User: M flow start time: 7 num packets: 1
+User: N flow start time: 27 num packets: 34
+User: O flow start time: 13 num packets: 28
+User: P flow start time: 28 num packets: 7
+
+A had benefit -280, cost -70.35, utility -350.35, and best expected utility -350.35
+B had benefit -88, cost -43.16, utility -131.16, and best expected utility -131.16
+C had benefit -67, cost 31.43, utility -35.57, and best expected utility -35.57
+D had benefit -14, cost -45.36, utility -59.36, and best expected utility -59.36
+E had benefit -351, cost 258.95, utility -92.05, and best expected utility -92.05
+F had benefit -120, cost -129.01, utility -249.01, and best expected utility -249.01
+G had benefit -105, cost -90.63, utility -195.63, and best expected utility -195.63
+H had benefit -276, cost 156.9, utility -119.1, and best expected utility -119.1
+I had benefit -177, cost -132.99, utility -309.99, and best expected utility -309.99
+J had benefit -20, cost -60.5, utility -80.5, and best expected utility -80.5
+K had benefit -30, cost -76.62, utility -106.62, and best expected utility -100.66
+L had benefit -12, cost -43.32, utility -55.32, and best expected utility -55.32
+M had benefit -1, cost -6.05, utility -7.05, and best expected utility -7.05
+N had benefit -216, cost -35.01, utility -251.01, and best expected utility -251.01
+O had benefit -163, cost -1.74, utility -164.74, and best expected utility -164.74
+P had benefit -13, cost -64.54, utility -77.54, and best expected utility -76.56
+
+Sum user utility was -2285 while sum of best expected utilties was -2278.06 (let down of 6.94)
+
+market required 409 updates
+User: E had flow duration 351 in simulated schedule
+User: A had flow duration 280 in simulated schedule
+User: H had flow duration 276 in simulated schedule
+User: N had flow duration 216 in simulated schedule
+User: I had flow duration 177 in simulated schedule
+User: O had flow duration 163 in simulated schedule
+User: C had flow duration 67 in simulated schedule
+User: L had flow duration 12 in simulated schedule
+User: M had flow duration 1 in simulated schedule
+User: B had flow duration 88 in simulated schedule
+User: D had flow duration 14 in simulated schedule
+User: J had flow duration 20 in simulated schedule
+User: P had flow duration 13 in simulated schedule
+User: K had flow duration 30 in simulated schedule
+User: G had flow duration 105 in simulated schedule
+User: F had flow duration 120 in simulated schedule
+User: E had flow duration 351 in srtf schedule
+User: H had flow duration 311 in srtf schedule
+User: A had flow duration 245 in srtf schedule
+User: N had flow duration 216 in srtf schedule
+User: I had flow duration 177 in srtf schedule
+User: O had flow duration 163 in srtf schedule
+User: C had flow duration 67 in srtf schedule
+User: L had flow duration 12 in srtf schedule
+User: M had flow duration 1 in srtf schedule
+User: B had flow duration 88 in srtf schedule
+User: D had flow duration 14 in srtf schedule
+User: J had flow duration 20 in srtf schedule
+User: P had flow duration 13 in srtf schedule
+User: K had flow duration 30 in srtf schedule
+User: F had flow duration 93 in srtf schedule
+User: G had flow duration 132 in srtf schedule
+Trial matched srtf, trial was:
+[ 0-2: C | 3-6: L | 7: M | 8-14: L | 15-23: D | 24-33: J | 34-40: P | 41-51: K | 52-66: C | 67-93: B | 94-120: G | 121-147: F | 148-175: O | 176-208: I | 209-242: N | 243-277: H | 278-312: A | 313-351: E ]
+and srtf was:
+[ 0-2: C | 3-6: L | 7: M | 8-14: L | 15-23: D | 24-33: J | 34-40: P | 41-51: K | 52-66: C | 67-93: B | 94-120: F | 121-147: G | 148-175: O | 176-208: I | 209-242: N | 243-277: A | 278-312: H | 313-351: E ]
+finished trial 17 of 20
+
+trial shorthand= 9:36, 27:11, 7:40, 5:10, 24:35, 30:2, 15:34, 22:9, 13:7, 5:5, 11:18, 1:21, 4:38, 0:20, 12:39, 20:24
+
+User: A flow start time: 9 num packets: 36
+User: B flow start time: 27 num packets: 11
+User: C flow start time: 7 num packets: 40
+User: D flow start time: 5 num packets: 10
+User: E flow start time: 24 num packets: 35
+User: F flow start time: 30 num packets: 2
+User: G flow start time: 15 num packets: 34
+User: H flow start time: 22 num packets: 9
+User: I flow start time: 13 num packets: 7
+User: J flow start time: 5 num packets: 5
+User: K flow start time: 11 num packets: 18
+User: L flow start time: 1 num packets: 21
+User: M flow start time: 4 num packets: 38
+User: N flow start time: 0 num packets: 20
+User: O flow start time: 12 num packets: 39
+User: P flow start time: 20 num packets: 24
+
+A had benefit -223, cost 32.68, utility -190.32, and best expected utility -190.32
+B had benefit -22, cost -120.08, utility -142.08, and best expected utility -142.08
+C had benefit -342, cost 177.15, utility -164.85, and best expected utility -164.85
+D had benefit -15, cost -35.25, utility -50.25, and best expected utility -50.25
+E had benefit -172, cost -163.27, utility -335.27, and best expected utility -335.27
+F had benefit -2, cost -26.24, utility -28.24, and best expected utility -28.24
+G had benefit -146, cost -124.9, utility -270.9, and best expected utility -270.9
+H had benefit -16, cost -88.79, utility -104.79, and best expected utility -104.79
+I had benefit -14, cost -56.49, utility -70.49, and best expected utility -70.49
+J had benefit -5, cost -25.2, utility -30.2, and best expected utility -30.2
+K had benefit -71, cost -61.43, utility -132.43, and best expected utility -132.43
+L had benefit -102, cost 41.62, utility -60.38, and best expected utility -60.38
+M had benefit -266, cost 154.91, utility -111.09, and best expected utility -111.09
+N had benefit -64, cost 24.44, utility -39.56, and best expected utility -39.56
+O had benefit -297, cost 44.83, utility -252.17, and best expected utility -252.17
+P had benefit -107, cost -122.98, utility -229.98, and best expected utility -229.98
+
+Sum user utility was -2213 while sum of best expected utilties was -2213 (let down of 0)
+
+market required 348 updates
+User: C had flow duration 342 in simulated schedule
+User: O had flow duration 297 in simulated schedule
+User: M had flow duration 266 in simulated schedule
+User: A had flow duration 223 in simulated schedule
+User: E had flow duration 172 in simulated schedule
+User: G had flow duration 146 in simulated schedule
+User: N had flow duration 64 in simulated schedule
+User: J had flow duration 5 in simulated schedule
+User: D had flow duration 15 in simulated schedule
+User: I had flow duration 14 in simulated schedule
+User: H had flow duration 16 in simulated schedule
+User: F had flow duration 2 in simulated schedule
+User: B had flow duration 22 in simulated schedule
+User: K had flow duration 71 in simulated schedule
+User: L had flow duration 102 in simulated schedule
+User: P had flow duration 107 in simulated schedule
+User: C had flow duration 342 in srtf schedule
+User: O had flow duration 297 in srtf schedule
+User: M had flow duration 266 in srtf schedule
+User: A had flow duration 223 in srtf schedule
+User: E had flow duration 172 in srtf schedule
+User: G had flow duration 146 in srtf schedule
+User: N had flow duration 64 in srtf schedule
+User: J had flow duration 5 in srtf schedule
+User: D had flow duration 15 in srtf schedule
+User: I had flow duration 14 in srtf schedule
+User: H had flow duration 16 in srtf schedule
+User: F had flow duration 2 in srtf schedule
+User: B had flow duration 22 in srtf schedule
+User: K had flow duration 71 in srtf schedule
+User: L had flow duration 102 in srtf schedule
+User: P had flow duration 107 in srtf schedule
+Trial matched srtf, trial was:
+[ 0-4: N | 5-9: J | 10-19: D | 20-26: I | 27-29: H | 30-31: F | 32-37: H | 38-48: B | 49-63: N | 64-81: K | 82-102: L | 103-126: P | 127-160: G | 161-195: E | 196-231: A | 232-269: M | 270-308: O | 309-348: C ]
+and srtf was:
+[ 0-4: N | 5-9: J | 10-19: D | 20-26: I | 27-29: H | 30-31: F | 32-37: H | 38-48: B | 49-63: N | 64-81: K | 82-102: L | 103-126: P | 127-160: G | 161-195: E | 196-231: A | 232-269: M | 270-308: O | 309-348: C ]
+finished trial 18 of 20
+
+trial shorthand= 26:19, 26:38, 2:4, 0:39, 30:35, 24:10, 13:20, 11:39, 18:29, 27:34, 30:2, 6:39, 23:20, 10:40, 2:4, 15:35
+
+User: A flow start time: 26 num packets: 19
+User: B flow start time: 26 num packets: 38
+User: C flow start time: 2 num packets: 4
+User: D flow start time: 0 num packets: 39
+User: E flow start time: 30 num packets: 35
+User: F flow start time: 24 num packets: 10
+User: G flow start time: 13 num packets: 20
+User: H flow start time: 11 num packets: 39
+User: I flow start time: 18 num packets: 29
+User: J flow start time: 27 num packets: 34
+User: K flow start time: 30 num packets: 2
+User: L flow start time: 6 num packets: 39
+User: M flow start time: 23 num packets: 20
+User: N flow start time: 10 num packets: 40
+User: O flow start time: 2 num packets: 4
+User: P flow start time: 15 num packets: 35
+
+A had benefit -38, cost -154.29, utility -192.29, and best expected utility -189.33
+B had benefit -263, cost -62.24, utility -325.24, and best expected utility -325.24
+C had benefit -4, cost -8.04, utility -12.04, and best expected utility -12.04
+D had benefit -147, cost 70.08, utility -76.92, and best expected utility -76.92
+E had benefit -221, cost -174.38, utility -395.38, and best expected utility -395.38
+F had benefit -21, cost -78.68, utility -99.68, and best expected utility -99.68
+G had benefit -22, cost -98.78, utility -120.78, and best expected utility -120.78
+H had benefit -356, cost 166.03, utility -189.97, and best expected utility -189.97
+I had benefit -95, cost -141.99, utility -236.99, and best expected utility -219.15
+J had benefit -154, cost -203.68, utility -357.68, and best expected utility -357.68
+K had benefit -2, cost -26.24, utility -28.24, and best expected utility -28.24
+L had benefit -322, cost 205.42, utility -116.58, and best expected utility -116.58
+M had benefit -61, cost -109.89, utility -170.89, and best expected utility -170.89
+N had benefit -397, cost 243.81, utility -153.19, and best expected utility -153.19
+O had benefit -8, cost -8.04, utility -16.04, and best expected utility -16.04
+P had benefit -201, cost -26.09, utility -227.09, and best expected utility -227.09
+
+Sum user utility was -2719 while sum of best expected utilties was -2698.2 (let down of 20.8)
+
+market required 328 updates
+User: N had flow duration 397 in simulated schedule
+User: H had flow duration 356 in simulated schedule
+User: L had flow duration 322 in simulated schedule
+User: B had flow duration 263 in simulated schedule
+User: E had flow duration 221 in simulated schedule
+User: P had flow duration 201 in simulated schedule
+User: D had flow duration 147 in simulated schedule
+User: O had flow duration 8 in simulated schedule
+User: C had flow duration 4 in simulated schedule
+User: G had flow duration 22 in simulated schedule
+User: K had flow duration 2 in simulated schedule
+User: F had flow duration 21 in simulated schedule
+User: A had flow duration 38 in simulated schedule
+User: M had flow duration 61 in simulated schedule
+User: I had flow duration 95 in simulated schedule
+User: J had flow duration 154 in simulated schedule
+User: N had flow duration 397 in srtf schedule
+User: L had flow duration 361 in srtf schedule
+User: H had flow duration 317 in srtf schedule
+User: B had flow duration 263 in srtf schedule
+User: P had flow duration 236 in srtf schedule
+User: E had flow duration 186 in srtf schedule
+User: D had flow duration 147 in srtf schedule
+User: O had flow duration 8 in srtf schedule
+User: C had flow duration 4 in srtf schedule
+User: G had flow duration 22 in srtf schedule
+User: K had flow duration 2 in srtf schedule
+User: F had flow duration 21 in srtf schedule
+User: A had flow duration 38 in srtf schedule
+User: M had flow duration 61 in srtf schedule
+User: I had flow duration 95 in srtf schedule
+User: J had flow duration 154 in srtf schedule
+Trial matched srtf, trial was:
+[ 0-1: D | 2-5: C | 6-9: O | 10-12: D | 13-29: G | 30-31: K | 32-34: G | 35-44: F | 45-63: A | 64-83: M | 84-112: I | 113-146: D | 147-180: J | 181-215: P | 216-250: E | 251-288: B | 289-327: L | 328-366: H | 367-406: N ]
+and srtf was:
+[ 0-1: D | 2-5: C | 6-9: O | 10-12: D | 13-29: G | 30-31: K | 32-34: G | 35-44: F | 45-63: A | 64-83: M | 84-112: I | 113-146: D | 147-180: J | 181-215: E | 216-250: P | 251-288: B | 289-327: H | 328-366: L | 367-406: N ]
+finished trial 19 of 20
+
+trial shorthand= 12:8, 30:23, 1:31, 11:32, 16:36, 0:38, 13:12, 26:32, 30:22, 16:21, 13:31, 17:6, 0:37, 35:3, 30:20, 35:5
+
+User: A flow start time: 12 num packets: 8
+User: B flow start time: 30 num packets: 23
+User: C flow start time: 1 num packets: 31
+User: D flow start time: 11 num packets: 32
+User: E flow start time: 16 num packets: 36
+User: F flow start time: 0 num packets: 38
+User: G flow start time: 13 num packets: 12
+User: H flow start time: 26 num packets: 32
+User: I flow start time: 30 num packets: 22
+User: J flow start time: 16 num packets: 21
+User: K flow start time: 13 num packets: 31
+User: L flow start time: 17 num packets: 6
+User: M flow start time: 0 num packets: 37
+User: N flow start time: 35 num packets: 3
+User: O flow start time: 30 num packets: 20
+User: P flow start time: 35 num packets: 5
+
+A had benefit -8, cost -40.32, utility -48.32, and best expected utility -48.32
+B had benefit -122, cost -111.88, utility -233.88, and best expected utility -233.88
+C had benefit -106, cost -50.09, utility -156.09, and best expected utility -124.54
+D had benefit -204, cost 35.63, utility -168.37, and best expected utility -149.13
+E had benefit -303, cost 60.96, utility -242.04, and best expected utility -242.04
+F had benefit -357, cost 284.19, utility -72.81, and best expected utility -72.81
+G had benefit -25, cost -63.48, utility -88.48, and best expected utility -79.48
+H had benefit -221, cost -55.23, utility -276.23, and best expected utility -276.23
+I had benefit -99, cost -128.05, utility -227.05, and best expected utility -227.05
+J had benefit -71, cost -105.82, utility -176.82, and best expected utility -162.78
+K had benefit -170, cost -11.92, utility -181.92, and best expected utility -181.92
+L had benefit -9, cost -54.48, utility -63.48, and best expected utility -63.48
+M had benefit -283, cost 174.09, utility -108.91, and best expected utility -108.91
+N had benefit -6, cost -37.32, utility -43.32, and best expected utility -42.33
+O had benefit -36, cost -193.72, utility -229.72, and best expected utility -221.8
+P had benefit -11, cost -59.56, utility -70.56, and best expected utility -70.56
+
+Sum user utility was -2388 while sum of best expected utilties was -2305.26 (let down of 82.74)
+
+market required 267 updates
+User: F had flow duration 357 in simulated schedule
+User: E had flow duration 303 in simulated schedule
+User: H had flow duration 221 in simulated schedule
+User: D had flow duration 204 in simulated schedule
+User: K had flow duration 170 in simulated schedule
+User: B had flow duration 122 in simulated schedule
+User: M had flow duration 283 in simulated schedule
+User: C had flow duration 106 in simulated schedule
+User: N had flow duration 6 in simulated schedule
+User: A had flow duration 8 in simulated schedule
+User: L had flow duration 9 in simulated schedule
+User: G had flow duration 25 in simulated schedule
+User: P had flow duration 11 in simulated schedule
+User: O had flow duration 36 in simulated schedule
+User: J had flow duration 71 in simulated schedule
+User: I had flow duration 99 in simulated schedule
+User: F had flow duration 357 in srtf schedule
+User: E had flow duration 267 in srtf schedule
+User: H had flow duration 221 in srtf schedule
+User: D had flow duration 204 in srtf schedule
+User: K had flow duration 170 in srtf schedule
+User: B had flow duration 122 in srtf schedule
+User: M had flow duration 319 in srtf schedule
+User: C had flow duration 65 in srtf schedule
+User: N had flow duration 6 in srtf schedule
+User: A had flow duration 8 in srtf schedule
+User: L had flow duration 9 in srtf schedule
+User: G had flow duration 25 in srtf schedule
+User: P had flow duration 11 in srtf schedule
+User: O had flow duration 56 in srtf schedule
+User: J had flow duration 91 in srtf schedule
+User: I had flow duration 99 in srtf schedule
+trial didn't match srtf! Trial was:
+[ 0: M | 1-11: C | 12-19: A | 20-25: L | 26-37: G | 38-40: N | 41-45: P | 46-65: O | 66-86: J | 87-106: C | 107-128: I | 129-151: B | 152-182: K | 183-214: D | 215-246: H | 247-282: M | 283-318: E | 319-356: F ]
+and srtf was:
+[ 0: M | 1-11: C | 12-19: A | 20-25: L | 26-37: G | 38-40: N | 41-45: P | 46-65: C | 66-85: O | 86-106: J | 107-128: I | 129-151: B | 152-182: K | 183-214: D | 215-246: H | 247-282: E | 283-318: M | 319-356: F ]
+Trial had 1 longer sum flow duration than srtf ( 2031-2030 )
+finished trial 20 of 20
+
+11 of 20 scenarios matched the srtf result ( 0.55 )
+average delay ratio 1.00176
+average flow duration for srtf 105.034
+average flow duration for trials 105.219
+average number of market updates per user 24.2375
+average number of market updates per packet 1.23543
 largest difference from best expected utilities to final utilities (utility let down) was 255.02
-worst srtf divergence was 7
+worst srtf divergence was 13
