@@ -61,10 +61,10 @@ Capacity owner user & Add capacity slots market at reserve price \$$r$\\
 
 \subsection{Implementation}
 \subsubsection{Market Simulator}
-The market simulator takes a set of users bots and runs them in round robin order giving them the current order book, packets sent, and money exchanged. The simulator runs until all users have stopped changing the order book, then advances time by declaring the front-most packet on the order book sent. This process is repeated until all flows have completed. We this this model is sufficiently realistic to simulate a home router that would push the order book to interested machines when it changed.
+The market simulator takes a set of user bots and runs them in round robin order giving them the current order book, packets sent, and money exchanged. The simulator runs until all users have stopped changing the order book, then advances time by declaring the front-most packet on the order book sent. This process is repeated until all flows have completed. We this this model is sufficiently realistic to simulate a home router that would push the order book to interested machines when it changed.
 
-\subsubsection{Flow completion time user}
-The flow completion time user bot arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
+\subsubsection{Flow completion time user bot}
+We implemented a flow completion time user bot for the simulator which arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
 Upon arrival, this user buys the $n$ slots that maximize its utility function. Once slots have been purchased, it puts up an offer for each slot it owns priced at \$.01 more than negated loss of utility the user would experience if it did not own that slot and had to buy another one.
 
 \subsection{Simple Market Evaluation}
@@ -83,13 +83,13 @@ Upon arrival, this user buys the $n$ slots that maximize its utility function. O
 \end{figure}
 
 We simulated the results of running a market in practice with flow completion time users that would arrive at time $t$ had a known number of packets $n$ they wanted to send.
-Figure~\ref{f:delay_over_srtf} shows the result of running the simulation with 2 to 32 concurrent users, all trying to minimize their flow completion time for the cheapest cost. In this simulation flows arrive at time $uniform(0, 39)$ and have length $uniform(1, 40)$ MTU size packets.
+Figures~\ref{f:delay_over_srtf} and \ref{f:95th_delay_over_srtf} show the result of running the simulation with 2 to 32 concurrent flow completion time user bots. In this simulation flows arrive at time $uniform(0, 39)$ and have length $uniform(1, 40)$ MTU size packets.
 The link being scheduled can send one MTU packet per millisecond (12Mb/s). In the market case, this is manifested by a single owner user that provides 1 packet of capacity every millisecond with an initial offer of \$1 per slot.
 
 We compare the mean flow duration achieved by our market against the shortest remaining time first schedule and an equal rate sharing or round robin schedule. Shortest remaining time first (or SRTF) achieves the minimum possible mean flow duration for an online algorithm with known job durations\cite{karger10,bansal01} (SRTF is also called shortest remaining processing time in some literature).
-Rate sharing is an idealized model of what TCP would achieve on FIFO queued router with a large buffer
+Rate sharing is an idealized model of what TCP would achieve on FIFO queued router with a large buffer.
 
-We find that bots in our market almost always converge on an allocation that is equivalent to the optimal shortest remaining time first schedule when there is a small number of users. Larger numbers of users are less likely to achieve a perfectly optimal solution, but the excess queuing delay over the optimal SRTF solution remains extremely low with a large number of users: less than 1\% overhead in mean flow duration all of our evaluations.
+We find that selfish acting bots in our market simulation almost always converged on an allocation that is equivalent to the optimal shortest remaining time first schedule when there is a small number of users. Larger numbers of users are less likely to achieve a perfectly optimal solution, but the excess queuing delay over the optimal SRTF solution remains extremely low with a large number of users: less than 1\% overhead in mean flow duration all of our evaluations, far lower than rate fair scheduling.
 
 \subsubsection{Market Benefits}
 SRTF minimizes the mean flow duration but does not attempt to be fair to users. For example, a string of short flows will starve a long flow \cite{bender98}.
@@ -107,7 +107,7 @@ Unfortunately, in this scheme it is possible that a user would have had a higher
 This is possible because a flow completion time user bases its offer prices on the prices the slots they would buy instead if their slots are sold, but they are not always able to purchase those replacement slots for those prices (for example if they were sold to someone else who raised the price). In an attempt to avoid this, users frequently re-price their slots, but unless their price can instantly reflect a price change, this affect is unavoidable with our current market.
 %replacement slot, but if cost of that replacement slot goes up that slot can be purchased and their offer can be matched before they can re-price their offer.
 
-This leads to a phenomena we call Disappointment, which when a user puts offers on slots it owns expecting to only increase their overall utility function in the future but instead have it reduced. User dissapointment could potentially lead to users putting higher offers or no offers at all on their slots, reducing the quality of schedules the market produces.
+This leads to a phenomena we call \emph{disappointment}, which is when a user puts offers on slots it owns expecting to only increase their overall utility function in the future but instead have it reduced. User dissapointment could potentially lead to users putting higher offers or no offers at all on their slots, reducing the quality of schedules the market produces.
 The User Dissapoitnment problem has parallels to the \emph{exposure problem} of auction theory \cite{milgrom00, englmaier06} because the slot prices are dependent on each other.
 While user dissapointment does happen sometimes in our simulations (TODO maybe figure for this), a user normally increases their utility when they list a slot.
 However, disappointment can be arbitrarily bad in the case of a hypothesized evil user: whose sole objective is to reduce the utility of another user.
