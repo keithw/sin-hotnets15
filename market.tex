@@ -79,9 +79,9 @@ In our simulations, there are a varying number of users with a flow start time c
 We find that bots in our market almost always converge on an allocation that is equivalent to the optimal shortest remaining time first schedule when there is a small number of users. Larger numbers of users are less likely to achieve a perfectly optimal solution, but the excess queuing delay over the optimal SRTF solution remains extremely low with a large number of users: less than 1\% overhead in mean flow duration all of our evaluations.
 
 \subsubsection{Market Benefits}
-SRTF minimizes queuing (make span?) but does not attempt to be fair to users. For example, a string of short flows will starve a long flow.
-Our market recovers solutions equal or close to SRTF in terms of sum queuing delay, but it also more fairly distributes value among its users.
-If a new flow arrives to a busy market, it must either wait to go after existing flows or compensate the owners of the flows it preempts. In our market, a long flow can be starved infinitely by the repeated arrival of short flows, just like SRTF, however, the owner of that flow would be compensated infintely as well to keep moving back in the order book.
+SRTF minimizes the mean flow duration but does not attempt to be fair to users. For example, a string of short flows will starve a long flow \cite{bender98}.
+Our market recovers solutions equal or close to SRTF in terms of mean flow duration, but it also more fairly distributes value among its users.
+If a new flow arrives to a busy market, it must either wait to go after existing flows or directly compensate the owners of the flows it preempts. Like SRTF, a long flow in our market could be starved indefinately by the repeated arrival of short flows, however, this starvation is voluntary by the owner who puts offers up and they would be compensated to infinity to do so.
 
 TODO: it would be cool to have a graph of user utility
 \subsubsection{Market Incentives}
