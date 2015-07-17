@@ -34,37 +34,37 @@
 <g style="fill:none; color:white; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<path stroke='black'  d='M53.9,342.4 M575.0,342.4  h0.01'/>	<g transform="translate(45.6,346.9)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,342.4 L62.9,342.4 M575.0,342.4 L566.0,342.4  h0.01'/>	<g transform="translate(45.6,346.9)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 0</text>
 	</g>
-	<path stroke='black'  d='M53.9,313.6 M575.0,313.6  h0.01'/>	<g transform="translate(45.6,318.1)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,313.6 L62.9,313.6 M575.0,313.6 L566.0,313.6  h0.01'/>	<g transform="translate(45.6,318.1)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 0.5</text>
 	</g>
-	<path stroke='black'  d='M53.9,284.7 M575.0,284.7  h0.01'/>	<g transform="translate(45.6,289.2)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,284.7 L62.9,284.7 M575.0,284.7 L566.0,284.7  h0.01'/>	<g transform="translate(45.6,289.2)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 1</text>
 	</g>
-	<path stroke='black'  d='M53.9,255.9 M575.0,255.9  h0.01'/>	<g transform="translate(45.6,260.4)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,255.9 L62.9,255.9 M575.0,255.9 L566.0,255.9  h0.01'/>	<g transform="translate(45.6,260.4)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 1.5</text>
 	</g>
-	<path stroke='black'  d='M53.9,227.1 M575.0,227.1  h0.01'/>	<g transform="translate(45.6,231.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,227.1 L62.9,227.1 M575.0,227.1 L566.0,227.1  h0.01'/>	<g transform="translate(45.6,231.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 2</text>
 	</g>
-	<path stroke='black'  d='M53.9,198.2 M575.0,198.2  h0.01'/>	<g transform="translate(45.6,202.7)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,198.2 L62.9,198.2 M575.0,198.2 L566.0,198.2  h0.01'/>	<g transform="translate(45.6,202.7)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 2.5</text>
 	</g>
-	<path stroke='black'  d='M53.9,169.4 M575.0,169.4  h0.01'/>	<g transform="translate(45.6,173.9)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,169.4 L62.9,169.4 M575.0,169.4 L566.0,169.4  h0.01'/>	<g transform="translate(45.6,173.9)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 3</text>
 	</g>
-	<path stroke='black'  d='M53.9,140.6 M575.0,140.6  h0.01'/>	<g transform="translate(45.6,145.1)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,140.6 L62.9,140.6 M575.0,140.6 L566.0,140.6  h0.01'/>	<g transform="translate(45.6,145.1)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 3.5</text>
 	</g>
-	<path stroke='black'  d='M53.9,111.8 M575.0,111.8  h0.01'/>	<g transform="translate(45.6,116.3)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,111.8 L62.9,111.8 M575.0,111.8 L566.0,111.8  h0.01'/>	<g transform="translate(45.6,116.3)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 4</text>
 	</g>
-	<path stroke='black'  d='M53.9,82.9 M575.0,82.9  h0.01'/>	<g transform="translate(45.6,87.4)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,82.9 L62.9,82.9 M575.0,82.9 L566.0,82.9  h0.01'/>	<g transform="translate(45.6,87.4)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 4.5</text>
 	</g>
-	<path stroke='black'  d='M53.9,54.1 M575.0,54.1  h0.01'/>	<g transform="translate(45.6,58.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
+	<path stroke='black'  d='M53.9,54.1 L62.9,54.1 M575.0,54.1 L566.0,54.1  h0.01'/>	<g transform="translate(45.6,58.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
 		<text> 5</text>
 	</g>
 	<path stroke='black'  d='M91.1,342.4 M91.1,54.1  h0.01'/>	<g transform="translate(91.1,364.9)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:middle">
@@ -92,7 +92,7 @@
 		<text>Number of users</text>
 	</g>
 	<g transform="translate(314.4,31.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:middle">
-		<text>Mean number of market updates per packet</text>
+		<text>Mean market updates per packet</text>
 	</g>
 </g>
 	<g id="delay_ratio_plot_1" ><title>delay_ratio_plot_1</title>

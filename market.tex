@@ -20,7 +20,7 @@ Our intial design has high overhead and our current simulated users have the abi
 Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. Figure \ref{f:simple_market} gives the basic market layout.
 
 \subsection{User types}
-There are multiple types of users that could interact in a self-incentivizing market, four example user types are outlined in~\ref{f:user_types}.
+There are multiple types of users that could interact in a self-incentivizing market, four example user types are outlined in Figure~\ref{f:user_types}.
 \begin{figure*}
 \begin{tabular}{|p{.25\textwidth}|p{.70\textwidth}|}
 \hline
@@ -106,7 +106,7 @@ An evil user could maximally reduce the utility of a flow completion time user f
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{plots/num_market_updates.pdf}
-\caption{todo}
+\caption{Mean number of sets of slot purchases made by flow completion time bots in simulation.}
 \label{f:num_market_updates}
 \end{figure}
 

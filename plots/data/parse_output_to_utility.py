@@ -24,5 +24,6 @@ with open(sys.argv[1], 'r') as input_file:
             if simulated:
                 simulated_dict[int(nums[0])].append(nums[1])
     with open("flow_benefits.dat", 'w') as output_file:
-        for i in range(1,40):
+        output_file.write("\"flow size\" \"SRTF\" \"Market\"\n")
+        for i in range(1,41):
             output_file.write(str(i) + " " + str(np.mean(srtf_dict[i])) + " " + str(np.mean(simulated_dict[i])) + "\n")

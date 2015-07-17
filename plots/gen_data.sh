@@ -6,7 +6,7 @@ NUM_TRIALS=1000
 START_TIME_DIE_SIZE=40
 FLOW_LENGTH_DIE_SIZE=40
 
-echo '"num users" "Optimal" "SIN" "ignore me" "Rate Sharing"' > $DELAY_RATIO_FILE
+echo '"num users" "SRTF" "SIN" "ignore me" "Rate Sharing"' > $DELAY_RATIO_FILE
 echo '"num users" "Mean market updates per packet" "ignore"' > $NUM_UPDATES_FILE
 for i in 2 3 4 6 8 16 32;
         do

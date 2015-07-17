@@ -98,7 +98,7 @@
 	<g id="delay_ratio_plot_1" ><title>delay_ratio_plot_1</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g transform="translate(179.8,76.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:end">
-		<text>Optimal</text>
+		<text>SRTF</text>
 	</g>
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
 		<polygon fill = 'currentColor' points = '188.1,76.6 230.3,76.6 230.3,67.6 188.1,67.6 '/>
