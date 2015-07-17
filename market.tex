@@ -43,11 +43,22 @@ There are multiple types of users that could interact in a self-incentivizing ma
 \subsubsection{Flow completion time user}
 This user type has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -t - c$, where $t$ is the flow completion time and $c$ is the total amount paid for slots. In practice, this user checks the market to see if any of its slots have been sold and buys the $n$ slots that maximize its utility function. Once slots have been purchased, this user sets the price of each slot it owns to be \$.01 more than the loss of utility if they did not own that slot and had to buy another one.
 
-\begin{figure}
-\includegraphics[width=\columnwidth]{diagrams/simple_market.pdf}
+\begin{figure*}
+%\includegraphics[width=\columnwidth]{diagrams/simple_market.pdf}
+
+\newlength{\slotwidth}
+\setlength{\slotwidth}{.103\textwidth}
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}[height=3in]{|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|}
+\hline
+Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
+\{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
+\hline
+\end{tabular}
 \caption{Simple market sample state. User A owns the first two time slots and has an offer of \$2.01 for each. User B owns the next two slots and has not put up an offer to sell them. User C owns slot at time 6 and has posted an offer of \$10 to sell it. ISP owns remaining slots with an offer of \$1 for each.}
 \label{f:simple_market}
-\end{figure}
+\end{figure*}
 
 \subsection{Simple Market Evaluation}
 
