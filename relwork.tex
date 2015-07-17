@@ -6,40 +6,56 @@ interdomain routing, and congestion pricing.  We summarize some of the
 most closely related contributions:
 
 \subsection{Incentivized mesh networks}
-Much work has been done since the 2000's to explore incentivizing selfish nodes to participate in forwarding in a mobile ad-hoc network.
-SPRITE~\cite{zhong03} used a credit system and determined prices from a game-theoretic perspective. They showed thier system motivated honest participation, even when a collection of the selfish nodes collude. Ad hoc-VCG used Vickrey, Clarke, and Groves for packet trasmission and claimed this achieved higher economic efficiency~\cite{anderegg03}.
-A large body of work followed these early findings that is complementary to our work~\cite{buttyan03,chen04, chen05, wang06, demir07,zhong07, kargar08, zhu08, eidenbenz08, wu10, zhong10, martignon11, martignon15, chen13} and has looked into problems of collusion, security, incentivized path discovery, and verification. What we bring that the incentivized ad-hoc networking doesn't is the ability for applications to define their goals from the network and bid accordingly.
-
-More recently, Kadupul~\cite{kadupul15} shared many of our views on incentives and explored the use time-locked puzzles to incentivize fast forwarding in a mesh network without measuring latency.
-There has also been work by Ford et.~al. in incentivizing participation in the Tor network\cite{torpath14, onions14}.
+Much work has been done since the 2000s to explore incentivizing selfish nodes to participate in forwarding in a mobile ad-hoc network.
+SPRITE~\cite{zhong03} used a credit system and determined prices from a game-theoretic perspective. They showed their system motivated honest participation, even when a collection of the selfish nodes collude. Ad hoc-VCG used an auction mechanism
+and found that this achieved higher efficiency~\cite{anderegg03}. More recently, Kadupul~\cite{kadupul15} explored the use time-locked puzzles to incentivize fast forwarding in a mesh network,
+and others have developed schemes to encourage relaying in the Tor network while discouraging cheaters who
+advertise phone capacity~\cite{torpath14, onions14}.
+%A large body of work subsequently investigated problems of collusion, security, path discovery, and verification~\cite{buttyan03,chen04, chen05, wang06, demir07,zhong07, kargar08, zhu08, eidenbenz08, wu10, zhong10, martignon11, martignon15, chen13}. Our work adds to this area by investigating the ability of applications and endpoints to express their desires and bid and offer packet-transmission opportunities accordingly.
 
 \subsection{Paid interdomain routing}
-A BGP-based Mechanism for Lowest-Cost Routing \cite{feigenbaum05} assumed a cost for each packet transit between \emph{Autonimous Systems} that was computed using an extension to BGP with minimal communication overhead. They showed their pricing mechanism elicited a truthful revelation of AS transit costs and that they could efficiently compute the lowest cost paths for all source-destination pairs.
+%A BGP-based Mechanism for Lowest-Cost Routing \cite{feigenbaum05} assumed a cost for each packet transit between \emph{Autonimous Systems} that was computed using an extension to BGP with minimal communication overhead. They showed their pricing mechanism elicited a truthful revelation of AS transit costs and that they could efficiently compute the lowest cost paths for all source-destination pairs.
 
 Route Bazaar~\cite{routebazaar15} uses a Bitcoin-like public ledger to
-allow ASes to advertize pathlets and SLA's automatically to negotiate
-and verify connectivity agreements for fixed volumes of traffic. This
-work follows previous work in Pathlet Routing~\cite{pathlet09}, which introduced the primative of fragments of paths between virtual nodes that can be used to simplify existing protocols like BGP or to facilitate the addition of new features like multipath and source routing.
-We view paid interdomain routing work as complementary to ours. Our vision is to use market mechanisms for all routing across the internet.
-Our current work focused on resource allocation in the last mile and for a small number of links---problems that today are within the domain of congestion control and AQM, not routing protocols.
-Future work in wide area routing would expand on existing work paid and automatic interdomain routing.
+allow autonomous systems to advertise pathlets and SLAs
+automatically, in order to negotiate and verify connectivity
+agreements for traffic aggregates. This work follows previous work in
+Pathlet Routing~\cite{pathlet09}. We view this work as complementary;
+in this paper, we focus on resource-allocation problems typically
+solved by TCP and AQM over a single hop or last-mile network,
+deferring discussion of routing or multi-hop situations.
 
 \subsection{Tiered service and dynamic pricing}
-Work in internet pricing in the 1990's focused on providing different paid tiers of service for differing levels of Quality of Service.
-We were inspired by how applications defined value functions in Pricing in Computer Networks: Motivation, Formulation, and Example \cite{cocchi93}. In that paper, they used them to chose between a high priority tier and a cheaper lower priority tier, showing the two tiered pricing scheme had higher aggregate user satisfaction than the single tiered one, especially at higher network utilization.
+Work in Internet pricing in the 1990s focused on providing different
+paid tiers of service for differing levels of Quality of Service.  We
+were inspired by how applications defined value functions
+in~\cite{cocchi93}. In this paper, applications chose between a
+high-priority tier and a lower-priority tier, showing that the
+two-tiered pricing scheme had higher aggregate user satisfaction.
 
-More recent work on pricing has focused on cellular internet. TUBE \cite{tube12} dynamically generated a 24 hour time dependent pricing scheme for each base station, giving discounts to users during periods of predicted low use.
-Their implementation on the user side involved a UI, data usage tracker, and an 'autopilot mode' which scheduled applications to keep them below a user specified monthly budget. It also involved software at the ISP side to measure traffic and set price schedules.
-User studies showed users would usually traffic when notified by text message they were using during a high price period, but overall usage increased because users would use more mobile data during discounted periods.
-A user interface like the one in TUBE would be a valuable to a real world implementation of self-incentivizing networks. Our Bidding Control Protocols are in essence a more fine grained version of an 'autopilot mode.'
-However, both these works revolve around a system between a user and their ISP, while we desire to expose users to any available route of connectivity, encouraging competition with traditional ISPs that we believe will reduce costs for users and increase the overall efficiency of the network.
-\subsection{Objective- and auction-scheduling}
-Tempus \cite{tempus14} is a datacenter Traffic Engineering scheme built to simultaneously meet the deadlines of long lived transfers while serving high priority traffic by using mixed packing covering solvers over a sliding window of future timesteps.
-They showed in a non adverserial setting smarter scheduling can produce better overall utility for users with diverse needs, we hope to achieve similar goals but in a greedy, adversarial setting.
-%The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
-%In their evaluation, they "interviewed cluster operators for typical distributions of the sizes of long lived requests and the durations between their arrival and hard deadline" and to create a distribution to sample from.
+More recent work on pricing has focused on cellular
+Internet. TUBE~\cite{tube12} dynamically generated a 24-hour
+time-dependent pricing scheme for each base station, giving discounts
+to users during periods of predicted low use. User studies showed that users would
+usually reduce traffic when notified by text message of high prices.
+A user interface like the
+one in TUBE would be a valuable to a real world implementation of
+self-incentivizing networks. Our Bidding-Control Protocols are in
+essence a more fine-grained version of an 'autopilot mode.' Our work expands on these notions by adding
+the possibility that anybody may act as ISP, perhaps temporarily, and convey an application's traffic.
 
-Wellman et.~al.~explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}. Simultaneous auctions have bad theoretical properties because of the well-known \emph{exposure problem}, where the outcome of one auction affects the value of an item in another~\cite{milgrom00, englmaier06}.
+\subsection{Objective- and auction-based scheduling}
+Tempus~\cite{tempus14} is a datacenter traffic-engineering scheme built to simultaneously meet the deadlines of long-lived transfers while serving high-priority traffic by using an offline scheduler.
+The authors showed, in a non-adversarial setting, that smarter scheduling can produce better overall utility for users with diverse needs. We hope to achieve similar goals but in a greedy, adversarial setting.
+
+Wellman et.~al.~explore using simultaneous ascending auctions to
+schedule a fixed number of time slots and users that have jobs with
+fixed lengths and a non-increasing function from time to completion to
+value \cite{wellman01, wellman05}. Simultaneous auctions have
+unfortunate theoretical properties because of the well-known
+\emph{exposure problem}, where the outcome of one auction affects the
+value of an item in another~\cite{milgrom00, englmaier06}. We discuss how this problem affects
+our own market in Section~\ref{ss:eval}.
 
 
 
