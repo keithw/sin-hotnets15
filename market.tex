@@ -20,7 +20,25 @@ This intial design has high overhead and our current simulated users have the ab
 Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. Figure \ref{f:simple_market} gives the basic market layout.
 
 \subsection{User types}
-Consistent bandwidth user, flow completion time user, owner user, evil user
+
+\begin{figure*}
+\begin{tabular}{|p{.25\textwidth}|p{.70\textwidth}|}
+\hline
+User Type & Objective \\
+\hline
+Flow completion time user & send $n$ minimizing flow completion time \\
+\hline
+Consistent bandwidth user & send $m$ packets every $t$ milliseconds. Example values $t=100$ for interactive audio/video or $t=$ current buffered time for video streaming \\
+\hline
+Evil user & maximally reduce utility of another user while staying within a budget $c$ \\
+\hline
+Owner user & adds capacity slots to order book at reserve price \$$r$\\
+\hline
+\end{tabular}
+\caption{Example types of users}
+\label{f:user_types}
+\end{figure*}
+There are multiple types of users that could interact in a self-incentivizing market, four are listed above in~\ref{f:user_types}.
 
 \subsubsection{Flow completion time user}
 This user type has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -t - c$, where $t$ is the flow completion time and $c$ is the total amount paid for slots. In practice, this user checks the market to see if any of its slots have been sold and buys the $n$ slots that maximize its utility function. Once slots have been purchased, this user sets the price of each slot it owns to be \$.01 more than the loss of utility if they did not own that slot and had to buy another one.
@@ -40,7 +58,7 @@ Measure outcome quality (vs.~SRTF or other optimal), \# of roundtrips
 \begin{figure}
 %\vspace{\baselineskip}
 \includegraphics[width=\columnwidth]{plots/delay_over_srtf.pdf}
-\caption{todo}
+\caption{Flows arrive at time $uniform(0, 39)$ trying to send $uniform(1, 40)$ MTU size packets. Market can deliver 1 MTU sized packet per millisecond.}
 \label{f:delay_over_srtf}
 \end{figure}
 
