@@ -1,3 +1,7 @@
+% used for market drawings
+\newlength{\slotwidth}
+\setlength{\slotwidth}{.103\textwidth}
+
 \section{Markets for a Self-Incentivizing Network}
 \label{sec:designs}
 We set out to design a market interface that any router could expose and users could interact with multiple markets.
@@ -48,13 +52,8 @@ The flow completion time user bot arrives at a set time and has a set number of 
 Upon arrival, this user buys the $n$ slots that maximize its utility function. Once slots have been purchased, it puts up an offer for each slot it owns priced at \$.01 more than negated loss of utility the user would experience if it did not own that slot and had to buy another one.
 
 \begin{figure*}
-%\includegraphics[width=\columnwidth]{diagrams/simple_market.pdf}
-
-\newlength{\slotwidth}
-\setlength{\slotwidth}{.103\textwidth}
-
 \renewcommand{\arraystretch}{2}
-\begin{tabular}[height=3in]{|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|p{\slotwidth}|}
+\begin{tabular}[height=3in]{|*{8}{p{\slotwidth}|}}
 \hline
 Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
@@ -114,6 +113,24 @@ Another problem with the simple market is that it can take a long time to conver
 Figure~\ref{f:num_market_updates} shows the number times a user bought a set of packets on the market, or market updates, per packet sent in the simulations from in Figure~\ref{f:delay_over_srtf}.
 
 the problems we encountered with the simple market led us to our current design:
-\subsection{Multi-Layer Market Design}
+\subsection{Multiresolution Market Design}
 
-Sketch of multi-layer design
+TODO
+
+\begin{figure*}
+\renewcommand{\arraystretch}{2}
+\begin{tabular}[height=3in]{|*{8}{p{\slotwidth}|}}
+\hline
+\multicolumn{8}{|c|}{}\\
+\hline
+\multicolumn{4}{|c|}{} &\multicolumn{4}{c|}{} \\
+\hline
+\multicolumn{2}{|c|}{} &\multicolumn{2}{c|}{} &\multicolumn{2}{c|}{} &\multicolumn{2}{c|}{}\\
+\hline
+Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
+\{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
+\hline
+\end{tabular}
+\caption{Multiresolution market order book.}
+\label{f:multiresolution _market}
+\end{figure*}
