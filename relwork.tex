@@ -5,6 +5,17 @@ Our work follows a long line of research in network economics,
 interdomain routing, and congestion pricing.  We summarize some of the
 most closely related contributions:
 
+\subsection{Incentivized mesh networks}
+
+Kadupul~\cite{kadupul15} uses time-locked puzzles to incentivize
+forwarding in a mesh network.
+ without measuring latency.  identified incentives
+missing to support alternate routing today. desired pricing based on
+costs of transmission looks at various reward schemes for forwarding
+based on time locked puzzles
+
+There has also been work to incentivize participation in the Tor network\cite{torpath14, onions14} (TODO their relwork, toroken?)
+
 \subsection{Paid interdomain routing}
 
 Route Bazaar~\cite{routebazaar15} uses a Bitcoin-like public ledger to
@@ -16,26 +27,28 @@ allocation within the last mile or a small number of links---problems
 that today are within the domain of congestion control and AQM, not
 routing protocols.
 
-\subsection{Incentivized mesh networks}
+\subsection{Congestion pricing and tiered service}
 
-Kadupul~\cite{kadupul15} uses time-locked puzzles to incentivize
-forwarding in a mesh network.
- without measuring latency.  identified incentives
-missing to support alternate routing today. desired pricing based on
-costs of transmission looks at various reward schemes for forwarding
-based on time locked puzzles
+\subsection{Objective- and auction-scheduling}
 
-\subsection{Dynamic congestion pricing}
+Calendaring for Wide Area Networks \cite{tempus14}
+is a datacenter Traffic Engineering scheme that uses mixed packing covering solvers over a sliding window of future timesteps to meet the deadlines of long lived transfers while serving high priority traffic.
+The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
+In their evaluation, they "interviewed cluster operators for typical
+distributions of the sizes of long lived requests and the durations
+between their arrival and hard deadline" and to create a distribution
+to sample from.
+
+Wellman et. al. explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}.
 
 
-
-There has also been work to incentivize participation in the Tor network\cite{torpath14, onions14} (TODO their relwork, toroken?)
+%\subsection{Paid tiered service}
 
 %\section{Congestion pricing}
 
 
-\subsection{Internet Pricing}
-\subsubsection{Tiered Service}
+%\subsection{Internet Pricing}
+%\subsubsection{Tiered Service}
 Work in internet pricing in the 1990's focused on providing different paid tiers of service for differeng levels of Quality of Service.
 
 In Cocchi et al's Pricing in Computer Networks: Motivation, Formulation, and Example \cite{cocchi93}, applications defined value functions for networks performance and chose between a high priority tier and a cheaper lower priority tier ( low priority packets were dropped by droptail fifo switches first ). They a two tiered pricing scheme had higher aggregate user satisfaction than a single tiered one, especially at higher network utilization.
@@ -62,13 +75,7 @@ Our work is complementary to recently proposed new mechanisms for more dynamic i
 
 
 \subsection{Network Scheduling}
-Calendaring for Wide Area Networks \cite{tempus14}
-is a datacenter Traffic Engineering scheme that uses mixed packing covering solvers over a sliding window of future timesteps to meet the deadlines of long lived transfers while serving high priority traffic.
-The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
-In their evaluation, they "interviewed cluster operators for typical distributions of the sizes of long lived requests and the durations between their arrival and hard deadline" and to create a distribution to sample from.
-
 \subsubsection{Scheduling Auctions}
-Wellman et. al. explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}.
 Simultaneous auctions have bad theoretical properties because of the well-known \emph{exposure problem}, where the outcome of one auction affects the value of an item in another (TODO: CITE?).
 
 
