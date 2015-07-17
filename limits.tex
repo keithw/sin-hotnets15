@@ -1,7 +1,44 @@
 \section{Limitations and future work}
 \label{sec:limits}
-Our current implementation is a start to a much larger project. While we cover initial market designs and simulate the interactions between one potential type of user, a large body of work remains untouched.
-Users of a self-incentivized network will need to compensate each other and verify that they recieved the guarutees they paid to secure.
-A successful self-incentivized netowork would also need to worry about the security and integrity of packet transmission and payment. Fraudulent capacity providers and extorting users would certainly appear in an implementation with real money involved.
 
-We believe elegant solutions exist to facilitate paying for transmission over multiple hops and that it is possible to allocate download capacity with a market, but we leave also leave concreate solutions to those problems to future work.
+This position paper is a combination of several things: (1) a policy
+argument that network neutrality ought to include neutrality towards
+\textbf{customer} packets and a ``right to resell,'' (2) an
+architectural sketch about how that right could lead to a
+Self-Incentivizing Network and ameliorate some vexing problems, such
+as the difficulty in deploying guaranteed services and mesh networks,
+and (3) simulation experiments that suggest that a SIN market among
+greedy endpoints can produce results at least as good as the status
+quo (in fact, better than an idealized TCP), at least to the extent
+those endpoints behave honestly.
+
+Each of these pieces would fairly be described as preliminary. On the
+policy angle, we have not attempted an economic analysis to explain
+whether consumer Internet access would cost more if retail ISPs were
+forbidden to ban reselling.
+
+On the architectural design and analysis, we have limited our
+discussion to the case of scheduling a single hop and have not
+discussed routing or topology-discovery problems at all, although we
+view our work as complementary to related work that tackles these
+issues~\cite{routebazaar15, esquivel09}.
+
+In future work, we intend to show rigorously that the multiresolution
+market analytically satisfies a bounded incentive-compatibility
+property, such that strategic bidders can only inflict a
+logarithmically-bounded amount of pain or advantage for themselves. We
+think the hierarchical nature of the market will make such a showing
+possible, but have not simulated or proved anything about these
+markets yet, beyond pencil-and-paper experiments.
+
+We have not discussed the problem of ``cheating''---if anybody can be
+an ISP-for-a-day and offer to convey packets, what stops somebody from
+taking money for packets that they then drop? How can the system
+punish this behavior? Others have dealt with this problem in the
+context of mesh networking~\cite{onions14, torpath14, kadupul15}, and
+we expect we will need to leverage similar solutions.
+
+We expect that the first deployment of a self-incentivizing network
+would be in a friendlier domain, such as the ``Neighbor
+sharing'' case from Section~\ref{ss:towards}, where some of these
+challenging game-theoretic issues might be deferred.
