@@ -14,16 +14,15 @@ More recently, Kadupul~\cite{kadupul15} shared many of our views on incentives a
 There has also been work by Ford et.~al. in incentivizing participation in the Tor network\cite{torpath14, onions14}.
 
 \subsection{Paid interdomain routing}
-A BGP-based Mechanism for Lowest-Cost Routing \cite{feigenbaum05}
+A BGP-based Mechanism for Lowest-Cost Routing \cite{feigenbaum05} assumed a cost for each packet transit between \emph{Autonimous Systems} that was computed using an extension to BGP with minimal communication overhead. They showed their pricing mechanism elicited a truthful revelation of AS transit costs and that they could efficiently compute the lowest cost paths for all source-destination pairs.
 
 Route Bazaar~\cite{routebazaar15} uses a Bitcoin-like public ledger to
 allow ASes to advertize pathlets and SLA's automatically to negotiate
 and verify connectivity agreements for fixed volumes of traffic. This
-work follows previous work in Pathlet Routing~\cite{pathlet09}. We
-view our work as complementary to these efforts. We focus on resource
-allocation within the last mile or a small number of links---problems
-that today are within the domain of congestion control and AQM, not
-routing protocols.
+work follows previous work in Pathlet Routing~\cite{pathlet09}, which introduced the primative of fragments of paths between virtual nodes that can be used to simplify existing protocols like BGP or to facilitate the addition of new features like multipath and source routing.
+We view paid interdomain routing work as complementary to ours. Our vision is to use market mechanisms for all routing across the internet.
+Our current work focused on resource allocation in the last mile and for a small number of links---problems that today are within the domain of congestion control and AQM, not routing protocols.
+Future work in wide area routing would expand on existing work paid and automatic interdomain routing.
 
 \subsection{Congestion pricing and tiered service}
 
