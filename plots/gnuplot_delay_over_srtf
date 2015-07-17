@@ -8,7 +8,7 @@ set style fill solid border -1
 
 set key left top
 
-set xlabel 'Number of users'
+set xlabel 'Number of concurrent flows'
 set ylabel 'Milliseconds'
 set xtics nomirror
 

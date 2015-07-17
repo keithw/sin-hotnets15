@@ -89,7 +89,7 @@
 		<text>Milliseconds</text>
 	</g>
 	<g transform="translate(323.4,391.9)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:middle">
-		<text>Number of users</text>
+		<text>Number of concurrent flows</text>
 	</g>
 	<g transform="translate(323.4,31.6)" style="stroke:none; fill:black; font-family:arial; font-size:12.00pt; text-anchor:middle">
 		<text>Mean flow completion time over simulated 12Mb/s link</text>
