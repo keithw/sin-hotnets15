@@ -6,7 +6,7 @@ NUM_TRIALS=10
 START_TIME_DIE_SIZE=40
 FLOW_LENGTH_DIE_SIZE=40
 
-echo '"num users" "SRTF" "SIN" "95th SRTF" "95th SIN" "SRTF again" "Rate Sharing" 95th SRTF again" "95th Rate Sharing" ' > $DELAY_RATIO_FILE
+echo '"num users" "SRTF" "SIN" "95th SRTF" "95th SIN" "SRTF again" "Rate Sharing" "95th SRTF again" "95th Rate Sharing" ' > $DELAY_RATIO_FILE
 echo '"num users" "Mean market updates per packet" "ignore"' > $NUM_UPDATES_FILE
 for i in 2 3 4 6 8 16 32;
         do

@@ -13,5 +13,10 @@ set ylabel 'Milliseconds'
 set xtics nomirror
 
 #set yrange [0:2]
-plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 5 title column
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 7 title column
 save 'delay_over_srtf.gnu'
+
+set output "95th_delay_over_srtf.svg"
+set title "95th percentile flow completion time over simulated 12Mb/s link"
+plot 'delay_over_srtf.dat' using 4:xtic(1) title column, '' using 5 title column, '' using 9 title column
+save '95th_delay_over_srtf.gnu'

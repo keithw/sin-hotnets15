@@ -151,5 +151,5 @@ set loadpath
 set fontpath 
 set psdir
 set fit noerrorvariables
-plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 5 title column
+plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 7 title column
 #    EOF
