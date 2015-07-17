@@ -184,7 +184,7 @@ near-optimal mean-flow-duration schedule for the link. For all numberss
 of users, the SIN schedule had a mean flow duration that was less
 than 1\% higher than SRTF.
 
-\subsubsection{The exposure problem}
+\subsubsection{Undercutting an offer}
 
 Unfortunately, in simulation it is possible that a user BCP would have
 had a higher utility at the end if it had refused to put offers on slots it had purchased.
@@ -260,8 +260,10 @@ roundtrips to the order book.
 \subsection{Multiresolution market design}
 \label{ss:multires}
 
+\begin{comment}
 \begin{figure*}
-\renewcommand{\arraystretch}{2}
+\small
+%\renewcommand{\arraystretch}{2}
 \begin{tabular}[height=3in]{|*{8}{p{\slotwidth}|}}
 \hline
 \multicolumn{8}{|c|}{}\\
@@ -274,24 +276,44 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
 \hline
 \end{tabular}
-\caption{The multiresolution market order book. Here, each slot includes ``air rights'' to a longer-duration slot above. Users may bid for the opportunity to send a packet in any level of the market, and may express their willingness to be bought out in terms of other kinds of slots---avoiding the ``exposure problem'' and reducing roundtrips.}
+\caption{The multiresolution market order book.
+
 \label{f:multiresolution_market}
 \end{figure*}
-
+\end{comment}
 
 The weaknesses we encountered with the simple market have led us to
-sketch out a design for a ``multiresolution'' market.
-
-The basic idea is to form a binary tree of packet-delivery slots,
-allowing users to trade not just in individual slots, but also in
-meta-slots that combine a pair of slots at a lower level.
+sketch out a design for a ``multiresolution'' market. The basic idea
+is to form a binary hierarchy of packet-delivery slots, allowing users
+to trade not just in individual slots, but also in meta-slots that
+combine a pair of slots at a lower level.
 
 A meta-slot expresses the same thing as a normal slot: that if the
 owner delivers a packet to the link by the beginning of the slot, it
 will be delivered across the link by the end of it. The meta-slot may
 be supported either by the ``left'' slot or the ``right'' slot below
-it. (See Figure~\ref{f:multiresolution_market}.)
+it.
 
- that express that a packet
-might be transmitted \emph{either}
+Users may bid for the opportunity to send a packet in any level of the
+market, and may express their willingness to be bought out in terms of
+other kinds of slots---avoiding the ``exposure problem'' and reducing
+roundtrips.
 
+For example, with the simple market, the exposure problem arises
+because a flow-completion priority BCP has to put an offer on its
+slots in terms of dollars---where the dollar value is calculated based
+on the BCP's observation at a particular time that if it is bought
+out, it will be able to buy a later slot for a certain price. In other
+words, the exposure results from a dependence between the offer price
+of two slots that is not captured in the order book itself.
+
+With the multiresolution market, we can make the dependence
+explicit. The BCP can offer to sell its slot not for money, but for a
+slower meta-slot. This avoids the problem of exposure. This, in turn,
+will reduce the need for the number of roundtrips to the order
+book.
+
+Or to be fair: this is what we suspect. We have not implemented or
+evaluated the multiresolution market, either with ``honest'' users or
+in the presence of intentionally disruptive users. We will leave this
+for future work.
