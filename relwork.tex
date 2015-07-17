@@ -34,16 +34,12 @@ User studies showed users would usually traffic when notified by text message th
 A user interface like the one in TUBE would be a valuable to a real world implementation of self-incentivizing networks. Our Bidding Control Protocols are in essence a more fine grained version of an 'autopilot mode.'
 However, both these works revolve around a system between a user and their ISP, while we desire to expose users to any available route of connectivity, encouraging competition with traditional ISPs that we believe will reduce costs for users and increase the overall efficiency of the network.
 \subsection{Objective- and auction-scheduling}
-Tempus \cite{tempus14} is a datacenter Traffic Engineering scheme that uses mixed packing covering solvers over a sliding window of future timesteps to meet the deadlines of long lived transfers while serving high priority traffic.
-The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
-In their evaluation, they "interviewed cluster operators for typical
-distributions of the sizes of long lived requests and the durations
-between their arrival and hard deadline" and to create a distribution
-to sample from.
+Tempus \cite{tempus14} is a datacenter Traffic Engineering scheme built to simultaneously meet the deadlines of long lived transfers while serving high priority traffic by using mixed packing covering solvers over a sliding window of future timesteps.
+They showed in a non adverserial setting smarter scheduling can produce better overall utility for users with diverse needs, we hope to achieve similar goals but in a greedy, adversarial setting.
+%The inputs to their system include a time when the system becomes aware of the request, a time when the request can start transferring, a demand, and a deadline that can be a value or function.
+%In their evaluation, they "interviewed cluster operators for typical distributions of the sizes of long lived requests and the durations between their arrival and hard deadline" and to create a distribution to sample from.
 
-Wellman et. al. explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}.
-Simultaneous auctions have bad theoretical properties because of the well-known \emph{exposure problem}, where the outcome of one auction affects the value of an item in another (TODO: CITE?).
-
+Wellman et. al. explore using simultaneous ascending auctions to schedule a fixed number of time slots and users that have jobs with fixed lengths and a non-increasing function from time to completion to value \cite{wellman01, wellman05}. Simultaneous auctions have bad theoretical properties because of the well-known \emph{exposure problem}, where the outcome of one auction affects the value of an item in another~\cite{milgrom00, englmaier06}.
 
 \begin{comment}
 %\subsection{Paid tiered service}
