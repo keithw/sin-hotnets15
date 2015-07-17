@@ -71,6 +71,13 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \label{f:delay_over_srtf}
 \end{figure}
 
+\begin{figure}
+%\vspace{\baselineskip}
+\includegraphics[width=\columnwidth]{plots/95th_delay_over_srtf.pdf}
+\caption{95th percentile flow duration}
+\label{f:95th_delay_over_srtf}
+\end{figure}
+
 We simulated the results of running a market in practice with flow completion time users that would arrive at time $t$ had a known number of packets $n$ they wanted to send.
 Figure~\ref{f:delay_over_srtf} shows the result of running the simulation with 2 to 10 concurrent users, all trying to minimize their flow completion time for the cheapest cost.
 We compare with a round robin scheme, which is the ideal equillibrium of mutliple TCP flows and a FIFO queued router (TODO cite).
