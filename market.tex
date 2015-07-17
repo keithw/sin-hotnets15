@@ -4,27 +4,29 @@
 
 \section{Markets for a Self-Incentivizing Network}
 \label{sec:designs}
-We set out to design a market interface that any router could expose and users could interact with multiple markets.
-We wanted to allow different users with their own objectives to be able to buy guaruntees of packet carriage but also change their reservations to increase their own percieved utility.
+Our goals for a market were as follows:
+\begin{itemize}
+\item Let anyone contribute capacity
+\item Allow users to selfishly maximize their own utility functions
+\item Allow users to buy guarantees of packet carriage
+\item Allow users to adapt to changes in demand? TODO reword or remove
+\end{itemize}
+A market could be exposed by a single router or a gateway connected to multiple network capacity providers.
+We envision users could also interact with multiple markets.
 
-In this section, we introduce a simple market to achieve these goals and then evaluate its performance with simulated users.
-Our intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case \emph{evil user}, and finally propose a new multi-resolution market that addresses these problems.
-
-%\begin{itemize}
-%
-%\item Let anybody contribute capacity
-%
-%\item Allow users with different utility functions to interact (flow completion time vs.~jitter)
-%
-%\item Allow users to buy guarantees (and not get swindled)
-%
-%\end{itemize}
+In following section, we sketch a simple market to achieve these goals and then evaluate its performance with simulated users.
+We outline our current performance as well as the limitations of our market and them propse a multiresolution market that addresses the issues we found.
+%Our intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case \emph{evil user}, and finally propose a new multi-resolution market that addresses these problems.
 
 \subsection{Simple Market Design}
-Our market is composed of consecutive time slots in which a single packet can be delivered. Users are able to buy the rights to deliver a packet at a given time slot for a reserve price set by the market. Once a slot is owned by a user, they have the right to send a packet on the link at that time if they can deliver a packet to the router before that time. They can also add an offer to the slot to re-sell it to another user if they pay the offer price. Figure \ref{f:simple_market} gives the basic market layout.
+Our market is composed of consecutive time slots in which a packets can be delivered. Users are able to buy the rights to send a packet at a given time slot.
+Once a slot is owned by a user, they have a guaruntee their packet will be carried to its next destination at that time if they can deliver it to the router before in time. Users who own a slot can also post an offer to re-sell their slot to another user for a given price.
+%With this mechanism, users can be granted guaruntees of packet carriage but also change to increase their own percieved utility.
+
+Figure \ref{f:simple_market} gives the basic market layout.
 
 \subsection{User types}
-There are multiple types of users that could interact in a self-incentivizing market, four example user types are outlined in Figure~\ref{f:user_types}.
+The objectives of market users could vary greatly. Four example user types are outlined in Figure~\ref{f:user_types}, and many more are possible.
 \begin{figure*}
 \begin{tabular}{|p{.25\textwidth}|p{.70\textwidth}|}
 \hline
