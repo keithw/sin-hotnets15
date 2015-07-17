@@ -65,11 +65,6 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \end{figure*}
 
 \subsection{Simple Market Evaluation}
-
-Simulation experiments to test whether the one-layer market has each desired property?
-
-Measure outcome quality (vs.~SRTF or other optimal), \# of roundtrips
-
 \begin{figure}
 %\vspace{\baselineskip}
 \includegraphics[width=\columnwidth]{plots/delay_over_srtf.pdf}
@@ -117,7 +112,6 @@ An evil user could maximally reduce the utility of a flow completion time user f
 
 Another problem with the simple market is that it can take a long time to converge on a solution where no user wants to buy more slots. In simulation, flow completion time users buy back and forth from each other many times, making small price adjustments throughout. More contention between slots increases the number of market updates required. 
 Figure~\ref{f:num_market_updates} shows the number times a user bought a set of packets on the market, or market updates, per packet sent in the simulations from in Figure~\ref{f:delay_over_srtf}.
-
 
 the problems we encountered with the simple market led us to our current design:
 \subsection{Multi-Layer Market Design}
