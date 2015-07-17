@@ -257,11 +257,6 @@ roundtrips to the order book.
 %TODO improve below sentence
 \subsection{Multiresolution market design}
 \label{ss:multires}
-The weaknesses we encountered with the simple market have led us to our current design:
-
-
-\begin{comment}
-TODO
 
 \begin{figure*}
 \renewcommand{\arraystretch}{2}
@@ -277,8 +272,24 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
 \hline
 \end{tabular}
-\caption{Multiresolution market order book.}
-\label{f:multiresolution _market}
+\caption{The multiresolution market order book. Here, each slot includes ``air rights'' to a longer-duration slot above. Users may bid for the opportunity to send a packet in any level of the market, and may express their willingness to be bought out in terms of other kinds of slots---avoiding the ``exposure problem'' and reducing roundtrips.}
+\label{f:multiresolution_market}
 \end{figure*}
 
-\end{comment}
+
+The weaknesses we encountered with the simple market have led us to
+sketch out a design for a ``multiresolution'' market.
+
+The basic idea is to form a binary tree of packet-delivery slots,
+allowing users to trade not just in individual slots, but also in
+meta-slots that combine a pair of slots at a lower level.
+
+A meta-slot expresses the same thing as a normal slot: that if the
+owner delivers a packet to the link by the beginning of the slot, it
+will be delivered across the link by the end of it. The meta-slot may
+be supported either by the ``left'' slot or the ``right'' slot below
+it. (See Figure~\ref{f:multiresolution_market}.)
+
+ that express that a packet
+might be transmitted \emph{either}
+
