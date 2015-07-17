@@ -2,27 +2,36 @@
 \newlength{\slotwidth}
 \setlength{\slotwidth}{.103\textwidth}
 
-\section{Markets for a Self-Incentivizing Network}
+\section{The Packet-by-Packet Market}
 \label{sec:designs}
-Our goals for a market were as follows:
-\begin{itemize}
-\item Let anyone contribute capacity
-\item Allow users to selfishly maximize their own utility functions
-\item Allow users to buy guarantees of packet carriage
-\item Allow users to adapt to changes in demand? TODO reword or remove
-\end{itemize}
-A market could be exposed by a single router or a gateway connected to multiple network capacity providers.
-We envision users could also interact with multiple markets.
 
-In following section, we sketch a simple market we designed to achieve these goals and then evaluate its performance with simulated users.
-We outline our current performance as well as the limitations of our market and them propse a multiresolution market that addresses the issues we found.
-%Our intial design has high overhead and our current simulated users have the ability to change their utility for the worse because of market races with other users. We quantify this phenomena with a worst case \emph{evil user}, and finally propose a new multi-resolution market that addresses these problems.
+Our proposal for self-incentivizing networks is a speculative one. To
+assess, preliminarily, whether such a scheme could work, we
+conducted simulation experiments for a one-hop version of the system.
 
-\subsection{Simple Market Design}
-Our market is composed of consecutive time slots in which a packets can be delivered. Users are able to buy the rights to send a packet at a given time slot.
-Once a slot is owned by a user, they have a guaruntee their packet will be carried to its next destination at that time if they can deliver it to the router before that time. Users who own a slot can also post an offer to re-sell their slot to another user for a given price.
-%With this mechanism, users can be granted guaruntees of packet carriage but also change to increase their own percieved utility.
-Figure \ref{f:simple_market} gives an example of the basic market state.
+We describe here the design for a packet-by-packet market that allows
+anybody to contribute transmission capacity between two nodes and be
+rewarded for it, while endpoints purchase the right to send each
+packet, or groups of packets, from the market.
+
+In these systems, the scarce resources of the communications links are
+allocated not by TCP, AQM, or a traffic-engineering scheme. Instead,
+the links are allocated by a tableau of simultaneous per-timeslice
+auctions.
+
+The principal contribution of our findings thus far is that a simple
+market-based mechanism, where users bid for the opportunity to send
+each packet, can recover schedules that closely approximate the
+optimal shortest-remaining-time-first schedule across a contended link.
+
+We discuss here the design for the simple market
+(Section~\ref{ss:simplemarket}), our simulation and analytical
+evaluation of this system (Section~\ref{ss:eval}), and finally our
+unevaluated design for a ``multiresolution'' market that corrects
+some of the problems in the simple design.
+
+\subsection{Simple-Market Design}
+\label{ss:simplemarket}
 
 \begin{figure*}
 \renewcommand{\arraystretch}{2}
@@ -32,27 +41,61 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \{(A, \$2.01)\} & \{(A, \$2.01)\} & \{(B, )\} & \{(B, )\} & \{(ISP, \$1)\} & \{(ISP, \$1)\} & \{(C, \$10)\} & \{(ISP, \$1)\} \\
 \hline
 \end{tabular}
-\caption{Simple market sample state. User A owns the first two time slots and has an offer of \$2.01 for each. User B owns the next two slots and has not put up an offer to sell them. User C owns slot at time 6 and has posted an offer of \$10 to sell it. ISP owns remaining slots with an offer of \$1 for each.}
+\caption{An example snapshot of the ``simple market'' order book. User
+A owns the first two time slots and has posted an offer to resel them
+for \$2.01 apiece. User B owns the next two slots and has not posted
+an offer to sell them. User C owns the slot at time 6 and has posted
+an offer of \$10 to sell it. ``ISP'' owns the remaining slots with an offer of \$1 apiece.}
 \label{f:simple_market}
 \end{figure*}
 
-\subsection{User types}
-The objectives of market users could vary greatly. Four example user types are outlined in Figure~\ref{f:user_types}, and many more are possible.
+Our goals for a market were as follows:
+\begin{itemize}
+\item Let anyone contribute capacity---the ability to transmit a
+packet from point A to point B at a certain time.
+
+\item Allow users to act selfishly to maximize their own utility
+functions.
+
+\item Allow users to buy, in advance, the right to send packets at a
+particular time, which they can then resell. This could be used to
+allow a user to construct a virtual link with a certain continuous
+throughput.
+
+\item Demonstrate that this system produces a good result globally.
+\end{itemize}
+
+Our ``simple'' market is composed of sequential, consecutive time
+slots in which a packet can be delivered. Users are able to buy the
+right to send a packet within a given time slot.  Once a user buys a slot,
+they own a guarantee: if they deliver the packet to one
+side of the link by the beginning of the slot, it will make it to the
+next hop by the end of the slot interval. The slot owner can also post an offer to re-sell
+the slot to another user for a given price.
+
+Figure \ref{f:simple_market} gives an example of the state of the
+market's order book---showing the sequential, simultaneous per-timeslice
+auctions---at a given time.
+
+The objectives of market users and their flows could vary greatly. In our simulations,
+we have experimented with several types, outlined in Figure~\ref{f:user_types}.
 \begin{figure*}
 \begin{tabular}{|p{.25\textwidth}|p{.70\textwidth}|}
 \hline
-User Type & Objective \\
+Flow Type & Objective \\
 \hline
 \hline
-Flow completion time user & Send $n$ minimizing flow completion time \\
+Flow-completion priority & Send $n$ packets, minimizing flow-completion time. \\
 \hline
-Consistent bandwidth user & Send $n$ packets every $t$ milliseconds. Example values $t=100$ for interactive audio/video or $t=$ current buffered time for video streaming \\
+Isochronous flow & Send $n$ packets every $t$ milliseconds. \\
 \hline
-Deadline user & Send $n$ packets by deadline $d$. $d$ could be a few seconds for an email message to many hours for a low cost data backup.\\
+Deadline flow & Send $n$ packets by deadline $d$. \\
 \hline
-Evil user & Maximally reduce utility of another market user while staying within a budget $c$ \\
+Evil user & Maximally reduce utility of another market user while
+staying within a budget $c$. We discuss the problems of ``evil'' or
+strategic bidders in Section~\ref{ss:evil}. \\
 \hline
-Capacity owner user & Add capacity slots market at reserve price \$$r$\\
+ISP & Simply posts offers to transmit packets; doesn't bid. \\
 \hline
 \end{tabular}
 \caption{Example types of users}
@@ -60,14 +103,32 @@ Capacity owner user & Add capacity slots market at reserve price \$$r$\\
 \end{figure*}
 
 \subsection{Implementation}
-\subsubsection{Market Simulator}
-The market simulator takes a set of user bots and runs them in round robin order giving them the current order book, packets sent, and money exchanged. The simulator runs until all users have stopped changing the order book, then advances time by declaring the front-most packet on the order book sent. This process is repeated until all flows have completed. We this this model is sufficiently realistic to simulate a home router that would push the order book to interested machines when it changed.
+We implemented ``bots'' in C++ that participate in the market, placing bids
+and offers to maximize the objectives described in Figure~\ref{f:user_types}.
 
-\subsubsection{Flow completion time user bot}
-We implemented a flow completion time user bot for the simulator which arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
+We then built a market simulator, which takes a set of user ``bots''
+and executes them in round-robin order, giving them the current order
+book and the list of packets actually transmitted on the link (so they
+can see which opportunities they have ``won'').
+
+At a given timestep, the simulator runs each bot until all users have
+stopped changing the order book, then advances time. When time
+advances, any user owns the right to send a packet during front-most
+slot in the order book is deemed to send a packet across the link. (If more than one
+ISP has offered an opportunity at that slot, more than one packet
+might be sent.) The simulation ends when all flows have
+completed. We view this as a simplified, idealized model of what might
+occur in a home router controlling, e.g., a contended cable-modem link.
+
+\textbf{Flow-completion priority bot:} The implementation of the
+``bot'' for flows that care only about their completion time
+(``flow-completion priority'' in Figure~\ref{f:user_types} deserves
+some further discussion. This type models a flow that arrives at a set time and has a set number of packets $n$ it would like to send as soon as possible. It tries to maximize the utility function $U= -d - c$, where $d$ is the total flow duration and $c$ is the total amount paid for slots.
 Upon arrival, this user buys the $n$ slots that maximize its utility function. Once slots have been purchased, it puts up an offer for each slot it owns priced at \$.01 more than negated loss of utility the user would experience if it did not own that slot and had to buy another one.
 
-\subsection{Simple Market Evaluation}
+\subsection{Simple-Market Evaluation}
+\label{ss:eval}
+
 \begin{figure}
 %\vspace{\baselineskip}
 \includegraphics[width=\columnwidth]{plots/delay_over_srtf.pdf}
@@ -114,6 +175,7 @@ The user disappointment problem has parallels to the \emph{exposure problem} of 
 %While user disappointment does happen sometimes in our simulations (TODO maybe figure for this), a user normally increases their utility when they list a slot.
 Disappointment can be arbitrarily bad in the case of a hypothesized evil user: whose sole objective is to reduce the utility of another user.
 \subsubsection{Evil User}
+\label{ss:evil}
 An evil user could maximally reduce the utility of a flow completion time user for the cheapest cost by buying the cheapest slot that that user has for sale, and then buying the next $m$ slots after the last packet of the flow completion time user without putting up offers for any slots. Unless the flow completion time can move earlier, this reduces the utility function of the flow completion time user by $m$.%(TODO need example with reserve prices I think. Possbily diagram.)
 % talk about how this still better than current situation because evil user has to pay?, lots of faith in current implementations
 \subsubsection{Communication overhead}
