@@ -1,12 +1,10 @@
 \subsection*{Abstract}
 We argue that computer networks should be made ``self-incentivizing'':
 designed so that anybody may contribute incremental capacity and be
-rewarded for it.
-
-In such a scheme, endpoints express their demand in terms of a price,
-not just for ``bandwidth,'' but effectively by bidding on each packet
-they want transmitted. This creates a market incentive to build out
-capacity where the network needs it.
+rewarded for it. In such a scheme, endpoints express their demand in
+terms of a price, not just for ``bandwidth,'' but effectively by
+bidding on each packet they want transmitted. This creates a market
+incentive to build out capacity where the network needs it.
 
 Our position is that this kind of mechanism---one where ``paid
 priorization'' is celebrated instead of banned, and anybody may be an
@@ -14,7 +12,9 @@ ISP-for-a-day---is the missing piece necessary to revive
 almost-successful systems of the recent past, such as urban mesh
 networks, and foster more innovation and growth in last-mile Internet service.
 
-We report the results of simulation experiments where users bid for
+Would such a system actually work? We evaluated, in simulation, the
+stability and performance of a simple market-based congestion-control and queue-management
+policy. In these experiments, users bid for
 transmission opportunities in a logically-centralized order book and
 resell them to one another. In a model where users behave ``nicely,''
 this distributed-bidding scheme was sufficient to realize schedules
