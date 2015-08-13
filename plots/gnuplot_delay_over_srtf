@@ -13,6 +13,9 @@ set ylabel 'Milliseconds'
 set xtics nomirror
 
 #set yrange [0:2]
+set linetype 1 lc rgb "#D35E60"
+set linetype 2 lc rgb "#84BA5B"
+set linetype 3 lc rgb "#7293CB"
 plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 7 title column
 save 'delay_over_srtf.gnu'
 

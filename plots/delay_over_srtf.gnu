@@ -1,11 +1,11 @@
-#!/usr/bin/gnuplot
+#!/usr/bin/gnuplot -persist
 #
 #    
 #    	G N U P L O T
-#    	Version 4.6 patchlevel 4    last modified 2013-10-02 
+#    	Version 4.6 patchlevel 6    last modified September 2014
 #    	Build System: Linux x86_64
 #    
-#    	Copyright (C) 1986-1993, 1998, 2004, 2007-2013
+#    	Copyright (C) 1986-1993, 1998, 2004, 2007-2014
 #    	Thomas Williams, Colin Kelley and many others
 #    
 #    	gnuplot home:     http://www.gnuplot.info
@@ -150,6 +150,7 @@ set style boxplot candles range  1.50 outliers pt 7 separation 1 labels auto uns
 set loadpath 
 set fontpath 
 set psdir
-set fit noerrorvariables
+set fit noerrorvariables noprescale
+GNUTERM = "qt"
 plot 'delay_over_srtf.dat' using 2:xtic(1) title column, '' using 3 title column, '' using 7 title column
 #    EOF
