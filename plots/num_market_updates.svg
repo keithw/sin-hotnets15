@@ -102,25 +102,25 @@
 	<g id="delay_ratio_plot_1" ><title>delay_ratio_plot_1</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'red' points = '72.5,342.4 109.8,342.4 109.8,336.4 72.5,336.4 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '72.5,342.4 109.8,342.4 109.8,336.4 72.5,336.4 '/>
 	</g>
 	<path stroke='black'  d='M72.5,342.4 L72.5,336.5 L109.7,336.5 L109.7,342.4 L72.5,342.4 Z  '/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '147.0,342.4 184.3,342.4 184.3,335.0 147.0,335.0 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '147.0,342.4 184.3,342.4 184.3,335.0 147.0,335.0 '/>
 	</g>
 	<path stroke='black'  d='M147.0,342.4 L147.0,335.1 L184.2,335.1 L184.2,342.4 L147.0,342.4 Z  '/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '221.4,342.4 258.7,342.4 258.7,333.0 221.4,333.0 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '221.4,342.4 258.7,342.4 258.7,333.0 221.4,333.0 '/>
 	</g>
 	<path stroke='black'  d='M221.4,342.4 L221.4,333.1 L258.6,333.1 L258.6,342.4 L221.4,342.4 Z  '/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '295.8,342.4 333.2,342.4 333.2,327.8 295.8,327.8 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '295.8,342.4 333.2,342.4 333.2,327.8 295.8,327.8 '/>
 	</g>
 	<path stroke='black'  d='M295.8,342.4 L295.8,327.9 L333.1,327.9 L333.1,342.4 L295.8,342.4 Z  '/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '370.3,342.4 407.6,342.4 407.6,321.2 370.3,321.2 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '370.3,342.4 407.6,342.4 407.6,321.2 370.3,321.2 '/>
 	</g>
 	<path stroke='black'  d='M370.3,342.4 L370.3,321.3 L407.5,321.3 L407.5,342.4 L370.3,342.4 Z  '/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '444.7,342.4 482.0,342.4 482.0,274.9 444.7,274.9 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '444.7,342.4 482.0,342.4 482.0,274.9 444.7,274.9 '/>
 	</g>
 	<path stroke='black'  d='M444.7,342.4 L444.7,275.0 L481.9,275.0 L481.9,342.4 L444.7,342.4 Z  '/>	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '519.2,342.4 556.5,342.4 556.5,61.0 519.2,61.0 '/>
+		<polygon fill = 'rgb(240,  59,  32)' points = '519.2,342.4 556.5,342.4 556.5,61.0 519.2,61.0 '/>
 	</g>
 	<path stroke='black'  d='M519.2,342.4 L519.2,61.1 L556.4,61.1 L556.4,342.4 L519.2,342.4 Z  '/></g>
 	</g>

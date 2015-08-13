@@ -11,6 +11,7 @@ set xlabel 'Number of users'
 #set ytics 1
 set xtics scale 0
 
+set linetype 1 lc rgb "#f03b20"
 #set yrange [0:2]
 plot 'num_market_updates.dat' using 2:xtic(1) with boxes
 save 'num_market_updates.gnu'
