@@ -127,17 +127,19 @@ occur in a home router controlling, e.g., a contended cable-modem link.
 \textbf{Flow-completion priority BCP:} The implementation of the
 BCP for flows that care only about their completion time
 (``flow-completion priority'' in Figure~\ref{f:user_types}) deserves
-some further discussion. This type models a flow that arrives at a set
+some further discussion. This BCP models a flow that arrives at a set
 time and has a set number of packets $n$ to send. It tries to maximize
 the utility function $U = -d - c$, where $d$ is the number of
 timeslots until the \emph{last} packet is transmitted, and $c$ is the
-total amount paid for slots.  Upon arrival, this user buys $n$
+net total paid for slots (including profits from re-selling).  Upon arrival, it buys $n$
 slots, choosing the best balance between cost and duration. Once slots have been
 purchased, it posts an offer for each slot that it owns, offering
 to sell the slot for \$.01
-more than the negated loss of utility that the user would experience if it lost
-that slot and had to buy the next-best one. We find that this mechanism
-is generally sufficient to closely approximate the shortest-remaining-time-first schedule.
+more than the negated loss of utility it would experience if it lost
+that slot and had to buy the next-best one given current market prices.
+If some of its slots are bought, this BCP buys more slots to maintain $n$ total.
+If this BCP finds the offer price of a next-best-slot has changed, it will re-price its offers accordingly.
+We find that this mechanism is generally sufficient to closely approximate the shortest-remaining-time-first schedule.
 
 \subsection{Simple-Market Evaluation}
 \label{ss:eval}
@@ -180,7 +182,7 @@ the minimum mean flow duration for an online algorithm with
 known job durations~\cite{karger10,bansal01}.
 
 As our figures show, the greedy BCPs in our simulation converge on a
-near-optimal mean-flow-duration schedule for the link. For all numberss
+near-optimal mean-flow-duration schedule for the link. For all numbers
 of users, the SIN schedule had a mean flow duration that was less
 than 1\% higher than SRTF.
 
@@ -188,15 +190,9 @@ than 1\% higher than SRTF.
 
 Unfortunately, in simulation it is possible that a user BCP would have
 had a higher utility at the end if it had refused to put offers on slots it had purchased.
-
 This is possible because our flow-completion priority BCP bases its
-offer prices on the offer prices of the slots that it would buy instead
-if their slot were sold, but they are not always able to purchase
-those replacement slots for those prices (for example if they were
-sold to someone else who raised the price in the meantime). In an attempt to avoid
-this, users frequently re-price their slots, but unless their price
-can instantly reflect a price change, this possibility of a user
-hurting their final utility is unavoidable with our current market.
+offer prices on its view of other offers which do not instantly reflect price changes by others.
+% maybe something about how this would happen as a data race even when simulator wasn't round robin
 
 This is a serious problem with the simple market: why would a greedy
 user, who has just purchased a slot, offer to resell that slot if it
@@ -219,7 +215,7 @@ time BCP for the cheapest cost, by buying the next $m$ slots after the
 last packet of the flow-completion priority BCP without putting up
 offers for any slots, and then buying the cheapest packet that the
 flow-completion priority BCP has offered for sale before it has a
-chance to re-price that offer.
+chance to re-price its offers.
 
 To finish its flow, the flow-completion priority BCP
 will then have to buy another packet much later, which reduces its
@@ -243,11 +239,10 @@ users have a very low-latency connection to the order book.}
 
 Another problem with the simple market is that it can take many rounds
 of bidding
-to converge on a quiescent order book, where no user wants to buy more slots. In
+to converge on a quiescent order book, where no user wants to buy more slots or change their offer prices. In
 simulation, flow-completion priority BCPs would buy back and forth from each other many times, making small price adjustments throughout.  
 Figure~\ref{f:num_market_updates} shows the number times a user bought a set of packets on the market, or market updates, per packet sent in the simulations from in Figure~\ref{f:delay_over_srtf}.
-More contention between slots increased the number of market updates
-required.
+More contention between slots increased the number of market updates.
 
 We can envision scenarios where this number of roundtrips might be
 acceptable---for example, if the market is run very close to the users
@@ -256,7 +251,6 @@ much slower than the link used to access the logically-centralized
 market. But clearly it would be preferable to reduce the number of
 roundtrips to the order book.
 
-%TODO improve below sentence
 \subsection{Multiresolution market design}
 \label{ss:multires}
 
