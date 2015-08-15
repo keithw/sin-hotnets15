@@ -10,7 +10,7 @@ Much work has been done since the 2000s to explore incentivizing selfish nodes t
 SPRITE~\cite{zhong03} used a credit system and determined prices from a game-theoretic perspective. They showed their system motivated honest participation, even when a collection of the selfish nodes collude. Ad hoc-VCG used an auction mechanism
 and found that this achieved higher efficiency~\cite{anderegg03}. More recently, Kadupul~\cite{kadupul15} explored the use time-locked puzzles to incentivize fast forwarding in a mesh network,
 and others have developed schemes to encourage relaying in the Tor network while discouraging cheaters who
-advertise phone capacity~\cite{torpath14, onions14}.
+advertise phoney capacity~\cite{torpath14, onions14}.
 %A large body of work subsequently investigated problems of collusion, security, path discovery, and verification~\cite{buttyan03,chen04, chen05, wang06, demir07,zhong07, kargar08, zhu08, eidenbenz08, wu10, zhong10, martignon11, martignon15, chen13}. Our work adds to this area by investigating the ability of applications and endpoints to express their desires and bid and offer packet-transmission opportunities accordingly.
 
 \subsection{Paid interdomain routing}
@@ -28,26 +28,27 @@ deferring discussion of routing or multi-hop situations.
 \subsection{Tiered service and dynamic pricing}
 Work in Internet pricing in the 1990s focused on providing different
 paid tiers of service for differing levels of Quality of Service.  We
-were inspired by how applications defined value functions
-in~\cite{cocchi93}. In this paper, applications chose between a
-high-priority tier and a lower-priority tier, showing that the
-two-tiered pricing scheme had higher aggregate user satisfaction.
+were inspired by~\cite{cocchi93}, where applications defined value
+functions that endpoints used to choose between high and low priority
+priced tiers of internet service, leading to higher aggregate user satisfaction.
 
 More recent work on pricing has focused on cellular
 Internet. TUBE~\cite{tube12} dynamically generated a 24-hour
 time-dependent pricing scheme for each base station, giving discounts
-to users during periods of predicted low use. User studies showed that users would
-usually reduce traffic when notified by text message of high prices.
+to users during periods of predicted low traffic. User studies showed that users would
+usually reduce consumption when notified by text message of high prices.
 A user interface like the
 one in TUBE would be a valuable to a real world implementation of
 self-incentivizing networks. Our Bidding-Control Protocols are in
-essence a more fine-grained version of an 'autopilot mode.' Our work expands on these notions by adding
+essence a more fine-grained version of their 'autopilot mode' for scheduling
+applications.  Our work expands on these notions by adding
 the possibility that anybody may act as ISP, perhaps temporarily, and convey an application's traffic.
 
 \subsection{Objective- and auction-based scheduling}
 Tempus~\cite{tempus14} is a datacenter traffic-engineering scheme built to simultaneously meet the deadlines of long-lived transfers while serving high-priority traffic by using an offline scheduler.
 The authors showed, in a non-adversarial setting, that smarter scheduling can produce better overall utility for users with diverse needs. We hope to achieve similar goals but in a greedy, adversarial setting.
 
+Structurally similar to our packet-by-packet market in the next section,
 Wellman et.~al.~explore using simultaneous ascending auctions to
 schedule a fixed number of time slots and users that have jobs with
 fixed lengths and a non-increasing function from time to completion to
