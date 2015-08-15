@@ -25,7 +25,7 @@ each packet, can recover schedules that closely approximate the
 optimal shortest-remaining-time-first schedule across a contended link.
 
 We discuss here the design for the simple market
-(Section~\ref{ss:simplemarket}), our simulation and analytical
+(Section~\ref{ss:simplemarket}), our simulation and 
 evaluation of this system (Section~\ref{ss:eval}), and finally our
 unevaluated design for a ``multiresolution'' market that corrects
 some of the problems in the simple design.
@@ -43,7 +43,7 @@ Time: 0 & Time: 1 & Time: 2 & Time: 3 & Time: 4 & Time: 5 & Time: 6 & Time: 7 \\
 \hline
 \end{tabular}
 \caption{An example snapshot of the ``simple market'' order book. User
-A owns the first two time slots and has posted an offer to resel them
+A owns the first two time slots and has posted an offer to resell them
 for \$2.01 apiece. User B owns the next two slots and has not posted
 an offer to sell them. User C owns the slot at time 6 and has posted
 an offer of \$10 to sell it. ``ISP'' owns the remaining slots with an offer of \$1 apiece.}
@@ -63,7 +63,7 @@ particular time, which they can then resell. This could be used to
 allow a user to construct a virtual link with a certain continuous
 throughput.
 
-\item Demonstrate that this system produces a good result globally.
+\item Efficiently utilize constrained bandwidth links.
 \end{itemize}
 
 Our ``simple'' market is composed of sequential, consecutive time
